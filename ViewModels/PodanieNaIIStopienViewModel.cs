@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace projektowaniaOprogramowania.ViewModels
 {
     [Table("podania_na_II_stopien")]
-    public class PodanieNaIiStopien
+    public class PodanieNaIIStopienViewModel
     {
         [Key]
         [ForeignKey("PodanieKandydata")]

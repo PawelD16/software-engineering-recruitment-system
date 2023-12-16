@@ -14,9 +14,9 @@ namespace projektowaniaOprogramowania.ViewModels
         [Required]
         public DateTime DataUzyskaniaDorobku { get; set; }
 
-        [ForeignKey("PodanieNaIiStopien")]
-        public long FkIdPodanieNaIiStopien { get; set; }
-        public PodanieNaIIStopienViewModel PodanieNaIiStopien { get; set; }
+        [ForeignKey("PodanieNaIIStopien")]
+        public long FkIdPodanieNaIIStopien { get; set; }
+        public PodanieNaIIStopienViewModel PodanieNaIIStopien { get; set; }
 
         [ForeignKey("KategoriaDorobku")]
         public long FkIdKategoriaDorobku { get; set; }
