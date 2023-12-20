@@ -22,17 +22,7 @@ namespace projektowaniaOprogramowania.ViewModels
         public StopienStudiow StopienStudiow { get; set; }
         
         public StatusRekrutacji StatusRekrutacji { get; set; }
-
-        // [ForeignKey("StatusRekrutacji")]
-        // public string StatusRekrutacjiEnumLiteral { get; set; }
-        // public StatusRekrutacjiViewModel StatusRekrutacji { get; set; }
-
-        // [ForeignKey("StopienStudiow")]
-        // public string StopienStudiowEnumLiteral { get; set; }
-        // public StopienStudiowViewModel StopienStudiow { get; set; }
-
-        // [ForeignKey("SemestrRekrutacji")]
-        // public string SemestrRekrutacjiEnumLiteral { get; set; }
+        
         public SemestrRekrutacji SemestrRekrutacji { get; set; }
     }
 
