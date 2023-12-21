@@ -44,11 +44,17 @@ namespace projektowaniaOprogramowania.ViewModels.CollegeStructures
         public string StopienStudiow { get; set; }
 
         [Required]
-        [StringLength(20)]
-        public string TrybStudiowania { get; set; }
+        public TrybStudiowania TrybStudiowania { get; set; }
 
         [ForeignKey("Wydzial")]
         public long FkIdWydzial { get; set; }
         public WydzialViewModel Wydzial { get; set; }
+    }
+
+    public enum TrybStudiowania
+    {
+        Stacjonarne,
+        Zdalne,
+        Mieszane
     }
 }

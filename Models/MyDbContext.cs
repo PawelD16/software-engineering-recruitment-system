@@ -14,8 +14,6 @@ namespace projektowaniaOprogramowania.Models
         public DbSet<KandydatViewModel> Kandydaci { get; set; }
         public DbSet<PracownikViewModel> Pracownicy { get; set; }
         public DbSet<RekrutacjaViewModel> Rekrutacje { get; set; }
-        public DbSet<StatusRekrutacjiViewModel> StatusyRekrutacji { get; set; }
-        public DbSet<SemestrRekrutacjiViewModel> SemestryRekrutacji { get; set; }
         public DbSet<KategoriaOsiagnieciaViewModel> KategorieOsiagniec { get; set; }
         public DbSet<DodatkoweOsiagniecieViewModel> DodatkoweOsiagniecia { get; set; }
         public DbSet<DorobekNaukowyViewModel> DorobkiNaukowe { get; set; }
@@ -23,7 +21,6 @@ namespace projektowaniaOprogramowania.Models
         public DbSet<MiastoViewModel> Miasta { get; set; }
         public DbSet<WydzialViewModel> Wydzialy { get; set; }
         public DbSet<KierunekViewModel> Kierunki { get; set; }
-        public DbSet<StopienStudiowViewModel> StopnieStudiow { get; set; }
         public DbSet<PodanieNaIIStopienViewModel> PodaniaNaIIStopien { get; set; }
         public DbSet<MaturaViewModel> Matury { get; set; }
         public DbSet<OcenaViewModel> Oceny { get; set; }
@@ -35,10 +32,15 @@ namespace projektowaniaOprogramowania.Models
         public DbSet<PrzelicznikPrzedmiotuViewModel> PrzelicznikiPrzedmiotow { get; set; }
         public DbSet<PodanieNaIStopienViewModel> PodaniaNaIStopien { get; set; }
         public DbSet<JezykViewModel> Jezyki { get; set; }
-        public DbSet<TrybStudiowaniaViewModel> TrybyStudiowania { get; set; }
         public DbSet<PracownikDzialuRekrutacjiViewModel> PracownicyDzialuRekrutacji { get; set; }
         public DbSet<PracownikDzialuRekrutacjiNaPodanieKandydataViewModel> PracownicyDzialuRekrutacjiNaPodaniaKandydatow { get; set; }
         public DbSet<PodanieKandydataViewModel> PodaniaKandydatow { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {            
+            modelBuilder.Entity<PracownikDzialuRekrutacjiNaPodanieKandydataViewModel>()
+                .HasKey(m => new { m.PkFkIdPodanieKandydata , m.PkFkIdPracownikDzialuRekrutacji });
+        }
     }
+    
 }

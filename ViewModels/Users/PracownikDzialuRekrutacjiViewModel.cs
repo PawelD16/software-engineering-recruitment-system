@@ -9,7 +9,7 @@ namespace projektowaniaOprogramowania.ViewModels.Users
     {
         [Key]
         [ForeignKey("Pracownik")]
-        public long PkFkIdOsoba { get; set; }
+        public string PkFkIdOsoba { get; set; }
         public PracownikViewModel Pracownik { get; set; }
 
         [ForeignKey("Wydzial")]

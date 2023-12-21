@@ -23,7 +23,7 @@ namespace projektowaniaOprogramowania.ViewModels
         public RekrutacjaViewModel Rekrutacja { get; set; }
 
         [ForeignKey("Kandydat")]
-        public long FkIdKandydat { get; set; }
+        public string FkIdKandydat { get; set; }
         public KandydatViewModel Kandydat { get; set; }
     }
 }

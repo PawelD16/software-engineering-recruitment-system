@@ -18,17 +18,31 @@ namespace projektowaniaOprogramowania.ViewModels
         public DateTime DataZamknieciaRekrutacji { get; set; }
 
         public DateTime DataZamknieciaPrzyjec { get; set; }
+        
+        public StopienStudiow StopienStudiow { get; set; }
+        
+        public StatusRekrutacji StatusRekrutacji { get; set; }
+        
+        public SemestrRekrutacji SemestrRekrutacji { get; set; }
+    }
 
-        [ForeignKey("StatusRekrutacji")]
-        public string StatusRekrutacjiEnumLiteral { get; set; }
-        public StatusRekrutacjiViewModel StatusRekrutacji { get; set; }
+    public enum StopienStudiow
+    {
+        Pierwszy,
+        Drugi
+    }
 
-        [ForeignKey("StopienStudiow")]
-        public string StopienStudiowEnumLiteral { get; set; }
-        public StopienStudiowViewModel StopienStudiow { get; set; }
+    public enum StatusRekrutacji
+    {
+        Otwarta,
+        Zawieszona,
+        Zamknieta,
+        Rozpatrywana
+    }
 
-        [ForeignKey("SemestrRekrutacji")]
-        public string SemestrRekrutacjiEnumLiteral { get; set; }
-        public SemestrRekrutacjiViewModel SemestrRekrutacji { get; set; }
+    public enum SemestrRekrutacji
+    {
+        Letni,
+        Zimowy
     }
 }
