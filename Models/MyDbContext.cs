@@ -36,5 +36,11 @@ namespace projektowaniaOprogramowania.Models
         public DbSet<PracownikDzialuRekrutacjiNaPodanieKandydataViewModel> PracownicyDzialuRekrutacjiNaPodaniaKandydatow { get; set; }
         public DbSet<PodanieKandydataViewModel> PodaniaKandydatow { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {            
+            modelBuilder.Entity<PracownikDzialuRekrutacjiNaPodanieKandydataViewModel>()
+                .HasKey(m => new { m.PkFkIdPodanieKandydata , m.PkFkIdPracownikDzialuRekrutacji });
+        }
     }
+    
 }
