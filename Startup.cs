@@ -19,6 +19,11 @@ namespace projektowaniaOprogramowania
         {
             Configuration = configuration;
         }
+        // public override void ApplyMigrations(MyDbContext context) {
+        //     if (context.Database.GetPendingMigrations().Any()) {
+        //         context.Database.Migrate();
+        //     }
+        // }
 
         public IConfiguration Configuration { get; }
 
@@ -34,8 +39,9 @@ namespace projektowaniaOprogramowania
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public async void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -59,6 +65,15 @@ namespace projektowaniaOprogramowania
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+            ApplyMigrations(app);
+        }
+
+        private void ApplyMigrations(IApplicationBuilder app)
+        {
+            using var scope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope();
+            using var ctx = scope.ServiceProvider.GetRequiredService<MyDbContext>();
+
+            ctx.Database.Migrate();
         }
     }
 }

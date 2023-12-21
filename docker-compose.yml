@@ -2,6 +2,8 @@
   projektowaniaoprogramowania:
     container_name: backend
     image: projektowaniaoprogramowania
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
     build:
       context: .
       dockerfile: Dockerfile
@@ -17,7 +19,7 @@
     environment:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_USER=postgres
-      - POSTGRES_DB=projektowanieOprogramowania
+      - POSTGRES_DB=postgres
 networks:
   default:
     name: po_network
