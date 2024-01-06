@@ -13,5 +13,9 @@ namespace projektowaniaOprogramowania.ViewModels
 
         [Required]
         public DateTime DataPrzystapieniaDoMatury { get; set; }
-    }
+
+		[ForeignKey("PodanieNaIStopien")]
+		public long FkIdPodanieNaIStopien { get; set; }
+		public PodanieNaIStopienViewModel PodanieNaIStopien { get; set; }
+	}
 }

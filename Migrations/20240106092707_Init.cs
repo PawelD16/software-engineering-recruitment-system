@@ -9,17 +9,6 @@ namespace projektowaniaOprogramowania.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "jezyki",
-                columns: table => new
-                {
-                    EnumLiteral = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_jezyki", x => x.EnumLiteral);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "kategorie_dorobku",
                 columns: table => new
                 {
@@ -224,8 +213,8 @@ namespace projektowaniaOprogramowania.Migrations
                     CzesneDlaCudzoziemcow = table.Column<int>(type: "integer", nullable: false),
                     CzasTrwaniaWSemestrach = table.Column<int>(type: "integer", nullable: false),
                     Dyscyplina = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
-                    Jezyk = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false),
-                    StopienStudiow = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false),
+                    Jezyk = table.Column<int>(type: "integer", maxLength: 20, nullable: false),
+                    StopienStudiow = table.Column<int>(type: "integer", maxLength: 20, nullable: false),
                     TrybStudiowania = table.Column<int>(type: "integer", nullable: false),
                     FkIdWydzial = table.Column<long>(type: "bigint", nullable: false)
                 },
@@ -546,14 +535,80 @@ namespace projektowaniaOprogramowania.Migrations
                 });
 
             migrationBuilder.InsertData(
+                table: "kategorie_dorobku",
+                columns: new[] { "Id", "NazwaKategoriiDorobku" },
+                values: new object[,]
+                {
+                    { 1L, "Publikacja w czasopiśmie" },
+                    { 2L, "Publikacja książki" },
+                    { 3L, "Publikacja patentu" },
+                    { 4L, "Rysunek architektoniczny" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "kategorie_osiagniecia",
+                columns: new[] { "Id", "NazwaKategorii" },
+                values: new object[,]
+                {
+                    { 1L, "Laureat konkursu - przedmiot ścisły" },
+                    { 2L, "Laureat konkursu - przedmiot humanistyczny" },
+                    { 3L, "Paszport Polsatu" },
+                    { 4L, "Nagroda Nobla" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "miasta",
+                columns: new[] { "Id", "NazwaMiasta" },
+                values: new object[] { 1L, "Wrocław" });
+
+            migrationBuilder.InsertData(
                 table: "osoby",
                 columns: new[] { "Id", "CzyEmailPotwierdzony", "DataZarejestrowania", "Email", "Haslo", "Imie", "Login", "Nazwisko", "NumerPaszportu", "Pesel" },
-                values: new object[] { 1L, true, new DateTime(2023, 12, 28, 17, 43, 38, 996, DateTimeKind.Local).AddTicks(9821), "testowykandydat@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat", "Testowy", null, "59070575419" });
+                values: new object[] { 1L, true, new DateTime(2024, 1, 6, 10, 27, 7, 478, DateTimeKind.Local).AddTicks(2581), "testowykandydat@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat", "Testowy", null, "59070575419" });
+
+            migrationBuilder.InsertData(
+                table: "przedmioty",
+                columns: new[] { "Id", "NazwaPrzedmiotu" },
+                values: new object[,]
+                {
+                    { 2L, "Fizyka podstawowa" },
+                    { 3L, "Chemia podstawowa" },
+                    { 16L, "Język obcy rozszerzony" },
+                    { 5L, "Geografia podstawowa" },
+                    { 6L, "Biologia podstawowa" },
+                    { 7L, "Język polski podstawowy" },
+                    { 8L, "Język obcy podstawowy" },
+                    { 9L, "Matematyka rozszerzona" },
+                    { 10L, "Fizyka rozszerzona" },
+                    { 11L, "Chemia rozszerzona" },
+                    { 12L, "Informatyka rozszerzona" },
+                    { 13L, "Geografia rozszerzona" },
+                    { 14L, "Biologia rozszerzona" },
+                    { 15L, "Język polski rozszerzony" },
+                    { 1L, "Matematyka podstawowa" },
+                    { 4L, "Informatyka podstawowa" }
+                });
 
             migrationBuilder.InsertData(
                 table: "kandydaci",
                 columns: new[] { "Id", "NumerKandydata" },
                 values: new object[] { 1L, "5907057541" });
+
+            migrationBuilder.InsertData(
+                table: "wydzialy",
+                columns: new[] { "Id", "MiastoId", "NazwaWydzialu", "NumerWydzialu" },
+                values: new object[] { 1L, 1L, "Wydział Informatyki i Telekomunikacji", "W04n" });
+
+            migrationBuilder.InsertData(
+                table: "kierunki",
+                columns: new[] { "Id", "CzasTrwaniaWSemestrach", "Czesne", "CzesneDlaCudzoziemcow", "Dyscyplina", "FkIdWydzial", "Jezyk", "NazwaKierunku", "ProfilKierunku", "SkrotKierunku", "StopienStudiow", "TrybStudiowania" },
+                values: new object[,]
+                {
+                    { 1L, 7, 0, 1250, "informatyka techniczna i telekomunikacja", 1L, 0, "Informatyka Stosowana", "ogólnoakademicki", "IST", 0, 0 },
+                    { 2L, 7, 50, 1300, "informatyka techniczna i telekomunikacja", 1L, 1, "Informatyka Techniczna w j. angielskim", "ogólnoakademicki", "ITA", 1, 0 },
+                    { 3L, 7, 0, 1250, "informatyka techniczna i telekomunikacja", 1L, 0, "Informatyczne Systemy Automatyki", "ogólnoakademicki", "ISA", 0, 2 },
+                    { 4L, 7, 100, 1350, "informatyka techniczna i telekomunikacja", 1L, 1, "Informatyka Stosowana w j.angielskim", "", "ISTA", 0, 1 }
+                });
 
             migrationBuilder.CreateIndex(
                 name: "IX_dodatkowe_osiagniecia_FkIdPodanieKandydata",
@@ -685,9 +740,6 @@ namespace projektowaniaOprogramowania.Migrations
 
             migrationBuilder.DropTable(
                 name: "dorobei_naukowe");
-
-            migrationBuilder.DropTable(
-                name: "jezyki");
 
             migrationBuilder.DropTable(
                 name: "kierunki_na_podaniach");

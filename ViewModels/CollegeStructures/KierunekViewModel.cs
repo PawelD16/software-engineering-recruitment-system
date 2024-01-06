@@ -49,7 +49,15 @@ namespace projektowaniaOprogramowania.ViewModels.CollegeStructures
         [ForeignKey("Wydzial")]
         public long FkIdWydzial { get; set; }
         public WydzialViewModel Wydzial { get; set; }
-    }
+
+		// not mapped, for I/O not as model values
+
+		[NotMapped]
+		public int CalculatedRecruitationPoints { get; set; }
+
+		[NotMapped]
+		public int CalculatedProbabilityOfSucessfulRecruitation { get; set; }
+	}
 
     public enum TrybStudiowania
     {

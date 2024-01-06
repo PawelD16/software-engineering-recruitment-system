@@ -21,5 +21,6 @@ namespace projektowaniaOprogramowania.ViewModels
         [ForeignKey("Kierunek")]
         public long FkIdKierunek { get; set; }
         public KierunekViewModel Kierunek { get; set; }
-    }
+
+	}
 }

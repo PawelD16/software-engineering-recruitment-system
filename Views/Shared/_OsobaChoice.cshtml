@@ -1,0 +1,31 @@
+﻿@model IEnumerable<projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel>
+
+<select id="userSelect" class="form-control" onchange="authenticateUser()">
+    @foreach (var user in Model)
+    {
+        <option value="@user.Id">@user.Imie @user.Nazwisko</option>
+    }
+</select>
+
+<script type="text/javascript">
+    function authenticateUser() {
+        var userId = $('#userSelect').val();
+
+        $.ajax({
+            url: '@Url.Action("AuthenticateUser", "Osoba")',
+            type: 'POST',
+            data: { userId: userId },
+            success: function (response) {
+                if (response.success) {
+                    alert(response.message);
+                } else {
+                    alert(response.message);
+                }
+            },
+            error: function () {
+                alert('Error during request.');
+            }
+        });
+    }
+</script>
+

@@ -12,9 +12,5 @@ namespace projektowaniaOprogramowania.ViewModels
         public long FkIdPodanieKandydata { get; set; }
         public PodanieKandydataViewModel PodanieKandydata { get; set; }
         */
-
-        [ForeignKey("Matura")]
-        public long FkIdMatura { get; set; }
-        public MaturaViewModel Matura { get; set; }
     }
 }

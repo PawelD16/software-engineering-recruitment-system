@@ -19,17 +19,6 @@ namespace projektowaniaOprogramowania.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.JezykViewModel", b =>
-                {
-                    b.Property<string>("EnumLiteral")
-                        .HasMaxLength(20)
-                        .HasColumnType("character varying(20)");
-
-                    b.HasKey("EnumLiteral");
-
-                    b.ToTable("jezyki");
-                });
-
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel", b =>
                 {
                     b.Property<long>("Id")
@@ -54,10 +43,9 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Property<long>("FkIdWydzial")
                         .HasColumnType("bigint");
 
-                    b.Property<string>("Jezyk")
-                        .IsRequired()
+                    b.Property<int>("Jezyk")
                         .HasMaxLength(20)
-                        .HasColumnType("character varying(20)");
+                        .HasColumnType("integer");
 
                     b.Property<string>("NazwaKierunku")
                         .IsRequired()
@@ -74,10 +62,9 @@ namespace projektowaniaOprogramowania.Migrations
                         .HasMaxLength(64)
                         .HasColumnType("character varying(64)");
 
-                    b.Property<string>("StopienStudiow")
-                        .IsRequired()
+                    b.Property<int>("StopienStudiow")
                         .HasMaxLength(20)
-                        .HasColumnType("character varying(20)");
+                        .HasColumnType("integer");
 
                     b.Property<int>("TrybStudiowania")
                         .HasColumnType("integer");
@@ -87,6 +74,68 @@ namespace projektowaniaOprogramowania.Migrations
                     b.HasIndex("FkIdWydzial");
 
                     b.ToTable("kierunki");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            CzasTrwaniaWSemestrach = 7,
+                            Czesne = 0,
+                            CzesneDlaCudzoziemcow = 1250,
+                            Dyscyplina = "informatyka techniczna i telekomunikacja",
+                            FkIdWydzial = 1L,
+                            Jezyk = 0,
+                            NazwaKierunku = "Informatyka Stosowana",
+                            ProfilKierunku = "ogólnoakademicki",
+                            SkrotKierunku = "IST",
+                            StopienStudiow = 0,
+                            TrybStudiowania = 0
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            CzasTrwaniaWSemestrach = 7,
+                            Czesne = 50,
+                            CzesneDlaCudzoziemcow = 1300,
+                            Dyscyplina = "informatyka techniczna i telekomunikacja",
+                            FkIdWydzial = 1L,
+                            Jezyk = 1,
+                            NazwaKierunku = "Informatyka Techniczna w j. angielskim",
+                            ProfilKierunku = "ogólnoakademicki",
+                            SkrotKierunku = "ITA",
+                            StopienStudiow = 1,
+                            TrybStudiowania = 0
+                        },
+                        new
+                        {
+                            Id = 3L,
+                            CzasTrwaniaWSemestrach = 7,
+                            Czesne = 0,
+                            CzesneDlaCudzoziemcow = 1250,
+                            Dyscyplina = "informatyka techniczna i telekomunikacja",
+                            FkIdWydzial = 1L,
+                            Jezyk = 0,
+                            NazwaKierunku = "Informatyczne Systemy Automatyki",
+                            ProfilKierunku = "ogólnoakademicki",
+                            SkrotKierunku = "ISA",
+                            StopienStudiow = 0,
+                            TrybStudiowania = 2
+                        },
+                        new
+                        {
+                            Id = 4L,
+                            CzasTrwaniaWSemestrach = 7,
+                            Czesne = 100,
+                            CzesneDlaCudzoziemcow = 1350,
+                            Dyscyplina = "informatyka techniczna i telekomunikacja",
+                            FkIdWydzial = 1L,
+                            Jezyk = 1,
+                            NazwaKierunku = "Informatyka Stosowana w j.angielskim",
+                            ProfilKierunku = "",
+                            SkrotKierunku = "ISTA",
+                            StopienStudiow = 0,
+                            TrybStudiowania = 1
+                        });
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.MiastoViewModel", b =>
@@ -104,6 +153,13 @@ namespace projektowaniaOprogramowania.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("miasta");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            NazwaMiasta = "Wrocław"
+                        });
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialViewModel", b =>
@@ -131,6 +187,15 @@ namespace projektowaniaOprogramowania.Migrations
                     b.HasIndex("MiastoId");
 
                     b.ToTable("wydzialy");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            MiastoId = 1L,
+                            NazwaWydzialu = "Wydział Informatyki i Telekomunikacji",
+                            NumerWydzialu = "W04n"
+                        });
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.DodatkoweOsiagniecieViewModel", b =>
@@ -203,6 +268,28 @@ namespace projektowaniaOprogramowania.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("kategorie_dorobku");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            NazwaKategoriiDorobku = "Publikacja w czasopiśmie"
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            NazwaKategoriiDorobku = "Publikacja książki"
+                        },
+                        new
+                        {
+                            Id = 3L,
+                            NazwaKategoriiDorobku = "Publikacja patentu"
+                        },
+                        new
+                        {
+                            Id = 4L,
+                            NazwaKategoriiDorobku = "Rysunek architektoniczny"
+                        });
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.KategoriaOsiagnieciaViewModel", b =>
@@ -220,6 +307,28 @@ namespace projektowaniaOprogramowania.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("kategorie_osiagniecia");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            NazwaKategorii = "Laureat konkursu - przedmiot ścisły"
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            NazwaKategorii = "Laureat konkursu - przedmiot humanistyczny"
+                        },
+                        new
+                        {
+                            Id = 3L,
+                            NazwaKategorii = "Paszport Polsatu"
+                        },
+                        new
+                        {
+                            Id = 4L,
+                            NazwaKategorii = "Nagroda Nobla"
+                        });
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.KierunekNaPodaniuViewModel", b =>
@@ -345,6 +454,88 @@ namespace projektowaniaOprogramowania.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("przedmioty");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            NazwaPrzedmiotu = "Matematyka podstawowa"
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            NazwaPrzedmiotu = "Fizyka podstawowa"
+                        },
+                        new
+                        {
+                            Id = 3L,
+                            NazwaPrzedmiotu = "Chemia podstawowa"
+                        },
+                        new
+                        {
+                            Id = 4L,
+                            NazwaPrzedmiotu = "Informatyka podstawowa"
+                        },
+                        new
+                        {
+                            Id = 5L,
+                            NazwaPrzedmiotu = "Geografia podstawowa"
+                        },
+                        new
+                        {
+                            Id = 6L,
+                            NazwaPrzedmiotu = "Biologia podstawowa"
+                        },
+                        new
+                        {
+                            Id = 7L,
+                            NazwaPrzedmiotu = "Język polski podstawowy"
+                        },
+                        new
+                        {
+                            Id = 8L,
+                            NazwaPrzedmiotu = "Język obcy podstawowy"
+                        },
+                        new
+                        {
+                            Id = 9L,
+                            NazwaPrzedmiotu = "Matematyka rozszerzona"
+                        },
+                        new
+                        {
+                            Id = 10L,
+                            NazwaPrzedmiotu = "Fizyka rozszerzona"
+                        },
+                        new
+                        {
+                            Id = 11L,
+                            NazwaPrzedmiotu = "Chemia rozszerzona"
+                        },
+                        new
+                        {
+                            Id = 12L,
+                            NazwaPrzedmiotu = "Informatyka rozszerzona"
+                        },
+                        new
+                        {
+                            Id = 13L,
+                            NazwaPrzedmiotu = "Geografia rozszerzona"
+                        },
+                        new
+                        {
+                            Id = 14L,
+                            NazwaPrzedmiotu = "Biologia rozszerzona"
+                        },
+                        new
+                        {
+                            Id = 15L,
+                            NazwaPrzedmiotu = "Język polski rozszerzony"
+                        },
+                        new
+                        {
+                            Id = 16L,
+                            NazwaPrzedmiotu = "Język obcy rozszerzony"
+                        });
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikDorobkuViewModel", b =>
@@ -566,7 +757,7 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyEmailPotwierdzony = true,
-                            DataZarejestrowania = new DateTime(2023, 12, 28, 17, 43, 38, 996, DateTimeKind.Local).AddTicks(9821),
+                            DataZarejestrowania = new DateTime(2024, 1, 6, 10, 27, 7, 478, DateTimeKind.Local).AddTicks(2581),
                             Email = "testowykandydat@gmail.com",
                             Haslo = "zahaszowaneHaselko",
                             Imie = "Jan",
