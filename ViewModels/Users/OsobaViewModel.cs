@@ -4,7 +4,7 @@
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
 
-    [Table("osoby")]
+    //[Table("osoby")]
     public class OsobaViewModel
     {
         [Key]
@@ -26,6 +26,7 @@
 
         [StringLength(11)]
         public string Pesel { get; set; }
+        // pesel or numerPaszportu must not be empty/null, but how?
 
         [StringLength(10)]
         public string NumerPaszportu { get; set; }

@@ -4,7 +4,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace projektowaniaOprogramowania.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -148,15 +148,16 @@ namespace projektowaniaOprogramowania.Migrations
                 name: "kandydaci",
                 columns: table => new
                 {
-                    NumerKandydata = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: false),
-                    FkIdOsoba = table.Column<long>(type: "bigint", nullable: false)
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    NumerKandydata = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_kandydaci", x => x.NumerKandydata);
+                    table.PrimaryKey("PK_kandydaci", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_kandydaci_osoby_FkIdOsoba",
-                        column: x => x.FkIdOsoba,
+                        name: "FK_kandydaci_osoby_Id",
+                        column: x => x.Id,
                         principalTable: "osoby",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -166,17 +167,18 @@ namespace projektowaniaOprogramowania.Migrations
                 name: "pracownicy",
                 columns: table => new
                 {
-                    NumerPracownika = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: false),
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    NumerPracownika = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: true),
                     DataZatrudnienia = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
-                    TypPracownika = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false),
-                    FkIdOsoba = table.Column<long>(type: "bigint", nullable: false)
+                    TypPracownika = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_pracownicy", x => x.NumerPracownika);
+                    table.PrimaryKey("PK_pracownicy", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_pracownicy_osoby_FkIdOsoba",
-                        column: x => x.FkIdOsoba,
+                        name: "FK_pracownicy_osoby_Id",
+                        column: x => x.Id,
                         principalTable: "osoby",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -239,7 +241,7 @@ namespace projektowaniaOprogramowania.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "podanie_kandydata",
+                name: "podania_kandydatow",
                 columns: table => new
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
@@ -247,19 +249,19 @@ namespace projektowaniaOprogramowania.Migrations
                     DataZlozeniaPodania = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
                     CzyAktywny = table.Column<bool>(type: "boolean", nullable: false),
                     FkIdRekrutacja = table.Column<long>(type: "bigint", nullable: false),
-                    FkIdKandydat = table.Column<string>(type: "character varying(10)", nullable: true)
+                    FkIdKandydat = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_podanie_kandydata", x => x.Id);
+                    table.PrimaryKey("PK_podania_kandydatow", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_podanie_kandydata_kandydaci_FkIdKandydat",
+                        name: "FK_podania_kandydatow_kandydaci_FkIdKandydat",
                         column: x => x.FkIdKandydat,
                         principalTable: "kandydaci",
-                        principalColumn: "NumerKandydata",
-                        onDelete: ReferentialAction.Restrict);
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_podanie_kandydata_rekrutacje_FkIdRekrutacja",
+                        name: "FK_podania_kandydatow_rekrutacje_FkIdRekrutacja",
                         column: x => x.FkIdRekrutacja,
                         principalTable: "rekrutacje",
                         principalColumn: "Id",
@@ -267,23 +269,24 @@ namespace projektowaniaOprogramowania.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "pracownik_dzialu_rekrutacji",
+                name: "pracownicy_dzialu_rekrutacji",
                 columns: table => new
                 {
-                    PkFkIdOsoba = table.Column<string>(type: "character varying(10)", nullable: false),
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     FkIdWydzial = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_pracownik_dzialu_rekrutacji", x => x.PkFkIdOsoba);
+                    table.PrimaryKey("PK_pracownicy_dzialu_rekrutacji", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_pracownik_dzialu_rekrutacji_pracownicy_PkFkIdOsoba",
-                        column: x => x.PkFkIdOsoba,
+                        name: "FK_pracownicy_dzialu_rekrutacji_pracownicy_Id",
+                        column: x => x.Id,
                         principalTable: "pracownicy",
-                        principalColumn: "NumerPracownika",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_pracownik_dzialu_rekrutacji_wydzialy_FkIdWydzial",
+                        name: "FK_pracownicy_dzialu_rekrutacji_wydzialy_FkIdWydzial",
                         column: x => x.FkIdWydzial,
                         principalTable: "wydzialy",
                         principalColumn: "Id",
@@ -330,9 +333,9 @@ namespace projektowaniaOprogramowania.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_kierunki_na_podaniach_podanie_kandydata_FkIdPodanieKandydata",
+                        name: "FK_kierunki_na_podaniach_podania_kandydatow_FkIdPodanieKandyda~",
                         column: x => x.FkIdPodanieKandydata,
-                        principalTable: "podanie_kandydata",
+                        principalTable: "podania_kandydatow",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -341,12 +344,13 @@ namespace projektowaniaOprogramowania.Migrations
                 name: "podania_na_I_stopien",
                 columns: table => new
                 {
-                    FkIdPodanieKandydata = table.Column<long>(type: "bigint", nullable: false),
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     FkIdMatura = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_podania_na_I_stopien", x => x.FkIdPodanieKandydata);
+                    table.PrimaryKey("PK_podania_na_I_stopien", x => x.Id);
                     table.ForeignKey(
                         name: "FK_podania_na_I_stopien_matury_FkIdMatura",
                         column: x => x.FkIdMatura,
@@ -354,9 +358,9 @@ namespace projektowaniaOprogramowania.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_podania_na_I_stopien_podanie_kandydata_FkIdPodanieKandydata",
-                        column: x => x.FkIdPodanieKandydata,
-                        principalTable: "podanie_kandydata",
+                        name: "FK_podania_na_I_stopien_podania_kandydatow_Id",
+                        column: x => x.Id,
+                        principalTable: "podania_kandydatow",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -365,17 +369,18 @@ namespace projektowaniaOprogramowania.Migrations
                 name: "podania_na_II_stopien",
                 columns: table => new
                 {
-                    PkFkIdPodanieKandydata = table.Column<long>(type: "bigint", nullable: false),
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     SredniaZTokuStudiow = table.Column<float>(type: "real", nullable: false),
                     OcenaZPracyDyplomowej = table.Column<float>(type: "real", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_podania_na_II_stopien", x => x.PkFkIdPodanieKandydata);
+                    table.PrimaryKey("PK_podania_na_II_stopien", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_podania_na_II_stopien_podanie_kandydata_PkFkIdPodanieKandyd~",
-                        column: x => x.PkFkIdPodanieKandydata,
-                        principalTable: "podanie_kandydata",
+                        name: "FK_podania_na_II_stopien_podania_kandydatow_Id",
+                        column: x => x.Id,
+                        principalTable: "podania_kandydatow",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -385,22 +390,22 @@ namespace projektowaniaOprogramowania.Migrations
                 columns: table => new
                 {
                     PkFkIdPodanieKandydata = table.Column<long>(type: "bigint", nullable: false),
-                    PkFkIdPracownikDzialuRekrutacji = table.Column<string>(type: "character varying(10)", nullable: false)
+                    PkFkIdPracownikDzialuRekrutacji = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_pracownicy_dzialu_rekrutacji_na_podania_kandydata", x => new { x.PkFkIdPodanieKandydata, x.PkFkIdPracownikDzialuRekrutacji });
                     table.ForeignKey(
-                        name: "FK_pracownicy_dzialu_rekrutacji_na_podania_kandydata_podanie_k~",
+                        name: "FK_pracownicy_dzialu_rekrutacji_na_podania_kandydata_podania_k~",
                         column: x => x.PkFkIdPodanieKandydata,
-                        principalTable: "podanie_kandydata",
+                        principalTable: "podania_kandydatow",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_pracownicy_dzialu_rekrutacji_na_podania_kandydata_pracownik~",
+                        name: "FK_pracownicy_dzialu_rekrutacji_na_podania_kandydata_pracownic~",
                         column: x => x.PkFkIdPracownikDzialuRekrutacji,
-                        principalTable: "pracownik_dzialu_rekrutacji",
-                        principalColumn: "PkFkIdOsoba",
+                        principalTable: "pracownicy_dzialu_rekrutacji",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -508,7 +513,7 @@ namespace projektowaniaOprogramowania.Migrations
                         name: "FK_dorobei_naukowe_podania_na_II_stopien_FkIdPodanieNaIIStopien",
                         column: x => x.FkIdPodanieNaIIStopien,
                         principalTable: "podania_na_II_stopien",
-                        principalColumn: "PkFkIdPodanieKandydata",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -527,9 +532,9 @@ namespace projektowaniaOprogramowania.Migrations
                 {
                     table.PrimaryKey("PK_dodatkowe_osiagniecia", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_dodatkowe_osiagniecia_podanie_kandydata_FkIdPodanieKandydata",
+                        name: "FK_dodatkowe_osiagniecia_podania_kandydatow_FkIdPodanieKandyda~",
                         column: x => x.FkIdPodanieKandydata,
-                        principalTable: "podanie_kandydata",
+                        principalTable: "podania_kandydatow",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -539,6 +544,16 @@ namespace projektowaniaOprogramowania.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.InsertData(
+                table: "osoby",
+                columns: new[] { "Id", "CzyEmailPotwierdzony", "DataZarejestrowania", "Email", "Haslo", "Imie", "Login", "Nazwisko", "NumerPaszportu", "Pesel" },
+                values: new object[] { 1L, true, new DateTime(2023, 12, 28, 17, 43, 38, 996, DateTimeKind.Local).AddTicks(9821), "testowykandydat@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat", "Testowy", null, "59070575419" });
+
+            migrationBuilder.InsertData(
+                table: "kandydaci",
+                columns: new[] { "Id", "NumerKandydata" },
+                values: new object[] { 1L, "5907057541" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_dodatkowe_osiagniecia_FkIdPodanieKandydata",
@@ -561,9 +576,10 @@ namespace projektowaniaOprogramowania.Migrations
                 column: "FkIdPodanieNaIIStopien");
 
             migrationBuilder.CreateIndex(
-                name: "IX_kandydaci_FkIdOsoba",
+                name: "IX_kandydaci_NumerKandydata",
                 table: "kandydaci",
-                column: "FkIdOsoba");
+                column: "NumerKandydata",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_kierunki_FkIdWydzial",
@@ -591,34 +607,35 @@ namespace projektowaniaOprogramowania.Migrations
                 column: "Maturaid");
 
             migrationBuilder.CreateIndex(
+                name: "IX_podania_kandydatow_FkIdKandydat",
+                table: "podania_kandydatow",
+                column: "FkIdKandydat");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_podania_kandydatow_FkIdRekrutacja",
+                table: "podania_kandydatow",
+                column: "FkIdRekrutacja");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_podania_na_I_stopien_FkIdMatura",
                 table: "podania_na_I_stopien",
                 column: "FkIdMatura");
 
             migrationBuilder.CreateIndex(
-                name: "IX_podanie_kandydata_FkIdKandydat",
-                table: "podanie_kandydata",
-                column: "FkIdKandydat");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_podanie_kandydata_FkIdRekrutacja",
-                table: "podanie_kandydata",
-                column: "FkIdRekrutacja");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_pracownicy_FkIdOsoba",
+                name: "IX_pracownicy_NumerPracownika",
                 table: "pracownicy",
-                column: "FkIdOsoba");
+                column: "NumerPracownika",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_pracownicy_dzialu_rekrutacji_FkIdWydzial",
+                table: "pracownicy_dzialu_rekrutacji",
+                column: "FkIdWydzial");
 
             migrationBuilder.CreateIndex(
                 name: "IX_pracownicy_dzialu_rekrutacji_na_podania_kandydata_PkFkIdPra~",
                 table: "pracownicy_dzialu_rekrutacji_na_podania_kandydata",
                 column: "PkFkIdPracownikDzialuRekrutacji");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_pracownik_dzialu_rekrutacji_FkIdWydzial",
-                table: "pracownik_dzialu_rekrutacji",
-                column: "FkIdWydzial");
 
             migrationBuilder.CreateIndex(
                 name: "IX_przeliczniki_dorobku_FkIdKategoriaDorobku",
@@ -700,7 +717,7 @@ namespace projektowaniaOprogramowania.Migrations
                 name: "matury");
 
             migrationBuilder.DropTable(
-                name: "pracownik_dzialu_rekrutacji");
+                name: "pracownicy_dzialu_rekrutacji");
 
             migrationBuilder.DropTable(
                 name: "kategorie_dorobku");
@@ -715,7 +732,7 @@ namespace projektowaniaOprogramowania.Migrations
                 name: "przeliczniki_kierunkowe");
 
             migrationBuilder.DropTable(
-                name: "podanie_kandydata");
+                name: "podania_kandydatow");
 
             migrationBuilder.DropTable(
                 name: "pracownicy");

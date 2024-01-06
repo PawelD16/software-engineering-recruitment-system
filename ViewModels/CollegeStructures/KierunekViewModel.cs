@@ -37,11 +37,11 @@ namespace projektowaniaOprogramowania.ViewModels.CollegeStructures
 
         [Required]
         [StringLength(20)]
-        public string Jezyk { get; set; }
+        public Jezyk Jezyk { get; set; }
 
         [Required]
         [StringLength(20)]
-        public string StopienStudiow { get; set; }
+        public StopienStudiow StopienStudiow { get; set; }
 
         [Required]
         public TrybStudiowania TrybStudiowania { get; set; }

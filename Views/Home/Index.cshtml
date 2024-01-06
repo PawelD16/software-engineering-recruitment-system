@@ -1,8 +1,24 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+	ViewBag.Title = "Strona główna";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<div class="header">
+	<h1>Kształcimy najlepszych</h1>
+	<a href="@Url.Action("Apply", "Home")" class="button">Aplikuj online</a>
+</div>
+
+<div class="content">
+	<div>
+		<h3>NIE WIESZ JAKI KIERUNEK WYBRAĆ?</h3>
+		<p>Wyliczymy! Nasz nowoczesny model matematyczny pokaże jakie kierunki powinny być dla Ciebie dostępne.</p>
+		<button class="btn-primary" onclick="location.href='@Url.Action("Index", "Predict")'">Predykuj kierunki</button>
+	</div>
+
+	<div>
+		<h3>CHCESZ POZNAĆ WIĘCEJ SZCZEGÓŁÓW?</h3>
+		<p>Wybierz najlepszy dla Ciebie kierunek spośród dziesiątek dostępnych na podstawie opisów</p>
+
+		<a href="@Url.Action("ShowAllDirections", "Home")" class="button">Pokaż wszystkie</a>
+	</div>
 </div>

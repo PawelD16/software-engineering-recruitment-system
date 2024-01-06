@@ -13,7 +13,7 @@ namespace projektowaniaOprogramowania.ViewModels
 
         [Key]
         [ForeignKey("PracownikDzialuRekrutacji")]
-        public string PkFkIdPracownikDzialuRekrutacji { get; set; }
+        public long PkFkIdPracownikDzialuRekrutacji { get; set; }
         public PracownikDzialuRekrutacjiViewModel PracownikDzialuRekrutacji { get; set; }
     }
 }

@@ -5,7 +5,7 @@ using projektowaniaOprogramowania.ViewModels.Users;
 
 namespace projektowaniaOprogramowania.ViewModels
 {
-    [Table("podanie_kandydata")]
+    //[Table("podania_kandydatow")]
     public class PodanieKandydataViewModel
     {
         [Key]
@@ -23,7 +23,7 @@ namespace projektowaniaOprogramowania.ViewModels
         public RekrutacjaViewModel Rekrutacja { get; set; }
 
         [ForeignKey("Kandydat")]
-        public string FkIdKandydat { get; set; }
+        public long FkIdKandydat { get; set; }
         public KandydatViewModel Kandydat { get; set; }
     }
 }

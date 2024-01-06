@@ -4,10 +4,10 @@ using System;
 
 namespace projektowaniaOprogramowania.ViewModels.Users
 {
-    [Table("pracownicy")]
-    public class PracownikViewModel
+    //[Table("pracownicy")]
+    public class PracownikViewModel : OsobaViewModel
     {
-        [Key]
+        //[Key]
         [StringLength(10)]
         public string NumerPracownika { get; set; }
 
@@ -18,9 +18,11 @@ namespace projektowaniaOprogramowania.ViewModels.Users
         [StringLength(20)] // Maybe use another table or a simple enum?
         public string TypPracownika { get; set; }
 
+        /*
         [ForeignKey("Osoba")]
         public long FkIdOsoba { get; set; }
 
         public OsobaViewModel Osoba { get; set; }
+        */
     }
 }

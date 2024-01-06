@@ -3,16 +3,16 @@ using System.ComponentModel.DataAnnotations;
 
 namespace projektowaniaOprogramowania.ViewModels.Users
 {
-    [Table("kandydaci")]
-    public class KandydatViewModel
+    //[Table("kandydaci")]
+    public class KandydatViewModel : OsobaViewModel
     {
-        [Key]
+        //[Key]
         [StringLength(10)]
         public string NumerKandydata { get; set; }
 
-        [ForeignKey("Osoba")]
-        public long FkIdOsoba { get; set; }
+        //[ForeignKey("Osoba")]
+        //public long FkIdOsoba { get; set; }
 
-        public OsobaViewModel Osoba { get; set; }
+        //public OsobaViewModel Osoba { get; set; }
     }
 }

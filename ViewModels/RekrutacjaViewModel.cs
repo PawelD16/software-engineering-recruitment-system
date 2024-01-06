@@ -45,4 +45,10 @@ namespace projektowaniaOprogramowania.ViewModels
         Letni,
         Zimowy
     }
+
+    public enum Jezyk
+    {
+        Polski,
+        Angielski
+    }
 }

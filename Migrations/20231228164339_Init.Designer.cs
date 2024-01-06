@@ -10,8 +10,8 @@ using projektowaniaOprogramowania.Models;
 namespace projektowaniaOprogramowania.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20231221132515_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20231228164339_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -302,8 +302,8 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Property<DateTime>("DataZlozeniaPodania")
                         .HasColumnType("timestamp without time zone");
 
-                    b.Property<string>("FkIdKandydat")
-                        .HasColumnType("character varying(10)");
+                    b.Property<long>("FkIdKandydat")
+                        .HasColumnType("bigint");
 
                     b.Property<long>("FkIdRekrutacja")
                         .HasColumnType("bigint");
@@ -314,38 +314,7 @@ namespace projektowaniaOprogramowania.Migrations
 
                     b.HasIndex("FkIdRekrutacja");
 
-                    b.ToTable("podanie_kandydata");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaIIStopienViewModel", b =>
-                {
-                    b.Property<long>("PkFkIdPodanieKandydata")
-                        .HasColumnType("bigint");
-
-                    b.Property<float>("OcenaZPracyDyplomowej")
-                        .HasColumnType("real");
-
-                    b.Property<float>("SredniaZTokuStudiow")
-                        .HasColumnType("real");
-
-                    b.HasKey("PkFkIdPodanieKandydata");
-
-                    b.ToTable("podania_na_II_stopien");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaIStopienViewModel", b =>
-                {
-                    b.Property<long>("FkIdPodanieKandydata")
-                        .HasColumnType("bigint");
-
-                    b.Property<long>("FkIdMatura")
-                        .HasColumnType("bigint");
-
-                    b.HasKey("FkIdPodanieKandydata");
-
-                    b.HasIndex("FkIdMatura");
-
-                    b.ToTable("podania_na_I_stopien");
+                    b.ToTable("podania_kandydatow");
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PracownikDzialuRekrutacjiNaPodanieKandydataViewModel", b =>
@@ -353,8 +322,8 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Property<long>("PkFkIdPodanieKandydata")
                         .HasColumnType("bigint");
 
-                    b.Property<string>("PkFkIdPracownikDzialuRekrutacji")
-                        .HasColumnType("character varying(10)");
+                    b.Property<long>("PkFkIdPracownikDzialuRekrutacji")
+                        .HasColumnType("bigint");
 
                     b.HasKey("PkFkIdPodanieKandydata", "PkFkIdPracownikDzialuRekrutacji");
 
@@ -505,22 +474,6 @@ namespace projektowaniaOprogramowania.Migrations
                     b.ToTable("rekrutacje");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.KandydatViewModel", b =>
-                {
-                    b.Property<string>("NumerKandydata")
-                        .HasMaxLength(10)
-                        .HasColumnType("character varying(10)");
-
-                    b.Property<long>("FkIdOsoba")
-                        .HasColumnType("bigint");
-
-                    b.HasKey("NumerKandydata");
-
-                    b.HasIndex("FkIdOsoba");
-
-                    b.ToTable("kandydaci");
-                });
-
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel", b =>
                 {
                     b.Property<long>("Id")
@@ -572,43 +525,92 @@ namespace projektowaniaOprogramowania.Migrations
                     b.ToTable("osoby");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikDzialuRekrutacjiViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaIIStopienViewModel", b =>
                 {
-                    b.Property<string>("PkFkIdOsoba")
-                        .HasColumnType("character varying(10)");
+                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel");
 
-                    b.Property<long>("FkIdWydzial")
+                    b.Property<float>("OcenaZPracyDyplomowej")
+                        .HasColumnType("real");
+
+                    b.Property<float>("SredniaZTokuStudiow")
+                        .HasColumnType("real");
+
+                    b.ToTable("podania_na_II_stopien");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaIStopienViewModel", b =>
+                {
+                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel");
+
+                    b.Property<long>("FkIdMatura")
                         .HasColumnType("bigint");
 
-                    b.HasKey("PkFkIdOsoba");
+                    b.HasIndex("FkIdMatura");
 
-                    b.HasIndex("FkIdWydzial");
+                    b.ToTable("podania_na_I_stopien");
+                });
 
-                    b.ToTable("pracownik_dzialu_rekrutacji");
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.KandydatViewModel", b =>
+                {
+                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel");
+
+                    b.Property<string>("NumerKandydata")
+                        .HasMaxLength(10)
+                        .HasColumnType("character varying(10)");
+
+                    b.HasIndex("NumerKandydata")
+                        .IsUnique();
+
+                    b.ToTable("kandydaci");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            CzyEmailPotwierdzony = true,
+                            DataZarejestrowania = new DateTime(2023, 12, 28, 17, 43, 38, 996, DateTimeKind.Local).AddTicks(9821),
+                            Email = "testowykandydat@gmail.com",
+                            Haslo = "zahaszowaneHaselko",
+                            Imie = "Jan",
+                            Login = "testowyKandydat",
+                            Nazwisko = "Testowy",
+                            Pesel = "59070575419",
+                            NumerKandydata = "5907057541"
+                        });
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikViewModel", b =>
                 {
-                    b.Property<string>("NumerPracownika")
-                        .HasMaxLength(10)
-                        .HasColumnType("character varying(10)");
+                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel");
 
                     b.Property<DateTime>("DataZatrudnienia")
                         .HasColumnType("timestamp without time zone");
 
-                    b.Property<long>("FkIdOsoba")
-                        .HasColumnType("bigint");
+                    b.Property<string>("NumerPracownika")
+                        .HasMaxLength(10)
+                        .HasColumnType("character varying(10)");
 
                     b.Property<string>("TypPracownika")
                         .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("character varying(20)");
 
-                    b.HasKey("NumerPracownika");
-
-                    b.HasIndex("FkIdOsoba");
+                    b.HasIndex("NumerPracownika")
+                        .IsUnique();
 
                     b.ToTable("pracownicy");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikDzialuRekrutacjiViewModel", b =>
+                {
+                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.Users.PracownikViewModel");
+
+                    b.Property<long>("FkIdWydzial")
+                        .HasColumnType("bigint");
+
+                    b.HasIndex("FkIdWydzial");
+
+                    b.ToTable("pracownicy_dzialu_rekrutacji");
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel", b =>
@@ -713,7 +715,9 @@ namespace projektowaniaOprogramowania.Migrations
                 {
                     b.HasOne("projektowaniaOprogramowania.ViewModels.Users.KandydatViewModel", "Kandydat")
                         .WithMany()
-                        .HasForeignKey("FkIdKandydat");
+                        .HasForeignKey("FkIdKandydat")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("projektowaniaOprogramowania.ViewModels.RekrutacjaViewModel", "Rekrutacja")
                         .WithMany()
@@ -724,36 +728,6 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Navigation("Kandydat");
 
                     b.Navigation("Rekrutacja");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaIIStopienViewModel", b =>
-                {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel", "PodanieKandydata")
-                        .WithMany()
-                        .HasForeignKey("PkFkIdPodanieKandydata")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("PodanieKandydata");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaIStopienViewModel", b =>
-                {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.MaturaViewModel", "Matura")
-                        .WithMany()
-                        .HasForeignKey("FkIdMatura")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel", "PodanieKandydata")
-                        .WithMany()
-                        .HasForeignKey("FkIdPodanieKandydata")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Matura");
-
-                    b.Navigation("PodanieKandydata");
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PracownikDzialuRekrutacjiNaPodanieKandydataViewModel", b =>
@@ -843,15 +817,48 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Navigation("PrzelicznikKierunkowy");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.KandydatViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaIIStopienViewModel", b =>
                 {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel", "Osoba")
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel", null)
+                        .WithOne()
+                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.PodanieNaIIStopienViewModel", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaIStopienViewModel", b =>
+                {
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.MaturaViewModel", "Matura")
                         .WithMany()
-                        .HasForeignKey("FkIdOsoba")
+                        .HasForeignKey("FkIdMatura")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Osoba");
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel", null)
+                        .WithOne()
+                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.PodanieNaIStopienViewModel", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Matura");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.KandydatViewModel", b =>
+                {
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel", null)
+                        .WithOne()
+                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.Users.KandydatViewModel", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikViewModel", b =>
+                {
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel", null)
+                        .WithOne()
+                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.Users.PracownikViewModel", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikDzialuRekrutacjiViewModel", b =>
@@ -862,26 +869,13 @@ namespace projektowaniaOprogramowania.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.PracownikViewModel", "Pracownik")
-                        .WithMany()
-                        .HasForeignKey("PkFkIdOsoba")
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.PracownikViewModel", null)
+                        .WithOne()
+                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.Users.PracownikDzialuRekrutacjiViewModel", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Pracownik");
 
                     b.Navigation("Wydzial");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikViewModel", b =>
-                {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel", "Osoba")
-                        .WithMany()
-                        .HasForeignKey("FkIdOsoba")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Osoba");
                 });
 #pragma warning restore 612, 618
         }
