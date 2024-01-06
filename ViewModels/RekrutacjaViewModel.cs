@@ -35,9 +35,10 @@ namespace projektowaniaOprogramowania.ViewModels
     public enum StatusRekrutacji
     {
         Otwarta,
+        Rozpatrywana,
         Zawieszona,
         Zamknieta,
-        Rozpatrywana
+        
     }
 
     public enum SemestrRekrutacji

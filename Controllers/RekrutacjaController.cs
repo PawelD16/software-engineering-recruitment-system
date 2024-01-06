@@ -2,10 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Xml.Schema;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using projektowaniaOprogramowania.Models;
+using projektowaniaOprogramowania.Services.Recrutation;
 using projektowaniaOprogramowania.ViewModels;
 
 namespace projektowaniaOprogramowania.Controllers
@@ -13,16 +15,24 @@ namespace projektowaniaOprogramowania.Controllers
     public class RekrutacjaController : Controller
     {
         private readonly MyDbContext _context;
+        private readonly IRecruitmentValidationService _recruitmentValidationService;
 
-        public RekrutacjaController(MyDbContext context)
+        public RekrutacjaController(MyDbContext context, IRecruitmentValidationService recruitmentValidationService)
         {
             _context = context;
+            _recruitmentValidationService = recruitmentValidationService;
         }
 
         // GET: Rekrutacja
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Rekrutacje.ToListAsync());
+            return View(await _context.Rekrutacje.OrderBy((rekrutacja)=>rekrutacja.DataOtwarciaRekrutacji).ToListAsync());
+        }
+
+        public async Task<IActionResult> IndexWithError(string error)
+        {
+            ViewData["error-message"] = error;
+            return View("Index",await _context.Rekrutacje.OrderBy((rekrutacja)=>rekrutacja.DataOtwarciaRekrutacji).ToListAsync());
         }
 
         // GET: Rekrutacja/Details/5
@@ -87,33 +97,43 @@ namespace projektowaniaOprogramowania.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(long id, [Bind("Id,DataOtwarciaRekrutacji,DataZamknieciaRekrutacji,DataZamknieciaPrzyjec,StopienStudiow,StatusRekrutacji,SemestrRekrutacji")] RekrutacjaViewModel rekrutacjaViewModel)
-        {
+        { 
             if (id != rekrutacjaViewModel.Id)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                try
-                {
-                    _context.Update(rekrutacjaViewModel);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!RekrutacjaViewModelExists(rekrutacjaViewModel.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                return View(rekrutacjaViewModel);
             }
-            return View(rekrutacjaViewModel);
+
+            var (validity, errorMessage) = await _recruitmentValidationService.IsRecruitmentValid(rekrutacjaViewModel);
+            if (!validity)
+            {
+                ViewData["error-message"] = errorMessage;
+                return await IndexWithError(errorMessage);
+            }
+           
+            try
+            {
+                _context.Update(rekrutacjaViewModel);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!RekrutacjaViewModelExists(rekrutacjaViewModel.Id))
+                {
+                    return NotFound();
+                }
+                    
+                throw;
+                    
+            }
+                
+                
+            return RedirectToAction("Index");
+           
         }
 
         // GET: Rekrutacja/Delete/5

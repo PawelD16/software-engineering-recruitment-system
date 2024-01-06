@@ -8,8 +8,9 @@ a.navbar-brand {
 }
 
 /* Provide sufficient contrast against white background */
-a {
-    color: #0366d6;
+
+* {
+    color: white;
 }
 
 .btn-primary {
@@ -78,6 +79,8 @@ body {
 
 body {
     font-family: Arial, sans-serif;
+    background: var(--background);
+    color:white;
 }
 
 .gradient {
@@ -103,4 +106,18 @@ body {
 
 .button:hover {
     background-color: #45a049;
+}
+:root {
+    --primary: #A259F;
+    --background: #1b1e21;
+    
+}
+.bg-secondary{
+    background-color: #24202b !important;
+    border-color: var(--dark) !important;
+}
+.bg-default{
+    background-color: var(--background);
+    color: white;
+    border-color: var(--dark);
 }
