@@ -23,6 +23,12 @@ a.navbar-brand {
     color: #fff;
     background-color: #1b6ec2;
     border-color: #1861ac;
+    font-size: 2rem;
+}
+.nav-item > .nav-link{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 450;
 }
 
 /* Sticky footer styles
@@ -84,7 +90,7 @@ body {
 }
 
 .gradient {
-    background: linear-gradient(to bottom, #A259FF, #FFC700);
+    background: linear-gradient(to bottom, #A259FF, #d642d6, #FFC700);
 }
 
 .navbar-logo {
