@@ -15,7 +15,7 @@ namespace projektowaniaOprogramowania.ViewModels
         public int WartoscProcentowa { get; set; }
 
         [ForeignKey("Matura")]
-        public long Maturaid { get; set; }
+        public long MaturaId { get; set; }
         public MaturaViewModel Matura { get; set; }
 
         [ForeignKey("Przedmiot")]

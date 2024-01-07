@@ -10,7 +10,7 @@ using projektowaniaOprogramowania.Models;
 namespace projektowaniaOprogramowania.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240106092707_Init")]
+    [Migration("20240106171333_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,7 +23,7 @@ namespace projektowaniaOprogramowania.Migrations
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<long?>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
@@ -142,7 +142,7 @@ namespace projektowaniaOprogramowania.Migrations
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.MiastoViewModel", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<long?>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
@@ -166,7 +166,7 @@ namespace projektowaniaOprogramowania.Migrations
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialViewModel", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<long?>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
@@ -368,7 +368,12 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Property<DateTime>("DataPrzystapieniaDoMatury")
                         .HasColumnType("timestamp without time zone");
 
+                    b.Property<long>("FkIdPodanieNaIStopien")
+                        .HasColumnType("bigint");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("FkIdPodanieNaIStopien");
 
                     b.ToTable("matury");
                 });
@@ -383,7 +388,7 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Property<long>("FkIdPrzedmiot")
                         .HasColumnType("bigint");
 
-                    b.Property<long>("Maturaid")
+                    b.Property<long>("MaturaId")
                         .HasColumnType("bigint");
 
                     b.Property<int>("WartoscProcentowa")
@@ -393,7 +398,7 @@ namespace projektowaniaOprogramowania.Migrations
 
                     b.HasIndex("FkIdPrzedmiot");
 
-                    b.HasIndex("Maturaid");
+                    b.HasIndex("MaturaId");
 
                     b.ToTable("oceny");
                 });
@@ -424,6 +429,16 @@ namespace projektowaniaOprogramowania.Migrations
                     b.HasIndex("FkIdRekrutacja");
 
                     b.ToTable("podania_kandydatow");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            CzyAktywny = true,
+                            DataZlozeniaPodania = new DateTime(2024, 1, 6, 18, 13, 32, 490, DateTimeKind.Local).AddTicks(6018),
+                            FkIdKandydat = 1L,
+                            FkIdRekrutacja = 1L
+                        });
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PracownikDzialuRekrutacjiNaPodanieKandydataViewModel", b =>
@@ -583,6 +598,14 @@ namespace projektowaniaOprogramowania.Migrations
                     b.HasIndex("FkIdKierunek");
 
                     b.ToTable("przeliczniki_kierunkowe");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            FkIdKierunek = 1L,
+                            MaksymalnaWartoscPrzelicznika = 530
+                        });
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikOsiagniecViewModel", b =>
@@ -608,6 +631,36 @@ namespace projektowaniaOprogramowania.Migrations
                     b.HasIndex("FkIdPrzelicznikKierunkowy");
 
                     b.ToTable("przeliczniki_osiagniec");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            FkIdKategoriaOsiagniecia = 1L,
+                            FkIdPrzelicznikKierunkowy = 1L,
+                            PrzyznawanePunkty = 0
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            FkIdKategoriaOsiagniecia = 2L,
+                            FkIdPrzelicznikKierunkowy = 1L,
+                            PrzyznawanePunkty = 0
+                        },
+                        new
+                        {
+                            Id = 3L,
+                            FkIdKategoriaOsiagniecia = 3L,
+                            FkIdPrzelicznikKierunkowy = 1L,
+                            PrzyznawanePunkty = 0
+                        },
+                        new
+                        {
+                            Id = 4L,
+                            FkIdKategoriaOsiagniecia = 4L,
+                            FkIdPrzelicznikKierunkowy = 1L,
+                            PrzyznawanePunkty = 0
+                        });
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuViewModel", b =>
@@ -663,6 +716,18 @@ namespace projektowaniaOprogramowania.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("rekrutacje");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            DataOtwarciaRekrutacji = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DataZamknieciaPrzyjec = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
+                            DataZamknieciaRekrutacji = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
+                            SemestrRekrutacji = 1,
+                            StatusRekrutacji = 0,
+                            StopienStudiow = 0
+                        });
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel", b =>
@@ -733,11 +798,6 @@ namespace projektowaniaOprogramowania.Migrations
                 {
                     b.HasBaseType("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel");
 
-                    b.Property<long>("FkIdMatura")
-                        .HasColumnType("bigint");
-
-                    b.HasIndex("FkIdMatura");
-
                     b.ToTable("podania_na_I_stopien");
                 });
 
@@ -759,7 +819,7 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyEmailPotwierdzony = true,
-                            DataZarejestrowania = new DateTime(2024, 1, 6, 10, 27, 7, 478, DateTimeKind.Local).AddTicks(2581),
+                            DataZarejestrowania = new DateTime(2024, 1, 6, 18, 13, 32, 488, DateTimeKind.Local).AddTicks(5269),
                             Email = "testowykandydat@gmail.com",
                             Haslo = "zahaszowaneHaselko",
                             Imie = "Jan",
@@ -883,6 +943,17 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Navigation("PodanieKandydata");
                 });
 
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.MaturaViewModel", b =>
+                {
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieNaIStopienViewModel", "PodanieNaIStopien")
+                        .WithMany()
+                        .HasForeignKey("FkIdPodanieNaIStopien")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("PodanieNaIStopien");
+                });
+
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.OcenaViewModel", b =>
                 {
                     b.HasOne("projektowaniaOprogramowania.ViewModels.PrzedmiotViewModel", "Przedmiot")
@@ -893,7 +964,7 @@ namespace projektowaniaOprogramowania.Migrations
 
                     b.HasOne("projektowaniaOprogramowania.ViewModels.MaturaViewModel", "Matura")
                         .WithMany()
-                        .HasForeignKey("Maturaid")
+                        .HasForeignKey("MaturaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -1019,19 +1090,11 @@ namespace projektowaniaOprogramowania.Migrations
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaIStopienViewModel", b =>
                 {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.MaturaViewModel", "Matura")
-                        .WithMany()
-                        .HasForeignKey("FkIdMatura")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel", null)
                         .WithOne()
                         .HasForeignKey("projektowaniaOprogramowania.ViewModels.PodanieNaIStopienViewModel", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Matura");
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.KandydatViewModel", b =>

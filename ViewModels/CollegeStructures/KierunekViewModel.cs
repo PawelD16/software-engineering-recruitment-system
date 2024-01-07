@@ -56,7 +56,7 @@ namespace projektowaniaOprogramowania.ViewModels.CollegeStructures
 		public int CalculatedRecruitationPoints { get; set; }
 
 		[NotMapped]
-		public int CalculatedProbabilityOfSucessfulRecruitation { get; set; }
+		public float CalculatedProbabilityOfSucessfulRecruitation { get; set; }
 	}
 
     public enum TrybStudiowania

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel>
+
+<div class="container py-5">
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+		<div class="col">
+			@foreach (var kierunek in Model)
+			{
+				<div class="card card-custom">
+					@if (ViewBag.ShouldShowPoints)
+					{
+						<div class="card-header">
+							Szansa: @kierunek.CalculatedProbabilityOfSucessfulRecruitation %
+						</div>
+					}
+					<div class="card-body">
+						<h5 class="card-title">
+							<a href="@Url.Action("Details", "Przeglad", new { kierunekId = kierunek.Id })">@kierunek.NazwaKierunku</a>
+						</h5>
+
+						<div class="progress progress-custom">
+							<div class="progress-bar progress-bar-custom" 
+								role="progressbar" 
+								style="width: 100%"
+								aria-valuenow="@(ViewBag.ShouldShowPoints ? kierunek.CalculatedProbabilityOfSucessfulRecruitation : "0")" 
+								aria-valuemin="0" 
+								aria-valuemax="100">
+							</div>
+						</div>
+					</div>
+					@if (ViewBag.ShouldShowPoints)
+					{
+						<div class="card-footer">
+							Punkty: @kierunek.CalculatedRecruitationPoints
+						</div>
+					}
+				</div>
+			}
+		</div>
+	</div>
+</div>

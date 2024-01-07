@@ -35,19 +35,6 @@ namespace projektowaniaOprogramowania.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "matury",
-                columns: table => new
-                {
-                    Id = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    DataPrzystapieniaDoMatury = table.Column<DateTime>(type: "timestamp without time zone", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_matury", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "miasta",
                 columns: table => new
                 {
@@ -169,33 +156,6 @@ namespace projektowaniaOprogramowania.Migrations
                         name: "FK_pracownicy_osoby_Id",
                         column: x => x.Id,
                         principalTable: "osoby",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "oceny",
-                columns: table => new
-                {
-                    Id = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    WartoscProcentowa = table.Column<int>(type: "integer", nullable: false),
-                    Maturaid = table.Column<long>(type: "bigint", nullable: false),
-                    FkIdPrzedmiot = table.Column<long>(type: "bigint", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_oceny", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_oceny_matury_Maturaid",
-                        column: x => x.Maturaid,
-                        principalTable: "matury",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_oceny_przedmioty_FkIdPrzedmiot",
-                        column: x => x.FkIdPrzedmiot,
-                        principalTable: "przedmioty",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -334,18 +294,11 @@ namespace projektowaniaOprogramowania.Migrations
                 columns: table => new
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    FkIdMatura = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_podania_na_I_stopien", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_podania_na_I_stopien_matury_FkIdMatura",
-                        column: x => x.FkIdMatura,
-                        principalTable: "matury",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_podania_na_I_stopien_podania_kandydatow_Id",
                         column: x => x.Id,
@@ -480,6 +433,26 @@ namespace projektowaniaOprogramowania.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "matury",
+                columns: table => new
+                {
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    DataPrzystapieniaDoMatury = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
+                    FkIdPodanieNaIStopien = table.Column<long>(type: "bigint", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_matury", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_matury_podania_na_I_stopien_FkIdPodanieNaIStopien",
+                        column: x => x.FkIdPodanieNaIStopien,
+                        principalTable: "podania_na_I_stopien",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "dorobei_naukowe",
                 columns: table => new
                 {
@@ -534,6 +507,33 @@ namespace projektowaniaOprogramowania.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "oceny",
+                columns: table => new
+                {
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    WartoscProcentowa = table.Column<int>(type: "integer", nullable: false),
+                    MaturaId = table.Column<long>(type: "bigint", nullable: false),
+                    FkIdPrzedmiot = table.Column<long>(type: "bigint", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_oceny", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_oceny_matury_MaturaId",
+                        column: x => x.MaturaId,
+                        principalTable: "matury",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_oceny_przedmioty_FkIdPrzedmiot",
+                        column: x => x.FkIdPrzedmiot,
+                        principalTable: "przedmioty",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.InsertData(
                 table: "kategorie_dorobku",
                 columns: new[] { "Id", "NazwaKategoriiDorobku" },
@@ -564,7 +564,7 @@ namespace projektowaniaOprogramowania.Migrations
             migrationBuilder.InsertData(
                 table: "osoby",
                 columns: new[] { "Id", "CzyEmailPotwierdzony", "DataZarejestrowania", "Email", "Haslo", "Imie", "Login", "Nazwisko", "NumerPaszportu", "Pesel" },
-                values: new object[] { 1L, true, new DateTime(2024, 1, 6, 10, 27, 7, 478, DateTimeKind.Local).AddTicks(2581), "testowykandydat@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat", "Testowy", null, "59070575419" });
+                values: new object[] { 1L, true, new DateTime(2024, 1, 6, 18, 13, 32, 488, DateTimeKind.Local).AddTicks(5269), "testowykandydat@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat", "Testowy", null, "59070575419" });
 
             migrationBuilder.InsertData(
                 table: "przedmioty",
@@ -572,22 +572,27 @@ namespace projektowaniaOprogramowania.Migrations
                 values: new object[,]
                 {
                     { 2L, "Fizyka podstawowa" },
-                    { 3L, "Chemia podstawowa" },
                     { 16L, "Język obcy rozszerzony" },
-                    { 5L, "Geografia podstawowa" },
-                    { 6L, "Biologia podstawowa" },
-                    { 7L, "Język polski podstawowy" },
-                    { 8L, "Język obcy podstawowy" },
-                    { 9L, "Matematyka rozszerzona" },
-                    { 10L, "Fizyka rozszerzona" },
-                    { 11L, "Chemia rozszerzona" },
-                    { 12L, "Informatyka rozszerzona" },
-                    { 13L, "Geografia rozszerzona" },
-                    { 14L, "Biologia rozszerzona" },
                     { 15L, "Język polski rozszerzony" },
+                    { 14L, "Biologia rozszerzona" },
+                    { 13L, "Geografia rozszerzona" },
+                    { 12L, "Informatyka rozszerzona" },
+                    { 11L, "Chemia rozszerzona" },
                     { 1L, "Matematyka podstawowa" },
-                    { 4L, "Informatyka podstawowa" }
+                    { 10L, "Fizyka rozszerzona" },
+                    { 8L, "Język obcy podstawowy" },
+                    { 7L, "Język polski podstawowy" },
+                    { 6L, "Biologia podstawowa" },
+                    { 4L, "Informatyka podstawowa" },
+                    { 3L, "Chemia podstawowa" },
+                    { 9L, "Matematyka rozszerzona" },
+                    { 5L, "Geografia podstawowa" }
                 });
+
+            migrationBuilder.InsertData(
+                table: "rekrutacje",
+                columns: new[] { "Id", "DataOtwarciaRekrutacji", "DataZamknieciaPrzyjec", "DataZamknieciaRekrutacji", "SemestrRekrutacji", "StatusRekrutacji", "StopienStudiow" },
+                values: new object[] { 1L, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999), new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999), 1, 0, 0 });
 
             migrationBuilder.InsertData(
                 table: "kandydaci",
@@ -608,6 +613,27 @@ namespace projektowaniaOprogramowania.Migrations
                     { 2L, 7, 50, 1300, "informatyka techniczna i telekomunikacja", 1L, 1, "Informatyka Techniczna w j. angielskim", "ogólnoakademicki", "ITA", 1, 0 },
                     { 3L, 7, 0, 1250, "informatyka techniczna i telekomunikacja", 1L, 0, "Informatyczne Systemy Automatyki", "ogólnoakademicki", "ISA", 0, 2 },
                     { 4L, 7, 100, 1350, "informatyka techniczna i telekomunikacja", 1L, 1, "Informatyka Stosowana w j.angielskim", "", "ISTA", 0, 1 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "podania_kandydatow",
+                columns: new[] { "Id", "CzyAktywny", "DataZlozeniaPodania", "FkIdKandydat", "FkIdRekrutacja" },
+                values: new object[] { 1L, true, new DateTime(2024, 1, 6, 18, 13, 32, 490, DateTimeKind.Local).AddTicks(6018), 1L, 1L });
+
+            migrationBuilder.InsertData(
+                table: "przeliczniki_kierunkowe",
+                columns: new[] { "Id", "FkIdKierunek", "MaksymalnaWartoscPrzelicznika" },
+                values: new object[] { 1L, 1L, 530 });
+
+            migrationBuilder.InsertData(
+                table: "przeliczniki_osiagniec",
+                columns: new[] { "Id", "FkIdKategoriaOsiagniecia", "FkIdPrzelicznikKierunkowy", "PrzyznawanePunkty" },
+                values: new object[,]
+                {
+                    { 1L, 1L, 1L, 0 },
+                    { 2L, 2L, 1L, 0 },
+                    { 3L, 3L, 1L, 0 },
+                    { 4L, 4L, 1L, 0 }
                 });
 
             migrationBuilder.CreateIndex(
@@ -652,14 +678,19 @@ namespace projektowaniaOprogramowania.Migrations
                 column: "FkIdPodanieKandydata");
 
             migrationBuilder.CreateIndex(
+                name: "IX_matury_FkIdPodanieNaIStopien",
+                table: "matury",
+                column: "FkIdPodanieNaIStopien");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_oceny_FkIdPrzedmiot",
                 table: "oceny",
                 column: "FkIdPrzedmiot");
 
             migrationBuilder.CreateIndex(
-                name: "IX_oceny_Maturaid",
+                name: "IX_oceny_MaturaId",
                 table: "oceny",
-                column: "Maturaid");
+                column: "MaturaId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_podania_kandydatow_FkIdKandydat",
@@ -670,11 +701,6 @@ namespace projektowaniaOprogramowania.Migrations
                 name: "IX_podania_kandydatow_FkIdRekrutacja",
                 table: "podania_kandydatow",
                 column: "FkIdRekrutacja");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_podania_na_I_stopien_FkIdMatura",
-                table: "podania_na_I_stopien",
-                column: "FkIdMatura");
 
             migrationBuilder.CreateIndex(
                 name: "IX_pracownicy_NumerPracownika",
@@ -748,9 +774,6 @@ namespace projektowaniaOprogramowania.Migrations
                 name: "oceny");
 
             migrationBuilder.DropTable(
-                name: "podania_na_I_stopien");
-
-            migrationBuilder.DropTable(
                 name: "pracownicy_dzialu_rekrutacji_na_podania_kandydata");
 
             migrationBuilder.DropTable(
@@ -784,7 +807,7 @@ namespace projektowaniaOprogramowania.Migrations
                 name: "przeliczniki_kierunkowe");
 
             migrationBuilder.DropTable(
-                name: "podania_kandydatow");
+                name: "podania_na_I_stopien");
 
             migrationBuilder.DropTable(
                 name: "pracownicy");
@@ -793,19 +816,22 @@ namespace projektowaniaOprogramowania.Migrations
                 name: "kierunki");
 
             migrationBuilder.DropTable(
+                name: "podania_kandydatow");
+
+            migrationBuilder.DropTable(
+                name: "wydzialy");
+
+            migrationBuilder.DropTable(
                 name: "kandydaci");
 
             migrationBuilder.DropTable(
                 name: "rekrutacje");
 
             migrationBuilder.DropTable(
-                name: "wydzialy");
+                name: "miasta");
 
             migrationBuilder.DropTable(
                 name: "osoby");
-
-            migrationBuilder.DropTable(
-                name: "miasta");
         }
     }
 }
