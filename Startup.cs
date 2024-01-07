@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using projektowaniaOprogramowania.Models;
 using projektowaniaOprogramowania.Services;
+using projektowaniaOprogramowania.Services.Recrutation;
 
 namespace projektowaniaOprogramowania
 {
@@ -40,7 +41,9 @@ namespace projektowaniaOprogramowania
                 options.Cookie.IsEssential = true;
             });
 
-			services.AddScoped<PunktyRekrutacyjneService>();
+			services
+                .AddScoped<PunktyRekrutacyjneService>()
+                .AddScoped<IRecruitmentValidationService, RecruitmentValidationService>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
