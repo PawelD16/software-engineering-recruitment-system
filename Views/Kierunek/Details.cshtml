@@ -1,0 +1,91 @@
+@model projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>KierunekViewModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NazwaKierunku)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NazwaKierunku)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SkrotKierunku)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SkrotKierunku)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ProfilKierunku)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ProfilKierunku)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Czesne)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Czesne)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CzesneDlaCudzoziemcow)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CzesneDlaCudzoziemcow)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CzasTrwaniaWSemestrach)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CzasTrwaniaWSemestrach)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dyscyplina)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Dyscyplina)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Jezyk)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Jezyk)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StopienStudiow)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StopienStudiow)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TrybStudiowania)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TrybStudiowania)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Wydzial)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Wydzial.NazwaWydzialu)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Przelicznik)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Przelicznik.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

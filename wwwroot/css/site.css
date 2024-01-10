@@ -126,3 +126,7 @@ body {
     color: white;
     border-color: var(--dark);
 }
+option {
+    background-color: var(--background);
+}
+

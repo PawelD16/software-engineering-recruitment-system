@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using System;
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using projektowaniaOprogramowania.ViewModels.Users;
@@ -69,19 +70,24 @@ namespace projektowaniaOprogramowania.Models
                 new KategoriaDorobkuViewModel() { Id = 3, NazwaKategoriiDorobku = "Publikacja patentu" },
                 new KategoriaDorobkuViewModel() { Id = 4, NazwaKategoriiDorobku = "Rysunek architektoniczny" }
             );
+            
 
-            modelBuilder.Entity<KategoriaOsiagnieciaViewModel>().HasData(
-                new KategoriaOsiagnieciaViewModel() { Id = 1, NazwaKategorii = "Laureat konkursu - przedmiot ścisły" },
-                new KategoriaOsiagnieciaViewModel() { Id = 2, NazwaKategorii = "Laureat konkursu - przedmiot humanistyczny" },
-                new KategoriaOsiagnieciaViewModel() { Id = 3, NazwaKategorii = "Paszport Polsatu" },
-                new KategoriaOsiagnieciaViewModel() { Id = 4, NazwaKategorii = "Nagroda Nobla" }
-            );
-
-            var przelicznikKierunkowy = new PrzelicznikKierunkowyViewModel()
+            var przelicznikKierunkowy = new List<PrzelicznikKierunkowyViewModel>
             {
-                Id = 1,
-                FkIdKierunek = 1,
-                MaksymalnaWartoscPrzelicznika = 530
+	            new PrzelicznikKierunkowyViewModel()
+	            {
+		            MaksymalnaWartoscPrzelicznika = 1,
+		            Id = 1,
+		            PrzelicznikDorobku = null,
+		            // PrzelicznikPrzemiotu = przelicznikiPrzedmiotow
+	            },
+	            new PrzelicznikKierunkowyViewModel()
+	            {
+		            MaksymalnaWartoscPrzelicznika = 1,
+		            Id = 2,
+		            // PrzelicznikDorobku = null,
+		            // PrzelicznikPrzemiotu = new List<PrzelicznikPrzedmiotuViewModel>(){przelicznikiPrzedmiotow[0]}
+	            }
             };
 
             modelBuilder.Entity<PrzelicznikKierunkowyViewModel>().HasData(przelicznikKierunkowy);
@@ -91,28 +97,28 @@ namespace projektowaniaOprogramowania.Models
                 {
                     Id = 1,
                     FkIdKategoriaOsiagniecia = 1,
-                    FkIdPrzelicznikKierunkowy = przelicznikKierunkowy.Id,
+                    FkIdPrzelicznikKierunkowy = przelicznikKierunkowy[0].Id,
                     
                 },
                 new PrzelicznikOsiagniecViewModel()
                 {
                     Id = 2,
                     FkIdKategoriaOsiagniecia = 2,
-					FkIdPrzelicznikKierunkowy = przelicznikKierunkowy.Id,
+					FkIdPrzelicznikKierunkowy = przelicznikKierunkowy[1].Id,
 
 				},
                 new PrzelicznikOsiagniecViewModel()
                 {
                     Id = 3,
                     FkIdKategoriaOsiagniecia = 3,
-					FkIdPrzelicznikKierunkowy = przelicznikKierunkowy.Id,
+					FkIdPrzelicznikKierunkowy = przelicznikKierunkowy[0].Id,
 
 				},
                 new PrzelicznikOsiagniecViewModel()
                 {
                     Id = 4,
                     FkIdKategoriaOsiagniecia = 4,
-					FkIdPrzelicznikKierunkowy = przelicznikKierunkowy.Id,
+					FkIdPrzelicznikKierunkowy = przelicznikKierunkowy[1].Id,
 				}
 			);
 
@@ -121,74 +127,127 @@ namespace projektowaniaOprogramowania.Models
 
             modelBuilder.Entity<MiastoViewModel>().HasData(miasto);
 
+			modelBuilder.Entity<KategoriaOsiagnieciaViewModel>().HasData(
+				new KategoriaOsiagnieciaViewModel() { Id = 1, NazwaKategorii = "Laureat konkursu - przedmiot ścisły" },
+				new KategoriaOsiagnieciaViewModel()
+					{ Id = 2, NazwaKategorii = "Laureat konkursu - przedmiot humanistyczny" },
+				new KategoriaOsiagnieciaViewModel() { Id = 3, NazwaKategorii = "Paszport Polsatu" },
+				new KategoriaOsiagnieciaViewModel() { Id = 4, NazwaKategorii = "Nagroda Nobla" }
+			);
+			
             WydzialViewModel wydzial = new() { Id = 1, MiastoId = (long)miasto.Id, NazwaWydzialu = "Wydział Informatyki i Telekomunikacji", NumerWydzialu = "W04n" };
-
+            
             modelBuilder.Entity<WydzialViewModel>().HasData(wydzial);
+		
+		var przelicznikiPrzedmiotow = new List<PrzelicznikPrzedmiotuViewModel>
+		{
+			new PrzelicznikPrzedmiotuViewModel()
+			{
+				Id = 1,
+				Wspolczynnik = 0.2f,
+				FkIdPrzedmiot = 1,
+				FkIdPrzelicznikKierunkowy = 1
+			},
+			new PrzelicznikPrzedmiotuViewModel()
+			{
+				Id = 2,
+				Wspolczynnik = 0.5f,
+				FkIdPrzedmiot = 2,
+				FkIdPrzelicznikKierunkowy = 1,
+			},
+			new PrzelicznikPrzedmiotuViewModel()
+			{
+				Id = 3,
+				Wspolczynnik = 0.7f,
+				FkIdPrzedmiot = 3,
+				FkIdPrzelicznikKierunkowy = 1,
+			}
+		};
 
-            modelBuilder.Entity<KierunekViewModel>().HasData(
-                new KierunekViewModel()
-                {
-                    Id = 1,
-                    CzasTrwaniaWSemestrach = 7,
-                    Czesne = 0,
-                    CzesneDlaCudzoziemcow = 1250,
-                    Dyscyplina = "informatyka techniczna i telekomunikacja",
-                    FkIdWydzial = (long)wydzial.Id,
-                    Jezyk = Jezyk.Polski,
-                    NazwaKierunku = "Informatyka Stosowana",
-                    ProfilKierunku = "ogólnoakademicki",
-                    SkrotKierunku = "IST",
-                    StopienStudiow = StopienStudiow.Pierwszy,
-                    TrybStudiowania = TrybStudiowania.Stacjonarne,
-                },
-                new KierunekViewModel()
-                {
-                    Id = 2,
-                    CzasTrwaniaWSemestrach = 7,
-                    Czesne = 50,
-                    CzesneDlaCudzoziemcow = 1300,
-                    Dyscyplina = "informatyka techniczna i telekomunikacja",
-                    FkIdWydzial = (long)wydzial.Id,
-                    Jezyk = Jezyk.Angielski,
-                    NazwaKierunku = "Informatyka Techniczna w j. angielskim",
-                    ProfilKierunku = "ogólnoakademicki",
-                    SkrotKierunku = "ITA",
-                    StopienStudiow = StopienStudiow.Drugi,
-                    TrybStudiowania = TrybStudiowania.Stacjonarne,
-                },
-                new KierunekViewModel()
-                {
-                    Id = 3,
-                    CzasTrwaniaWSemestrach = 7,
-                    Czesne = 0,
-                    CzesneDlaCudzoziemcow = 1250,
-                    Dyscyplina = "informatyka techniczna i telekomunikacja",
-                    FkIdWydzial = (long)wydzial.Id,
-                    Jezyk = Jezyk.Polski,
-                    NazwaKierunku = "Informatyczne Systemy Automatyki",
-                    ProfilKierunku = "ogólnoakademicki",
-                    SkrotKierunku = "ISA",
-                    StopienStudiow = StopienStudiow.Pierwszy,
-                    TrybStudiowania = TrybStudiowania.Mieszane,
-                },
-                new KierunekViewModel()
-                {
-                    Id = 4,
-                    CzasTrwaniaWSemestrach = 7,
-                    Czesne = 100,
-                    CzesneDlaCudzoziemcow = 1350,
-                    Dyscyplina = "informatyka techniczna i telekomunikacja",
-                    FkIdWydzial = (long)wydzial.Id,
-                    Jezyk = Jezyk.Angielski,
-                    NazwaKierunku = "Informatyka Stosowana w j.angielskim",
-                    ProfilKierunku = "",
-                    SkrotKierunku = "ISTA",
-                    StopienStudiow = StopienStudiow.Pierwszy,
-                    TrybStudiowania = TrybStudiowania.Zdalne,
-                }
-            );
+		modelBuilder.Entity<PrzelicznikPrzedmiotuViewModel>().HasData(przelicznikiPrzedmiotow);
 
-            modelBuilder.Entity<PodanieKandydataViewModel>().HasData(
+			// modelBuilder.Entity<PrzelicznikPrzedmiotuViewModel>().HasData(
+			// 	new PrzelicznikPrzedmiotuViewModel()
+			// {
+			// 	Id = 1,
+			// 	Wspolczynnik = 0.2f,
+			// 	FkIdPrzedmiot = 1,
+			// 	Przedmiot = przedmiot
+			// });
+			
+			
+			
+			
+			modelBuilder.Entity<KierunekViewModel>().HasData(
+				new KierunekViewModel()
+				{
+					Id = 1,
+					CzasTrwaniaWSemestrach = 7,
+					Czesne = 0,
+					CzesneDlaCudzoziemcow = 1250,
+					Dyscyplina = "informatyka techniczna i telekomunikacja",
+					FkIdWydzial = wydzial.Id,
+					Jezyk = Jezyk.Polski,
+					NazwaKierunku = "Informatyka Stosowana",
+					ProfilKierunku = "ogólnoakademicki",
+					SkrotKierunku = "IST",
+					StopienStudiow = StopienStudiow.Pierwszy,
+					TrybStudiowania = TrybStudiowania.Stacjonarne,
+					FkIdPrzelicznik = 1
+				},
+				new KierunekViewModel()
+				{
+					Id = 2,
+					CzasTrwaniaWSemestrach = 7,
+					Czesne = 50,
+					CzesneDlaCudzoziemcow = 1300,
+					Dyscyplina = "informatyka techniczna i telekomunikacja",
+					FkIdWydzial = wydzial.Id,
+					Jezyk = Jezyk.Angielski,
+					NazwaKierunku = "Informatyka Techniczna w j. angielskim",
+					ProfilKierunku = "ogólnoakademicki",
+					SkrotKierunku = "ITA",
+					StopienStudiow = StopienStudiow.Drugi,
+					TrybStudiowania = TrybStudiowania.Stacjonarne,
+					FkIdPrzelicznik = 2
+
+				},
+				new KierunekViewModel()
+				{
+					Id = 3,
+					CzasTrwaniaWSemestrach = 7,
+					Czesne = 0,
+					CzesneDlaCudzoziemcow = 1250,
+					Dyscyplina = "informatyka techniczna i telekomunikacja",
+					FkIdWydzial = wydzial.Id,
+					Jezyk = Jezyk.Polski,
+					NazwaKierunku = "Informatyczne Systemy Automatyki",
+					ProfilKierunku = "ogólnoakademicki",
+					SkrotKierunku = "ISA",
+					StopienStudiow = StopienStudiow.Pierwszy,
+					TrybStudiowania = TrybStudiowania.Mieszane,
+					FkIdPrzelicznik = 1
+
+				},
+				new KierunekViewModel()
+				{
+					Id = 4,
+					CzasTrwaniaWSemestrach = 7,
+					Czesne = 100,
+					CzesneDlaCudzoziemcow = 1350,
+					Dyscyplina = "informatyka techniczna i telekomunikacja",
+					FkIdWydzial = wydzial.Id,
+					Jezyk = Jezyk.Angielski,
+					NazwaKierunku = "Informatyka Stosowana w j.angielskim",
+					ProfilKierunku = "",
+					SkrotKierunku = "ISTA",
+					StopienStudiow = StopienStudiow.Pierwszy,
+					TrybStudiowania = TrybStudiowania.Zdalne,
+					FkIdPrzelicznik = 2
+				}
+			);
+		
+			 modelBuilder.Entity<PodanieKandydataViewModel>().HasData(
                 new PodanieKandydataViewModel()
                 {
                     Id = 1,

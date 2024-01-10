@@ -4,7 +4,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace projektowaniaOprogramowania.Migrations
 {
-    public partial class Init : Migration
+    public partial class ReInitialMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -79,6 +79,19 @@ namespace projektowaniaOprogramowania.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_przedmioty", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "przeliczniki_kierunkowe",
+                columns: table => new
+                {
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    MaksymalnaWartoscPrzelicznika = table.Column<int>(type: "integer", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_przeliczniki_kierunkowe", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -161,6 +174,87 @@ namespace projektowaniaOprogramowania.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "przeliczniki_dorobku",
+                columns: table => new
+                {
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    PrzyznawanePunkty = table.Column<int>(type: "integer", nullable: false),
+                    FkIdKategoriaDorobku = table.Column<long>(type: "bigint", nullable: false),
+                    FkIdPrzelicznikKierunkowy = table.Column<long>(type: "bigint", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_przeliczniki_dorobku", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_przeliczniki_dorobku_kategorie_dorobku_FkIdKategoriaDorobku",
+                        column: x => x.FkIdKategoriaDorobku,
+                        principalTable: "kategorie_dorobku",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_przeliczniki_dorobku_przeliczniki_kierunkowe_FkIdPrzeliczni~",
+                        column: x => x.FkIdPrzelicznikKierunkowy,
+                        principalTable: "przeliczniki_kierunkowe",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "przeliczniki_osiagniec",
+                columns: table => new
+                {
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    PrzyznawanePunkty = table.Column<int>(type: "integer", nullable: false),
+                    FkIdPrzelicznikKierunkowy = table.Column<long>(type: "bigint", nullable: false),
+                    FkIdKategoriaOsiagniecia = table.Column<long>(type: "bigint", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_przeliczniki_osiagniec", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_przeliczniki_osiagniec_kategorie_osiagniecia_FkIdKategoriaO~",
+                        column: x => x.FkIdKategoriaOsiagniecia,
+                        principalTable: "kategorie_osiagniecia",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_przeliczniki_osiagniec_przeliczniki_kierunkowe_FkIdPrzelicz~",
+                        column: x => x.FkIdPrzelicznikKierunkowy,
+                        principalTable: "przeliczniki_kierunkowe",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "przeliczniki_przedmiotu",
+                columns: table => new
+                {
+                    Id = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Wspolczynnik = table.Column<float>(type: "real", nullable: false),
+                    FkIdPrzedmiot = table.Column<long>(type: "bigint", nullable: false),
+                    FkIdPrzelicznikKierunkowy = table.Column<long>(type: "bigint", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_przeliczniki_przedmiotu", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_przeliczniki_przedmiotu_przedmioty_FkIdPrzedmiot",
+                        column: x => x.FkIdPrzedmiot,
+                        principalTable: "przedmioty",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_przeliczniki_przedmiotu_przeliczniki_kierunkowe_FkIdPrzelic~",
+                        column: x => x.FkIdPrzelicznikKierunkowy,
+                        principalTable: "przeliczniki_kierunkowe",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "kierunki",
                 columns: table => new
                 {
@@ -176,11 +270,18 @@ namespace projektowaniaOprogramowania.Migrations
                     Jezyk = table.Column<int>(type: "integer", maxLength: 20, nullable: false),
                     StopienStudiow = table.Column<int>(type: "integer", maxLength: 20, nullable: false),
                     TrybStudiowania = table.Column<int>(type: "integer", nullable: false),
-                    FkIdWydzial = table.Column<long>(type: "bigint", nullable: false)
+                    FkIdWydzial = table.Column<long>(type: "bigint", nullable: false),
+                    FkIdPrzelicznik = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_kierunki", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_kierunki_przeliczniki_kierunkowe_FkIdPrzelicznik",
+                        column: x => x.FkIdPrzelicznik,
+                        principalTable: "przeliczniki_kierunkowe",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_kierunki_wydzialy_FkIdWydzial",
                         column: x => x.FkIdWydzial,
@@ -243,21 +344,29 @@ namespace projektowaniaOprogramowania.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "przeliczniki_kierunkowe",
+                name: "dodatkowe_osiagniecia",
                 columns: table => new
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    MaksymalnaWartoscPrzelicznika = table.Column<int>(type: "integer", nullable: false),
-                    FkIdKierunek = table.Column<long>(type: "bigint", nullable: false)
+                    DataZdobycia = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
+                    Opis = table.Column<string>(type: "character varying(1000000)", maxLength: 1000000, nullable: false),
+                    FkIdPodanieKandydata = table.Column<long>(type: "bigint", nullable: false),
+                    FkIdPrzelicznikOsiagniec = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_przeliczniki_kierunkowe", x => x.Id);
+                    table.PrimaryKey("PK_dodatkowe_osiagniecia", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_przeliczniki_kierunkowe_kierunki_FkIdKierunek",
-                        column: x => x.FkIdKierunek,
-                        principalTable: "kierunki",
+                        name: "FK_dodatkowe_osiagniecia_podania_kandydatow_FkIdPodanieKandyda~",
+                        column: x => x.FkIdPodanieKandydata,
+                        principalTable: "podania_kandydatow",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_dodatkowe_osiagniecia_przeliczniki_osiagniec_FkIdPrzeliczni~",
+                        column: x => x.FkIdPrzelicznikOsiagniec,
+                        principalTable: "przeliczniki_osiagniec",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -352,87 +461,6 @@ namespace projektowaniaOprogramowania.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "przeliczniki_dorobku",
-                columns: table => new
-                {
-                    Id = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    PrzyznawanePunkty = table.Column<int>(type: "integer", nullable: false),
-                    FkIdKategoriaDorobku = table.Column<long>(type: "bigint", nullable: false),
-                    FkIdPrzelicznikKierunkowy = table.Column<long>(type: "bigint", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_przeliczniki_dorobku", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_przeliczniki_dorobku_kategorie_dorobku_FkIdKategoriaDorobku",
-                        column: x => x.FkIdKategoriaDorobku,
-                        principalTable: "kategorie_dorobku",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_przeliczniki_dorobku_przeliczniki_kierunkowe_FkIdPrzeliczni~",
-                        column: x => x.FkIdPrzelicznikKierunkowy,
-                        principalTable: "przeliczniki_kierunkowe",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "przeliczniki_osiagniec",
-                columns: table => new
-                {
-                    Id = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    PrzyznawanePunkty = table.Column<int>(type: "integer", nullable: false),
-                    FkIdPrzelicznikKierunkowy = table.Column<long>(type: "bigint", nullable: false),
-                    FkIdKategoriaOsiagniecia = table.Column<long>(type: "bigint", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_przeliczniki_osiagniec", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_przeliczniki_osiagniec_kategorie_osiagniecia_FkIdKategoriaO~",
-                        column: x => x.FkIdKategoriaOsiagniecia,
-                        principalTable: "kategorie_osiagniecia",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_przeliczniki_osiagniec_przeliczniki_kierunkowe_FkIdPrzelicz~",
-                        column: x => x.FkIdPrzelicznikKierunkowy,
-                        principalTable: "przeliczniki_kierunkowe",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "przeliczniki_przedmiotu",
-                columns: table => new
-                {
-                    Id = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Wspolczynnik = table.Column<float>(type: "real", nullable: false),
-                    FkIdPrzedmiot = table.Column<long>(type: "bigint", nullable: false),
-                    FkIdPrzelicznikKierunkowy = table.Column<long>(type: "bigint", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_przeliczniki_przedmiotu", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_przeliczniki_przedmiotu_przedmioty_FkIdPrzedmiot",
-                        column: x => x.FkIdPrzedmiot,
-                        principalTable: "przedmioty",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_przeliczniki_przedmiotu_przeliczniki_kierunkowe_FkIdPrzelic~",
-                        column: x => x.FkIdPrzelicznikKierunkowy,
-                        principalTable: "przeliczniki_kierunkowe",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "matury",
                 columns: table => new
                 {
@@ -475,34 +503,6 @@ namespace projektowaniaOprogramowania.Migrations
                         name: "FK_dorobei_naukowe_podania_na_II_stopien_FkIdPodanieNaIIStopien",
                         column: x => x.FkIdPodanieNaIIStopien,
                         principalTable: "podania_na_II_stopien",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "dodatkowe_osiagniecia",
-                columns: table => new
-                {
-                    Id = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    DataZdobycia = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
-                    Opis = table.Column<string>(type: "character varying(1000000)", maxLength: 1000000, nullable: false),
-                    FkIdPodanieKandydata = table.Column<long>(type: "bigint", nullable: false),
-                    FkIdPrzelicznikOsiagniec = table.Column<long>(type: "bigint", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_dodatkowe_osiagniecia", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_dodatkowe_osiagniecia_podania_kandydatow_FkIdPodanieKandyda~",
-                        column: x => x.FkIdPodanieKandydata,
-                        principalTable: "podania_kandydatow",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_dodatkowe_osiagniecia_przeliczniki_osiagniec_FkIdPrzeliczni~",
-                        column: x => x.FkIdPrzelicznikOsiagniec,
-                        principalTable: "przeliczniki_osiagniec",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -564,7 +564,7 @@ namespace projektowaniaOprogramowania.Migrations
             migrationBuilder.InsertData(
                 table: "osoby",
                 columns: new[] { "Id", "CzyEmailPotwierdzony", "DataZarejestrowania", "Email", "Haslo", "Imie", "Login", "Nazwisko", "NumerPaszportu", "Pesel" },
-                values: new object[] { 1L, true, new DateTime(2024, 1, 6, 18, 13, 32, 488, DateTimeKind.Local).AddTicks(5269), "testowykandydat@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat", "Testowy", null, "59070575419" });
+                values: new object[] { 1L, true, new DateTime(2024, 1, 10, 23, 41, 27, 459, DateTimeKind.Local).AddTicks(346), "testowykandydat@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat", "Testowy", null, "59070575419" });
 
             migrationBuilder.InsertData(
                 table: "przedmioty",
@@ -577,16 +577,25 @@ namespace projektowaniaOprogramowania.Migrations
                     { 14L, "Biologia rozszerzona" },
                     { 13L, "Geografia rozszerzona" },
                     { 12L, "Informatyka rozszerzona" },
-                    { 11L, "Chemia rozszerzona" },
                     { 1L, "Matematyka podstawowa" },
                     { 10L, "Fizyka rozszerzona" },
+                    { 11L, "Chemia rozszerzona" },
                     { 8L, "Język obcy podstawowy" },
                     { 7L, "Język polski podstawowy" },
-                    { 6L, "Biologia podstawowa" },
+                    { 5L, "Geografia podstawowa" },
                     { 4L, "Informatyka podstawowa" },
                     { 3L, "Chemia podstawowa" },
                     { 9L, "Matematyka rozszerzona" },
-                    { 5L, "Geografia podstawowa" }
+                    { 6L, "Biologia podstawowa" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "przeliczniki_kierunkowe",
+                columns: new[] { "Id", "MaksymalnaWartoscPrzelicznika" },
+                values: new object[,]
+                {
+                    { 1L, 1 },
+                    { 2L, 1 }
                 });
 
             migrationBuilder.InsertData(
@@ -600,41 +609,46 @@ namespace projektowaniaOprogramowania.Migrations
                 values: new object[] { 1L, "5907057541" });
 
             migrationBuilder.InsertData(
+                table: "przeliczniki_osiagniec",
+                columns: new[] { "Id", "FkIdKategoriaOsiagniecia", "FkIdPrzelicznikKierunkowy", "PrzyznawanePunkty" },
+                values: new object[,]
+                {
+                    { 1L, 1L, 1L, 0 },
+                    { 3L, 3L, 1L, 0 },
+                    { 2L, 2L, 2L, 0 },
+                    { 4L, 4L, 2L, 0 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "przeliczniki_przedmiotu",
+                columns: new[] { "Id", "FkIdPrzedmiot", "FkIdPrzelicznikKierunkowy", "Wspolczynnik" },
+                values: new object[,]
+                {
+                    { 1L, 1L, 1L, 0.2f },
+                    { 2L, 2L, 1L, 0.5f },
+                    { 3L, 3L, 1L, 0.7f }
+                });
+
+            migrationBuilder.InsertData(
                 table: "wydzialy",
                 columns: new[] { "Id", "MiastoId", "NazwaWydzialu", "NumerWydzialu" },
                 values: new object[] { 1L, 1L, "Wydział Informatyki i Telekomunikacji", "W04n" });
 
             migrationBuilder.InsertData(
                 table: "kierunki",
-                columns: new[] { "Id", "CzasTrwaniaWSemestrach", "Czesne", "CzesneDlaCudzoziemcow", "Dyscyplina", "FkIdWydzial", "Jezyk", "NazwaKierunku", "ProfilKierunku", "SkrotKierunku", "StopienStudiow", "TrybStudiowania" },
+                columns: new[] { "Id", "CzasTrwaniaWSemestrach", "Czesne", "CzesneDlaCudzoziemcow", "Dyscyplina", "FkIdPrzelicznik", "FkIdWydzial", "Jezyk", "NazwaKierunku", "ProfilKierunku", "SkrotKierunku", "StopienStudiow", "TrybStudiowania" },
                 values: new object[,]
                 {
-                    { 1L, 7, 0, 1250, "informatyka techniczna i telekomunikacja", 1L, 0, "Informatyka Stosowana", "ogólnoakademicki", "IST", 0, 0 },
-                    { 2L, 7, 50, 1300, "informatyka techniczna i telekomunikacja", 1L, 1, "Informatyka Techniczna w j. angielskim", "ogólnoakademicki", "ITA", 1, 0 },
-                    { 3L, 7, 0, 1250, "informatyka techniczna i telekomunikacja", 1L, 0, "Informatyczne Systemy Automatyki", "ogólnoakademicki", "ISA", 0, 2 },
-                    { 4L, 7, 100, 1350, "informatyka techniczna i telekomunikacja", 1L, 1, "Informatyka Stosowana w j.angielskim", "", "ISTA", 0, 1 }
+                    { 1L, 7, 0, 1250, "informatyka techniczna i telekomunikacja", 1L, 1L, 0, "Informatyka Stosowana", "ogólnoakademicki", "IST", 0, 0 },
+                    { 2L, 7, 50, 1300, "informatyka techniczna i telekomunikacja", 2L, 1L, 1, "Informatyka Techniczna w j. angielskim", "ogólnoakademicki", "ITA", 1, 0 },
+                    { 3L, 7, 0, 1250, "informatyka techniczna i telekomunikacja", 1L, 1L, 0, "Informatyczne Systemy Automatyki", "ogólnoakademicki", "ISA", 0, 2 },
+                    { 4L, 7, 100, 1350, "informatyka techniczna i telekomunikacja", 2L, 1L, 1, "Informatyka Stosowana w j.angielskim", "", "ISTA", 0, 1 }
                 });
 
             migrationBuilder.InsertData(
                 table: "podania_kandydatow",
                 columns: new[] { "Id", "CzyAktywny", "DataZlozeniaPodania", "FkIdKandydat", "FkIdRekrutacja" },
-                values: new object[] { 1L, true, new DateTime(2024, 1, 6, 18, 13, 32, 490, DateTimeKind.Local).AddTicks(6018), 1L, 1L });
-
-            migrationBuilder.InsertData(
-                table: "przeliczniki_kierunkowe",
-                columns: new[] { "Id", "FkIdKierunek", "MaksymalnaWartoscPrzelicznika" },
-                values: new object[] { 1L, 1L, 530 });
-
-            migrationBuilder.InsertData(
-                table: "przeliczniki_osiagniec",
-                columns: new[] { "Id", "FkIdKategoriaOsiagniecia", "FkIdPrzelicznikKierunkowy", "PrzyznawanePunkty" },
-                values: new object[,]
-                {
-                    { 1L, 1L, 1L, 0 },
-                    { 2L, 2L, 1L, 0 },
-                    { 3L, 3L, 1L, 0 },
-                    { 4L, 4L, 1L, 0 }
-                });
+                values: new object[] { 1L, true, new DateTime(2024, 1, 10, 23, 41, 27, 463, DateTimeKind.Local).AddTicks(1445), 1L, 1L });
 
             migrationBuilder.CreateIndex(
                 name: "IX_dodatkowe_osiagniecia_FkIdPodanieKandydata",
@@ -661,6 +675,11 @@ namespace projektowaniaOprogramowania.Migrations
                 table: "kandydaci",
                 column: "NumerKandydata",
                 unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_kierunki_FkIdPrzelicznik",
+                table: "kierunki",
+                column: "FkIdPrzelicznik");
 
             migrationBuilder.CreateIndex(
                 name: "IX_kierunki_FkIdWydzial",
@@ -729,11 +748,6 @@ namespace projektowaniaOprogramowania.Migrations
                 column: "FkIdPrzelicznikKierunkowy");
 
             migrationBuilder.CreateIndex(
-                name: "IX_przeliczniki_kierunkowe_FkIdKierunek",
-                table: "przeliczniki_kierunkowe",
-                column: "FkIdKierunek");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_przeliczniki_osiagniec_FkIdKategoriaOsiagniecia",
                 table: "przeliczniki_osiagniec",
                 column: "FkIdKategoriaOsiagniecia");
@@ -789,6 +803,9 @@ namespace projektowaniaOprogramowania.Migrations
                 name: "podania_na_II_stopien");
 
             migrationBuilder.DropTable(
+                name: "kierunki");
+
+            migrationBuilder.DropTable(
                 name: "matury");
 
             migrationBuilder.DropTable(
@@ -813,22 +830,19 @@ namespace projektowaniaOprogramowania.Migrations
                 name: "pracownicy");
 
             migrationBuilder.DropTable(
-                name: "kierunki");
+                name: "wydzialy");
 
             migrationBuilder.DropTable(
                 name: "podania_kandydatow");
 
             migrationBuilder.DropTable(
-                name: "wydzialy");
+                name: "miasta");
 
             migrationBuilder.DropTable(
                 name: "kandydaci");
 
             migrationBuilder.DropTable(
                 name: "rekrutacje");
-
-            migrationBuilder.DropTable(
-                name: "miasta");
 
             migrationBuilder.DropTable(
                 name: "osoby");

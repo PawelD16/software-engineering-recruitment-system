@@ -1,0 +1,90 @@
+@model projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>KierunekViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="NazwaKierunku" class="control-label"></label>
+                <input asp-for="NazwaKierunku" class="form-control" />
+                <span asp-validation-for="NazwaKierunku" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SkrotKierunku" class="control-label"></label>
+                <input asp-for="SkrotKierunku" class="form-control" />
+                <span asp-validation-for="SkrotKierunku" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProfilKierunku" class="control-label"></label>
+                <input asp-for="ProfilKierunku" class="form-control" />
+                <span asp-validation-for="ProfilKierunku" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Czesne" class="control-label"></label>
+                <input asp-for="Czesne" class="form-control" />
+                <span asp-validation-for="Czesne" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CzesneDlaCudzoziemcow" class="control-label"></label>
+                <input asp-for="CzesneDlaCudzoziemcow" class="form-control" />
+                <span asp-validation-for="CzesneDlaCudzoziemcow" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CzasTrwaniaWSemestrach" class="control-label"></label>
+                <input asp-for="CzasTrwaniaWSemestrach" class="form-control" />
+                <span asp-validation-for="CzasTrwaniaWSemestrach" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dyscyplina" class="control-label"></label>
+                <input asp-for="Dyscyplina" class="form-control" />
+                <span asp-validation-for="Dyscyplina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Jezyk" class="control-label"></label>
+                <select asp-for="Jezyk" class="form-control"></select>
+                <span asp-validation-for="Jezyk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StopienStudiow" class="control-label"></label>
+                <select asp-for="StopienStudiow" class="form-control"></select>
+                <span asp-validation-for="StopienStudiow" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TrybStudiowania" class="control-label"></label>
+                <select asp-for="TrybStudiowania" class="form-control"></select>
+                <span asp-validation-for="TrybStudiowania" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FkIdWydzial" class="control-label"></label>
+                <select asp-for="FkIdWydzial" class="form-control" asp-items="ViewBag.FkIdWydzial"></select>
+                <span asp-validation-for="FkIdWydzial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FkIdPrzelicznik" class="control-label"></label>
+                <select asp-for="FkIdPrzelicznik" class="form-control" asp-items="ViewBag.FkIdPrzelicznik"></select>
+                <span asp-validation-for="FkIdPrzelicznik" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
