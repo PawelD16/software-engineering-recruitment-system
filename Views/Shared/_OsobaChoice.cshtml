@@ -1,31 +1,33 @@
 ﻿@model IEnumerable<projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel>
 
-<select id="userSelect" class="form-control" onchange="authenticateUser()">
+<ul id="userList" class="list-group">
     @foreach (var user in Model)
     {
-        <option value="@user.Id">@user.Imie @user.Nazwisko</option>
+        <li class="list-group-item" data-id="@user.Id">@user.Imie @user.Nazwisko</li>
     }
-</select>
+</ul>
 
 <script type="text/javascript">
-    function authenticateUser() {
-        var userId = $('#userSelect').val();
+    $(document).ready(function () {
+        // Attach click event handler to list items
+        $('#userList li').click(function () {
+            var userId = $(this).data('id');
 
-        $.ajax({
-            url: '@Url.Action("AuthenticateUser", "Osoba")',
-            type: 'POST',
-            data: { userId: userId },
-            success: function (response) {
-                if (response.success) {
-                    alert(response.message);
-                } else {
-                    alert(response.message);
+            $.ajax({
+                url: '@Url.Action("AuthenticateUser", "Osoba")',
+                type: 'POST',
+                data: { userId: userId },
+                success: function (response) {
+                    if (response.success) {
+                        alert(response.message);
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function () {
+                    alert('Error during request.');
                 }
-            },
-            error: function () {
-                alert('Error during request.');
-            }
+            });
         });
-    }
+    });
 </script>
-

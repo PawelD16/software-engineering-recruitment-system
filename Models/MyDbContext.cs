@@ -10,12 +10,6 @@ namespace projektowaniaOprogramowania.Models
 	{
 		public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
 
-
-		public static void SeedDatabase()
-		{
-
-		}
-
 		public DbSet<OsobaViewModel> Osoby { get; set; }
 		public DbSet<KandydatViewModel> Kandydaci { get; set; }
 		public DbSet<PracownikViewModel> Pracownicy { get; set; }
@@ -37,7 +31,6 @@ namespace projektowaniaOprogramowania.Models
 		public DbSet<PrzelicznikDorobkuViewModel> PrzelicznikiDorobku { get; set; }
 		public DbSet<PrzelicznikPrzedmiotuViewModel> PrzelicznikiPrzedmiotow { get; set; }
 		public DbSet<PodanieNaIStopienViewModel> PodaniaNaIStopien { get; set; }
-		//public DbSet<JezykViewModel> Jezyki { get; set; }
 		public DbSet<PracownikDzialuRekrutacjiViewModel> PracownicyDzialuRekrutacji { get; set; }
 		public DbSet<PracownikDzialuRekrutacjiNaPodanieKandydataViewModel> PracownicyDzialuRekrutacjiNaPodaniaKandydatow { get; set; }
 		public DbSet<PodanieKandydataViewModel> PodaniaKandydatow { get; set; }
