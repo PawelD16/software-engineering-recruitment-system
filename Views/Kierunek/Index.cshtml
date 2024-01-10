@@ -1,0 +1,102 @@
+@model IEnumerable<projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NazwaKierunku)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SkrotKierunku)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProfilKierunku)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Czesne)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CzesneDlaCudzoziemcow)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CzasTrwaniaWSemestrach)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dyscyplina)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Jezyk)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StopienStudiow)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TrybStudiowania)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Wydzial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Przelicznik)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NazwaKierunku)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SkrotKierunku)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProfilKierunku)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Czesne)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CzesneDlaCudzoziemcow)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CzasTrwaniaWSemestrach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dyscyplina)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Jezyk)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StopienStudiow)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrybStudiowania)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Wydzial.NazwaWydzialu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Przelicznik.Id)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using projektowaniaOprogramowania.ViewModels.CollegeStructures;
 
@@ -15,8 +17,19 @@ namespace projektowaniaOprogramowania.ViewModels
         [Range(0, 535)]
         public int MaksymalnaWartoscPrzelicznika { get; set; }
 
-        [ForeignKey("Kierunek")]
-        public long FkIdKierunek { get; set; }
-        public KierunekViewModel Kierunek { get; set; }
+        // [ForeignKey("Kierunek")]
+        // public long FkIdKierunek { get; set; }
+        // public KierunekViewModel Kierunek { get; set; }
+        // [ForeignKey("PrzelicznikPrzedmiotu")]
+        // public long FkIdPrzelicznikPrzedmiotu { get; set; }
+
+        public ICollection<PrzelicznikPrzedmiotuViewModel> PrzelicznikPrzemiotu { get; set; } =
+            new List<PrzelicznikPrzedmiotuViewModel>();
+        
+        // [ForeignKey("PrzelicznikDorobku")]
+        // public long FkIdPrzelicznikDorobku { get; set; }
+
+        public ICollection<PrzelicznikDorobkuViewModel> PrzelicznikDorobku { get; set; } =
+            new List<PrzelicznikDorobkuViewModel>();
     }
 }

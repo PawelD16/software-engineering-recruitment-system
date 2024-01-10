@@ -49,7 +49,11 @@ namespace projektowaniaOprogramowania.ViewModels.CollegeStructures
         [ForeignKey("Wydzial")]
         public long FkIdWydzial { get; set; }
         public WydzialViewModel Wydzial { get; set; }
-
+        
+        [ForeignKey("Przelicznik")]
+        public long FkIdPrzelicznik { get; set; }
+        public PrzelicznikKierunkowyViewModel Przelicznik{ get; set; }
+        
 		// not mapped, for I/O not as model values
 
 		[NotMapped]

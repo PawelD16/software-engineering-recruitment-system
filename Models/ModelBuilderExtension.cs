@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using System;
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using projektowaniaOprogramowania.ViewModels.Users;
@@ -58,7 +59,8 @@ namespace projektowaniaOprogramowania.Models
 
 			modelBuilder.Entity<KategoriaOsiagnieciaViewModel>().HasData(
 				new KategoriaOsiagnieciaViewModel() { Id = 1, NazwaKategorii = "Laureat konkursu - przedmiot ścisły" },
-				new KategoriaOsiagnieciaViewModel() { Id = 2, NazwaKategorii = "Laureat konkursu - przedmiot humanistyczny" },
+				new KategoriaOsiagnieciaViewModel()
+					{ Id = 2, NazwaKategorii = "Laureat konkursu - przedmiot humanistyczny" },
 				new KategoriaOsiagnieciaViewModel() { Id = 3, NazwaKategorii = "Paszport Polsatu" },
 				new KategoriaOsiagnieciaViewModel() { Id = 4, NazwaKategorii = "Nagroda Nobla" }
 			);
@@ -67,10 +69,102 @@ namespace projektowaniaOprogramowania.Models
 
 			modelBuilder.Entity<MiastoViewModel>().HasData(miasto);
 
-			WydzialViewModel wydzial = new() { Id = 1, MiastoId = miasto.Id, NazwaWydzialu = "Wydział Informatyki i Telekomunikacji", NumerWydzialu = "W04n" };
+			WydzialViewModel wydzial = new()
+			{
+				Id = 1, MiastoId = miasto.Id, NazwaWydzialu = "Wydział Informatyki i Telekomunikacji",
+				NumerWydzialu = "W04n"
+			};
 
 			modelBuilder.Entity<WydzialViewModel>().HasData(wydzial);
 
+			// PrzedmiotViewModel przedmiot = new()
+			// {
+			// 	Id = 1,
+			// 	NazwaPrzedmiotu = "Angielski"
+			// };
+
+		// 	// var przedmioty = new List<PrzedmiotViewModel>
+		// 	// {
+		// 	// 	new PrzedmiotViewModel()
+		// 	// 	{
+		// 	// 		Id = 1,
+		// 	// 		NazwaPrzedmiotu = "Matematyka",
+		// 	// 	},
+		// 	// new PrzedmiotViewModel()
+		// 	// {
+		// 	// 	Id = 2,
+		// 	// 	NazwaPrzedmiotu = "Polski",
+		// 	// },
+		// 	// new PrzedmiotViewModel()
+		// 	// {
+		// 	// 	Id = 3,
+		// 	// 	NazwaPrzedmiotu = "Jezyk Angielski",
+		// 	// },
+		// 	// new PrzedmiotViewModel()
+		// 	// {
+		// 	// 	Id = 4,
+		// 	// 	NazwaPrzedmiotu = "Fizyka",
+		// 	// }
+		// };
+
+		// modelBuilder.Entity<PrzedmiotViewModel>().HasData(przedmioty);
+		
+
+		var przelicznikKierunkowy = new List<PrzelicznikKierunkowyViewModel>
+		{
+			new PrzelicznikKierunkowyViewModel()
+			{
+				MaksymalnaWartoscPrzelicznika = 1,
+				Id = 1,
+				PrzelicznikDorobku = null,
+				// PrzelicznikPrzemiotu = przelicznikiPrzedmiotow
+			},
+			new PrzelicznikKierunkowyViewModel()
+			{
+			MaksymalnaWartoscPrzelicznika = 1,
+			Id = 2,
+			// PrzelicznikDorobku = null,
+			// PrzelicznikPrzemiotu = new List<PrzelicznikPrzedmiotuViewModel>(){przelicznikiPrzedmiotow[0]}
+		}
+		};
+		modelBuilder.Entity<PrzelicznikKierunkowyViewModel>().HasData(przelicznikKierunkowy);
+		
+		var przelicznikiPrzedmiotow = new List<PrzelicznikPrzedmiotuViewModel>
+		{
+			new PrzelicznikPrzedmiotuViewModel()
+			{
+				Id = 1,
+				Wspolczynnik = 0.2f,
+				FkIdPrzedmiot = 1,
+				FkIdPrzelicznikKierunkowy = 1
+			},
+			new PrzelicznikPrzedmiotuViewModel()
+			{
+				Id = 2,
+				Wspolczynnik = 0.5f,
+				FkIdPrzedmiot = 2,
+				FkIdPrzelicznikKierunkowy = 1,
+			},
+			new PrzelicznikPrzedmiotuViewModel()
+			{
+				Id = 3,
+				Wspolczynnik = 0.7f,
+				FkIdPrzedmiot = 3,
+				FkIdPrzelicznikKierunkowy = 1,
+			}
+		};
+
+		modelBuilder.Entity<PrzelicznikPrzedmiotuViewModel>().HasData(przelicznikiPrzedmiotow);
+
+			// modelBuilder.Entity<PrzelicznikPrzedmiotuViewModel>().HasData(
+			// 	new PrzelicznikPrzedmiotuViewModel()
+			// {
+			// 	Id = 1,
+			// 	Wspolczynnik = 0.2f,
+			// 	FkIdPrzedmiot = 1,
+			// 	Przedmiot = przedmiot
+			// });
+			
 			modelBuilder.Entity<KierunekViewModel>().HasData(
 				new KierunekViewModel()
 				{
@@ -86,6 +180,7 @@ namespace projektowaniaOprogramowania.Models
 					SkrotKierunku = "IST",
 					StopienStudiow = StopienStudiow.Pierwszy,
 					TrybStudiowania = TrybStudiowania.Stacjonarne,
+					FkIdPrzelicznik = 1
 				},
 				new KierunekViewModel()
 				{
@@ -101,6 +196,8 @@ namespace projektowaniaOprogramowania.Models
 					SkrotKierunku = "ITA",
 					StopienStudiow = StopienStudiow.Drugi,
 					TrybStudiowania = TrybStudiowania.Stacjonarne,
+					FkIdPrzelicznik = 2
+
 				},
 				new KierunekViewModel()
 				{
@@ -116,6 +213,8 @@ namespace projektowaniaOprogramowania.Models
 					SkrotKierunku = "ISA",
 					StopienStudiow = StopienStudiow.Pierwszy,
 					TrybStudiowania = TrybStudiowania.Mieszane,
+					FkIdPrzelicznik = 1
+
 				},
 				new KierunekViewModel()
 				{
@@ -131,6 +230,7 @@ namespace projektowaniaOprogramowania.Models
 					SkrotKierunku = "ISTA",
 					StopienStudiow = StopienStudiow.Pierwszy,
 					TrybStudiowania = TrybStudiowania.Zdalne,
+					FkIdPrzelicznik = 2
 				}
 			);
 		}
