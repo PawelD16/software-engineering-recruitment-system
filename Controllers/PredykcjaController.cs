@@ -26,22 +26,22 @@ namespace projektowaniaOprogramowania.Controllers
             _punktyRekrutacyjneService = punktyRekrutacyjneService;
         }
 
-        public IActionResult Index(string kierunekNameFilter, long? wydzialIdFilter)
+        public IActionResult WyswietlKierunki(string kierunekNameFilter, long? wydzialIdFilter)
         {
-            KandydatViewModel candidate = _context.Kandydaci.SingleOrDefault(candidate => candidate.Id == HttpContext.Session.GetLong("UserId"));
-            if (candidate == null)
+            KandydatViewModel kandydat = _context.Kandydaci.SingleOrDefault(candidate => candidate.Id == HttpContext.Session.GetLong("UserId"));
+            if (kandydat == null)
                 return RedirectToAction("Error", "Home");
 
-            var kierunki = _punktyRekrutacyjneService.WyliczPrzelicznikKandydataDlaKazdegoKierunku(candidate);
+            var kierunki = _punktyRekrutacyjneService.WyliczPrzelicznikKandydataDlaKazdegoKierunku(kandydat);
 
-            // _________________________ begin::Mock choose based on probabilities __________________________
-            if (_context.PodaniaKandydatow.FirstOrDefault(p => p.FkIdKandydat == candidate.Id) != null)
+			// _________________________ begin::Mock choose based on probabilities __________________________
+			if (_context.PodaniaKandydatow.FirstOrDefault(p => p.FkIdKandydat == kandydat.Id) != null)
                 kierunki = kierunki.Where(k => k.CalculatedProbabilityOfSucessfulRecruitation >= 50F).ToList();
 			// _________________________ end:Mock choose based on probabilities __________________________
 
 
 			if (kierunki.Count <= 0)
-                return RedirectToAction("Create");
+                return RedirectToAction("WpiszPotrzebneDane");
 
             if (wydzialIdFilter != null)
                 kierunki = kierunki.Where(k => k.FkIdWydzial == wydzialIdFilter).ToList();
@@ -55,26 +55,28 @@ namespace projektowaniaOprogramowania.Controllers
 
 			return View(kierunki);
         }
-
-        public ActionResult Create()
+        
+        // jeżeli id == 0 to jest to nowy, niezapisany do bazy danych obiekt. Domyślne podejście w EF poleca nie null-owalne klucze główne
+        public ActionResult WpiszPotrzebneDane()
         {
-            KandydatViewModel candidate = _context.Kandydaci.SingleOrDefault(candidate => candidate.Id == HttpContext.Session.GetLong("UserId"));
+            KandydatViewModel kandydat = _context.Kandydaci.SingleOrDefault(c => c.Id == HttpContext.Session.GetLong("UserId"));
 
-            if (candidate == null)
+            if (kandydat == null)
                 return RedirectToAction("Error", "Home");
 
             RekrutacjaViewModel rekrutacja = _context.Rekrutacje
-                .FirstOrDefault(rekrutacja => rekrutacja.StatusRekrutacji == StatusRekrutacji.Otwarta);
+                .FirstOrDefault(r => r.StatusRekrutacji == StatusRekrutacji.Otwarta);
 
+            // brak otwartej rekrutacji
             if (rekrutacja == null)
                 return RedirectToAction("Error", "Home");
 
             PodanieNaIStopienViewModel podanieNaIStopien = _context.PodaniaNaIStopien
-                    .SingleOrDefault(pk => pk.FkIdKandydat == candidate.Id && pk.FkIdRekrutacja == rekrutacja.Id)
+                    .SingleOrDefault(pk => pk.FkIdKandydat == kandydat.Id && pk.FkIdRekrutacja == rekrutacja.Id)
                         ?? new() { DataZlozeniaPodania = DateTime.Now };
 
             PodanieNaIIStopienViewModel podanieNaIIStopien = _context.PodaniaNaIIStopien
-                    .SingleOrDefault(pk => pk.FkIdKandydat == candidate.Id && pk.FkIdRekrutacja == rekrutacja.Id)
+                    .SingleOrDefault(pk => pk.FkIdKandydat == kandydat.Id && pk.FkIdRekrutacja == rekrutacja.Id)
                         ?? new() { DataZlozeniaPodania = DateTime.Now };
 
             MaturaViewModel matura = podanieNaIStopien.Id == 0 ? new() : _context.Matury
@@ -107,7 +109,7 @@ namespace projektowaniaOprogramowania.Controllers
                 Matura = matura
             };
 
-            foreach (var item in model.PrzelicznikiOsiagniec)
+			foreach (var item in model.PrzelicznikiOsiagniec)
             {
                 item.KategoriaOsiagniecia = _context.KategorieOsiagniec.SingleOrDefault(k => k.Id == item.FkIdKategoriaOsiagniecia);
             }
@@ -115,7 +117,7 @@ namespace projektowaniaOprogramowania.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage model)
+        public ActionResult WpiszPotrzebneDane(MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage model)
         {
             KandydatViewModel kandydat = _context.Kandydaci.SingleOrDefault(candidate => candidate.Id == HttpContext.Session.GetLong("UserId"));
 
@@ -130,8 +132,8 @@ namespace projektowaniaOprogramowania.Controllers
 
             if (!ModelState.IsValid)
             {
-                TempData["Message"] = $"Wpisane dane są błędne! {string.Join(", ", ModelState.Values.SelectMany(v => v.Errors).Select(v => v.ErrorMessage))}";
-                return RedirectToAction("Create");
+                TempData["Message"] = "Wpisane dane są błędne!";
+                return RedirectToAction("WpiszPotrzebneDane");
             }
 
             // Updating or deleting and replacing old entities!
@@ -166,15 +168,11 @@ namespace projektowaniaOprogramowania.Controllers
             {
                 ocena.MaturaId = matura.Id;
                 if (ocena.Id != 0)
-                {
-                    var existingEntity = _context.Oceny.SingleOrDefault(e => e.Id == ocena.Id);
-                    _context.Oceny.Remove(existingEntity);
-                }
+                    _context.Oceny.Remove(_context.Oceny.SingleOrDefault(e => e.Id == ocena.Id));
 
                 _context.Add(ocena);
 
             }
-            _context.AddRange(model.Oceny);
 
             if (model.DorobkiNaukowe != null)
             {
@@ -182,10 +180,7 @@ namespace projektowaniaOprogramowania.Controllers
                 {
                     dorobekNaukowy.FkIdPodanieNaIIStopien = podanieNaIIStopien.Id;
                     if (dorobekNaukowy.Id != 0)
-                    {
-                        var existingEntity = _context.DorobkiNaukowe.SingleOrDefault(e => e.Id == dorobekNaukowy.Id);
-                        _context.DorobkiNaukowe.Remove(existingEntity);
-                    }
+                        _context.DorobkiNaukowe.Remove(_context.DorobkiNaukowe.SingleOrDefault(e => e.Id == dorobekNaukowy.Id));
 
                     _context.Add(dorobekNaukowy);
                 }
@@ -197,25 +192,24 @@ namespace projektowaniaOprogramowania.Controllers
                 foreach (var dodatkoweOsiagniecie in model.DodatkoweOsiagniecia)
                 {
                     dodatkoweOsiagniecie.FkIdPodanieKandydata = podanieNaIStopien.Id;
-                    _context.Add(dodatkoweOsiagniecie);
-                }
+					// deep copy!
+					var dodatkoweOsiagniecie2 = new DodatkoweOsiagniecieViewModel()
+                    {
+                        DataZdobycia = dodatkoweOsiagniecie.DataZdobycia,
+                        Opis = dodatkoweOsiagniecie.Opis,
+                        FkIdPrzelicznikOsiagniec = dodatkoweOsiagniecie.FkIdPrzelicznikOsiagniec,
+						FkIdPodanieKandydata = podanieNaIIStopien.Id
+				};
 
-                // deep copy!
-                foreach (var dodatkoweOsiagniecie in model.DodatkoweOsiagniecia.Select(d => new DodatkoweOsiagniecieViewModel()
-                {
-                    DataZdobycia = d.DataZdobycia,
-                    Opis = d.Opis,
-                    FkIdPrzelicznikOsiagniec = d.FkIdPrzelicznikOsiagniec
-                }))
-                {
-                    dodatkoweOsiagniecie.FkIdPodanieKandydata = podanieNaIIStopien.Id;
-                    _context.Add(dodatkoweOsiagniecie);
-                }
+					_context.Add(dodatkoweOsiagniecie);
+					_context.Add(dodatkoweOsiagniecie2);
+
+				}
             }
 
             _context.SaveChanges();
 
-            return RedirectToAction("Index");
+            return RedirectToAction("WyswietlKierunki");
         }
     }
 }

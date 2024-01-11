@@ -20,7 +20,7 @@ namespace projektowaniaOprogramowania.Controllers
 		}
 
 		// funkcja podobna do Predykcja/Index, ale nie wyciągałem osobnej funkcji, żeby zapewnić prostote analizy kodu
-		public IActionResult Index(string kierunekNameFilter, long? wydzialIdFilter)
+		public IActionResult WszystkieKierunki(string kierunekNameFilter, long? wydzialIdFilter)
 		{
 			List<KierunekViewModel> kierunki = _context.Kierunki.ToList();
 
@@ -37,7 +37,7 @@ namespace projektowaniaOprogramowania.Controllers
 			return View(kierunki);
 		}
 
-		public IActionResult Details(long kierunekId)
+		public IActionResult DetaleKierunku(long kierunekId)
 		{
 			KierunekViewModel kierunek = _context.Kierunki.SingleOrDefault(k => k.Id == kierunekId);
 			if (kierunek == null)
