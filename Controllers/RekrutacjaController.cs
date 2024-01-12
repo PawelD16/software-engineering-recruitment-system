@@ -102,7 +102,7 @@ namespace projektowaniaOprogramowania.Controllers
             {
                 return NotFound();
             }
-
+            
             if (!ModelState.IsValid)
             {
                 return View(rekrutacjaViewModel);
@@ -114,14 +114,16 @@ namespace projektowaniaOprogramowania.Controllers
                 ViewData["error-message"] = errorMessage;
                 return await IndexWithError(errorMessage);
             }
-           
             try
             {
+                // rekrutacjaViewModel.Id += 1;
+                Console.WriteLine(rekrutacjaViewModel);
                 _context.Update(rekrutacjaViewModel);
                 await _context.SaveChangesAsync();
             }
-            catch (DbUpdateConcurrencyException)
+            catch (DbUpdateConcurrencyException err)
             {
+                Console.WriteLine(err);
                 if (!RekrutacjaViewModelExists(rekrutacjaViewModel.Id))
                 {
                     return NotFound();

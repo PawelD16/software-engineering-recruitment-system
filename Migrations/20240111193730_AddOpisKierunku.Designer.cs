@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using projektowaniaOprogramowania.Models;
@@ -9,9 +10,10 @@ using projektowaniaOprogramowania.Models;
 namespace projektowaniaOprogramowania.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    partial class MyDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240111193730_AddOpisKierunku")]
+    partial class AddOpisKierunku
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -437,9 +439,6 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Property<long>("FkIdRekrutacja")
                         .HasColumnType("bigint");
 
-                    b.Property<int>("StatusPodania")
-                        .HasColumnType("integer");
-
                     b.HasKey("Id");
 
                     b.HasIndex("FkIdKandydat");
@@ -453,10 +452,9 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyAktywny = true,
-                            DataZlozeniaPodania = new DateTime(2024, 1, 12, 21, 15, 48, 158, DateTimeKind.Local).AddTicks(8518),
+                            DataZlozeniaPodania = new DateTime(2024, 1, 11, 20, 37, 30, 283, DateTimeKind.Local).AddTicks(9814),
                             FkIdKandydat = 1L,
-                            FkIdRekrutacja = 1L,
-                            StatusPodania = 0
+                            FkIdRekrutacja = 1L
                         });
                 });
 
@@ -860,7 +858,7 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyEmailPotwierdzony = true,
-                            DataZarejestrowania = new DateTime(2024, 1, 12, 21, 15, 48, 154, DateTimeKind.Local).AddTicks(2239),
+                            DataZarejestrowania = new DateTime(2024, 1, 11, 20, 37, 30, 279, DateTimeKind.Local).AddTicks(9792),
                             Email = "testowykandydat@gmail.com",
                             Haslo = "zahaszowaneHaselko",
                             Imie = "Jan",

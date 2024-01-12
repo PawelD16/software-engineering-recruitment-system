@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
 namespace projektowaniaOprogramowania.ViewModels
@@ -13,5 +14,13 @@ namespace projektowaniaOprogramowania.ViewModels
         [Required]
         [StringLength(255)]
         public string NazwaPrzedmiotu { get; set; }
+        
+        public ICollection<PrzelicznikPrzedmiotuViewModel> PrzelicznikiPrzedmiotow { get; } =
+            new List<PrzelicznikPrzedmiotuViewModel>();
+        
+        // [ForeignKey("Przelicznik")]
+        // public long FkIdPrzelicznik { get; set; }
+        //
+        // public PrzedmiotViewModel Przelicznik;
     }
 }

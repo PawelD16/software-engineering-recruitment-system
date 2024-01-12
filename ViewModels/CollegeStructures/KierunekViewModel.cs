@@ -34,6 +34,9 @@ namespace projektowaniaOprogramowania.ViewModels.CollegeStructures
         [Required]
         [StringLength(255)]
         public string Dyscyplina { get; set; }
+        
+        [Required]
+        public string Opis { get; set; }
 
         [Required]
         [StringLength(20)]
