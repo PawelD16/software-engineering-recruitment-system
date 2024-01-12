@@ -42,9 +42,10 @@ namespace projektowaniaOprogramowania
                 options.Cookie.IsEssential = true;
             });
 
-			services
+            services
                 .AddScoped<PunktyRekrutacyjneService>()
-                .AddScoped<IRecruitmentValidationService, RecruitmentValidationService>();
+                .AddScoped<IRecruitmentValidationService, RecruitmentValidationService>()
+                .AddScoped <PodanieService>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

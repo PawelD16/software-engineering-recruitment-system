@@ -108,8 +108,24 @@ namespace projektowaniaOprogramowania.Services
 			MaturaViewModel matura = _context.Matury
 				.SingleOrDefault(m => m.FkIdPodanieNaIStopien == podanieKandydata.Id);
 
-			return (dodatkoweOsiagniecia, dorobkiNaukowe, matura);
+            return (dodatkoweOsiagniecia, dorobkiNaukowe, matura);
 		}
+
+		public (List<DodatkoweOsiagniecieViewModel>, List<DorobekNaukowyViewModel>, MaturaViewModel, PodanieKandydataViewModel) GetAllPodanieKandydataInfo(PodanieKandydataViewModel podanieKandydata)
+		{
+            List<DodatkoweOsiagniecieViewModel> dodatkoweOsiagniecia = _context.DodatkoweOsiagniecia
+                .Where(o => o.FkIdPodanieKandydata == podanieKandydata.Id)
+                .ToList();
+
+            List<DorobekNaukowyViewModel> dorobkiNaukowe = _context.DorobkiNaukowe
+                .Where(o => o.FkIdPodanieNaIIStopien == podanieKandydata.Id)
+                .ToList();
+
+            MaturaViewModel matura = _context.Matury
+                .SingleOrDefault(m => m.FkIdPodanieNaIStopien == podanieKandydata.Id);
+
+			return (dodatkoweOsiagniecia, dorobkiNaukowe, matura, podanieKandydata);
+        }
 
 		private int PrzeliczPunktyDlaKierunku(
 			KierunekViewModel kierunek,

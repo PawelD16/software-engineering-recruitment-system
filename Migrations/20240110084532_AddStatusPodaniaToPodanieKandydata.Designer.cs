@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using projektowaniaOprogramowania.Models;
@@ -9,9 +10,10 @@ using projektowaniaOprogramowania.Models;
 namespace projektowaniaOprogramowania.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    partial class MyDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240110084532_AddStatusPodaniaToPodanieKandydata")]
+    partial class AddStatusPodaniaToPodanieKandydata
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,9 +42,6 @@ namespace projektowaniaOprogramowania.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("character varying(255)");
 
-                    b.Property<long>("FkIdPrzelicznik")
-                        .HasColumnType("bigint");
-
                     b.Property<long>("FkIdWydzial")
                         .HasColumnType("bigint");
 
@@ -54,10 +53,6 @@ namespace projektowaniaOprogramowania.Migrations
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("character varying(255)");
-
-                    b.Property<string>("Opis")
-                        .IsRequired()
-                        .HasColumnType("text");
 
                     b.Property<string>("ProfilKierunku")
                         .IsRequired()
@@ -78,8 +73,6 @@ namespace projektowaniaOprogramowania.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("FkIdPrzelicznik");
-
                     b.HasIndex("FkIdWydzial");
 
                     b.ToTable("kierunki");
@@ -92,11 +85,9 @@ namespace projektowaniaOprogramowania.Migrations
                             Czesne = 0,
                             CzesneDlaCudzoziemcow = 1250,
                             Dyscyplina = "informatyka techniczna i telekomunikacja",
-                            FkIdPrzelicznik = 1L,
                             FkIdWydzial = 1L,
                             Jezyk = 0,
                             NazwaKierunku = "Informatyka Stosowana",
-                            Opis = "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i telematyki przemysłowej, systemów optymalizacji i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ",
                             ProfilKierunku = "ogólnoakademicki",
                             SkrotKierunku = "IST",
                             StopienStudiow = 0,
@@ -109,11 +100,9 @@ namespace projektowaniaOprogramowania.Migrations
                             Czesne = 50,
                             CzesneDlaCudzoziemcow = 1300,
                             Dyscyplina = "informatyka techniczna i telekomunikacja",
-                            FkIdPrzelicznik = 2L,
                             FkIdWydzial = 1L,
                             Jezyk = 1,
                             NazwaKierunku = "Informatyka Techniczna w j. angielskim",
-                            Opis = "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i telematyki przemysłowej, systemów optymalizacji i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ",
                             ProfilKierunku = "ogólnoakademicki",
                             SkrotKierunku = "ITA",
                             StopienStudiow = 1,
@@ -126,11 +115,9 @@ namespace projektowaniaOprogramowania.Migrations
                             Czesne = 0,
                             CzesneDlaCudzoziemcow = 1250,
                             Dyscyplina = "informatyka techniczna i telekomunikacja",
-                            FkIdPrzelicznik = 1L,
                             FkIdWydzial = 1L,
                             Jezyk = 0,
                             NazwaKierunku = "Informatyczne Systemy Automatyki",
-                            Opis = "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i telematyki przemysłowej, systemów optymalizacji i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ",
                             ProfilKierunku = "ogólnoakademicki",
                             SkrotKierunku = "ISA",
                             StopienStudiow = 0,
@@ -143,11 +130,9 @@ namespace projektowaniaOprogramowania.Migrations
                             Czesne = 100,
                             CzesneDlaCudzoziemcow = 1350,
                             Dyscyplina = "informatyka techniczna i telekomunikacja",
-                            FkIdPrzelicznik = 2L,
                             FkIdWydzial = 1L,
                             Jezyk = 1,
                             NazwaKierunku = "Informatyka Stosowana w j.angielskim",
-                            Opis = "Studia umożliwiają doskonalenie umiejętności i zdobywanie wiedzy z szeroko pojmowanej informatyki i jej różnorakiego zastosowania m.in. w rozwiązywaniu problemów biznesowych, technicznych czy w obszarze gier komputerowych. Informatyka stosowana jest uzupełniana wiedzą z fizyki i matematyki, podstaw przedsiębiorczości oraz społecznych i zawodowych problemów informatyki. Dużą rolę przywiązuje się też do umiejętności miękkich, jak umiejętność prezentacji oraz umiejętność pracy w zespole.",
                             ProfilKierunku = "",
                             SkrotKierunku = "ISTA",
                             StopienStudiow = 0,
@@ -437,14 +422,9 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Property<long>("FkIdRekrutacja")
                         .HasColumnType("bigint");
 
-<<<<<<< HEAD
-                    b.Property<int>("StatusPodania")
-                        .HasColumnType("integer");
-=======
                     b.Property<string>("StatusPodania")
                         .IsRequired()
                         .HasColumnType("text");
->>>>>>> karola
 
                     b.HasKey("Id");
 
@@ -459,17 +439,10 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyAktywny = true,
-<<<<<<< HEAD
-                            DataZlozeniaPodania = new DateTime(2024, 1, 12, 21, 15, 48, 158, DateTimeKind.Local).AddTicks(8518),
-                            FkIdKandydat = 1L,
-                            FkIdRekrutacja = 1L,
-                            StatusPodania = 0
-=======
                             DataZlozeniaPodania = new DateTime(2024, 1, 10, 9, 45, 31, 641, DateTimeKind.Local).AddTicks(7557),
                             FkIdKandydat = 1L,
                             FkIdRekrutacja = 1L,
                             StatusPodania = "Przyjete do rozpatrzenia"
->>>>>>> karola
                         });
                 });
 
@@ -619,10 +592,15 @@ namespace projektowaniaOprogramowania.Migrations
                         .HasColumnType("bigint")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
+                    b.Property<long>("FkIdKierunek")
+                        .HasColumnType("bigint");
+
                     b.Property<int>("MaksymalnaWartoscPrzelicznika")
                         .HasColumnType("integer");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("FkIdKierunek");
 
                     b.ToTable("przeliczniki_kierunkowe");
 
@@ -630,12 +608,8 @@ namespace projektowaniaOprogramowania.Migrations
                         new
                         {
                             Id = 1L,
-                            MaksymalnaWartoscPrzelicznika = 1
-                        },
-                        new
-                        {
-                            Id = 2L,
-                            MaksymalnaWartoscPrzelicznika = 1
+                            FkIdKierunek = 1L,
+                            MaksymalnaWartoscPrzelicznika = 530
                         });
                 });
 
@@ -675,7 +649,7 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 2L,
                             FkIdKategoriaOsiagniecia = 2L,
-                            FkIdPrzelicznikKierunkowy = 2L,
+                            FkIdPrzelicznikKierunkowy = 1L,
                             PrzyznawanePunkty = 0
                         },
                         new
@@ -689,7 +663,7 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 4L,
                             FkIdKategoriaOsiagniecia = 4L,
-                            FkIdPrzelicznikKierunkowy = 2L,
+                            FkIdPrzelicznikKierunkowy = 1L,
                             PrzyznawanePunkty = 0
                         });
                 });
@@ -717,29 +691,6 @@ namespace projektowaniaOprogramowania.Migrations
                     b.HasIndex("FkIdPrzelicznikKierunkowy");
 
                     b.ToTable("przeliczniki_przedmiotu");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1L,
-                            FkIdPrzedmiot = 1L,
-                            FkIdPrzelicznikKierunkowy = 1L,
-                            Wspolczynnik = 0.2f
-                        },
-                        new
-                        {
-                            Id = 2L,
-                            FkIdPrzedmiot = 2L,
-                            FkIdPrzelicznikKierunkowy = 1L,
-                            Wspolczynnik = 0.5f
-                        },
-                        new
-                        {
-                            Id = 3L,
-                            FkIdPrzedmiot = 3L,
-                            FkIdPrzelicznikKierunkowy = 1L,
-                            Wspolczynnik = 0.7f
-                        });
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.RekrutacjaViewModel", b =>
@@ -873,11 +824,7 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyEmailPotwierdzony = true,
-<<<<<<< HEAD
-                            DataZarejestrowania = new DateTime(2024, 1, 12, 21, 15, 48, 154, DateTimeKind.Local).AddTicks(2239),
-=======
                             DataZarejestrowania = new DateTime(2024, 1, 10, 9, 45, 31, 639, DateTimeKind.Local).AddTicks(2774),
->>>>>>> karola
                             Email = "testowykandydat@gmail.com",
                             Haslo = "zahaszowaneHaselko",
                             Imie = "Jan",
@@ -924,19 +871,11 @@ namespace projektowaniaOprogramowania.Migrations
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel", b =>
                 {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyViewModel", "Przelicznik")
-                        .WithMany()
-                        .HasForeignKey("FkIdPrzelicznik")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialViewModel", "Wydzial")
                         .WithMany()
                         .HasForeignKey("FkIdWydzial")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Przelicznik");
 
                     b.Navigation("Wydzial");
                 });
@@ -1086,7 +1025,7 @@ namespace projektowaniaOprogramowania.Migrations
                         .IsRequired();
 
                     b.HasOne("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyViewModel", "PrzelicznikKierunkowy")
-                        .WithMany("PrzelicznikDorobku")
+                        .WithMany()
                         .HasForeignKey("FkIdPrzelicznikKierunkowy")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -1094,6 +1033,17 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Navigation("KategoriaDorobku");
 
                     b.Navigation("PrzelicznikKierunkowy");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyViewModel", b =>
+                {
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel", "Kierunek")
+                        .WithMany()
+                        .HasForeignKey("FkIdKierunek")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Kierunek");
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikOsiagniecViewModel", b =>
@@ -1118,13 +1068,13 @@ namespace projektowaniaOprogramowania.Migrations
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuViewModel", b =>
                 {
                     b.HasOne("projektowaniaOprogramowania.ViewModels.PrzedmiotViewModel", "Przedmiot")
-                        .WithMany("PrzelicznikiPrzedmiotow")
+                        .WithMany()
                         .HasForeignKey("FkIdPrzedmiot")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyViewModel", "PrzelicznikKierunkowy")
-                        .WithMany("PrzelicznikPrzemiotu")
+                        .WithMany()
                         .HasForeignKey("FkIdPrzelicznikKierunkowy")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -1185,18 +1135,6 @@ namespace projektowaniaOprogramowania.Migrations
                         .IsRequired();
 
                     b.Navigation("Wydzial");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzedmiotViewModel", b =>
-                {
-                    b.Navigation("PrzelicznikiPrzedmiotow");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyViewModel", b =>
-                {
-                    b.Navigation("PrzelicznikDorobku");
-
-                    b.Navigation("PrzelicznikPrzemiotu");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,0 +1,13 @@
+﻿@model IEnumerable<projektowaniaOprogramowania.ViewModels.Users.KandydatViewModel>
+
+@{
+    ViewBag.Title = "Konto Kandydata";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <h3>SPRAWDZ SWOJE PODANIE</h3>
+    <p>Sprawdz status swojego podania</p>
+    <button class="btn-primary" onclick="location.href='@Url.Action("Details", "Podanie")'">Sprawdz podanie</button>
+</div>

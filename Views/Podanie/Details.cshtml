@@ -1,0 +1,38 @@
+﻿@model projektowaniaOprogramowania.ViewModels.KandydatZPodaniemViewModel
+
+@{
+    ViewBag.Title = "Twoje podanie:";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@if (Model != null)
+{
+    <table class="table table-bordered table-striped">
+
+        <tr>
+            <td>Imie</td>
+            <td>@Model.kandydatViewModel.Imie</td>
+        </tr>
+        <tr>
+            <td>Nazwisko</td>
+            <td>@Model.kandydatViewModel.Nazwisko</td>
+        </tr>
+        <tr>
+            <td>Data Złożenia Podania</td>
+            <td>@Model.podanieKandydataViewModel.DataZlozeniaPodania.ToString("dd-MM-yyyy")</td>
+        </tr>
+        <tr>
+            <td>Czy Aktywny</td>
+            <td>@(Model.podanieKandydataViewModel.CzyAktywny ? "Tak" : "Nie")</td>
+        </tr>
+        <tr>
+            <td>Status Podania</td>
+            <td>@Model.podanieKandydataViewModel.StatusPodania</td>
+        </tr>
+    </table>
+}
+else
+{
+    <p>Nie masz żadnego podania.</p>
+}

@@ -21,6 +21,9 @@ namespace projektowaniaOprogramowania.ViewModels
         [Required]
         public StatusPodania StatusPodania { get; set; }
 
+        [Required]
+        public string StatusPodania { get; set; } 
+
         [ForeignKey("Rekrutacja")]
         public long FkIdRekrutacja { get; set; }
         public RekrutacjaViewModel Rekrutacja { get; set; }
