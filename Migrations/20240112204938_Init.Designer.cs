@@ -10,8 +10,8 @@ using projektowaniaOprogramowania.Models;
 namespace projektowaniaOprogramowania.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240112201548_AddStatusPodania")]
-    partial class AddStatusPodania
+    [Migration("20240112204938_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -455,7 +455,7 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyAktywny = true,
-                            DataZlozeniaPodania = new DateTime(2024, 1, 12, 21, 15, 48, 158, DateTimeKind.Local).AddTicks(8518),
+                            DataZlozeniaPodania = new DateTime(2024, 1, 12, 21, 49, 37, 157, DateTimeKind.Local).AddTicks(120),
                             FkIdKandydat = 1L,
                             FkIdRekrutacja = 1L,
                             StatusPodania = 0
@@ -862,7 +862,7 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyEmailPotwierdzony = true,
-                            DataZarejestrowania = new DateTime(2024, 1, 12, 21, 15, 48, 154, DateTimeKind.Local).AddTicks(2239),
+                            DataZarejestrowania = new DateTime(2024, 1, 12, 21, 49, 37, 151, DateTimeKind.Local).AddTicks(6566),
                             Email = "testowykandydat@gmail.com",
                             Haslo = "zahaszowaneHaselko",
                             Imie = "Jan",

@@ -81,23 +81,8 @@
 				<button class="btn-primary" type="button" id="addOsiagniecie">Dodaj Osiągnięcie</button>
 
 			</div>
-
-		
-
 	</div>
 
-	<div id="osiagniecieContainer" class="d-flex flex-column">
-		@for (int i = 0; i < Model.DodatkoweOsiagniecia.Count; ++i)
-		{
-			<input asp-for="DodatkoweOsiagniecia[i].DataZdobycia" class="form-control" />
-			<span asp-validation-for="DodatkoweOsiagniecia[i].DataZdobycia" class="text-danger"></span>
-			@Html.DropDownListFor(model => model.DodatkoweOsiagniecia[i].FkIdPrzelicznikOsiagniec, new SelectList(Model.PrzelicznikiOsiagniec, "Id", "KategoriaOsiagniecia.NazwaKategorii"))
-
-			@Html.TextAreaFor(model => model.DodatkoweOsiagniecia[i].Opis)
-		}
-		<button class="btn-primary" type="button" id="addOsiagniecie">Dodaj Osiągnięcie</button>
-
-	</div>
 
 	<h3>Podanie Details</h3>
 	<div>

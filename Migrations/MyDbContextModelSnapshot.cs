@@ -437,14 +437,8 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Property<long>("FkIdRekrutacja")
                         .HasColumnType("bigint");
 
-<<<<<<< HEAD
                     b.Property<int>("StatusPodania")
                         .HasColumnType("integer");
-=======
-                    b.Property<string>("StatusPodania")
-                        .IsRequired()
-                        .HasColumnType("text");
->>>>>>> karola
 
                     b.HasKey("Id");
 
@@ -459,17 +453,10 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyAktywny = true,
-<<<<<<< HEAD
-                            DataZlozeniaPodania = new DateTime(2024, 1, 12, 21, 15, 48, 158, DateTimeKind.Local).AddTicks(8518),
+                            DataZlozeniaPodania = new DateTime(2024, 1, 12, 21, 49, 37, 157, DateTimeKind.Local).AddTicks(120),
                             FkIdKandydat = 1L,
                             FkIdRekrutacja = 1L,
                             StatusPodania = 0
-=======
-                            DataZlozeniaPodania = new DateTime(2024, 1, 10, 9, 45, 31, 641, DateTimeKind.Local).AddTicks(7557),
-                            FkIdKandydat = 1L,
-                            FkIdRekrutacja = 1L,
-                            StatusPodania = "Przyjete do rozpatrzenia"
->>>>>>> karola
                         });
                 });
 
@@ -873,11 +860,7 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyEmailPotwierdzony = true,
-<<<<<<< HEAD
-                            DataZarejestrowania = new DateTime(2024, 1, 12, 21, 15, 48, 154, DateTimeKind.Local).AddTicks(2239),
-=======
-                            DataZarejestrowania = new DateTime(2024, 1, 10, 9, 45, 31, 639, DateTimeKind.Local).AddTicks(2774),
->>>>>>> karola
+                            DataZarejestrowania = new DateTime(2024, 1, 12, 21, 49, 37, 151, DateTimeKind.Local).AddTicks(6566),
                             Email = "testowykandydat@gmail.com",
                             Haslo = "zahaszowaneHaselko",
                             Imie = "Jan",
