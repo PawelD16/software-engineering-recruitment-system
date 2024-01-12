@@ -6,8 +6,26 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@{
+    var rekrutacja = (ViewData["rekrutacja"] as RekrutacjaViewModel);
+    var year = (ViewData["rekrutacja"] as RekrutacjaViewModel).DataOtwarciaRekrutacji.Year;
+    var result = $"{year}/{year + 1} Semestr {rekrutacja.SemestrRekrutacji} - {rekrutacja.StopienStudiow} Stopień";
+}
+<h1>@result</h1>
 
-<h1>Index</h1>
+<div aria-live="polite" aria-atomic="true">
+  <!-- Position it: -->
+  <!-- - `.toast-container` for spacing between toasts -->
+  <!-- - `.position-absolute`, `top-0` & `end-0` to position the toasts in the upper right corner -->
+  <!-- - `.p-3` to prevent the toasts from sticking to the edge of the container  -->
+<div class="toast-container position-fixed p-3" style="bottom:50px;left: 50px;z-index:999;">
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-body bg-primary">
+           Podanie zostało wysłane
+        </div>
+    </div>
+</div>
+</div>
 
 <div class="offcanvas position-fixed" style="top:150px;right: 20px;"id="offcanvas">
     <h5>Zapisane kierunki</h5>
@@ -21,7 +39,7 @@
     </div>
     <div class="row">
         <div class="col">
-            <a class="btn btn-primary" asp-action="WyslijPodanie">Wyślij podanie</a> 
+            <a onclick="sendPodanie(event)" class="btn btn-primary" asp-action="WyslijPodanie">Wyślij podanie</a> 
         </div>
         <div class="col">
             <a class="btn btn-danger" asp-action="WyczyscKierunki">Wyczyść kierunki</a> 
@@ -40,14 +58,18 @@
                 <h5 class="mb-0">
                     <button class="btn" style="width:100%" data-toggle="collapse" data-target="#collapse-@item.Id" aria-expanded="true" aria-controls="collapse-@item.Id">
                         @{
+                            var punkty = (ViewData["punkty"] as List<(KierunekViewModel, int)>)
+                                .Find(e=>e.Item1.Id==item.Id).Item2;
+                                    
+                            
 
                             <div class="row d-flex justify-content-around" style="width: 100%">
                                 <div class="col-8">
-                                    <h5>@item.NazwaKierunku</h5>
+                                    <h4>@item.NazwaKierunku</h4>
                                 </div>
-                                @* <div class="col-4"> *@
-                                @*     <h5>@item.StatusRekrutacji</h5> *@
-                                @* </div> *@
+                                <div class="col-4">
+                                    <h4>@punkty/510</h4>
+                                </div>
 
                             </div>
                         }
@@ -84,12 +106,16 @@
                         </div>
                         
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <a class="btn btn-primary" asp-action="AddKierunekToPodanie" asp-route-id="@item.Id">Dodaj</a> 
+                    <div class="container row" style="margin-left: 2rem;margin-right:5rem;">
+                        <div class="col-3 justify-content-center d-flex flex-column">
+                            <a class="btn btn-primary" style="width: 100%;" asp-action="AddKierunekToPodanie" asp-route-id="@item.Id">Dodaj</a> 
                         </div>
-                        <div class="col">
-                            <a class="btn btn-danger" asp-action="RemoveKierunekFromPodanie" asp-route-id="@item.Id">Usun</a> 
+                        <div class="col-3 justify-content-center d-flex flex-column">
+                            <a class="btn btn-danger" style="width: 100%;" asp-action="RemoveKierunekFromPodanie" asp-route-id="@item.Id">Usun</a> 
+                        </div>
+                        <div class="col-5" style="margin:auto">
+                            <label style="margin-left: 2rem">Liczba punktów</label>
+                            <span class="recruitment-score-tile">@punkty</span>
                         </div>
                     </div>
                 
@@ -119,3 +145,15 @@
 @* } *@
 
 
+@section Scripts{
+    <script defer>
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function (toastEl) {
+    return new bootstrap.Toast(toastEl, {delay:10000})
+    })
+    function sendPodanie(event){
+        toastList[0].show();
+
+    }
+    </script>
+}

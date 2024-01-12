@@ -107,23 +107,14 @@ namespace projektowaniaOprogramowania.Models
 		            MaksymalnaWartoscPrzelicznika = 1,
 		            Id = 1,
 		            PrzelicznikDorobku = null,
-		            // PrzelicznikPrzemiotu = przelicznikiPrzedmiotow
 	            },
 	            new PrzelicznikKierunkowyViewModel()
 	            {
 		            MaksymalnaWartoscPrzelicznika = 1,
 		            Id = 2,
-		            // PrzelicznikDorobku = null,
-		            // PrzelicznikPrzemiotu = new List<PrzelicznikPrzedmiotuViewModel>(){przelicznikiPrzedmiotow[0]}
 	            }
             };
-            // przelicznikKierunkowy[0].PrzelicznikPrzemiotu.Add(przelicznikiPrzedmiotow[0]);
-            // przelicznikKierunkowy[0].PrzelicznikPrzemiotu.Add(przelicznikiPrzedmiotow[1]);
-            // przelicznikKierunkowy[0].PrzelicznikPrzemiotu.Add(przelicznikiPrzedmiotow[2]);
-            //
-            // przelicznikKierunkowy[1].PrzelicznikPrzemiotu.Add(przelicznikiPrzedmiotow[0]);
-            // przelicznikKierunkowy[1].PrzelicznikPrzemiotu.Add(przelicznikiPrzedmiotow[1]);
-            // przelicznikKierunkowy[1].PrzelicznikPrzemiotu.Add(przelicznikiPrzedmiotow[2]);
+           
 
 
 
@@ -287,7 +278,8 @@ namespace projektowaniaOprogramowania.Models
                     CzyAktywny = true,
                     DataZlozeniaPodania = DateTime.Now,
                     FkIdKandydat = (long)kandydat.Id,
-                    FkIdRekrutacja = (long)rekrutacja.Id
+                    FkIdRekrutacja = (long)rekrutacja.Id,
+                    StatusPodania = StatusPodania.Niezlozone
                 }
                 );
         }

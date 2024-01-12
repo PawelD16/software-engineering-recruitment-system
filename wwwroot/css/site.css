@@ -142,3 +142,15 @@ option {
     background-color:#24202b ;
 }
 
+.recruitment-score-tile{
+    background-color: yellow;
+    font-size: 3rem;
+    color: black;
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
