@@ -18,6 +18,9 @@ namespace projektowaniaOprogramowania.ViewModels
         [Required]
         public bool CzyAktywny { get; set; }
 
+        [Required]
+        public string StatusPodania { get; set; } 
+
         [ForeignKey("Rekrutacja")]
         public long FkIdRekrutacja { get; set; }
         public RekrutacjaViewModel Rekrutacja { get; set; }

@@ -193,6 +193,7 @@ namespace projektowaniaOprogramowania.Models
                 {
                     Id = 1,
                     CzyAktywny = true,
+                    StatusPodania = "Przyjete do rozpatrzenia",
                     DataZlozeniaPodania = DateTime.Now,
                     FkIdKandydat = (long)kandydat.Id,
                     FkIdRekrutacja = (long)rekrutacja.Id
