@@ -30,6 +30,7 @@ namespace projektowaniaOprogramowania
             services.AddControllersWithViews();
             services.AddDbContextPool<MyDbContext>(options =>
             {
+                options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
                 options.UseNpgsql(Configuration.GetConnectionString("projektowanieOprogramowania"));
             });
 

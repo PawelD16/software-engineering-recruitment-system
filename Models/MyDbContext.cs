@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using projektowaniaOprogramowania.ViewModels;
 using projektowaniaOprogramowania.ViewModels.CollegeStructures;
 using projektowaniaOprogramowania.ViewModels.Users;
@@ -8,8 +9,10 @@ namespace projektowaniaOprogramowania.Models
 {
 	public class MyDbContext : DbContext
 	{
-		public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
 
+		public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
+		{
+		}
 		public DbSet<OsobaViewModel> Osoby { get; set; }
 		public DbSet<KandydatViewModel> Kandydaci { get; set; }
 		public DbSet<PracownikViewModel> Pracownicy { get; set; }
@@ -37,7 +40,6 @@ namespace projektowaniaOprogramowania.Models
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
-
 			// Table per Type / Joined table
 			modelBuilder.Entity<OsobaViewModel>().ToTable("osoby");
 			modelBuilder.Entity<KandydatViewModel>().ToTable("kandydaci");
@@ -59,7 +61,17 @@ namespace projektowaniaOprogramowania.Models
 
 			modelBuilder.Entity<PracownikDzialuRekrutacjiNaPodanieKandydataViewModel>()
 				.HasKey(m => new { m.PkFkIdPodanieKandydata, m.PkFkIdPracownikDzialuRekrutacji });
+		
+			modelBuilder.Entity<PrzelicznikKierunkowyViewModel>()
+				.HasMany(e => e.PrzelicznikPrzemiotu)
+				.WithOne(e => e.PrzelicznikKierunkowy)
+				.HasForeignKey(e => e.FkIdPrzelicznikKierunkowy)
+				.IsRequired();
 
+			modelBuilder.Entity<PrzelicznikPrzedmiotuViewModel>()
+				.HasOne(e => e.Przedmiot)
+				.WithMany(e => e.PrzelicznikiPrzedmiotow)
+				.HasForeignKey(e => e.FkIdPrzedmiot);
 			// Extension method for seeding the databse with data. It is defined in ModelBuilderExtension
 			modelBuilder.Seed();
 

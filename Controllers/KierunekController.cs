@@ -1,11 +1,14 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query;
 using projektowaniaOprogramowania.Models;
+using projektowaniaOprogramowania.ViewModels;
 using projektowaniaOprogramowania.ViewModels.CollegeStructures;
 
 namespace projektowaniaOprogramowania.Controllers
@@ -22,8 +25,99 @@ namespace projektowaniaOprogramowania.Controllers
         // GET: Kierunek
         public async Task<IActionResult> Index()
         {
-            var myDbContext = _context.Kierunki.Include(k => k.Przelicznik).Include(k => k.Wydzial);
+            var myDbContext = _context.Kierunki
+                .Include(k => k.Przelicznik)
+                .Include(k => k.Wydzial)
+                .Include(k => k.Przelicznik.PrzelicznikPrzemiotu);
+            var przedmioty = _context.PrzelicznikiPrzedmiotow
+                .Include(e => e.Przedmiot);
+
+            ViewData["przedmioty"] = await przedmioty.ToListAsync();
+            ViewData["kierunki"] = getSelectedKierunki();
+            ViewData["podanie"] = getCurrentPodanie();
+            
+            
             return View(await myDbContext.ToListAsync());
+        }
+
+        public async Task<IActionResult> WyslijPodanie()
+        {
+            var kierunki = _context.KierunkiNaPodaniu.Where(el => el.FkIdPodanieKandydata == getCurrentPodanie().Id).ToList();
+            foreach (var kierunek in kierunki)
+            {
+                _context.KierunkiNaPodaniu.Remove(kierunek);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> WyczyscKierunki()
+        {
+           var kierunki = _context.KierunkiNaPodaniu.Where(el => el.FkIdPodanieKandydata == getCurrentPodanie().Id).ToList();
+           foreach (var kierunek in kierunki)
+           {
+               _context.KierunkiNaPodaniu.Remove(kierunek);
+               await _context.SaveChangesAsync();
+           }
+
+           return RedirectToAction(nameof(Index));
+
+        }
+        
+        public async Task<IActionResult> AddKierunekToPodanie(int id)
+        {
+            var isAlreadyPresent = _context.KierunkiNaPodaniu.ToList().Find(e => e.FkIdKierunek == id);
+            if (isAlreadyPresent != null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            _context.KierunkiNaPodaniu.Add(new KierunekNaPodaniuViewModel
+            {
+                FkIdPodanieKandydata = this.getCurrentPodanie().Id,
+                FkIdKierunek = id,
+                Priorytet = _context.KierunkiNaPodaniu.ToList().Count()
+                
+            });
+            await _context.SaveChangesAsync();
+            Console.WriteLine("Dodano Kierunek do podania");
+            
+            return RedirectToAction(nameof(Index));
+
+        }
+
+        public async Task<IActionResult> RemoveKierunekFromPodanie(int id)
+        {
+            var entity = _context.KierunkiNaPodaniu.Where(e => e.FkIdKierunek == id).ToList();
+            if (!entity.Any())
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            Console.WriteLine("Removing item!");
+
+            _context.KierunkiNaPodaniu.Remove(entity[0]);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private PodanieKandydataViewModel getCurrentPodanie()
+        {
+            return  _context.PodaniaKandydatow.First();
+        }
+
+        private List<KierunekViewModel> getSelectedKierunki()
+        {
+            var kierunki = _context.Kierunki.ToList();
+            var kierunkiPodania =  _context.KierunkiNaPodaniu
+                .Where(e=>e.PodanieKandydata.Id == getCurrentPodanie().Id)
+                .Select(e=>e.FkIdKierunek)
+                .ToList();
+            
+            return kierunki.Join(kierunkiPodania,
+                kierunki => kierunki.Id, 
+                kierunkiPodania => kierunkiPodania,
+                (kierunki, kierunkiNaPodaniu) => kierunki).ToList();
+
         }
 
         // GET: Kierunek/Details/5

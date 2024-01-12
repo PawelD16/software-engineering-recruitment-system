@@ -25,7 +25,7 @@ namespace projektowaniaOprogramowania.Models
                 StatusRekrutacji = StatusRekrutacji.Otwarta,
                 StopienStudiow = StopienStudiow.Pierwszy
             };
-
+            
             modelBuilder.Entity<RekrutacjaViewModel>().HasData(rekrutacja);
 
             KandydatViewModel kandydat = new()
@@ -71,6 +71,34 @@ namespace projektowaniaOprogramowania.Models
                 new KategoriaDorobkuViewModel() { Id = 4, NazwaKategoriiDorobku = "Rysunek architektoniczny" }
             );
             
+            
+            var przelicznikiPrzedmiotow = new List<PrzelicznikPrzedmiotuViewModel>
+            {
+	            new PrzelicznikPrzedmiotuViewModel()
+	            {
+		            Id = 1,
+		            Wspolczynnik = 0.2f,
+		            FkIdPrzedmiot = 1,
+		            FkIdPrzelicznikKierunkowy = 1
+	            },
+	            new PrzelicznikPrzedmiotuViewModel()
+	            {
+		            Id = 2,
+		            Wspolczynnik = 0.5f,
+		            FkIdPrzedmiot = 2,
+		            FkIdPrzelicznikKierunkowy = 1,
+	            },
+	            new PrzelicznikPrzedmiotuViewModel()
+	            {
+		            Id = 3,
+		            Wspolczynnik = 0.7f,
+		            FkIdPrzedmiot = 3,
+		            FkIdPrzelicznikKierunkowy = 1,
+	            }
+            };
+
+            modelBuilder.Entity<PrzelicznikPrzedmiotuViewModel>().HasData(przelicznikiPrzedmiotow);
+            
 
             var przelicznikKierunkowy = new List<PrzelicznikKierunkowyViewModel>
             {
@@ -89,6 +117,15 @@ namespace projektowaniaOprogramowania.Models
 		            // PrzelicznikPrzemiotu = new List<PrzelicznikPrzedmiotuViewModel>(){przelicznikiPrzedmiotow[0]}
 	            }
             };
+            // przelicznikKierunkowy[0].PrzelicznikPrzemiotu.Add(przelicznikiPrzedmiotow[0]);
+            // przelicznikKierunkowy[0].PrzelicznikPrzemiotu.Add(przelicznikiPrzedmiotow[1]);
+            // przelicznikKierunkowy[0].PrzelicznikPrzemiotu.Add(przelicznikiPrzedmiotow[2]);
+            //
+            // przelicznikKierunkowy[1].PrzelicznikPrzemiotu.Add(przelicznikiPrzedmiotow[0]);
+            // przelicznikKierunkowy[1].PrzelicznikPrzemiotu.Add(przelicznikiPrzedmiotow[1]);
+            // przelicznikKierunkowy[1].PrzelicznikPrzemiotu.Add(przelicznikiPrzedmiotow[2]);
+
+
 
             modelBuilder.Entity<PrzelicznikKierunkowyViewModel>().HasData(przelicznikKierunkowy);
 
@@ -139,32 +176,6 @@ namespace projektowaniaOprogramowania.Models
             
             modelBuilder.Entity<WydzialViewModel>().HasData(wydzial);
 		
-		var przelicznikiPrzedmiotow = new List<PrzelicznikPrzedmiotuViewModel>
-		{
-			new PrzelicznikPrzedmiotuViewModel()
-			{
-				Id = 1,
-				Wspolczynnik = 0.2f,
-				FkIdPrzedmiot = 1,
-				FkIdPrzelicznikKierunkowy = 1
-			},
-			new PrzelicznikPrzedmiotuViewModel()
-			{
-				Id = 2,
-				Wspolczynnik = 0.5f,
-				FkIdPrzedmiot = 2,
-				FkIdPrzelicznikKierunkowy = 1,
-			},
-			new PrzelicznikPrzedmiotuViewModel()
-			{
-				Id = 3,
-				Wspolczynnik = 0.7f,
-				FkIdPrzedmiot = 3,
-				FkIdPrzelicznikKierunkowy = 1,
-			}
-		};
-
-		modelBuilder.Entity<PrzelicznikPrzedmiotuViewModel>().HasData(przelicznikiPrzedmiotow);
 
 			// modelBuilder.Entity<PrzelicznikPrzedmiotuViewModel>().HasData(
 			// 	new PrzelicznikPrzedmiotuViewModel()
@@ -191,6 +202,11 @@ namespace projektowaniaOprogramowania.Models
 					NazwaKierunku = "Informatyka Stosowana",
 					ProfilKierunku = "ogólnoakademicki",
 					SkrotKierunku = "IST",
+					Opis = "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w" +
+					       " zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i " +
+					       "telematyki przemysłowej, systemów optymalizacji " +
+					       "i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, " +
+					       "w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ",
 					StopienStudiow = StopienStudiow.Pierwszy,
 					TrybStudiowania = TrybStudiowania.Stacjonarne,
 					FkIdPrzelicznik = 1
@@ -207,6 +223,11 @@ namespace projektowaniaOprogramowania.Models
 					NazwaKierunku = "Informatyka Techniczna w j. angielskim",
 					ProfilKierunku = "ogólnoakademicki",
 					SkrotKierunku = "ITA",
+					Opis = "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w" +
+					       " zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i " +
+					       "telematyki przemysłowej, systemów optymalizacji " +
+					       "i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, " +
+					       "w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ",
 					StopienStudiow = StopienStudiow.Drugi,
 					TrybStudiowania = TrybStudiowania.Stacjonarne,
 					FkIdPrzelicznik = 2
@@ -224,6 +245,11 @@ namespace projektowaniaOprogramowania.Models
 					NazwaKierunku = "Informatyczne Systemy Automatyki",
 					ProfilKierunku = "ogólnoakademicki",
 					SkrotKierunku = "ISA",
+					Opis = "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w" +
+					       " zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i " +
+					       "telematyki przemysłowej, systemów optymalizacji " +
+					       "i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, " +
+					       "w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ",
 					StopienStudiow = StopienStudiow.Pierwszy,
 					TrybStudiowania = TrybStudiowania.Mieszane,
 					FkIdPrzelicznik = 1
@@ -240,6 +266,13 @@ namespace projektowaniaOprogramowania.Models
 					Jezyk = Jezyk.Angielski,
 					NazwaKierunku = "Informatyka Stosowana w j.angielskim",
 					ProfilKierunku = "",
+					Opis = "Studia umożliwiają doskonalenie umiejętności i zdobywanie wiedzy z " +
+					       "szeroko pojmowanej informatyki i jej różnorakiego zastosowania m.in. w rozwiązywaniu " +
+					       "problemów biznesowych, technicznych czy w obszarze gier komputerowych. " +
+					       "Informatyka stosowana jest uzupełniana wiedzą z fizyki i matematyki, " +
+					       "podstaw przedsiębiorczości oraz społecznych i zawodowych problemów informatyki. " +
+					       "Dużą rolę przywiązuje się też" +
+					       " do umiejętności miękkich, jak umiejętność prezentacji oraz umiejętność pracy w zespole.",
 					SkrotKierunku = "ISTA",
 					StopienStudiow = StopienStudiow.Pierwszy,
 					TrybStudiowania = TrybStudiowania.Zdalne,
