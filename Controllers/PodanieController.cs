@@ -37,8 +37,6 @@ namespace projektowaniaOprogramowania.Controllers
                 return RedirectToAction("Error", "Home");
 
             var podanie = _podanieService.GetPodanieKandydata(candidate);
-            if (podanie == null)
-                throw new Exception();
 
             var model = new KandydatZPodaniemViewModel
             {

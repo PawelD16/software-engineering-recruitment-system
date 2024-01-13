@@ -101,7 +101,7 @@ namespace projektowaniaOprogramowania.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(long id, MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage podanieKandydataViewModel)
         {
-			KandydatViewModel kandydat = _context.Kandydaci.SingleOrDefault(candidate => candidate.Id == HttpContext.Session.GetLong("UserId"));
+			KandydatViewModel kandydat = _context.Kandydaci.SingleOrDefault(candidate => candidate.Id == id);
 
 			if (kandydat == null)
 				return RedirectToAction("Error", "Home");

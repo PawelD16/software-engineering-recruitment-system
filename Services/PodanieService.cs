@@ -22,7 +22,6 @@ namespace projektowaniaOprogramowania.Services
 
             if (podaniaKandydata == null)
             {
-                throw new System.Exception();
                 return null;
             }
             var podanie = podaniaKandydata.FirstOrDefault(p => p.FkIdKandydat == kandydat.Id);
