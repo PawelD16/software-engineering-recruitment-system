@@ -152,10 +152,10 @@ namespace projektowaniaOprogramowania.Controllers
 				if (ocena.Id != 0)
 				{
 					var existingEntity = _context.Oceny.SingleOrDefault(e => e.Id == ocena.Id);
-					_context.Oceny.Remove(existingEntity);
+					_context.Oceny.Update(existingEntity);
 				}
 
-				_context.Add(ocena);
+				_context.Update(ocena);
 
 			}
 			_context.AddRange(podanieKandydataViewModel.Oceny);
@@ -168,10 +168,10 @@ namespace projektowaniaOprogramowania.Controllers
 					if (dorobekNaukowy.Id != 0)
 					{
 						var existingEntity = _context.DorobkiNaukowe.SingleOrDefault(e => e.Id == dorobekNaukowy.Id);
-						_context.DorobkiNaukowe.Remove(existingEntity);
+						_context.DorobkiNaukowe.Update(existingEntity);
 					}
 
-					_context.Add(dorobekNaukowy);
+					_context.Update(dorobekNaukowy);
 				}
 			}
 
@@ -181,7 +181,7 @@ namespace projektowaniaOprogramowania.Controllers
 				foreach (var dodatkoweOsiagniecie in podanieKandydataViewModel.DodatkoweOsiagniecia)
 				{
 					dodatkoweOsiagniecie.FkIdPodanieKandydata = podanieNaIStopien.Id;
-					_context.Add(dodatkoweOsiagniecie);
+					_context.Update(dodatkoweOsiagniecie);
 				}
 
 				// deep copy!
@@ -193,7 +193,7 @@ namespace projektowaniaOprogramowania.Controllers
 				}))
 				{
 					dodatkoweOsiagniecie.FkIdPodanieKandydata = podanieNaIIStopien.Id;
-					_context.Add(dodatkoweOsiagniecie);
+					_context.Update(dodatkoweOsiagniecie);
 				}
 			}
 
