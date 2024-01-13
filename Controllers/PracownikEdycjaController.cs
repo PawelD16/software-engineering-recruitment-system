@@ -119,29 +119,29 @@ namespace projektowaniaOprogramowania.Controllers
 			}
 
 
-			var podanieNaIStopien = _context.PodaniaNaIStopien.SingleOrDefault(p => podanieKandydataViewModel.PodanieNaIStopien.Id == p.Id);
-			podanieNaIStopien ??= _context.Add(new PodanieNaIStopienViewModel()
+            var podanieNaIStopien = _context.PodaniaNaIStopien.SingleOrDefault(p => podanieKandydataViewModel.PodanieNaIStopien.Id == p.Id);
+			if (podanieNaIStopien != null)
 			{
-				CzyAktywny = true,
-				DataZlozeniaPodania = podanieKandydataViewModel.PodanieNaIStopien.DataZlozeniaPodania,
-				FkIdKandydat = kandydat.Id,
-				FkIdRekrutacja = rekrutacja.Id
-			}).Entity;
+				podanieNaIStopien.CzyAktywny = true;
+				podanieNaIStopien.DataZlozeniaPodania = podanieKandydataViewModel.PodanieNaIStopien.DataZlozeniaPodania;
+				podanieNaIStopien.FkIdKandydat = kandydat.Id;
+				podanieNaIStopien.FkIdRekrutacja = rekrutacja.Id;
+			}
 
-			var podanieNaIIStopien = _context.PodaniaNaIIStopien.SingleOrDefault(p => podanieKandydataViewModel.PodanieNaIIStopien.Id == p.Id);
-			podanieNaIIStopien ??= _context.Add(new PodanieNaIIStopienViewModel()
+            var podanieNaIIStopien = _context.PodaniaNaIIStopien.SingleOrDefault(p => podanieKandydataViewModel.PodanieNaIIStopien.Id == p.Id);
+			if (podanieNaIIStopien != null)
 			{
-				CzyAktywny = true,
-				DataZlozeniaPodania = podanieKandydataViewModel.PodanieNaIIStopien.DataZlozeniaPodania,
-				FkIdKandydat = kandydat.Id,
-				FkIdRekrutacja = rekrutacja.Id,
-				SredniaZTokuStudiow = podanieKandydataViewModel.PodanieNaIIStopien.SredniaZTokuStudiow,
-				OcenaZPracyDyplomowej = podanieKandydataViewModel.PodanieNaIIStopien.OcenaZPracyDyplomowej
-			}).Entity;
+				podanieNaIIStopien.CzyAktywny = true;
+				podanieNaIIStopien.DataZlozeniaPodania = podanieKandydataViewModel.PodanieNaIIStopien.DataZlozeniaPodania;
+				podanieNaIIStopien.FkIdKandydat = kandydat.Id;
+				podanieNaIIStopien.FkIdRekrutacja = rekrutacja.Id;
+				podanieNaIIStopien.SredniaZTokuStudiow = podanieKandydataViewModel.PodanieNaIIStopien.SredniaZTokuStudiow;
+				podanieNaIIStopien.OcenaZPracyDyplomowej = podanieKandydataViewModel.PodanieNaIIStopien.OcenaZPracyDyplomowej;
+			}
 
-			_context.SaveChanges();
+            _context.SaveChanges();
 
-			podanieKandydataViewModel.Matura.FkIdPodanieNaIStopien = podanieNaIStopien.Id;
+            podanieKandydataViewModel.Matura.FkIdPodanieNaIStopien = podanieNaIStopien.Id;
 
 			var matura = (podanieKandydataViewModel.Matura.Id == 0 ? _context.Add(podanieKandydataViewModel.Matura) : _context.Update(podanieKandydataViewModel.Matura)).Entity;
 			_context.SaveChanges();
