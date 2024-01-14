@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace projektowaniaOprogramowania.ViewModels.CollegeStructures
 {
     [Table("kierunki")]
-    public class KierunekViewModel
+    public class KierunekModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -48,18 +48,21 @@ namespace projektowaniaOprogramowania.ViewModels.CollegeStructures
 
         [ForeignKey("Wydzial")]
         public long FkIdWydzial { get; set; }
-        public WydzialViewModel Wydzial { get; set; }
+        public WydzialModel Wydzial { get; set; }
         
         [ForeignKey("Przelicznik")]
         public long FkIdPrzelicznik { get; set; }
-        public PrzelicznikKierunkowyViewModel Przelicznik{ get; set; }
+        public PrzelicznikKierunkowyModel Przelicznik{ get; set; }
         
 		// not mapped, for I/O not as model values
 
 		[NotMapped]
-		public int CalculatedRecruitationPoints { get; set; }
+        [Display(Name = "Punkty rekrutacyjne")]
+
+        public int CalculatedRecruitationPoints { get; set; }
 
 		[NotMapped]
+        [Display(Name = "Szansa pomyśnej rekrutacji")]
 		public float CalculatedProbabilityOfSucessfulRecruitation { get; set; }
 	}
 

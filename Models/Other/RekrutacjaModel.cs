@@ -6,7 +6,7 @@ using projektowaniaOprogramowania.ViewModels.CollegeStructures;
 namespace projektowaniaOprogramowania.ViewModels
 {
     [Table("rekrutacje")]
-    public class RekrutacjaViewModel
+    public class RekrutacjaModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

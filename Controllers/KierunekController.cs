@@ -59,7 +59,7 @@ namespace projektowaniaOprogramowania.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,NazwaKierunku,SkrotKierunku,ProfilKierunku,Czesne,CzesneDlaCudzoziemcow,CzasTrwaniaWSemestrach,Dyscyplina,Jezyk,StopienStudiow,TrybStudiowania,FkIdWydzial,FkIdPrzelicznik")] KierunekViewModel kierunekViewModel)
+        public async Task<IActionResult> Create([Bind("Id,NazwaKierunku,SkrotKierunku,ProfilKierunku,Czesne,CzesneDlaCudzoziemcow,CzasTrwaniaWSemestrach,Dyscyplina,Jezyk,StopienStudiow,TrybStudiowania,FkIdWydzial,FkIdPrzelicznik")] KierunekModel kierunekViewModel)
         {
             if (ModelState.IsValid)
             {
@@ -95,7 +95,7 @@ namespace projektowaniaOprogramowania.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(long id, [Bind("Id,NazwaKierunku,SkrotKierunku,ProfilKierunku,Czesne,CzesneDlaCudzoziemcow,CzasTrwaniaWSemestrach,Dyscyplina,Jezyk,StopienStudiow,TrybStudiowania,FkIdWydzial,FkIdPrzelicznik")] KierunekViewModel kierunekViewModel)
+        public async Task<IActionResult> Edit(long id, [Bind("Id,NazwaKierunku,SkrotKierunku,ProfilKierunku,Czesne,CzesneDlaCudzoziemcow,CzasTrwaniaWSemestrach,Dyscyplina,Jezyk,StopienStudiow,TrybStudiowania,FkIdWydzial,FkIdPrzelicznik")] KierunekModel kierunekViewModel)
         {
             if (id != kierunekViewModel.Id)
             {

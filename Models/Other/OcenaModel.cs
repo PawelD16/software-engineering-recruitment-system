@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace projektowaniaOprogramowania.ViewModels
 {
     [Table("oceny")]
-    public class OcenaViewModel
+    public class OcenaModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -16,10 +16,10 @@ namespace projektowaniaOprogramowania.ViewModels
 
         [ForeignKey("Matura")]
         public long MaturaId { get; set; }
-        public MaturaViewModel Matura { get; set; }
+        public MaturaModel Matura { get; set; }
 
         [ForeignKey("Przedmiot")]
         public long FkIdPrzedmiot { get; set; }
-        public PrzedmiotViewModel Przedmiot { get; set; }
+        public PrzedmiotModel Przedmiot { get; set; }
     }
 }

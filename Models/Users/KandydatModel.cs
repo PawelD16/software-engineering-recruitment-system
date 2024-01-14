@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace projektowaniaOprogramowania.ViewModels.Users
 {
     //[Table("kandydaci")]
-    public class KandydatViewModel : OsobaViewModel
+    public class KandydatModel : OsobaModel
     {
         //[Key]
         [StringLength(10)]

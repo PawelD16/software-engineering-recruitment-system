@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace projektowaniaOprogramowania.ViewModels
 {
     [Table("przeliczniki_osiagniec")]
-    public class PrzelicznikOsiagniecViewModel
+    public class PrzelicznikOsiagniecModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -15,10 +15,10 @@ namespace projektowaniaOprogramowania.ViewModels
 
         [ForeignKey("PrzelicznikKierunkowy")]
         public long FkIdPrzelicznikKierunkowy { get; set; }
-        public PrzelicznikKierunkowyViewModel PrzelicznikKierunkowy { get; set; }
+        public PrzelicznikKierunkowyModel PrzelicznikKierunkowy { get; set; }
 
         [ForeignKey("KategoriaOsiagniecia")]
         public long FkIdKategoriaOsiagniecia { get; set; }
-        public KategoriaOsiagnieciaViewModel KategoriaOsiagniecia { get; set; }
+        public KategoriaOsiagnieciaModel KategoriaOsiagniecia { get; set; }
     }
 }

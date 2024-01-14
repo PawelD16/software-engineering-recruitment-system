@@ -4,15 +4,15 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace projektowaniaOprogramowania.ViewModels
 {
-	public class MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage
+    public class MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage
 	{
-		public List<DodatkoweOsiagniecieViewModel> DodatkoweOsiagniecia { get; set; }
-		public List<PrzelicznikOsiagniecViewModel> PrzelicznikiOsiagniec { get; set; }
-		public List<OcenaViewModel> Oceny { get; set; }
-		public List<DorobekNaukowyViewModel> DorobkiNaukowe { get; set; }
-		public List<KategoriaDorobkuViewModel> KategorieDorobku { get; set; }
-		public MaturaViewModel Matura { get; set; }
-		public PodanieNaIIStopienViewModel PodanieNaIIStopien { get; set; }
-		public PodanieNaIStopienViewModel PodanieNaIStopien { get; set; }
+		public List<DodatkoweOsiagniecieModel> DodatkoweOsiagniecia { get; set; }
+		public List<PrzelicznikOsiagniecModel> PrzelicznikiOsiagniec { get; set; }
+		public List<OcenaModel> Oceny { get; set; }
+		public List<DorobekNaukowyModel> DorobkiNaukowe { get; set; }
+		public List<KategoriaDorobkuModel> KategorieDorobku { get; set; }
+		public MaturaModel Matura { get; set; }
+		public PodanieNaStudiaIIStopniaModel PodanieNaIIStopien { get; set; }
+		public PodanieNaStudiaIStopniaModel PodanieNaIStopien { get; set; }
     }
 }

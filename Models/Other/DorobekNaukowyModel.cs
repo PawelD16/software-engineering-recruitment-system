@@ -1,24 +1,25 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System;
 
 namespace projektowaniaOprogramowania.ViewModels
 {
-    [Table("przeliczniki_dorobku")]
-    public class PrzelicznikDorobkuViewModel
+    [Table("dorobei_naukowe")]
+    public class DorobekNaukowyModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
 
         [Required]
-        public int PrzyznawanePunkty { get; set; }
+        public DateTime DataUzyskaniaDorobku { get; set; }
+
+        [ForeignKey("PodanieNaIIStopien")]
+        public long FkIdPodanieNaIIStopien { get; set; }
+        public PodanieNaStudiaIIStopniaModel PodanieNaIIStopien { get; set; }
 
         [ForeignKey("KategoriaDorobku")]
         public long FkIdKategoriaDorobku { get; set; }
-        public KategoriaDorobkuViewModel KategoriaDorobku { get; set; }
-
-        [ForeignKey("PrzelicznikKierunkowy")]
-        public long FkIdPrzelicznikKierunkowy { get; set; }
-        public PrzelicznikKierunkowyViewModel PrzelicznikKierunkowy { get; set; }
+        public KategoriaDorobkuModel KategoriaDorobku { get; set; }
     }
 }

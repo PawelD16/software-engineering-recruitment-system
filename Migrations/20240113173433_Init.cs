@@ -4,7 +4,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace projektowaniaOprogramowania.Migrations
 {
-    public partial class ReInitialMigration : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -564,7 +564,7 @@ namespace projektowaniaOprogramowania.Migrations
             migrationBuilder.InsertData(
                 table: "osoby",
                 columns: new[] { "Id", "CzyEmailPotwierdzony", "DataZarejestrowania", "Email", "Haslo", "Imie", "Login", "Nazwisko", "NumerPaszportu", "Pesel" },
-                values: new object[] { 1L, true, new DateTime(2024, 1, 10, 23, 41, 27, 459, DateTimeKind.Local).AddTicks(346), "testowykandydat@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat", "Testowy", null, "59070575419" });
+                values: new object[] { 1L, true, new DateTime(2024, 1, 13, 18, 34, 32, 676, DateTimeKind.Local).AddTicks(6090), "testowykandydat@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat", "Testowy", null, "59070575419" });
 
             migrationBuilder.InsertData(
                 table: "przedmioty",
@@ -601,7 +601,7 @@ namespace projektowaniaOprogramowania.Migrations
             migrationBuilder.InsertData(
                 table: "rekrutacje",
                 columns: new[] { "Id", "DataOtwarciaRekrutacji", "DataZamknieciaPrzyjec", "DataZamknieciaRekrutacji", "SemestrRekrutacji", "StatusRekrutacji", "StopienStudiow" },
-                values: new object[] { 1L, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999), new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999), 1, 0, 0 });
+                values: new object[] { 1L, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2024, 6, 13, 18, 34, 32, 675, DateTimeKind.Local).AddTicks(597), new DateTime(2024, 6, 13, 18, 34, 32, 676, DateTimeKind.Local).AddTicks(4604), 1, 0, 0 });
 
             migrationBuilder.InsertData(
                 table: "kandydaci",
@@ -648,7 +648,7 @@ namespace projektowaniaOprogramowania.Migrations
             migrationBuilder.InsertData(
                 table: "podania_kandydatow",
                 columns: new[] { "Id", "CzyAktywny", "DataZlozeniaPodania", "FkIdKandydat", "FkIdRekrutacja" },
-                values: new object[] { 1L, true, new DateTime(2024, 1, 10, 23, 41, 27, 463, DateTimeKind.Local).AddTicks(1445), 1L, 1L });
+                values: new object[] { 1L, true, new DateTime(2024, 1, 13, 18, 34, 32, 677, DateTimeKind.Local).AddTicks(1653), 1L, 1L });
 
             migrationBuilder.CreateIndex(
                 name: "IX_dodatkowe_osiagniecia_FkIdPodanieKandydata",

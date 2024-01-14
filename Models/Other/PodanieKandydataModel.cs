@@ -6,7 +6,7 @@ using projektowaniaOprogramowania.ViewModels.Users;
 namespace projektowaniaOprogramowania.ViewModels
 {
     //[Table("podania_kandydatow")]
-    public class PodanieKandydataViewModel
+    public class PodanieKandydataModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -20,10 +20,10 @@ namespace projektowaniaOprogramowania.ViewModels
 
         [ForeignKey("Rekrutacja")]
         public long FkIdRekrutacja { get; set; }
-        public RekrutacjaViewModel Rekrutacja { get; set; }
+        public RekrutacjaModel Rekrutacja { get; set; }
 
         [ForeignKey("Kandydat")]
         public long FkIdKandydat { get; set; }
-        public KandydatViewModel Kandydat { get; set; }
+        public KandydatModel Kandydat { get; set; }
     }
 }

@@ -1,15 +1,16 @@
-﻿@model IEnumerable<projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel>
+﻿@model IEnumerable<projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel>
 
 @{
 	ViewData["Title"] = "Wyniki";
 	ViewBag.ShouldShowPoints = true;
 	ViewBag.Header = "Kierunki, na które masz wysoką szansę pomyślnej aplikacji";
+	ViewBag.FilterActionRedirect = "WyswietlKierunki";
 }
 
 @section HeaderPart
 	{
 	@await Html.PartialAsync("_SearchNameAndWydzial",
-		(IEnumerable<projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialViewModel>) ViewBag.Wydzialy
+		(IEnumerable<projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialModel>) ViewBag.Wydzialy
 	)
 }
 

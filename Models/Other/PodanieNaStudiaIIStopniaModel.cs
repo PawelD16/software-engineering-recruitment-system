@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace projektowaniaOprogramowania.ViewModels
 {
     //[Table("podania_na_II_stopien")]
-    public class PodanieNaIIStopienViewModel : PodanieKandydataViewModel
+    public class PodanieNaStudiaIIStopniaModel : PodanieKandydataModel
     {
         /*
         [Key]

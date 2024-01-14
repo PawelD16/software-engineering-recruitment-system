@@ -8,7 +8,7 @@ using projektowaniaOprogramowania.ViewModels.Users;
 
 namespace projektowaniaOprogramowania.Services
 {
-	public class PunktyRekrutacyjneService
+    public class PunktyRekrutacyjneService
 	{
 		private readonly MyDbContext _context;
 		private readonly Random _random = new();
@@ -21,7 +21,7 @@ namespace projektowaniaOprogramowania.Services
 			_context = context;
 		}
 
-		public (int, float) PrzewidujPrzelicznikDlaKierunkuISzanseDostaniaSie(KierunekViewModel kierunek)
+		public (int, float) PrzewidujPrzelicznikDlaKierunkuISzanseDostaniaSie(KierunekModel kierunek)
 		{
 			// mock
 
@@ -30,7 +30,7 @@ namespace projektowaniaOprogramowania.Services
 			return (points, (points * kierunek.CalculatedRecruitationPoints * 100F) / (MAX_RECRUITATION_POINTS * MAX_RECRUITATION_POINTS * 1.0F));
 		}
 
-		public KierunekViewModel WyliczPrzelicznikKandydataDlaKierunku(KandydatViewModel kandydat, KierunekViewModel kierunek)
+		public KierunekModel WyliczPrzelicznikKandydataDlaKierunku(KandydatModel kandydat, KierunekModel kierunek)
 		{
 			var (_, podaniaKandydata) = GetActiveRekrutacjaAndPodaniaKandydata(kandydat);
 
@@ -52,7 +52,7 @@ namespace projektowaniaOprogramowania.Services
 			return kierunek;
 		}
 
-		public List<KierunekViewModel> WyliczPrzelicznikKandydataDlaKazdegoKierunku(KandydatViewModel kandydat)
+		public virtual List<KierunekModel> WyliczPrzelicznikKandydataDlaKazdegoKierunku(KandydatModel kandydat)
 		{
 
 			var (_, podaniaKandydata) = GetActiveRekrutacjaAndPodaniaKandydata(kandydat);
@@ -66,7 +66,7 @@ namespace projektowaniaOprogramowania.Services
 			{
 				var (dodatkoweOsiagniecia, dorobkiNaukowe, matura) = GetDodatkoweOsiagnieciaAndDorobekNaukowyAndMatura(podanieKandydata);	
 
-				foreach (KierunekViewModel kierunek in kierunki)
+				foreach (KierunekModel kierunek in kierunki)
 				{
 					kierunek.CalculatedRecruitationPoints = PrzeliczPunktyDlaKierunku(
 							kierunek, matura, dorobkiNaukowe, dodatkoweOsiagniecia, podanieKandydata
@@ -79,44 +79,44 @@ namespace projektowaniaOprogramowania.Services
 			return kierunki;
 		}
 
-		private (RekrutacjaViewModel, List<PodanieKandydataViewModel>) GetActiveRekrutacjaAndPodaniaKandydata(KandydatViewModel kandydat)
+		private (RekrutacjaModel, List<PodanieKandydataModel>) GetActiveRekrutacjaAndPodaniaKandydata(KandydatModel kandydat)
 		{
-			if (kandydat == null)
-				return (null, new List<PodanieKandydataViewModel>());
+			if (kandydat == null) // nie dodawanie null checka w diagramie sekwencji, gdy wczesniej sprawdzalismy czy jest nullem! Ten null check tylko profilaktycznie
+				return (null, new List<PodanieKandydataModel>());
 			// 1 aktywna rekrutacja
-			RekrutacjaViewModel rekrutacja = _context.Rekrutacje
+			RekrutacjaModel rekrutacja = _context.Rekrutacje
 				.FirstOrDefault(rekrutacja => rekrutacja.StatusRekrutacji == StatusRekrutacji.Otwarta);
 
 			// podanie kandydata do 2 sztuk, po jednym na każdy z stopniów
-			List<PodanieKandydataViewModel> podaniaKandydata = rekrutacja == null ? null : _context.PodaniaKandydatow
+			List<PodanieKandydataModel> podaniaKandydata = rekrutacja == null ? null : _context.PodaniaKandydatow
 				.Where(pk => pk.FkIdKandydat == kandydat.Id && pk.FkIdRekrutacja == rekrutacja.Id)
 				.ToList();
 
 			return (rekrutacja, podaniaKandydata);
 		}
 
-		private (List<DodatkoweOsiagniecieViewModel>, List<DorobekNaukowyViewModel>, MaturaViewModel) GetDodatkoweOsiagnieciaAndDorobekNaukowyAndMatura(PodanieKandydataViewModel podanieKandydata)
+		private (List<DodatkoweOsiagniecieModel>, List<DorobekNaukowyModel>, MaturaModel) GetDodatkoweOsiagnieciaAndDorobekNaukowyAndMatura(PodanieKandydataModel podanieKandydata)
 		{
-			List<DodatkoweOsiagniecieViewModel> dodatkoweOsiagniecia = _context.DodatkoweOsiagniecia
+			List<DodatkoweOsiagniecieModel> dodatkoweOsiagniecia = _context.DodatkoweOsiagniecia
 				.Where(o => o.FkIdPodanieKandydata == podanieKandydata.Id)
 				.ToList();
 
-			List<DorobekNaukowyViewModel> dorobkiNaukowe = _context.DorobkiNaukowe
+			List<DorobekNaukowyModel> dorobkiNaukowe = _context.DorobkiNaukowe
 				.Where(o => o.FkIdPodanieNaIIStopien == podanieKandydata.Id)
 				.ToList();
 
-			MaturaViewModel matura = _context.Matury
+			MaturaModel matura = _context.Matury
 				.SingleOrDefault(m => m.FkIdPodanieNaIStopien == podanieKandydata.Id);
 
 			return (dodatkoweOsiagniecia, dorobkiNaukowe, matura);
 		}
 
 		private int PrzeliczPunktyDlaKierunku(
-			KierunekViewModel kierunek,
-			MaturaViewModel matura,
-			List<DorobekNaukowyViewModel> dorobkiNaukowe,
-			List<DodatkoweOsiagniecieViewModel> dodatkoweOsiagniecia,
-			PodanieKandydataViewModel podanie)
+			KierunekModel kierunek,
+			MaturaModel matura,
+			List<DorobekNaukowyModel> dorobkiNaukowe,
+			List<DodatkoweOsiagniecieModel> dodatkoweOsiagniecia,
+			PodanieKandydataModel podanie)
 		{
 			if (kierunek == null)
 				return 0;
@@ -130,13 +130,13 @@ namespace projektowaniaOprogramowania.Services
 			return kierunek.CalculatedRecruitationPoints;
 		}
 
-		private int PoliczPunktyDlaKierunkuIIStopnia(List<DorobekNaukowyViewModel> dorobkiNaukowe)
+		private int PoliczPunktyDlaKierunkuIIStopnia(List<DorobekNaukowyModel> dorobkiNaukowe)
 		{
 			// mock
 			return getRandomRecruitationPoints();
 		}
 
-		private int PoliczPunktyDlaKierunkuIStopnia(KierunekViewModel kierunek, MaturaViewModel matura, List<DodatkoweOsiagniecieViewModel> dodatkoweOsiagniecia)
+		private int PoliczPunktyDlaKierunkuIStopnia(KierunekModel kierunek, MaturaModel matura, List<DodatkoweOsiagniecieModel> dodatkoweOsiagniecia)
 		{
 			if (kierunek == null || matura == null)
 				return 0;

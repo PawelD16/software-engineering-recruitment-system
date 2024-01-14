@@ -5,7 +5,7 @@ using projektowaniaOprogramowania.ViewModels.CollegeStructures;
 namespace projektowaniaOprogramowania.ViewModels.Users
 {
     //[Table("pracownicy_dzialu_rekrutacji")]
-    public class PracownikDzialuRekrutacjiViewModel : PracownikViewModel
+    public class PracownikDzialuRekrutacjiModel : PracownikModel
     {
         /*
         [Key]
@@ -15,6 +15,6 @@ namespace projektowaniaOprogramowania.ViewModels.Users
         */
         [ForeignKey("Wydzial")]
         public long FkIdWydzial { get; set; }
-        public WydzialViewModel Wydzial { get; set; }
+        public WydzialModel Wydzial { get; set; }
     }
 }

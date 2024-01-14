@@ -5,7 +5,7 @@ using System;
 namespace projektowaniaOprogramowania.ViewModels
 {
     [Table("dodatkowe_osiagniecia")]
-    public class DodatkoweOsiagniecieViewModel
+    public class DodatkoweOsiagniecieModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -20,10 +20,10 @@ namespace projektowaniaOprogramowania.ViewModels
 
         [ForeignKey("PodanieKandydata")]
         public long FkIdPodanieKandydata { get; set; }
-        public PodanieKandydataViewModel PodanieKandydata { get; set; }
+        public PodanieKandydataModel PodanieKandydata { get; set; }
 
         [ForeignKey("PrzelicznikOsiagniec")]
         public long FkIdPrzelicznikOsiagniec { get; set; }
-        public PrzelicznikOsiagniecViewModel PrzelicznikOsiagniec { get; set; }
+        public PrzelicznikOsiagniecModel PrzelicznikOsiagniec { get; set; }
     }
 }

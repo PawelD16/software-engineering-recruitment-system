@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace projektowaniaOprogramowania.ViewModels
 {
-    [Table("przedmioty")]
-    public class PrzedmiotViewModel
+    [Table("kategorie_dorobku")]
+    public class KategoriaDorobkuModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -12,6 +12,6 @@ namespace projektowaniaOprogramowania.ViewModels
 
         [Required]
         [StringLength(255)]
-        public string NazwaPrzedmiotu { get; set; }
+        public string NazwaKategoriiDorobku { get; set; }
     }
 }

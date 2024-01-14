@@ -1,17 +1,21 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System;
 
 namespace projektowaniaOprogramowania.ViewModels
 {
-    [Table("kategorie_osiagniecia")]
-    public class KategoriaOsiagnieciaViewModel
+    [Table("matury")]
+    public class MaturaModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
 
         [Required]
-        [StringLength(255)]
-        public string NazwaKategorii { get; set; }
-    }
+        public DateTime DataPrzystapieniaDoMatury { get; set; }
+
+		[ForeignKey("PodanieNaIStopien")]
+		public long FkIdPodanieNaIStopien { get; set; }
+		public PodanieNaStudiaIStopniaModel PodanieNaIStopien { get; set; }
+	}
 }

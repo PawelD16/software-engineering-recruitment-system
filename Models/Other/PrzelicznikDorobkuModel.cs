@@ -3,23 +3,22 @@ using System.ComponentModel.DataAnnotations;
 
 namespace projektowaniaOprogramowania.ViewModels
 {
-    [Table("przeliczniki_przedmiotu")]
-    public class PrzelicznikPrzedmiotuViewModel
+    [Table("przeliczniki_dorobku")]
+    public class PrzelicznikDorobkuModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
 
         [Required]
-        [Range(0, 1)]
-        public float Wspolczynnik { get; set; }
+        public int PrzyznawanePunkty { get; set; }
 
-        [ForeignKey("Przedmiot")]
-        public long FkIdPrzedmiot { get; set; }
-        public PrzedmiotViewModel Przedmiot { get; set; }
+        [ForeignKey("KategoriaDorobku")]
+        public long FkIdKategoriaDorobku { get; set; }
+        public KategoriaDorobkuModel KategoriaDorobku { get; set; }
 
         [ForeignKey("PrzelicznikKierunkowy")]
         public long FkIdPrzelicznikKierunkowy { get; set; }
-        public PrzelicznikKierunkowyViewModel PrzelicznikKierunkowy { get; set; }
+        public PrzelicznikKierunkowyModel PrzelicznikKierunkowy { get; set; }
     }
 }

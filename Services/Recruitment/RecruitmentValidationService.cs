@@ -13,7 +13,7 @@ namespace projektowaniaOprogramowania.Services.Recrutation
             _dbContext = dbContext;
         }
         
-        public async Task<(bool, string)> IsRecruitmentValid(RekrutacjaViewModel recruitment)
+        public async Task<(bool, string)> IsRecruitmentValid(RekrutacjaModel recruitment)
         {
             if (!AreDatesCorrect(recruitment))
             {
@@ -28,7 +28,7 @@ namespace projektowaniaOprogramowania.Services.Recrutation
             return (true, "");
         }
 
-        private async Task<bool> IsNewStateValid(RekrutacjaViewModel recruitment)
+        private async Task<bool> IsNewStateValid(RekrutacjaModel recruitment)
         {
             var dbObj = await _dbContext.Rekrutacje.FindAsync(recruitment.Id);
             if (dbObj==null)
@@ -39,7 +39,7 @@ namespace projektowaniaOprogramowania.Services.Recrutation
 
         }
 
-        private bool AreDatesCorrect(RekrutacjaViewModel recruitment)
+        private bool AreDatesCorrect(RekrutacjaModel recruitment)
         {
             if (recruitment.DataOtwarciaRekrutacji > recruitment.DataZamknieciaPrzyjec)
             {

@@ -5,7 +5,7 @@
     using System.ComponentModel.DataAnnotations.Schema;
 
     //[Table("osoby")]
-    public class OsobaViewModel
+    public class OsobaModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

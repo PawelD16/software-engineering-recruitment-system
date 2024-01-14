@@ -1,63 +1,64 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
+using projektowaniaOprogramowania.Models.Other;
 using projektowaniaOprogramowania.ViewModels;
 using projektowaniaOprogramowania.ViewModels.CollegeStructures;
 using projektowaniaOprogramowania.ViewModels.Users;
 
 namespace projektowaniaOprogramowania.Models
 {
-	public class MyDbContext : DbContext
+    public class MyDbContext : DbContext
 	{
 		public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
 
-		public DbSet<OsobaViewModel> Osoby { get; set; }
-		public DbSet<KandydatViewModel> Kandydaci { get; set; }
-		public DbSet<PracownikViewModel> Pracownicy { get; set; }
-		public DbSet<RekrutacjaViewModel> Rekrutacje { get; set; }
-		public DbSet<KategoriaOsiagnieciaViewModel> KategorieOsiagniec { get; set; }
-		public DbSet<DodatkoweOsiagniecieViewModel> DodatkoweOsiagniecia { get; set; }
-		public DbSet<DorobekNaukowyViewModel> DorobkiNaukowe { get; set; }
-		public DbSet<KategoriaDorobkuViewModel> KategorieDorobku { get; set; }
-		public DbSet<MiastoViewModel> Miasta { get; set; }
-		public DbSet<WydzialViewModel> Wydzialy { get; set; }
-		public DbSet<KierunekViewModel> Kierunki { get; set; }
-		public DbSet<PodanieNaIIStopienViewModel> PodaniaNaIIStopien { get; set; }
-		public DbSet<MaturaViewModel> Matury { get; set; }
-		public DbSet<OcenaViewModel> Oceny { get; set; }
-		public DbSet<PrzedmiotViewModel> Przedmioty { get; set; }
-		public DbSet<KierunekNaPodaniuViewModel> KierunkiNaPodaniu { get; set; }
-		public DbSet<PrzelicznikKierunkowyViewModel> PrzelicznikiKierunkowe { get; set; }
-		public DbSet<PrzelicznikOsiagniecViewModel> PrzelicznikiOsiagniec { get; set; }
-		public DbSet<PrzelicznikDorobkuViewModel> PrzelicznikiDorobku { get; set; }
-		public DbSet<PrzelicznikPrzedmiotuViewModel> PrzelicznikiPrzedmiotow { get; set; }
-		public DbSet<PodanieNaIStopienViewModel> PodaniaNaIStopien { get; set; }
-		public DbSet<PracownikDzialuRekrutacjiViewModel> PracownicyDzialuRekrutacji { get; set; }
-		public DbSet<PracownikDzialuRekrutacjiNaPodanieKandydataViewModel> PracownicyDzialuRekrutacjiNaPodaniaKandydatow { get; set; }
-		public DbSet<PodanieKandydataViewModel> PodaniaKandydatow { get; set; }
+        public virtual DbSet<OsobaModel> Osoby { get; set; }
+		public virtual DbSet<KandydatModel> Kandydaci { get; set; }
+		public virtual DbSet<PracownikModel> Pracownicy { get; set; }
+		public virtual DbSet<RekrutacjaModel> Rekrutacje { get; set; }
+		public virtual DbSet<KategoriaOsiagnieciaModel> KategorieOsiagniec { get; set; }
+		public virtual DbSet<DodatkoweOsiagniecieModel> DodatkoweOsiagniecia { get; set; }
+		public virtual DbSet<DorobekNaukowyModel> DorobkiNaukowe { get; set; }
+		public virtual DbSet<KategoriaDorobkuModel> KategorieDorobku { get; set; }
+		public virtual DbSet<MiastoModel> Miasta { get; set; }
+		public virtual DbSet<WydzialModel> Wydzialy { get; set; }
+		public virtual DbSet<KierunekModel> Kierunki { get; set; }
+		public virtual DbSet<PodanieNaStudiaIIStopniaModel> PodaniaNaIIStopien { get; set; }
+		public virtual DbSet<MaturaModel> Matury { get; set; }
+		public virtual DbSet<OcenaModel> Oceny { get; set; }
+		public virtual DbSet<PrzedmiotModel> Przedmioty { get; set; }
+		public virtual DbSet<KierunekNaPodaniuModel> KierunkiNaPodaniu { get; set; }
+		public virtual DbSet<PrzelicznikKierunkowyModel> PrzelicznikiKierunkowe { get; set; }
+		public virtual DbSet<PrzelicznikOsiagniecModel> PrzelicznikiOsiagniec { get; set; }
+		public virtual DbSet<PrzelicznikDorobkuModel> PrzelicznikiDorobku { get; set; }
+		public virtual DbSet<PrzelicznikPrzedmiotuModel> PrzelicznikiPrzedmiotow { get; set; }
+		public virtual DbSet<PodanieNaStudiaIStopniaModel> PodaniaNaIStopien { get; set; }
+		public virtual DbSet<PracownikDzialuRekrutacjiModel> PracownicyDzialuRekrutacji { get; set; }
+		public virtual DbSet<PracownikDzialuRekrutacjiNaPodanieKandydataModel> PracownicyDzialuRekrutacjiNaPodaniaKandydatow { get; set; }
+		public virtual DbSet<PodanieKandydataModel> PodaniaKandydatow { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 
 			// Table per Type / Joined table
-			modelBuilder.Entity<OsobaViewModel>().ToTable("osoby");
-			modelBuilder.Entity<KandydatViewModel>().ToTable("kandydaci");
-			modelBuilder.Entity<PracownikViewModel>().ToTable("pracownicy");
-			modelBuilder.Entity<PracownikDzialuRekrutacjiViewModel>().ToTable("pracownicy_dzialu_rekrutacji");
+			modelBuilder.Entity<OsobaModel>().ToTable("osoby");
+			modelBuilder.Entity<KandydatModel>().ToTable("kandydaci");
+			modelBuilder.Entity<PracownikModel>().ToTable("pracownicy");
+			modelBuilder.Entity<PracownikDzialuRekrutacjiModel>().ToTable("pracownicy_dzialu_rekrutacji");
 
-			modelBuilder.Entity<PodanieKandydataViewModel>().ToTable("podania_kandydatow");
-			modelBuilder.Entity<PodanieNaIIStopienViewModel>().ToTable("podania_na_II_stopien");
-			modelBuilder.Entity<PodanieNaIStopienViewModel>().ToTable("podania_na_I_stopien");
+			modelBuilder.Entity<PodanieKandydataModel>().ToTable("podania_kandydatow");
+			modelBuilder.Entity<PodanieNaStudiaIIStopniaModel>().ToTable("podania_na_II_stopien");
+			modelBuilder.Entity<PodanieNaStudiaIStopniaModel>().ToTable("podania_na_I_stopien");
 
 			// Setting unique (but not key) values
-			modelBuilder.Entity<KandydatViewModel>()
+			modelBuilder.Entity<KandydatModel>()
 						.HasIndex(u => u.NumerKandydata)
 						.IsUnique();
 
-			modelBuilder.Entity<PracownikViewModel>()
+			modelBuilder.Entity<PracownikModel>()
 						.HasIndex(u => u.NumerPracownika)
 						.IsUnique();
 
-			modelBuilder.Entity<PracownikDzialuRekrutacjiNaPodanieKandydataViewModel>()
+			modelBuilder.Entity<PracownikDzialuRekrutacjiNaPodanieKandydataModel>()
 				.HasKey(m => new { m.PkFkIdPodanieKandydata, m.PkFkIdPracownikDzialuRekrutacji });
 
 			// Extension method for seeding the databse with data. It is defined in ModelBuilderExtension

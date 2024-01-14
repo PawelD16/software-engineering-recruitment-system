@@ -64,7 +64,7 @@ namespace projektowaniaOprogramowania.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,DataOtwarciaRekrutacji,DataZamknieciaRekrutacji,DataZamknieciaPrzyjec,StopienStudiow,StatusRekrutacji,SemestrRekrutacji")] RekrutacjaViewModel rekrutacjaViewModel)
+        public async Task<IActionResult> Create([Bind("Id,DataOtwarciaRekrutacji,DataZamknieciaRekrutacji,DataZamknieciaPrzyjec,StopienStudiow,StatusRekrutacji,SemestrRekrutacji")] RekrutacjaModel rekrutacjaViewModel)
         {
             if (ModelState.IsValid)
             {
@@ -96,7 +96,7 @@ namespace projektowaniaOprogramowania.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(long id, [Bind("Id,DataOtwarciaRekrutacji,DataZamknieciaRekrutacji,DataZamknieciaPrzyjec,StopienStudiow,StatusRekrutacji,SemestrRekrutacji")] RekrutacjaViewModel rekrutacjaViewModel)
+        public async Task<IActionResult> Edit(long id, [Bind("Id,DataOtwarciaRekrutacji,DataZamknieciaRekrutacji,DataZamknieciaPrzyjec,StopienStudiow,StatusRekrutacji,SemestrRekrutacji")] RekrutacjaModel rekrutacjaViewModel)
         { 
             if (id != rekrutacjaViewModel.Id)
             {

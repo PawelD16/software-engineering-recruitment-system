@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace projektowaniaOprogramowania.ViewModels.CollegeStructures
+namespace projektowaniaOprogramowania.ViewModels
 {
-    [Table("miasta")]
-    public class MiastoViewModel
+    [Table("przedmioty")]
+    public class PrzedmiotModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -12,6 +12,6 @@ namespace projektowaniaOprogramowania.ViewModels.CollegeStructures
 
         [Required]
         [StringLength(255)]
-        public string NazwaMiasta { get; set; }
+        public string NazwaPrzedmiotu { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-﻿@model projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel
+﻿@model projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel
 
 @{
     ViewData["Title"] = "Details";
@@ -76,6 +76,21 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Wydzial.NazwaWydzialu)
         </dd>
+        @if (Model.CalculatedRecruitationPoints > 0)
+        {
+            <dt class = "col-sm-8">
+                @Html.DisplayNameFor(model => model.CalculatedRecruitationPoints)
+            </dt>
+            <dd class = "col-sm-4">
+                @Html.DisplayFor(model => model.CalculatedRecruitationPoints)
+            </dd>
+            <dt class="col-sm-8">
+                @Html.DisplayNameFor(model => model.CalculatedProbabilityOfSucessfulRecruitation)
+            </dt>
+            <dd class="col-sm-4">
+                @Html.DisplayFor(model => model.CalculatedProbabilityOfSucessfulRecruitation)
+            </dd>
+        }
     </dl>
 </div>
 <div>

@@ -10,8 +10,8 @@ using projektowaniaOprogramowania.Models;
 namespace projektowaniaOprogramowania.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240110224127_ReInitialMigration")]
-    partial class ReInitialMigration
+    [Migration("20240113173433_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,7 +21,22 @@ namespace projektowaniaOprogramowania.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.Models.Other.PracownikDzialuRekrutacjiNaPodanieKandydataModel", b =>
+                {
+                    b.Property<long>("PkFkIdPodanieKandydata")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("PkFkIdPracownikDzialuRekrutacji")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("PkFkIdPodanieKandydata", "PkFkIdPracownikDzialuRekrutacji");
+
+                    b.HasIndex("PkFkIdPracownikDzialuRekrutacji");
+
+                    b.ToTable("pracownicy_dzialu_rekrutacji_na_podania_kandydata");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -149,7 +164,7 @@ namespace projektowaniaOprogramowania.Migrations
                         });
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.MiastoViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.MiastoModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -173,7 +188,7 @@ namespace projektowaniaOprogramowania.Migrations
                         });
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -209,7 +224,7 @@ namespace projektowaniaOprogramowania.Migrations
                         });
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.DodatkoweOsiagniecieViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.DodatkoweOsiagniecieModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -239,7 +254,7 @@ namespace projektowaniaOprogramowania.Migrations
                     b.ToTable("dodatkowe_osiagniecia");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.DorobekNaukowyViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -264,7 +279,7 @@ namespace projektowaniaOprogramowania.Migrations
                     b.ToTable("dorobei_naukowe");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.KategoriaDorobkuViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.KategoriaDorobkuModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -303,7 +318,7 @@ namespace projektowaniaOprogramowania.Migrations
                         });
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.KategoriaOsiagnieciaViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.KategoriaOsiagnieciaModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -342,7 +357,7 @@ namespace projektowaniaOprogramowania.Migrations
                         });
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.KierunekNaPodaniuViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.KierunekNaPodaniuModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -367,7 +382,7 @@ namespace projektowaniaOprogramowania.Migrations
                     b.ToTable("kierunki_na_podaniach");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.MaturaViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.MaturaModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -387,7 +402,7 @@ namespace projektowaniaOprogramowania.Migrations
                     b.ToTable("matury");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.OcenaViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.OcenaModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -412,7 +427,7 @@ namespace projektowaniaOprogramowania.Migrations
                     b.ToTable("oceny");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieKandydataModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -444,28 +459,13 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyAktywny = true,
-                            DataZlozeniaPodania = new DateTime(2024, 1, 10, 23, 41, 27, 463, DateTimeKind.Local).AddTicks(1445),
+                            DataZlozeniaPodania = new DateTime(2024, 1, 13, 18, 34, 32, 677, DateTimeKind.Local).AddTicks(1653),
                             FkIdKandydat = 1L,
                             FkIdRekrutacja = 1L
                         });
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PracownikDzialuRekrutacjiNaPodanieKandydataViewModel", b =>
-                {
-                    b.Property<long>("PkFkIdPodanieKandydata")
-                        .HasColumnType("bigint");
-
-                    b.Property<long>("PkFkIdPracownikDzialuRekrutacji")
-                        .HasColumnType("bigint");
-
-                    b.HasKey("PkFkIdPodanieKandydata", "PkFkIdPracownikDzialuRekrutacji");
-
-                    b.HasIndex("PkFkIdPracownikDzialuRekrutacji");
-
-                    b.ToTable("pracownicy_dzialu_rekrutacji_na_podania_kandydata");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzedmiotViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzedmiotModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -564,7 +564,7 @@ namespace projektowaniaOprogramowania.Migrations
                         });
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikDorobkuViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikDorobkuModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -589,7 +589,7 @@ namespace projektowaniaOprogramowania.Migrations
                     b.ToTable("przeliczniki_dorobku");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -616,7 +616,7 @@ namespace projektowaniaOprogramowania.Migrations
                         });
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikOsiagniecViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikOsiagniecModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -671,7 +671,7 @@ namespace projektowaniaOprogramowania.Migrations
                         });
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -719,7 +719,7 @@ namespace projektowaniaOprogramowania.Migrations
                         });
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.RekrutacjaViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.RekrutacjaModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -753,15 +753,15 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             DataOtwarciaRekrutacji = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DataZamknieciaPrzyjec = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            DataZamknieciaRekrutacji = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
+                            DataZamknieciaPrzyjec = new DateTime(2024, 6, 13, 18, 34, 32, 675, DateTimeKind.Local).AddTicks(597),
+                            DataZamknieciaRekrutacji = new DateTime(2024, 6, 13, 18, 34, 32, 676, DateTimeKind.Local).AddTicks(4604),
                             SemestrRekrutacji = 1,
                             StatusRekrutacji = 0,
                             StopienStudiow = 0
                         });
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.OsobaModel", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -812,9 +812,9 @@ namespace projektowaniaOprogramowania.Migrations
                     b.ToTable("osoby");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaIIStopienViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIIStopniaModel", b =>
                 {
-                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel");
+                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.PodanieKandydataModel");
 
                     b.Property<float>("OcenaZPracyDyplomowej")
                         .HasColumnType("real");
@@ -825,16 +825,16 @@ namespace projektowaniaOprogramowania.Migrations
                     b.ToTable("podania_na_II_stopien");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaIStopienViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIStopniaModel", b =>
                 {
-                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel");
+                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.PodanieKandydataModel");
 
                     b.ToTable("podania_na_I_stopien");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.KandydatViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.KandydatModel", b =>
                 {
-                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel");
+                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.Users.OsobaModel");
 
                     b.Property<string>("NumerKandydata")
                         .HasMaxLength(10)
@@ -850,7 +850,7 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyEmailPotwierdzony = true,
-                            DataZarejestrowania = new DateTime(2024, 1, 10, 23, 41, 27, 459, DateTimeKind.Local).AddTicks(346),
+                            DataZarejestrowania = new DateTime(2024, 1, 13, 18, 34, 32, 676, DateTimeKind.Local).AddTicks(6090),
                             Email = "testowykandydat@gmail.com",
                             Haslo = "zahaszowaneHaselko",
                             Imie = "Jan",
@@ -861,9 +861,9 @@ namespace projektowaniaOprogramowania.Migrations
                         });
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikModel", b =>
                 {
-                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel");
+                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.Users.OsobaModel");
 
                     b.Property<DateTime>("DataZatrudnienia")
                         .HasColumnType("timestamp without time zone");
@@ -883,9 +883,9 @@ namespace projektowaniaOprogramowania.Migrations
                     b.ToTable("pracownicy");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikDzialuRekrutacjiViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikDzialuRekrutacjiModel", b =>
                 {
-                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.Users.PracownikViewModel");
+                    b.HasBaseType("projektowaniaOprogramowania.ViewModels.Users.PracownikModel");
 
                     b.Property<long>("FkIdWydzial")
                         .HasColumnType("bigint");
@@ -895,151 +895,15 @@ namespace projektowaniaOprogramowania.Migrations
                     b.ToTable("pracownicy_dzialu_rekrutacji");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.Models.Other.PracownikDzialuRekrutacjiNaPodanieKandydataModel", b =>
                 {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyViewModel", "Przelicznik")
-                        .WithMany()
-                        .HasForeignKey("FkIdPrzelicznik")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialViewModel", "Wydzial")
-                        .WithMany()
-                        .HasForeignKey("FkIdWydzial")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Przelicznik");
-
-                    b.Navigation("Wydzial");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialViewModel", b =>
-                {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.CollegeStructures.MiastoViewModel", "Miasto")
-                        .WithMany()
-                        .HasForeignKey("MiastoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Miasto");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.DodatkoweOsiagniecieViewModel", b =>
-                {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel", "PodanieKandydata")
-                        .WithMany()
-                        .HasForeignKey("FkIdPodanieKandydata")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzelicznikOsiagniecViewModel", "PrzelicznikOsiagniec")
-                        .WithMany()
-                        .HasForeignKey("FkIdPrzelicznikOsiagniec")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("PodanieKandydata");
-
-                    b.Navigation("PrzelicznikOsiagniec");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.DorobekNaukowyViewModel", b =>
-                {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.KategoriaDorobkuViewModel", "KategoriaDorobku")
-                        .WithMany()
-                        .HasForeignKey("FkIdKategoriaDorobku")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieNaIIStopienViewModel", "PodanieNaIIStopien")
-                        .WithMany()
-                        .HasForeignKey("FkIdPodanieNaIIStopien")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("KategoriaDorobku");
-
-                    b.Navigation("PodanieNaIIStopien");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.KierunekNaPodaniuViewModel", b =>
-                {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekViewModel", "Kierunek")
-                        .WithMany()
-                        .HasForeignKey("FkIdKierunek")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel", "PodanieKandydata")
-                        .WithMany()
-                        .HasForeignKey("FkIdPodanieKandydata")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Kierunek");
-
-                    b.Navigation("PodanieKandydata");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.MaturaViewModel", b =>
-                {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieNaIStopienViewModel", "PodanieNaIStopien")
-                        .WithMany()
-                        .HasForeignKey("FkIdPodanieNaIStopien")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("PodanieNaIStopien");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.OcenaViewModel", b =>
-                {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzedmiotViewModel", "Przedmiot")
-                        .WithMany()
-                        .HasForeignKey("FkIdPrzedmiot")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.MaturaViewModel", "Matura")
-                        .WithMany()
-                        .HasForeignKey("MaturaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Matura");
-
-                    b.Navigation("Przedmiot");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel", b =>
-                {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.KandydatViewModel", "Kandydat")
-                        .WithMany()
-                        .HasForeignKey("FkIdKandydat")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.RekrutacjaViewModel", "Rekrutacja")
-                        .WithMany()
-                        .HasForeignKey("FkIdRekrutacja")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Kandydat");
-
-                    b.Navigation("Rekrutacja");
-                });
-
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PracownikDzialuRekrutacjiNaPodanieKandydataViewModel", b =>
-                {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel", "PodanieKandydata")
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataModel", "PodanieKandydata")
                         .WithMany()
                         .HasForeignKey("PkFkIdPodanieKandydata")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.PracownikDzialuRekrutacjiViewModel", "PracownikDzialuRekrutacji")
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.PracownikDzialuRekrutacjiModel", "PracownikDzialuRekrutacji")
                         .WithMany()
                         .HasForeignKey("PkFkIdPracownikDzialuRekrutacji")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -1050,15 +914,151 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Navigation("PracownikDzialuRekrutacji");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikDorobkuViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel", b =>
                 {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.KategoriaDorobkuViewModel", "KategoriaDorobku")
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel", "Przelicznik")
+                        .WithMany()
+                        .HasForeignKey("FkIdPrzelicznik")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialModel", "Wydzial")
+                        .WithMany()
+                        .HasForeignKey("FkIdWydzial")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Przelicznik");
+
+                    b.Navigation("Wydzial");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialModel", b =>
+                {
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.CollegeStructures.MiastoModel", "Miasto")
+                        .WithMany()
+                        .HasForeignKey("MiastoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Miasto");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.DodatkoweOsiagniecieModel", b =>
+                {
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataModel", "PodanieKandydata")
+                        .WithMany()
+                        .HasForeignKey("FkIdPodanieKandydata")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzelicznikOsiagniecModel", "PrzelicznikOsiagniec")
+                        .WithMany()
+                        .HasForeignKey("FkIdPrzelicznikOsiagniec")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("PodanieKandydata");
+
+                    b.Navigation("PrzelicznikOsiagniec");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel", b =>
+                {
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.KategoriaDorobkuModel", "KategoriaDorobku")
                         .WithMany()
                         .HasForeignKey("FkIdKategoriaDorobku")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyViewModel", "PrzelicznikKierunkowy")
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIIStopniaModel", "PodanieNaIIStopien")
+                        .WithMany()
+                        .HasForeignKey("FkIdPodanieNaIIStopien")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("KategoriaDorobku");
+
+                    b.Navigation("PodanieNaIIStopien");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.KierunekNaPodaniuModel", b =>
+                {
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel", "Kierunek")
+                        .WithMany()
+                        .HasForeignKey("FkIdKierunek")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataModel", "PodanieKandydata")
+                        .WithMany()
+                        .HasForeignKey("FkIdPodanieKandydata")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Kierunek");
+
+                    b.Navigation("PodanieKandydata");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.MaturaModel", b =>
+                {
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIStopniaModel", "PodanieNaIStopien")
+                        .WithMany()
+                        .HasForeignKey("FkIdPodanieNaIStopien")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("PodanieNaIStopien");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.OcenaModel", b =>
+                {
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzedmiotModel", "Przedmiot")
+                        .WithMany()
+                        .HasForeignKey("FkIdPrzedmiot")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.MaturaModel", "Matura")
+                        .WithMany()
+                        .HasForeignKey("MaturaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Matura");
+
+                    b.Navigation("Przedmiot");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieKandydataModel", b =>
+                {
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.KandydatModel", "Kandydat")
+                        .WithMany()
+                        .HasForeignKey("FkIdKandydat")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.RekrutacjaModel", "Rekrutacja")
+                        .WithMany()
+                        .HasForeignKey("FkIdRekrutacja")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Kandydat");
+
+                    b.Navigation("Rekrutacja");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikDorobkuModel", b =>
+                {
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.KategoriaDorobkuModel", "KategoriaDorobku")
+                        .WithMany()
+                        .HasForeignKey("FkIdKategoriaDorobku")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel", "PrzelicznikKierunkowy")
                         .WithMany("PrzelicznikDorobku")
                         .HasForeignKey("FkIdPrzelicznikKierunkowy")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -1069,15 +1069,15 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Navigation("PrzelicznikKierunkowy");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikOsiagniecViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikOsiagniecModel", b =>
                 {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.KategoriaOsiagnieciaViewModel", "KategoriaOsiagniecia")
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.KategoriaOsiagnieciaModel", "KategoriaOsiagniecia")
                         .WithMany()
                         .HasForeignKey("FkIdKategoriaOsiagniecia")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyViewModel", "PrzelicznikKierunkowy")
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel", "PrzelicznikKierunkowy")
                         .WithMany()
                         .HasForeignKey("FkIdPrzelicznikKierunkowy")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -1088,15 +1088,15 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Navigation("PrzelicznikKierunkowy");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel", b =>
                 {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzedmiotViewModel", "Przedmiot")
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzedmiotModel", "Przedmiot")
                         .WithMany()
                         .HasForeignKey("FkIdPrzedmiot")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyViewModel", "PrzelicznikKierunkowy")
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel", "PrzelicznikKierunkowy")
                         .WithMany("PrzelicznikPrzemiotu")
                         .HasForeignKey("FkIdPrzelicznikKierunkowy")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -1107,60 +1107,60 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Navigation("PrzelicznikKierunkowy");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaIIStopienViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIIStopniaModel", b =>
                 {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel", null)
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataModel", null)
                         .WithOne()
-                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.PodanieNaIIStopienViewModel", "Id")
+                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIIStopniaModel", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaIStopienViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIStopniaModel", b =>
                 {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataViewModel", null)
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.PodanieKandydataModel", null)
                         .WithOne()
-                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.PodanieNaIStopienViewModel", "Id")
+                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIStopniaModel", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.KandydatViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.KandydatModel", b =>
                 {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel", null)
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.OsobaModel", null)
                         .WithOne()
-                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.Users.KandydatViewModel", "Id")
+                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.Users.KandydatModel", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikModel", b =>
                 {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.OsobaViewModel", null)
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.OsobaModel", null)
                         .WithOne()
-                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.Users.PracownikViewModel", "Id")
+                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.Users.PracownikModel", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikDzialuRekrutacjiViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.Users.PracownikDzialuRekrutacjiModel", b =>
                 {
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialViewModel", "Wydzial")
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialModel", "Wydzial")
                         .WithMany()
                         .HasForeignKey("FkIdWydzial")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.PracownikViewModel", null)
+                    b.HasOne("projektowaniaOprogramowania.ViewModels.Users.PracownikModel", null)
                         .WithOne()
-                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.Users.PracownikDzialuRekrutacjiViewModel", "Id")
+                        .HasForeignKey("projektowaniaOprogramowania.ViewModels.Users.PracownikDzialuRekrutacjiModel", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Wydzial");
                 });
 
-            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyViewModel", b =>
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel", b =>
                 {
                     b.Navigation("PrzelicznikDorobku");
 

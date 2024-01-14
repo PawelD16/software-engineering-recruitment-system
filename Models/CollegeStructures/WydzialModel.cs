@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace projektowaniaOprogramowania.ViewModels.CollegeStructures
 {
     [Table("wydzialy")]
-    public class WydzialViewModel
+    public class WydzialModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -20,6 +20,6 @@ namespace projektowaniaOprogramowania.ViewModels.CollegeStructures
 
         [ForeignKey("Miasto")]
         public long MiastoId { get; set; }
-        public MiastoViewModel Miasto { get; set; }
+        public MiastoModel Miasto { get; set; }
     }
 }

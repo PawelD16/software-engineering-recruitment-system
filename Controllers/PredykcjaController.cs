@@ -19,27 +19,29 @@ namespace projektowaniaOprogramowania.Controllers
     {
         private readonly MyDbContext _context;
         private readonly PunktyRekrutacyjneService _punktyRekrutacyjneService;
+        private readonly ISessionWrapper _sessionWrapper;
 
-        public PredykcjaController(MyDbContext context, PunktyRekrutacyjneService punktyRekrutacyjneService)
+        public PredykcjaController(MyDbContext context, PunktyRekrutacyjneService punktyRekrutacyjneService, ISessionWrapper sessionWrapper)
         {
             _context = context;
             _punktyRekrutacyjneService = punktyRekrutacyjneService;
+            _sessionWrapper = sessionWrapper;
         }
 
         public IActionResult WyswietlKierunki(string kierunekNameFilter, long? wydzialIdFilter)
         {
-            KandydatViewModel kandydat = _context.Kandydaci.SingleOrDefault(candidate => candidate.Id == HttpContext.Session.GetLong("UserId"));
+            KandydatModel kandydat = _context.Kandydaci.SingleOrDefault(candidate => candidate.Id == _sessionWrapper.GetUserId());
             if (kandydat == null)
                 return RedirectToAction("Error", "Home");
 
             var kierunki = _punktyRekrutacyjneService.WyliczPrzelicznikKandydataDlaKazdegoKierunku(kandydat);
 
-			// _________________________ begin::Mock choose based on probabilities __________________________
-			if (_context.PodaniaKandydatow.FirstOrDefault(p => p.FkIdKandydat == kandydat.Id) != null)
+            var podanieKandydata = _context.PodaniaKandydatow.FirstOrDefault(p => p.FkIdKandydat == kandydat.Id);
+            // _________________________ begin::Mock choose based on probabilities __________________________
+            if  (podanieKandydata != null)
                 kierunki = kierunki.Where(k => k.CalculatedProbabilityOfSucessfulRecruitation >= 50F).ToList();
 			// _________________________ end:Mock choose based on probabilities __________________________
-
-
+    
 			if (kierunki.Count <= 0)
                 return RedirectToAction("WpiszPotrzebneDane");
 
@@ -59,49 +61,48 @@ namespace projektowaniaOprogramowania.Controllers
         // jeżeli id == 0 to jest to nowy, niezapisany do bazy danych obiekt. Domyślne podejście w EF poleca nie null-owalne klucze główne
         public ActionResult WpiszPotrzebneDane()
         {
-            KandydatViewModel kandydat = _context.Kandydaci.SingleOrDefault(c => c.Id == HttpContext.Session.GetLong("UserId"));
+            KandydatModel kandydat = _context.Kandydaci.SingleOrDefault(c => c.Id == _sessionWrapper.GetUserId());
 
             if (kandydat == null)
                 return RedirectToAction("Error", "Home");
 
-            RekrutacjaViewModel rekrutacja = _context.Rekrutacje
+            RekrutacjaModel rekrutacja = _context.Rekrutacje
                 .FirstOrDefault(r => r.StatusRekrutacji == StatusRekrutacji.Otwarta);
 
             // brak otwartej rekrutacji
             if (rekrutacja == null)
                 return RedirectToAction("Error", "Home");
 
-            PodanieNaIStopienViewModel podanieNaIStopien = _context.PodaniaNaIStopien
+            PodanieNaStudiaIStopniaModel podanieNaIStopien = _context.PodaniaNaIStopien
                     .SingleOrDefault(pk => pk.FkIdKandydat == kandydat.Id && pk.FkIdRekrutacja == rekrutacja.Id)
                         ?? new() { DataZlozeniaPodania = DateTime.Now };
 
-            PodanieNaIIStopienViewModel podanieNaIIStopien = _context.PodaniaNaIIStopien
+            PodanieNaStudiaIIStopniaModel podanieNaIIStopien = _context.PodaniaNaIIStopien
                     .SingleOrDefault(pk => pk.FkIdKandydat == kandydat.Id && pk.FkIdRekrutacja == rekrutacja.Id)
                         ?? new() { DataZlozeniaPodania = DateTime.Now };
 
-            MaturaViewModel matura = podanieNaIStopien.Id == 0 ? new() : _context.Matury
-                .SingleOrDefault(m => m.FkIdPodanieNaIStopien == podanieNaIStopien.Id);
+            MaturaModel matura = podanieNaIStopien.Id == 0 ? new() : _context.Matury.SingleOrDefault(m => m.FkIdPodanieNaIStopien == podanieNaIStopien.Id);
 
             var oceny = matura.Id == 0 ?
-                new List<OcenaViewModel>() :
+                new List<OcenaModel>() :
                 _context.Oceny.Where(o => o.MaturaId == matura.Id).ToList();
 
             var model = new MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage
             {
                 Oceny = _context.Przedmioty
                         .ToList() // Fetching data into memory as the query is incompatible with sql
-                        .Select(p => oceny.FirstOrDefault(o => o.Przedmiot.Id == p.Id) ?? new OcenaViewModel { Przedmiot = p, FkIdPrzedmiot = p.Id })
+                        .Select(p => oceny.FirstOrDefault(o => o.Przedmiot.Id == p.Id) ?? new OcenaModel { Przedmiot = p, FkIdPrzedmiot = p.Id })
                         .OrderBy(o => o.Przedmiot.NazwaPrzedmiotu)
                         .ToList(),
                 KategorieDorobku = _context.KategorieDorobku.ToList(),
                 PrzelicznikiOsiagniec = _context.PrzelicznikiOsiagniec.ToList(),
                 DodatkoweOsiagniecia = podanieNaIStopien.Id == 0 && podanieNaIIStopien.Id == 0 ?
-                    new List<DodatkoweOsiagniecieViewModel>() :
+                    new List<DodatkoweOsiagniecieModel>() :
                     _context.DodatkoweOsiagniecia
                         .Where(d => d.FkIdPodanieKandydata == podanieNaIStopien.Id || d.FkIdPodanieKandydata == podanieNaIIStopien.Id)
                         .ToList(),
                 DorobkiNaukowe = podanieNaIIStopien.Id == 0 ?
-                    new List<DorobekNaukowyViewModel>() :
+                    new List<DorobekNaukowyModel>() :
                     _context.DorobkiNaukowe.Where(d => d.FkIdPodanieNaIIStopien == podanieNaIIStopien.Id)
                         .ToList(),
                 PodanieNaIIStopien = podanieNaIIStopien,
@@ -119,12 +120,12 @@ namespace projektowaniaOprogramowania.Controllers
         [HttpPost]
         public ActionResult WpiszPotrzebneDane(MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage model)
         {
-            KandydatViewModel kandydat = _context.Kandydaci.SingleOrDefault(candidate => candidate.Id == HttpContext.Session.GetLong("UserId"));
+            KandydatModel kandydat = _context.Kandydaci.SingleOrDefault(candidate => candidate.Id == _sessionWrapper.GetUserId());
 
             if (kandydat == null)
                 return RedirectToAction("Error", "Home");
 
-            RekrutacjaViewModel rekrutacja = _context.Rekrutacje
+            RekrutacjaModel rekrutacja = _context.Rekrutacje
                 .FirstOrDefault(rekrutacja => rekrutacja.StatusRekrutacji == StatusRekrutacji.Otwarta);
 
             if (rekrutacja == null)
@@ -136,9 +137,15 @@ namespace projektowaniaOprogramowania.Controllers
                 return RedirectToAction("WpiszPotrzebneDane");
             }
 
+            if (model.Matura.DataPrzystapieniaDoMatury == DateTime.MinValue || rekrutacja.DataZamknieciaRekrutacji > model.Matura.DataPrzystapieniaDoMatury.AddYears(5))
+            {
+				TempData["Message"] = $"Matura nie może być starsza niż 5 lat od daty zamknięcia rekrutacji {rekrutacja.DataZamknieciaRekrutacji}";
+				return RedirectToAction("WpiszPotrzebneDane");
+			}
+
             // Updating or deleting and replacing old entities!
             var podanieNaIStopien = _context.PodaniaNaIStopien.SingleOrDefault(p => model.PodanieNaIStopien.Id == p.Id);
-            podanieNaIStopien ??= _context.Add(new PodanieNaIStopienViewModel()
+            podanieNaIStopien ??= _context.Add(new PodanieNaStudiaIStopniaModel()
             {
                 CzyAktywny = true,
                 DataZlozeniaPodania = model.PodanieNaIStopien.DataZlozeniaPodania,
@@ -147,7 +154,7 @@ namespace projektowaniaOprogramowania.Controllers
             }).Entity;
 
             var podanieNaIIStopien = _context.PodaniaNaIIStopien.SingleOrDefault(p => model.PodanieNaIIStopien.Id == p.Id);
-            podanieNaIIStopien ??= _context.Add(new PodanieNaIIStopienViewModel()
+            podanieNaIIStopien ??= _context.Add(new PodanieNaStudiaIIStopniaModel()
             {
                 CzyAktywny = true,
                 DataZlozeniaPodania = model.PodanieNaIIStopien.DataZlozeniaPodania,
@@ -193,7 +200,7 @@ namespace projektowaniaOprogramowania.Controllers
                 {
                     dodatkoweOsiagniecie.FkIdPodanieKandydata = podanieNaIStopien.Id;
 					// deep copy!
-					var dodatkoweOsiagniecie2 = new DodatkoweOsiagniecieViewModel()
+					var dodatkoweOsiagniecie2 = new DodatkoweOsiagniecieModel()
                     {
                         DataZdobycia = dodatkoweOsiagniecie.DataZdobycia,
                         Opis = dodatkoweOsiagniecie.Opis,

@@ -5,7 +5,7 @@ using System;
 namespace projektowaniaOprogramowania.ViewModels.Users
 {
     //[Table("pracownicy")]
-    public class PracownikViewModel : OsobaViewModel
+    public class PracownikModel : OsobaModel
     {
         //[Key]
         [StringLength(10)]

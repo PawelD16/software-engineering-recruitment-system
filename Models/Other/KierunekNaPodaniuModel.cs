@@ -5,7 +5,7 @@ using projektowaniaOprogramowania.ViewModels.CollegeStructures;
 namespace projektowaniaOprogramowania.ViewModels
 {
     [Table("kierunki_na_podaniach")]
-    public class KierunekNaPodaniuViewModel
+    public class KierunekNaPodaniuModel
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -16,11 +16,11 @@ namespace projektowaniaOprogramowania.ViewModels
 
         [ForeignKey("PodanieKandydata")]
         public long FkIdPodanieKandydata { get; set; }
-        public PodanieKandydataViewModel PodanieKandydata { get; set; }
+        public PodanieKandydataModel PodanieKandydata { get; set; }
 
         [ForeignKey("Kierunek")]
         public long FkIdKierunek { get; set; }
-        public KierunekViewModel Kierunek { get; set; }
+        public KierunekModel Kierunek { get; set; }
 
 	}
 }
