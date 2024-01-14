@@ -1,0 +1,127 @@
+@using Microsoft.AspNetCore.Razor.Language
+@using Microsoft.AspNetCore.Http.Features
+@using Microsoft.AspNetCore.Mvc.Filters
+@using projektowaniaOprogramowania.ViewModels
+@model IEnumerable<projektowaniaOprogramowania.ViewModels.RekrutacjaModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Rekrutacje</h1>
+<div aria-live="polite" aria-atomic="true">
+  <!-- Position it: -->
+  <!-- - `.toast-container` for spacing between toasts -->
+  <!-- - `.position-absolute`, `top-0` & `end-0` to position the toasts in the upper right corner -->
+  <!-- - `.p-3` to prevent the toasts from sticking to the edge of the container  -->
+<div class="toast-container position-fixed p-3" style="bottom:50px;left: 50px;z-index:999;">
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-body bg-danger">
+            @ViewData["error-message"]
+        </div>
+    </div>
+</div>
+</div>
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div id="accordion" class="bg-secondary">
+    @foreach (var item in Model) {
+        <div class="card bg-secondary">
+            <div class="card-header bg-secondary" id="heading-@item.Id">
+                <h5 class="mb-0">
+                    <button class="btn" style="width:100%" data-toggle="collapse" data-target="#collapse-@item.Id" aria-expanded="true" aria-controls="collapse-@item.Id">
+                        @{
+                            var year = item.DataOtwarciaRekrutacji.Year;
+                            var result = $"{year}/{year + 1} Semestr {item.SemestrRekrutacji} - {item.StopienStudiow} Stopień";
+                            <div class="row d-flex justify-content-around" style="width: 100%">
+                                <div class="col-8">
+                                    <h5>@result</h5>
+                                </div>
+                                <div class="col-4">
+                                    <h5>@item.StatusRekrutacji</h5>
+                                </div>
+                               
+                            </div>
+                        }
+                    </button>
+                </h5>
+            </div>
+        
+            <div id="collapse-@item.Id" class="collapse show bg-secondary" aria-labelledby="heading-@item.Id" data-parent="#accordion">
+                <div class="container" style="padding-top: 1rem;padding-bottom: 2rem;">
+                    <form asp-action="Edit">
+                        <div class="row">
+                            <div class="col-6">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <input type="hidden" name="Id" asp-for="@item.Id"/>
+                                <div class="form-group">
+                                    <label asp-for="@item.DataOtwarciaRekrutacji" class="control-label"></label>
+                                    <input asp-for="@item.DataOtwarciaRekrutacji" name="DataOtwarciaRekrutacji" class="form-control bg-default"/>
+                                    <span asp-validation-for="@item.DataOtwarciaRekrutacji" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="@item.DataZamknieciaRekrutacji" class="control-label"></label>
+                                    <input asp-for="@item.DataZamknieciaRekrutacji" name="DataZamknieciaRekrutacji" class="form-control bg-default"/>
+                                    <span asp-validation-for="@item.DataZamknieciaRekrutacji" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="@item.DataZamknieciaPrzyjec" class="control-label"></label>
+                                    <input asp-for="@item.DataZamknieciaPrzyjec" name="DataZamknieciaPrzyjec" class="form-control bg-default"/>
+                                    <span asp-validation-for="@item.DataZamknieciaPrzyjec" class="text-danger"></span>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="submit" class="btn btn-primary" style="width:90%" value="Save">    
+                                    </div>
+                                    <div class="col-6">
+                                        <button class="btn btn-warning" style="width:90%">Cancel</button>
+                                    </div>
+                     
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label asp-for="@item.StopienStudiow" class="control-label"></label>
+                                    <select class="form-control bg-default" name="StopienStudiow" asp-for="@item.StopienStudiow" asp-items="Html.GetEnumSelectList<StopienStudiow>()">
+                                        <option selected="selected" value="@item.StopienStudiow">@item.StopienStudiow</option>
+                                    </select>
+                                    <span asp-validation-for="@item.StopienStudiow" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="@item.StatusRekrutacji" class="control-label"></label>
+                                    <select class="form-control bg-default" name="StatusRekrutacji" asp-for="@item.StatusRekrutacji" asp-items="Html.GetEnumSelectList<StatusRekrutacji>()">
+                                        <option selected="selected" value="@item.StatusRekrutacji">@item.StatusRekrutacji</option>
+                                    </select>
+                                    <span asp-validation-for="@item.StatusRekrutacji" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="@item.SemestrRekrutacji" class="control-label"></label>
+                                    <select class="form-control bg-default" name="SemestrRekrutacji" asp-for="@item.SemestrRekrutacji" asp-items="Html.GetEnumSelectList<SemestrRekrutacji>()">
+                                        <option selected="selected" value="@item.SemestrRekrutacji">@item.SemestrRekrutacji</option>
+                                    </select>
+                                    <span asp-validation-for="@item.SemestrRekrutacji" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    }
+   
+</div>
+
+@section Scripts{
+    <script defer>
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function (toastEl) {
+    return new bootstrap.Toast(toastEl, {delay:10000})
+    })
+    toastList[0].show();
+    </script>
+}
