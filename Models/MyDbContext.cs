@@ -9,7 +9,6 @@ namespace projektowaniaOprogramowania.Models
 {
     public class MyDbContext : DbContext
 	{
-		public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
 
         public virtual DbSet<OsobaModel> Osoby { get; set; }
 		public virtual DbSet<KandydatModel> Kandydaci { get; set; }
@@ -35,10 +34,12 @@ namespace projektowaniaOprogramowania.Models
 		public virtual DbSet<PracownikDzialuRekrutacjiModel> PracownicyDzialuRekrutacji { get; set; }
 		public virtual DbSet<PracownikDzialuRekrutacjiNaPodanieKandydataModel> PracownicyDzialuRekrutacjiNaPodaniaKandydatow { get; set; }
 		public virtual DbSet<PodanieKandydataModel> PodaniaKandydatow { get; set; }
+		public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
+		{
+		}
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
-
 			// Table per Type / Joined table
 			modelBuilder.Entity<OsobaModel>().ToTable("osoby");
 			modelBuilder.Entity<KandydatModel>().ToTable("kandydaci");
@@ -60,7 +61,17 @@ namespace projektowaniaOprogramowania.Models
 
 			modelBuilder.Entity<PracownikDzialuRekrutacjiNaPodanieKandydataModel>()
 				.HasKey(m => new { m.PkFkIdPodanieKandydata, m.PkFkIdPracownikDzialuRekrutacji });
+		
+			modelBuilder.Entity<PrzelicznikKierunkowyModel>()
+				.HasMany(e => e.PrzelicznikPrzemiotu)
+				.WithOne(e => e.PrzelicznikKierunkowy)
+				.HasForeignKey(e => e.FkIdPrzelicznikKierunkowy)
+				.IsRequired();
 
+			modelBuilder.Entity<PrzelicznikPrzedmiotuModel>()
+				.HasOne(e => e.Przedmiot)
+				.WithMany(e => e.PrzelicznikiPrzedmiotow)
+				.HasForeignKey(e => e.FkIdPrzedmiot);
 			// Extension method for seeding the databse with data. It is defined in ModelBuilderExtension
 			modelBuilder.Seed();
 

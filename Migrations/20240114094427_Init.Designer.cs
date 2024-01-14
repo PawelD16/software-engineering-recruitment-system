@@ -10,7 +10,7 @@ using projektowaniaOprogramowania.Models;
 namespace projektowaniaOprogramowania.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240113173433_Init")]
+    [Migration("20240114094427_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -72,6 +72,10 @@ namespace projektowaniaOprogramowania.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("character varying(255)");
 
+                    b.Property<string>("Opis")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("ProfilKierunku")
                         .IsRequired()
                         .HasMaxLength(64)
@@ -109,6 +113,7 @@ namespace projektowaniaOprogramowania.Migrations
                             FkIdWydzial = 1L,
                             Jezyk = 0,
                             NazwaKierunku = "Informatyka Stosowana",
+                            Opis = "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i telematyki przemysłowej, systemów optymalizacji i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ",
                             ProfilKierunku = "ogólnoakademicki",
                             SkrotKierunku = "IST",
                             StopienStudiow = 0,
@@ -125,6 +130,7 @@ namespace projektowaniaOprogramowania.Migrations
                             FkIdWydzial = 1L,
                             Jezyk = 1,
                             NazwaKierunku = "Informatyka Techniczna w j. angielskim",
+                            Opis = "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i telematyki przemysłowej, systemów optymalizacji i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ",
                             ProfilKierunku = "ogólnoakademicki",
                             SkrotKierunku = "ITA",
                             StopienStudiow = 1,
@@ -141,6 +147,7 @@ namespace projektowaniaOprogramowania.Migrations
                             FkIdWydzial = 1L,
                             Jezyk = 0,
                             NazwaKierunku = "Informatyczne Systemy Automatyki",
+                            Opis = "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i telematyki przemysłowej, systemów optymalizacji i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ",
                             ProfilKierunku = "ogólnoakademicki",
                             SkrotKierunku = "ISA",
                             StopienStudiow = 0,
@@ -157,6 +164,7 @@ namespace projektowaniaOprogramowania.Migrations
                             FkIdWydzial = 1L,
                             Jezyk = 1,
                             NazwaKierunku = "Informatyka Stosowana w j.angielskim",
+                            Opis = "Studia umożliwiają doskonalenie umiejętności i zdobywanie wiedzy z szeroko pojmowanej informatyki i jej różnorakiego zastosowania m.in. w rozwiązywaniu problemów biznesowych, technicznych czy w obszarze gier komputerowych. Informatyka stosowana jest uzupełniana wiedzą z fizyki i matematyki, podstaw przedsiębiorczości oraz społecznych i zawodowych problemów informatyki. Dużą rolę przywiązuje się też do umiejętności miękkich, jak umiejętność prezentacji oraz umiejętność pracy w zespole.",
                             ProfilKierunku = "",
                             SkrotKierunku = "ISTA",
                             StopienStudiow = 0,
@@ -446,6 +454,9 @@ namespace projektowaniaOprogramowania.Migrations
                     b.Property<long>("FkIdRekrutacja")
                         .HasColumnType("bigint");
 
+                    b.Property<int>("StatusPodania")
+                        .HasColumnType("integer");
+
                     b.HasKey("Id");
 
                     b.HasIndex("FkIdKandydat");
@@ -459,9 +470,10 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyAktywny = true,
-                            DataZlozeniaPodania = new DateTime(2024, 1, 13, 18, 34, 32, 677, DateTimeKind.Local).AddTicks(1653),
+                            DataZlozeniaPodania = new DateTime(2024, 1, 14, 10, 44, 27, 306, DateTimeKind.Local).AddTicks(6951),
                             FkIdKandydat = 1L,
-                            FkIdRekrutacja = 1L
+                            FkIdRekrutacja = 1L,
+                            StatusPodania = 0
                         });
                 });
 
@@ -753,8 +765,8 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             DataOtwarciaRekrutacji = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DataZamknieciaPrzyjec = new DateTime(2024, 6, 13, 18, 34, 32, 675, DateTimeKind.Local).AddTicks(597),
-                            DataZamknieciaRekrutacji = new DateTime(2024, 6, 13, 18, 34, 32, 676, DateTimeKind.Local).AddTicks(4604),
+                            DataZamknieciaPrzyjec = new DateTime(2024, 6, 14, 10, 44, 27, 304, DateTimeKind.Local).AddTicks(6731),
+                            DataZamknieciaRekrutacji = new DateTime(2024, 6, 14, 10, 44, 27, 306, DateTimeKind.Local).AddTicks(254),
                             SemestrRekrutacji = 1,
                             StatusRekrutacji = 0,
                             StopienStudiow = 0
@@ -850,7 +862,7 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyEmailPotwierdzony = true,
-                            DataZarejestrowania = new DateTime(2024, 1, 13, 18, 34, 32, 676, DateTimeKind.Local).AddTicks(6090),
+                            DataZarejestrowania = new DateTime(2024, 1, 14, 10, 44, 27, 306, DateTimeKind.Local).AddTicks(1741),
                             Email = "testowykandydat@gmail.com",
                             Haslo = "zahaszowaneHaselko",
                             Imie = "Jan",
@@ -1091,7 +1103,7 @@ namespace projektowaniaOprogramowania.Migrations
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel", b =>
                 {
                     b.HasOne("projektowaniaOprogramowania.ViewModels.PrzedmiotModel", "Przedmiot")
-                        .WithMany()
+                        .WithMany("PrzelicznikiPrzedmiotow")
                         .HasForeignKey("FkIdPrzedmiot")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -1158,6 +1170,11 @@ namespace projektowaniaOprogramowania.Migrations
                         .IsRequired();
 
                     b.Navigation("Wydzial");
+                });
+
+            modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzedmiotModel", b =>
+                {
+                    b.Navigation("PrzelicznikiPrzedmiotow");
                 });
 
             modelBuilder.Entity("projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel", b =>

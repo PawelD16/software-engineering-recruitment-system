@@ -267,6 +267,7 @@ namespace projektowaniaOprogramowania.Migrations
                     CzesneDlaCudzoziemcow = table.Column<int>(type: "integer", nullable: false),
                     CzasTrwaniaWSemestrach = table.Column<int>(type: "integer", nullable: false),
                     Dyscyplina = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
+                    Opis = table.Column<string>(type: "text", nullable: false),
                     Jezyk = table.Column<int>(type: "integer", maxLength: 20, nullable: false),
                     StopienStudiow = table.Column<int>(type: "integer", maxLength: 20, nullable: false),
                     TrybStudiowania = table.Column<int>(type: "integer", nullable: false),
@@ -298,6 +299,7 @@ namespace projektowaniaOprogramowania.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     DataZlozeniaPodania = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
                     CzyAktywny = table.Column<bool>(type: "boolean", nullable: false),
+                    StatusPodania = table.Column<int>(type: "integer", nullable: false),
                     FkIdRekrutacja = table.Column<long>(type: "bigint", nullable: false),
                     FkIdKandydat = table.Column<long>(type: "bigint", nullable: false)
                 },
@@ -564,7 +566,7 @@ namespace projektowaniaOprogramowania.Migrations
             migrationBuilder.InsertData(
                 table: "osoby",
                 columns: new[] { "Id", "CzyEmailPotwierdzony", "DataZarejestrowania", "Email", "Haslo", "Imie", "Login", "Nazwisko", "NumerPaszportu", "Pesel" },
-                values: new object[] { 1L, true, new DateTime(2024, 1, 13, 18, 34, 32, 676, DateTimeKind.Local).AddTicks(6090), "testowykandydat@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat", "Testowy", null, "59070575419" });
+                values: new object[] { 1L, true, new DateTime(2024, 1, 14, 10, 44, 27, 306, DateTimeKind.Local).AddTicks(1741), "testowykandydat@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat", "Testowy", null, "59070575419" });
 
             migrationBuilder.InsertData(
                 table: "przedmioty",
@@ -601,7 +603,7 @@ namespace projektowaniaOprogramowania.Migrations
             migrationBuilder.InsertData(
                 table: "rekrutacje",
                 columns: new[] { "Id", "DataOtwarciaRekrutacji", "DataZamknieciaPrzyjec", "DataZamknieciaRekrutacji", "SemestrRekrutacji", "StatusRekrutacji", "StopienStudiow" },
-                values: new object[] { 1L, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2024, 6, 13, 18, 34, 32, 675, DateTimeKind.Local).AddTicks(597), new DateTime(2024, 6, 13, 18, 34, 32, 676, DateTimeKind.Local).AddTicks(4604), 1, 0, 0 });
+                values: new object[] { 1L, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2024, 6, 14, 10, 44, 27, 304, DateTimeKind.Local).AddTicks(6731), new DateTime(2024, 6, 14, 10, 44, 27, 306, DateTimeKind.Local).AddTicks(254), 1, 0, 0 });
 
             migrationBuilder.InsertData(
                 table: "kandydaci",
@@ -636,19 +638,19 @@ namespace projektowaniaOprogramowania.Migrations
 
             migrationBuilder.InsertData(
                 table: "kierunki",
-                columns: new[] { "Id", "CzasTrwaniaWSemestrach", "Czesne", "CzesneDlaCudzoziemcow", "Dyscyplina", "FkIdPrzelicznik", "FkIdWydzial", "Jezyk", "NazwaKierunku", "ProfilKierunku", "SkrotKierunku", "StopienStudiow", "TrybStudiowania" },
+                columns: new[] { "Id", "CzasTrwaniaWSemestrach", "Czesne", "CzesneDlaCudzoziemcow", "Dyscyplina", "FkIdPrzelicznik", "FkIdWydzial", "Jezyk", "NazwaKierunku", "Opis", "ProfilKierunku", "SkrotKierunku", "StopienStudiow", "TrybStudiowania" },
                 values: new object[,]
                 {
-                    { 1L, 7, 0, 1250, "informatyka techniczna i telekomunikacja", 1L, 1L, 0, "Informatyka Stosowana", "ogólnoakademicki", "IST", 0, 0 },
-                    { 2L, 7, 50, 1300, "informatyka techniczna i telekomunikacja", 2L, 1L, 1, "Informatyka Techniczna w j. angielskim", "ogólnoakademicki", "ITA", 1, 0 },
-                    { 3L, 7, 0, 1250, "informatyka techniczna i telekomunikacja", 1L, 1L, 0, "Informatyczne Systemy Automatyki", "ogólnoakademicki", "ISA", 0, 2 },
-                    { 4L, 7, 100, 1350, "informatyka techniczna i telekomunikacja", 2L, 1L, 1, "Informatyka Stosowana w j.angielskim", "", "ISTA", 0, 1 }
+                    { 1L, 7, 0, 1250, "informatyka techniczna i telekomunikacja", 1L, 1L, 0, "Informatyka Stosowana", "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i telematyki przemysłowej, systemów optymalizacji i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ", "ogólnoakademicki", "IST", 0, 0 },
+                    { 2L, 7, 50, 1300, "informatyka techniczna i telekomunikacja", 2L, 1L, 1, "Informatyka Techniczna w j. angielskim", "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i telematyki przemysłowej, systemów optymalizacji i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ", "ogólnoakademicki", "ITA", 1, 0 },
+                    { 3L, 7, 0, 1250, "informatyka techniczna i telekomunikacja", 1L, 1L, 0, "Informatyczne Systemy Automatyki", "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i telematyki przemysłowej, systemów optymalizacji i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ", "ogólnoakademicki", "ISA", 0, 2 },
+                    { 4L, 7, 100, 1350, "informatyka techniczna i telekomunikacja", 2L, 1L, 1, "Informatyka Stosowana w j.angielskim", "Studia umożliwiają doskonalenie umiejętności i zdobywanie wiedzy z szeroko pojmowanej informatyki i jej różnorakiego zastosowania m.in. w rozwiązywaniu problemów biznesowych, technicznych czy w obszarze gier komputerowych. Informatyka stosowana jest uzupełniana wiedzą z fizyki i matematyki, podstaw przedsiębiorczości oraz społecznych i zawodowych problemów informatyki. Dużą rolę przywiązuje się też do umiejętności miękkich, jak umiejętność prezentacji oraz umiejętność pracy w zespole.", "", "ISTA", 0, 1 }
                 });
 
             migrationBuilder.InsertData(
                 table: "podania_kandydatow",
-                columns: new[] { "Id", "CzyAktywny", "DataZlozeniaPodania", "FkIdKandydat", "FkIdRekrutacja" },
-                values: new object[] { 1L, true, new DateTime(2024, 1, 13, 18, 34, 32, 677, DateTimeKind.Local).AddTicks(1653), 1L, 1L });
+                columns: new[] { "Id", "CzyAktywny", "DataZlozeniaPodania", "FkIdKandydat", "FkIdRekrutacja", "StatusPodania" },
+                values: new object[] { 1L, true, new DateTime(2024, 1, 14, 10, 44, 27, 306, DateTimeKind.Local).AddTicks(6951), 1L, 1L, 0 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_dodatkowe_osiagniecia_FkIdPodanieKandydata",

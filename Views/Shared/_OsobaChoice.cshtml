@@ -1,9 +1,9 @@
 ﻿@model IEnumerable<projektowaniaOprogramowania.ViewModels.Users.OsobaModel>
 
-<ul id="userList" class="list-group">
+<ul id="userList" class="list-group bg-default">
     @foreach (var user in Model)
     {
-        <li class="list-group-item" data-id="@user.Id">@user.Imie @user.Nazwisko</li>
+        <li class="list-group-item bg-default" data-id="@user.Id">@user.Imie @user.Nazwisko</li>
     }
 </ul>
 

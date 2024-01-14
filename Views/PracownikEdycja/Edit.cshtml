@@ -1,0 +1,139 @@
+﻿@model projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+@using (Html.BeginForm("Edit", "PracownikEdycja", FormMethod.Post))
+{
+	<input asp-for="PodanieNaIIStopien.Id" type="hidden" />
+	<input asp-for="PodanieNaIStopien.Id" type="hidden" />
+
+	<input asp-for="PodanieNaIStopien.DataZlozeniaPodania" type="hidden" />
+	<input asp-for="PodanieNaIIStopien.DataZlozeniaPodania" type="hidden" />
+
+
+	<div>
+		@if (TempData["Message"] != null)
+		{
+			<div class="text-danger"> @TempData["Message"].ToString() </div>
+		}
+		@if (Model.PodanieNaIStopien.Id == 0)
+		{
+			<div class="form-group">
+				<label asp-for="PodanieNaIIStopien.SredniaZTokuStudiow" class="control-label"></label>
+				<input asp-for="PodanieNaIIStopien.SredniaZTokuStudiow" class="form-control" />
+				<span asp-validation-for="PodanieNaIIStopien.SredniaZTokuStudiow" class="text-danger"></span>
+			</div>
+
+			<div class="form-group">
+				<label asp-for="PodanieNaIIStopien.OcenaZPracyDyplomowej" class="control-label"></label>
+				<input asp-for="PodanieNaIIStopien.OcenaZPracyDyplomowej" class="form-control" />
+				<span asp-validation-for="PodanieNaIIStopien.OcenaZPracyDyplomowej" class="text-danger"></span>
+			</div>
+
+			<h3>Dorobek Naukowy</h3>
+			<div id="dorobekContainer" class="d-flex flex-column">
+				@for (int i = 0; i < Model.DorobkiNaukowe.Count; ++i)
+				{
+					<input asp-for="DorobkiNaukowe[i].DataUzyskaniaDorobku" class="form-control" />
+					@Html.DropDownListFor(model => model.DorobkiNaukowe[i].FkIdKategoriaDorobku, new SelectList(Model.KategorieDorobku, "Id", "NazwaKategoriiDorobku"))
+				}
+				<button class="btn-primary" type="button" id="addDorobekNaukowy">Dodaj Dorobek Naukowy</button>
+			</div>
+		}
+		else 
+		{
+			<h3>Matura</h3>
+
+			<div class="form-group">
+				<input asp-for="Matura.Id" type="hidden" />
+				<label asp-for="Matura.DataPrzystapieniaDoMatury" class="control-label"></label>
+				<input asp-for="Matura.DataPrzystapieniaDoMatury" class="form-control" />
+				<span asp-validation-for="Matura.DataPrzystapieniaDoMatury" class="text-danger"></span>
+			</div>
+
+			<div class="d-flex flex-column">
+				@for (int i = 0; i < Model.Oceny.Count; ++i)
+				{
+					<input type="hidden" asp-for="Oceny[i].Id" class="form-control" />
+					<input type="hidden" asp-for="Oceny[i].FkIdPrzedmiot" class="form-control" />
+					<label>@Model.Oceny[i].Przedmiot.NazwaPrzedmiotu</label>
+					<input type="number" asp-for="Oceny[i].WartoscProcentowa" class="form-control" min="0" max="100" />
+					<span asp-validation-for="Oceny[i].WartoscProcentowa" class="text-danger"></span>
+				}
+			</div>
+		}
+
+			<h3>Osiągnięcia</h3>
+
+			<div id="osiagniecieContainer" class="d-flex flex-column">
+				@for (int i = 0; i < Model.DodatkoweOsiagniecia.Count; ++i)
+				{
+					<input asp-for="DodatkoweOsiagniecia[i].DataZdobycia" class="form-control" />
+					<span asp-validation-for="DodatkoweOsiagniecia[i].DataZdobycia" class="text-danger"></span>
+					@Html.DropDownListFor(model => model.DodatkoweOsiagniecia[i].FkIdPrzelicznikOsiagniec, new SelectList(Model.PrzelicznikiOsiagniec, "Id", "KategoriaOsiagniecia.NazwaKategorii"))
+
+					@Html.TextAreaFor(model => model.DodatkoweOsiagniecia[i].Opis)
+				}
+				<button class="btn-primary" type="button" id="addOsiagniecie">Dodaj Osiągnięcie</button>
+
+			</div>
+	</div>
+
+
+	<h3>Podanie Details</h3>
+	<div>
+		<p><strong>Date:</strong> @Model.PodanieKandydata.DataZlozeniaPodania</p>
+		<p><strong>Status:</strong> @Model.PodanieKandydata.StatusPodania</p>
+	</div>
+
+	<button class="btn-primary" type="submit">Zatwierdź</button>
+}
+
+@* Hidden template dropdowns *@
+<div id="dorobekNaukowyDropdown" style="display: none;">
+	@Html.DropDownListFor(
+			model => model.PodanieNaIStopien,
+			new SelectList(Model.KategorieDorobku, "Id", "NazwaKategoriiDorobku")
+			)
+</div>
+
+<div id="dodatkoweOsiagnieciaDropdown" style="display: none;">
+	@Html.DropDownListFor(
+			model => model.PodanieNaIStopien,
+			new SelectList(Model.PrzelicznikiOsiagniec, "Id", "KategoriaOsiagniecia.NazwaKategorii"))
+</div>
+
+
+@section Scripts {
+	<script>
+		var dorobekIndex = @Model.DorobkiNaukowe.Count;
+		var osiagniecieIndex = @Model.DodatkoweOsiagniecia.Count;
+
+		// Function to add new Dorobek Naukowy
+		$('#addDorobekNaukowy').click(function () {
+			const newDropdown = $('#dorobekNaukowyDropdown').clone();
+			newDropdown.show();
+			newDropdown.find('select').attr('name', `DorobkiNaukowe[${dorobekIndex}].FkIdPrzelicznikOsiagniec`);
+			const newElement = `<input type="date" name="DorobkiNaukowe[${dorobekIndex}].DataUzyskaniaDorobku" />`
+				+ newDropdown.html();
+			$(this).before(newElement);
+			dorobekIndex++;
+		});
+
+		// Function to add new Osiągnięcie
+		$('#addOsiagniecie').click(function () {
+			const newDropdown = $('#dodatkoweOsiagnieciaDropdown').clone();
+			newDropdown.show();
+			newDropdown.find('select').attr('name', `DodatkoweOsiagniecia[${dorobekIndex}].FkIdKategoriaDorobku`);
+			const newElement = `<input type="date" name="DodatkoweOsiagniecia[${osiagniecieIndex}].DataZdobycia" />`
+				+ newDropdown.html()
+				+ `<textarea name="DodatkoweOsiagniecia[${osiagniecieIndex}].Opis"></textarea>`;
+			$(this).before(newElement);
+			osiagniecieIndex++;
+		});
+	</script>
+}

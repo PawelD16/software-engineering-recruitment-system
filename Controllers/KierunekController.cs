@@ -1,29 +1,179 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query;
 using projektowaniaOprogramowania.Models;
+using projektowaniaOprogramowania.Services;
+using projektowaniaOprogramowania.ViewModels;
 using projektowaniaOprogramowania.ViewModels.CollegeStructures;
+using projektowaniaOprogramowania.ViewModels.Users;
 
 namespace projektowaniaOprogramowania.Controllers
 {
     public class KierunekController : Controller
     {
         private readonly MyDbContext _context;
+        private readonly PunktyRekrutacyjneService _punktyRekrutacyjneService;
 
-        public KierunekController(MyDbContext context)
+        public KierunekController(MyDbContext context, PunktyRekrutacyjneService punktyRekrutacyjneService)
         {
             _context = context;
+            _punktyRekrutacyjneService = punktyRekrutacyjneService;
         }
 
         // GET: Kierunek
         public async Task<IActionResult> Index()
         {
-            var myDbContext = _context.Kierunki.Include(k => k.Przelicznik).Include(k => k.Wydzial);
+            var podanie =  getCurrentPodanie();
+            if (getCurrentPodanie().StatusPodania == StatusPodania.Zlozone)
+            {
+                // var podanie = getCurrentPodanie();
+                podanie.StatusPodania = StatusPodania.Niezlozone;
+                 _context.PodaniaKandydatow.Update(podanie);
+                 await _context.SaveChangesAsync();
+                return View("PodanieJuzZlozone");
+            }
+            
+            
+            var myDbContext = _context.Kierunki
+                .Include(k => k.Przelicznik)
+                .Include(k => k.Wydzial)
+                .Include(k => k.Przelicznik.PrzelicznikPrzemiotu);
+            
+            var przedmioty = _context.PrzelicznikiPrzedmiotow
+                .Include(e => e.Przedmiot);
+
+           
+            
+            ViewData["przedmioty"] = await przedmioty.ToListAsync();
+            ViewData["kierunki"] =  getSelectedKierunki();
+            ViewData["podanie"] = podanie;
+            ViewData["punkty"] = PunktyNaKierunki();
+            ViewData["rekrutacja"] = _context.Rekrutacje.Where(e=>e.Id==podanie.FkIdRekrutacja).First();
+            
+            
             return View(await myDbContext.ToListAsync());
+        }
+
+        private (KierunekModel, int) PunktyNaKierunek(KierunekModel kierunekViewModel)
+        {
+            var random = new Random();
+            return (kierunekViewModel, random.Next(100, 500));
+        }
+
+        private List<(KierunekModel, int)> PunktyNaKierunki()
+        {
+            var random = new Random();
+            return _context.Kierunki.Select(PunktyNaKierunek).ToList();
+        }
+
+        private KandydatModel AktualnyKandydat()
+        {
+            var session = HttpContext.Session.GetLong("UserId");
+            if (session == null)
+            {
+                return _context.Kandydaci.First();
+            }
+            
+            KandydatModel kandydat = _context.Kandydaci
+                .SingleOrDefault(k => k.Id == HttpContext.Session.GetLong("UserId"));
+            Console.WriteLine(kandydat.Nazwisko);
+            return kandydat;
+        }
+
+        public async Task<IActionResult> WyslijPodanie()
+        {
+            var kierunki = _context.KierunkiNaPodaniu
+                .Where(el => el.FkIdPodanieKandydata == getCurrentPodanie().Id)
+                .ToList();
+
+            var podanie = getCurrentPodanie();
+            podanie.StatusPodania = StatusPodania.Zlozone;
+            _context.PodaniaKandydatow.Update(podanie);
+            
+            foreach (var kierunek in kierunki)
+            {
+                _context.KierunkiNaPodaniu.Remove(kierunek);
+                await _context.SaveChangesAsync();
+            }
+            
+            Thread.Sleep(5000);
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> WyczyscKierunki()
+        {
+           var kierunki = _context.KierunkiNaPodaniu.Where(el => el.FkIdPodanieKandydata == getCurrentPodanie().Id).ToList();
+           foreach (var kierunek in kierunki)
+           {
+               _context.KierunkiNaPodaniu.Remove(kierunek);
+               await _context.SaveChangesAsync();
+           }
+
+           return RedirectToAction(nameof(Index));
+
+        }
+        
+        public async Task<IActionResult> AddKierunekToPodanie(int id)
+        {
+            var isAlreadyPresent = _context.KierunkiNaPodaniu.ToList()
+                .Find(e => e.FkIdKierunek == id);
+            if (isAlreadyPresent != null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            _context.KierunkiNaPodaniu.Add(new KierunekNaPodaniuModel
+            {
+                FkIdPodanieKandydata = this.getCurrentPodanie().Id,
+                FkIdKierunek = id,
+                Priorytet = _context.KierunkiNaPodaniu.ToList().Count()
+                
+            });
+            await _context.SaveChangesAsync();
+            Console.WriteLine("Dodano Kierunek do podania");
+            
+            return RedirectToAction(nameof(Index));
+
+        }
+
+        public async Task<IActionResult> RemoveKierunekFromPodanie(int id)
+        {
+            var entity = _context.KierunkiNaPodaniu.Where(e => e.FkIdKierunek == id).ToList();
+            if (!entity.Any())
+            {
+                return RedirectToAction(nameof(Index));
+            }
+
+            _context.KierunkiNaPodaniu.Remove(entity[0]);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private PodanieKandydataModel getCurrentPodanie()
+        {
+            return  _context.PodaniaKandydatow.First();
+        }
+
+        private List<KierunekModel> getSelectedKierunki()
+        {
+            var kierunki = _context.Kierunki.ToList();
+            var kierunkiPodania =  _context.KierunkiNaPodaniu
+                .Where(e=>e.PodanieKandydata.Id == getCurrentPodanie().Id)
+                .Select(e=>e.FkIdKierunek)
+                .ToList();
+            
+            return kierunki.Join(kierunkiPodania,
+                kierunki => kierunki.Id, 
+                kierunkiPodania => kierunkiPodania,
+                (kierunki, kierunkiNaPodaniu) => kierunki).ToList();
+
         }
 
         // GET: Kierunek/Details/5

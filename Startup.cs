@@ -32,6 +32,7 @@ namespace projektowaniaOprogramowania
             services.AddControllersWithViews();
             services.AddDbContextPool<MyDbContext>(options =>
             {
+                options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
                 options.UseNpgsql(Configuration.GetConnectionString("projektowanieOprogramowania"));
             });
 
@@ -46,6 +47,7 @@ namespace projektowaniaOprogramowania
             services
                 .AddScoped<PunktyRekrutacyjneService>()
                 .AddScoped<IRecruitmentValidationService, RecruitmentValidationService>()
+                .AddScoped<PodanieService>()
                 .AddScoped<ISessionWrapper, SessionWrapper>();
         }
 

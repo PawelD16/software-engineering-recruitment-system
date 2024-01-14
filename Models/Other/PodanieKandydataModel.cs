@@ -17,6 +17,9 @@ namespace projektowaniaOprogramowania.ViewModels
 
         [Required]
         public bool CzyAktywny { get; set; }
+        
+        [Required]
+        public StatusPodania StatusPodania { get; set; }
 
         [ForeignKey("Rekrutacja")]
         public long FkIdRekrutacja { get; set; }
@@ -25,5 +28,12 @@ namespace projektowaniaOprogramowania.ViewModels
         [ForeignKey("Kandydat")]
         public long FkIdKandydat { get; set; }
         public KandydatModel Kandydat { get; set; }
+    }
+
+
+    public enum StatusPodania
+    {
+        Niezlozone,
+        Zlozone
     }
 }

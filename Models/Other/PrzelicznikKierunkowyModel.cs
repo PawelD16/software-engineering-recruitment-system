@@ -25,7 +25,7 @@ namespace projektowaniaOprogramowania.ViewModels
 
         public ICollection<PrzelicznikPrzedmiotuModel> PrzelicznikPrzemiotu { get; set; } =
             new List<PrzelicznikPrzedmiotuModel>();
-        
+
         // [ForeignKey("PrzelicznikDorobku")]
         // public long FkIdPrzelicznikDorobku { get; set; }
 

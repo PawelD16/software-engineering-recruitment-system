@@ -183,10 +183,14 @@ namespace projektowaniaOprogramowania.Models
                     NazwaKierunku = "Informatyka Stosowana",
                     ProfilKierunku = "ogólnoakademicki",
                     SkrotKierunku = "IST",
+                    Opis = "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w" +
+                           " zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i " +
+                           "telematyki przemysłowej, systemów optymalizacji " +
+                           "i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, " +
+                           "w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ",
                     StopienStudiow = StopienStudiow.Pierwszy,
                     TrybStudiowania = TrybStudiowania.Stacjonarne,
                     FkIdPrzelicznik = 1
-
                 },
                 new()
                 {
@@ -200,10 +204,14 @@ namespace projektowaniaOprogramowania.Models
                     NazwaKierunku = "Informatyka Techniczna w j. angielskim",
                     ProfilKierunku = "ogólnoakademicki",
                     SkrotKierunku = "ITA",
+                    Opis = "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w" +
+                           " zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i " +
+                           "telematyki przemysłowej, systemów optymalizacji " +
+                           "i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, " +
+                           "w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ",
                     StopienStudiow = StopienStudiow.Drugi,
                     TrybStudiowania = TrybStudiowania.Stacjonarne,
                     FkIdPrzelicznik = 2
-
 
                 },
                 new()
@@ -218,10 +226,14 @@ namespace projektowaniaOprogramowania.Models
                     NazwaKierunku = "Informatyczne Systemy Automatyki",
                     ProfilKierunku = "ogólnoakademicki",
                     SkrotKierunku = "ISA",
+                    Opis = "Kształcimy informatyków, którzy – oprócz wiedzy podstawowej – specjalizują się w" +
+                           " zakresie:\nużytkowania, projektowania i programowania cyfrowych systemów automatyki, sieci i " +
+                           "telematyki przemysłowej, systemów optymalizacji " +
+                           "i sterowania z wykorzystaniem sterowników mikroprocesorowych, sieci neuronowych, " +
+                           "w tym sieci głębokich\nmetod przetwarzania i rozpoznawania obrazów. ",
                     StopienStudiow = StopienStudiow.Pierwszy,
                     TrybStudiowania = TrybStudiowania.Mieszane,
                     FkIdPrzelicznik = 1
-
 
                 },
                 new()
@@ -235,11 +247,17 @@ namespace projektowaniaOprogramowania.Models
                     Jezyk = Jezyk.Angielski,
                     NazwaKierunku = "Informatyka Stosowana w j.angielskim",
                     ProfilKierunku = "",
+                    Opis = "Studia umożliwiają doskonalenie umiejętności i zdobywanie wiedzy z " +
+                           "szeroko pojmowanej informatyki i jej różnorakiego zastosowania m.in. w rozwiązywaniu " +
+                           "problemów biznesowych, technicznych czy w obszarze gier komputerowych. " +
+                           "Informatyka stosowana jest uzupełniana wiedzą z fizyki i matematyki, " +
+                           "podstaw przedsiębiorczości oraz społecznych i zawodowych problemów informatyki. " +
+                           "Dużą rolę przywiązuje się też" +
+                           " do umiejętności miękkich, jak umiejętność prezentacji oraz umiejętność pracy w zespole.",
                     SkrotKierunku = "ISTA",
                     StopienStudiow = StopienStudiow.Pierwszy,
                     TrybStudiowania = TrybStudiowania.Zdalne,
                     FkIdPrzelicznik = 2
-
                 }
             };
 

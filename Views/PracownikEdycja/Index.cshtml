@@ -1,0 +1,56 @@
+﻿@model IEnumerable<projektowaniaOprogramowania.ViewModels.PodanieKandydataModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DataZlozeniaPodania)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CzyAktywny)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatusPodania)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kandydat)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataZlozeniaPodania)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CzyAktywny)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusPodania)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kandydat.Email)
+            </td>
+             <td>
+                 @Html.DisplayFor(modelItem => item.Kandydat.Imie)
+             </td>
+             <td>
+                 @Html.DisplayFor(modelItem => item.Kandydat.Nazwisko)
+             </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
