@@ -25,8 +25,6 @@ namespace projektowaniaOprogramowania.Services
                 return null;
             }
             var podanie = podaniaKandydata.FirstOrDefault(p => p.FkIdKandydat == kandydat.Id);
-            //if (podanie == null)
-            //    throw new System.Exception();
             return podanie;
         }
 

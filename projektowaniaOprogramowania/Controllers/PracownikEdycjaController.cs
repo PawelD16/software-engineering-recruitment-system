@@ -33,7 +33,7 @@ namespace projektowaniaOprogramowania.Controllers
         }
 
         // GET: PracownikEdycja/Edit/5
-        public async Task<IActionResult> Edit(long? id)
+        public async Task<IActionResult> Edit(long id)
         {
 			KandydatModel candidate = _context.Kandydaci.SingleOrDefault(candidate => candidate.Id == id);
 
@@ -201,7 +201,7 @@ namespace projektowaniaOprogramowania.Controllers
 
 			return RedirectToAction("Index");
 	
-	}
+		}
 
 
 		private bool PodanieKandydataViewModelExists(long id)
