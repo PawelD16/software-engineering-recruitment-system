@@ -1,6 +1,7 @@
 @model IEnumerable<projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel>
 @using projektowaniaOprogramowania.ViewModels
 @using projektowaniaOprogramowania.ViewModels.CollegeStructures
+@using projektowaniaOprogramowania.ViewModels.Users
 
 @{
     ViewData["Title"] = "Index";
@@ -12,7 +13,7 @@
     var result = $"{year}/{year + 1} Semestr {rekrutacja.SemestrRekrutacji} - {rekrutacja.StopienStudiow} Stopień";
 }
 <h1>@result</h1>
-
+<h2>@((ViewData["kandydat"] as KandydatModel).Imie) @((ViewData["kandydat"] as KandydatModel).Nazwisko)</h2>
 <div aria-live="polite" aria-atomic="true">
   <!-- Position it: -->
   <!-- - `.toast-container` for spacing between toasts -->

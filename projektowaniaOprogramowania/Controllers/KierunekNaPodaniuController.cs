@@ -16,12 +16,12 @@ using projektowaniaOprogramowania.ViewModels.Users;
 
 namespace projektowaniaOprogramowania.Controllers
 {
-    public class KierunekController : Controller
+    public class KierunekNaPodaniuController : Controller
     {
         private readonly MyDbContext _context;
         private readonly PunktyRekrutacyjneService _punktyRekrutacyjneService;
 
-        public KierunekController(MyDbContext context, PunktyRekrutacyjneService punktyRekrutacyjneService)
+        public KierunekNaPodaniuController(MyDbContext context, PunktyRekrutacyjneService punktyRekrutacyjneService)
         {
             _context = context;
             _punktyRekrutacyjneService = punktyRekrutacyjneService;
@@ -30,7 +30,14 @@ namespace projektowaniaOprogramowania.Controllers
         // GET: Kierunek
         public async Task<IActionResult> Index()
         {
+            if (AktualnyKandydat() == null)
+            {
+                return View("BrakDanychDoPodania");
+            }
+            
+            
             var podanie =  getCurrentPodanie();
+            
             if (getCurrentPodanie().StatusPodania == StatusPodania.Zlozone)
             {
                 // var podanie = getCurrentPodanie();
@@ -39,7 +46,6 @@ namespace projektowaniaOprogramowania.Controllers
                  await _context.SaveChangesAsync();
                 return View("PodanieJuzZlozone");
             }
-            
             
             var myDbContext = _context.Kierunki
                 .Include(k => k.Przelicznik)
@@ -56,6 +62,7 @@ namespace projektowaniaOprogramowania.Controllers
             ViewData["podanie"] = podanie;
             ViewData["punkty"] = PunktyNaKierunki();
             ViewData["rekrutacja"] = _context.Rekrutacje.Where(e=>e.Id==podanie.FkIdRekrutacja).First();
+            ViewData["kandydat"] = AktualnyKandydat();
             
             
             return View(await myDbContext.ToListAsync());
@@ -76,9 +83,10 @@ namespace projektowaniaOprogramowania.Controllers
         private KandydatModel AktualnyKandydat()
         {
             var session = HttpContext.Session.GetLong("UserId");
+            Console.WriteLine(session);
             if (session == null)
             {
-                return _context.Kandydaci.First();
+                return null;
             }
             
             KandydatModel kandydat = _context.Kandydaci
@@ -93,6 +101,7 @@ namespace projektowaniaOprogramowania.Controllers
                 .Where(el => el.FkIdPodanieKandydata == getCurrentPodanie().Id)
                 .ToList();
 
+            ///For testing purpouses only
             var podanie = getCurrentPodanie();
             podanie.StatusPodania = StatusPodania.Zlozone;
             _context.PodaniaKandydatow.Update(podanie);
@@ -100,8 +109,9 @@ namespace projektowaniaOprogramowania.Controllers
             foreach (var kierunek in kierunki)
             {
                 _context.KierunkiNaPodaniu.Remove(kierunek);
-                await _context.SaveChangesAsync();
             }
+            await _context.SaveChangesAsync();
+
             
             Thread.Sleep(5000);
 
@@ -158,7 +168,9 @@ namespace projektowaniaOprogramowania.Controllers
 
         private PodanieKandydataModel getCurrentPodanie()
         {
-            return  _context.PodaniaKandydatow.First();
+            var kandydat = AktualnyKandydat();
+            return _context.PodaniaKandydatow.Where((podanie) => podanie.FkIdKandydat == kandydat.Id)
+                .Where((podanie) => (podanie.CzyAktywny)).First();
         }
 
         private List<KierunekModel> getSelectedKierunki()
