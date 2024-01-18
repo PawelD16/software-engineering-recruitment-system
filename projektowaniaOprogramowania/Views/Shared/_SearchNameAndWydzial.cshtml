@@ -7,19 +7,20 @@
 	<div class="d-flex flex-row text-center">
 		<div class="form-field col-md-6">
 			<label for="department">Wydział: wybierz wydział</label>
-			<select name="wydzialIdFilter">
+			<select class = "text-dark" name="wydzialIdFilter">
 				@foreach (var wydzial in Model)
 				{
-					<option value="@wydzial.Id" selected="@(ViewBag.WydzialIdFilter == wydzial.Id ? "selected" : "")">@wydzial.NazwaWydzialu</option>
+					<option class="text-dark" value="@wydzial.Id" selected="@(ViewBag.WydzialIdFilter == wydzial.Id ? "selected" : "")">@wydzial.NazwaWydzialu</option>
 				}
 			</select>
 		</div>
 		<div class="form-field col-md-6">
 			<label for="programName">Nazwa kierunku:</label>
-			<input type="text" name="kierunekNameFilter">
+			<input value="@ViewBag.KierunekNameFilter" class="text-dark" type="text" name="kierunekNameFilter">
 		</div>
 	</div>
 	<div class="text-center">
 		<button class="btn-primary" type="submit">Wyszukaj</button>
+		<button class="btn-primary" type="reset" >Wyczyść filtr</button>
 	</div>
 </form>
