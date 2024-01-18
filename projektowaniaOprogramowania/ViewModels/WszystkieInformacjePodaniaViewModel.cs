@@ -8,7 +8,7 @@ namespace projektowaniaOprogramowania.ViewModels
 	{
 		public List<DodatkoweOsiagniecieModel> DodatkoweOsiagniecia { get; set; }
 		public List<PrzelicznikOsiagniecModel> PrzelicznikiOsiagniec { get; set; }
-		public List<OcenaModel>? Oceny { get; set; }
+		public List<OcenaZPrzedmiotem>? Oceny { get; set; }
 		public List<DorobekNaukowyModel> DorobkiNaukowe { get; set; }
 		public List<KategoriaDorobkuModel> KategorieDorobku { get; set; }
 		public MaturaModel? Matura { get; set; }

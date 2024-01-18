@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using projektowaniaOprogramowania.Models;
 using projektowaniaOprogramowania.Services;
 using projektowaniaOprogramowania.ViewModels;
+using projektowaniaOprogramowania.ViewModels.CollegeStructures;
 using projektowaniaOprogramowania.ViewModels.Users;
 
 namespace projektowaniaOprogramowania.Controllers
@@ -38,11 +39,17 @@ namespace projektowaniaOprogramowania.Controllers
 
             var podanie = _podanieService.GetPodanieKandydata(candidate);
 
+            KierunekNaPodaniuModel kierunki = _context.KierunkiNaPodaniu.SingleOrDefault(kierunki => kierunki.FkIdPodanieKandydata == podanie.Id);
+
+            List<KierunekModel> kierunkiNaPodaniu = _context.Kierunki.Where(kierunek => kierunek.Id == kierunki.FkIdKierunek).ToList();
+
             var model = new KandydatZPodaniemViewModel
             {
                 podanieKandydataViewModel = podanie,
-                kandydatViewModel = candidate
+                kandydatViewModel = candidate,
+                kierunkiNaPodaniu = kierunkiNaPodaniu
             };
+
 
             return View(model);
         }

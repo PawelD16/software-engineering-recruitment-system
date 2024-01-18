@@ -1,4 +1,6 @@
-﻿using projektowaniaOprogramowania.ViewModels.Users;
+﻿using projektowaniaOprogramowania.ViewModels.CollegeStructures;
+using projektowaniaOprogramowania.ViewModels.Users;
+using System.Collections.Generic;
 
 namespace projektowaniaOprogramowania.ViewModels
 {
@@ -6,5 +8,7 @@ namespace projektowaniaOprogramowania.ViewModels
     {
         public PodanieKandydataModel podanieKandydataViewModel { get; set; }
         public KandydatModel kandydatViewModel { get; set; }
+
+        public IEnumerable<KierunekModel> kierunkiNaPodaniu { get; set; }
     }
 }

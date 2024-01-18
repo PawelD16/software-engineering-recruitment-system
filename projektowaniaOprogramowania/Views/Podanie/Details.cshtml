@@ -30,8 +30,18 @@
             <td>Status Podania</td>
             <td>@Model.podanieKandydataViewModel.StatusPodania</td>
         </tr>
+
+        @foreach (var item in Model.kierunkiNaPodaniu.ToList())
+        {
+            <tr>
+                <td>Kierunek</td>
+                <td>@item.NazwaKierunku</td>
+            </tr>
+        }
     </table>
+
 }
+
 else
 {
     <p>Nie masz żadnego podania.</p>

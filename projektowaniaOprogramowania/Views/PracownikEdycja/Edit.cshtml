@@ -58,11 +58,12 @@
 			<div class="d-flex flex-column">
 				@for (int i = 0; i < Model.Oceny.Count; ++i)
 				{
-					<input type="hidden" asp-for="Oceny[i].Id" class="form-control" />
-					<input type="hidden" asp-for="Oceny[i].FkIdPrzedmiot" class="form-control" />
-					<label>@Model.Oceny[i].Przedmiot.NazwaPrzedmiotu</label>
-					<input type="number" asp-for="Oceny[i].WartoscProcentowa" class="form-control" min="0" max="100" />
-					<span asp-validation-for="Oceny[i].WartoscProcentowa" class="text-danger"></span>
+					<input type="hidden" asp-for="Oceny[i].ocena.Id" class="form-control" />
+					<input type="hidden" asp-for="Oceny[i].przedmiot.Id" class="form-control" />
+					<input type="hidden" asp-for="Oceny[i].ocena.FkIdPrzedmiot" class="form-control" />
+					<label>@Model.Oceny[i].przedmiot.NazwaPrzedmiotu</label>
+					<input type="number" asp-for="Oceny[i].ocena.WartoscProcentowa" class="form-control" min="0" max="100" />
+					<span asp-validation-for="Oceny[i].ocena.WartoscProcentowa" class="text-danger"></span>
 				}
 			</div>
 		}
