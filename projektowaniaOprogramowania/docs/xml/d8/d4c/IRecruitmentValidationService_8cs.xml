@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d8/d4c/IRecruitmentValidationService_8cs" kind="file" language="C#">
+    <compoundname>IRecruitmentValidationService.cs</compoundname>
+    <innerclass refid="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService" prot="public">projektowaniaOprogramowania::Services::Recrutation::IRecruitmentValidationService</innerclass>
+    <innernamespace refid="d8/d9d/namespaceprojektowaniaOprogramowania">projektowaniaOprogramowania</innernamespace>
+    <innernamespace refid="d8/d08/namespaceprojektowaniaOprogramowania_1_1Services">projektowaniaOprogramowania::Services</innernamespace>
+    <innernamespace refid="d3/dcc/namespaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation">projektowaniaOprogramowania::Services::Recrutation</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels" kindref="compound">projektowaniaOprogramowania.ViewModels</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="d3/dcc/namespaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d3/dcc/namespaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation" kindref="compound">projektowaniaOprogramowania.Services.Recrutation</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService" kindref="compound">IRecruitmentValidationService</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Task&lt;(bool,<sp/>string)&gt;<sp/>IsRecruitmentValid(<ref refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel" kindref="compound">RekrutacjaModel</ref><sp/>recrutationViewModel);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Services/Recruitment/IRecruitmentValidationService.cs"/>
+  </compounddef>
+</doxygen>

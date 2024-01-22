@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_PracownikEdycja_Index</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.PodanieKandydataModel &gt; &gt;</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ac6d6018fcebf66dc0ce072e09ebe98bb" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_PracownikEdycja_Index.__tagHelperAttribute_0</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_0</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.__tagHelperAttribute_0</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;asp-action&quot;, &quot;Create&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="33" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a13b24db20a231122ab5df9b9dbf81318" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_PracownikEdycja_Index.__tagHelperAttribute_1</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_1</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.__tagHelperAttribute_1</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;asp-action&quot;, &quot;Edit&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="34" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a4073fc22056ee6c21b87149d3ce17fa8" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext AspNetCore.Views_PracownikEdycja_Index.__tagHelperExecutionContext</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperExecutionContext</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.__tagHelperExecutionContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="37" column="92" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a5639c36eedbe7b5f4d1309b228bf5993" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner AspNetCore.Views_PracownikEdycja_Index.__tagHelperRunner</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperRunner</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.__tagHelperRunner</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="39" column="82" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1afab6d1dae5e61483d0885188203c6023" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AspNetCore.Views_PracownikEdycja_Index.__tagHelperStringValueBuffer</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperStringValueBuffer</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.__tagHelperStringValueBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="41" column="24" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ae9e184af4be49ad9c1f4d538f4f66fa3" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_PracownikEdycja_Index.__backed__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__backed__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.__backed__tagHelperScopeManager</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="43" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a3239b68202894c96c336243ea669520a" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper AspNetCore.Views_PracownikEdycja_Index.__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="55" column="73" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a01025fd6fc5fc5f5c13b404d6e0aaa99" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_PracownikEdycja_Index.__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.__tagHelperScopeManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="44" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="45" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ac3c941f3da32af3f6f92551b8f3ab282" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_PracownikEdycja_Index.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="215" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="215" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ab8075f7f00255df874c2c23bf84f26ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_PracownikEdycja_Index.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="217" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="217" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a0d85ea807f0a0b76357577282034888b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_PracownikEdycja_Index.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="219" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="219" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ab6978a318a1b3c151b7643fa3192c1db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_PracownikEdycja_Index.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="221" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="221" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a7bc3519023e69e733f80922a0a498ac7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; IEnumerable&lt; <ref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kindref="compound">projektowaniaOprogramowania.ViewModels.PodanieKandydataModel</ref> &gt; &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;IEnumerable&lt;projektowaniaOprogramowania.ViewModels.PodanieKandydataModel&gt; &gt; AspNetCore.Views_PracownikEdycja_Index.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="223" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="223" bodyend="223"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ae32a979cafc6cf17f0057e02267bac0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_PracownikEdycja_Index.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_PracownikEdycja_Index.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="57" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="57" bodyend="212"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_PracownikEdycja_Index</label>
+        <link refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.PodanieKandydataModel &gt; &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_PracownikEdycja_Index</label>
+        <link refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.PodanieKandydataModel &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/PracownikEdycja/Index.cshtml.g.cs" bodystart="32" bodyend="224"/>
+    <listofallmembers>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ae9e184af4be49ad9c1f4d538f4f66fa3" prot="private" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>__backed__tagHelperScopeManager</name></member>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a3239b68202894c96c336243ea669520a" prot="private" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ac6d6018fcebf66dc0ce072e09ebe98bb" prot="private" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>__tagHelperAttribute_0</name></member>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a13b24db20a231122ab5df9b9dbf81318" prot="private" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>__tagHelperAttribute_1</name></member>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a4073fc22056ee6c21b87149d3ce17fa8" prot="private" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>__tagHelperExecutionContext</name></member>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a5639c36eedbe7b5f4d1309b228bf5993" prot="private" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>__tagHelperRunner</name></member>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a01025fd6fc5fc5f5c13b404d6e0aaa99" prot="private" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>__tagHelperScopeManager</name></member>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1afab6d1dae5e61483d0885188203c6023" prot="private" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>__tagHelperStringValueBuffer</name></member>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a0d85ea807f0a0b76357577282034888b" prot="public" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>Component</name></member>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ae32a979cafc6cf17f0057e02267bac0d" prot="public" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>ExecuteAsync</name></member>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a7bc3519023e69e733f80922a0a498ac7" prot="public" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>Html</name></member>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ab6978a318a1b3c151b7643fa3192c1db" prot="public" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>Json</name></member>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ac3c941f3da32af3f6f92551b8f3ab282" prot="public" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>ModelExpressionProvider</name></member>
+      <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ab8075f7f00255df874c2c23bf84f26ce" prot="public" virt="non-virtual"><scope>AspNetCore::Views_PracownikEdycja_Index</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

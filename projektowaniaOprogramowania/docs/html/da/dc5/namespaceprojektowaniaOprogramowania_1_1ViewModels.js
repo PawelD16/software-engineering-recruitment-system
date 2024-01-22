@@ -1,0 +1,25 @@
+var namespaceprojektowaniaOprogramowania_1_1ViewModels =
+[
+    [ "CollegeStructures", "d1/dc3/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures.html", "d1/dc3/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures" ],
+    [ "Users", "d9/dc8/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1Users.html", "d9/dc8/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1Users" ],
+    [ "DodatkoweOsiagniecieModel", "de/d4a/classprojektowaniaOprogramowania_1_1ViewModels_1_1DodatkoweOsiagniecieModel.html", null ],
+    [ "DorobekNaukowyModel", "d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel.html", null ],
+    [ "KandydatZPodaniemViewModel", "d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel.html", null ],
+    [ "KategoriaDorobkuModel", "d1/d11/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaDorobkuModel.html", null ],
+    [ "KategoriaOsiagnieciaModel", "de/d64/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaOsiagnieciaModel.html", null ],
+    [ "KierunekNaPodaniuModel", "da/d3d/classprojektowaniaOprogramowania_1_1ViewModels_1_1KierunekNaPodaniuModel.html", null ],
+    [ "MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage", "dc/dfd/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage.html", null ],
+    [ "MaturaModel", "df/dc3/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaModel.html", null ],
+    [ "OcenaModel", "dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel.html", null ],
+    [ "OcenaZPrzedmiotem", "d3/d58/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaZPrzedmiotem.html", null ],
+    [ "PodanieKandydataModel", "db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel.html", null ],
+    [ "PodanieNaStudiaIIStopniaModel", "d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel.html", null ],
+    [ "PodanieNaStudiaIStopniaModel", "d8/d22/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIStopniaModel.html", null ],
+    [ "PrzedmiotModel", "d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel.html", null ],
+    [ "PrzelicznikDorobkuModel", "dd/d10/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikDorobkuModel.html", null ],
+    [ "PrzelicznikKierunkowyModel", "dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel.html", null ],
+    [ "PrzelicznikOsiagniecModel", "dd/d0a/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikOsiagniecModel.html", null ],
+    [ "PrzelicznikPrzedmiotuModel", "d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel.html", null ],
+    [ "RekrutacjaModel", "db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel.html", null ],
+    [ "WszystkieInformacjePodaniaViewModel", "de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel.html", null ]
+];

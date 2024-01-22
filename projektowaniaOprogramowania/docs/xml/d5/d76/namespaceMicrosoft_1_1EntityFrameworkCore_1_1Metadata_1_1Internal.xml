@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d5/d76/namespaceMicrosoft_1_1EntityFrameworkCore_1_1Metadata_1_1Internal" kind="namespace" language="C#">
+    <compoundname>Microsoft::EntityFrameworkCore::Metadata::Internal</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/ModelBuilderExtension.cs" line="6" column="54"/>
+  </compounddef>
+</doxygen>

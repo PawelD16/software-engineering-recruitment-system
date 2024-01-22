@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d8/d2f/namespaceMicrosoft_1_1AspNetCore_1_1Mvc_1_1ModelBinding" kind="namespace" language="C#">
+    <compoundname>Microsoft::AspNetCore::Mvc::ModelBinding</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Controllers/PredykcjaController.cs" line="7" column="44"/>
+  </compounddef>
+</doxygen>

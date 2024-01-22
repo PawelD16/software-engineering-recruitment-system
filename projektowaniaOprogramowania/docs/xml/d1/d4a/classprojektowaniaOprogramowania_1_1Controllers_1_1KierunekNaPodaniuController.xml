@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a79bcf79f1fce0990947a03a96eedce14" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+        <definition>readonly MyDbContext projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController._context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="21" column="38" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a0ad5e5aba174e8431a3775748a1aa925" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService" kindref="compound">PunktyRekrutacyjneService</ref></type>
+        <definition>readonly PunktyRekrutacyjneService projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController._punktyRekrutacyjneService</definition>
+        <argsstring></argsstring>
+        <name>_punktyRekrutacyjneService</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController._punktyRekrutacyjneService</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="22" column="52" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a2c39a74a5f2021c600140cf7320c9c9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.KierunekNaPodaniuController</definition>
+        <argsstring>(MyDbContext context, PunktyRekrutacyjneService punktyRekrutacyjneService)</argsstring>
+        <name>KierunekNaPodaniuController</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.KierunekNaPodaniuController</qualifiedname>
+        <param>
+          <type><ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService" kindref="compound">PunktyRekrutacyjneService</ref></type>
+          <declname>punktyRekrutacyjneService</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="24" column="16" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1af9ebda71a18ddff8d4562263fb715c2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="31" column="27" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="31" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a22c0d344868e29561e18f6485e873475" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.WyslijPodanie</definition>
+        <argsstring>()</argsstring>
+        <name>WyslijPodanie</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.WyslijPodanie</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>For testing purpouses only</para>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="87" column="27" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="87" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1aed0106f3e81e3c947da1b5815ec0939f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.WyczyscKierunki</definition>
+        <argsstring>()</argsstring>
+        <name>WyczyscKierunki</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.WyczyscKierunki</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="110" column="27" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="110" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a6be24f6147fd9aefbf82ffc552fb7353" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.AddKierunekToPodanie</definition>
+        <argsstring>(int id)</argsstring>
+        <name>AddKierunekToPodanie</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.AddKierunekToPodanie</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="123" column="27" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="123" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a1290b6e82620cedbd42b50748b3d35d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.RemoveKierunekFromPodanie</definition>
+        <argsstring>(int id)</argsstring>
+        <name>RemoveKierunekFromPodanie</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.RemoveKierunekFromPodanie</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="145" column="27" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="145" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a936c4b28a8cc1241867ad6417e579c9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Details</definition>
+        <argsstring>(long? id)</argsstring>
+        <name>Details</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Details</qualifiedname>
+        <param>
+          <type>long?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="183" column="27" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="183" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1ac27ddf0718b8cb651ed0fc96fc7977f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="203" column="30" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="203" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a56a1a251b1d5d5a7632aab7484838308" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Create</definition>
+        <argsstring>([Bind(&quot;Id,NazwaKierunku,SkrotKierunku,ProfilKierunku,Czesne,CzesneDlaCudzoziemcow,CzasTrwaniaWSemestrach,Dyscyplina,Jezyk,StopienStudiow,TrybStudiowania,FkIdWydzial,FkIdPrzelicznik&quot;)] KierunekModel kierunekViewModel)</argsstring>
+        <name>Create</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Create</qualifiedname>
+        <param>
+          <attributes>[Bind(&quot;Id,NazwaKierunku,SkrotKierunku,ProfilKierunku,Czesne,CzesneDlaCudzoziemcow,CzasTrwaniaWSemestrach,Dyscyplina,Jezyk,StopienStudiow,TrybStudiowania,FkIdWydzial,FkIdPrzelicznik&quot;)]</attributes>
+          <type><ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">KierunekModel</ref></type>
+          <declname>kierunekViewModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="215" column="27" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="215" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a823453a30bf5e13fc9ee3d192d3f635d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Edit</definition>
+        <argsstring>(long? id)</argsstring>
+        <name>Edit</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Edit</qualifiedname>
+        <param>
+          <type>long?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="229" column="27" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="229" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1af393d9e9df813be80c48b5735e2d2068" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Edit</definition>
+        <argsstring>(long id, [Bind(&quot;Id,NazwaKierunku,SkrotKierunku,ProfilKierunku,Czesne,CzesneDlaCudzoziemcow,CzasTrwaniaWSemestrach,Dyscyplina,Jezyk,StopienStudiow,TrybStudiowania,FkIdWydzial,FkIdPrzelicznik&quot;)] KierunekModel kierunekViewModel)</argsstring>
+        <name>Edit</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Edit</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <attributes>[Bind(&quot;Id,NazwaKierunku,SkrotKierunku,ProfilKierunku,Czesne,CzesneDlaCudzoziemcow,CzasTrwaniaWSemestrach,Dyscyplina,Jezyk,StopienStudiow,TrybStudiowania,FkIdWydzial,FkIdPrzelicznik&quot;)]</attributes>
+          <type><ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">KierunekModel</ref></type>
+          <declname>kierunekViewModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="251" column="27" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="251" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a8db350c2260cf63764a838f5c8d4cb52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Delete</definition>
+        <argsstring>(long? id)</argsstring>
+        <name>Delete</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.Delete</qualifiedname>
+        <param>
+          <type>long?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="284" column="27" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="284" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a3c4f12ad8b29380605e4da5e49c157b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.DeleteConfirmed</definition>
+        <argsstring>(long id)</argsstring>
+        <name>DeleteConfirmed</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.DeleteConfirmed</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="306" column="27" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="306" bodyend="312"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1aa455e968b40ae1b80b6ffd6fb176d30a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" kindref="compound">KandydatModel</ref></type>
+        <definition>KandydatModel projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.AktualnyKandydat</definition>
+        <argsstring>()</argsstring>
+        <name>AktualnyKandydat</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.AktualnyKandydat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="72" column="31" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="72" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a2f2ab69808109fbb4f70d88ba8f7b3ca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kindref="compound">PodanieKandydataModel</ref></type>
+        <definition>PodanieKandydataModel projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.getCurrentPodanie</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentPodanie</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.getCurrentPodanie</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="158" column="39" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="158" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a178dad08953ac760db0b6402694fe815" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">KierunekModel</ref> &gt;</type>
+        <definition>List&lt; KierunekModel &gt; projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.getSelectedKierunki</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedKierunki</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.getSelectedKierunki</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="165" column="22" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="165" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1ad37796b60491f855be865a59cc7dd952" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.KierunekViewModelExists</definition>
+        <argsstring>(long id)</argsstring>
+        <name>KierunekViewModelExists</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController.KierunekViewModelExists</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/KierunekNaPodaniuController.cs" line="314" column="22" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="314" bodyend="317"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController</label>
+        <link refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.KierunekNaPodaniuController</label>
+        <link refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/KierunekNaPodaniuController.cs" line="19" column="11" bodyfile="Controllers/KierunekNaPodaniuController.cs" bodystart="20" bodyend="318"/>
+    <listofallmembers>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a79bcf79f1fce0990947a03a96eedce14" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>_context</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a0ad5e5aba174e8431a3775748a1aa925" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>_punktyRekrutacyjneService</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a6be24f6147fd9aefbf82ffc552fb7353" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>AddKierunekToPodanie</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1aa455e968b40ae1b80b6ffd6fb176d30a" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>AktualnyKandydat</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1ac27ddf0718b8cb651ed0fc96fc7977f4" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>Create</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a56a1a251b1d5d5a7632aab7484838308" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>Create</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a8db350c2260cf63764a838f5c8d4cb52" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>Delete</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a3c4f12ad8b29380605e4da5e49c157b8" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>DeleteConfirmed</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a936c4b28a8cc1241867ad6417e579c9e" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>Details</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a823453a30bf5e13fc9ee3d192d3f635d" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>Edit</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1af393d9e9df813be80c48b5735e2d2068" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>Edit</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a2f2ab69808109fbb4f70d88ba8f7b3ca" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>getCurrentPodanie</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a178dad08953ac760db0b6402694fe815" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>getSelectedKierunki</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1af9ebda71a18ddff8d4562263fb715c2c" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>Index</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a2c39a74a5f2021c600140cf7320c9c9b" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>KierunekNaPodaniuController</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1ad37796b60491f855be865a59cc7dd952" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>KierunekViewModelExists</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a1290b6e82620cedbd42b50748b3d35d9" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>RemoveKierunekFromPodanie</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1aed0106f3e81e3c947da1b5815ec0939f" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>WyczyscKierunki</name></member>
+      <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a22c0d344868e29561e18f6485e873475" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</scope><name>WyslijPodanie</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

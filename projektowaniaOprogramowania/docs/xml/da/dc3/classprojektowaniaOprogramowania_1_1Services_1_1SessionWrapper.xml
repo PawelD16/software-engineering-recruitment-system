@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Services::SessionWrapper</compoundname>
+    <basecompoundref refid="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper" prot="public" virt="non-virtual">projektowaniaOprogramowania.Services.ISessionWrapper</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper_1ab9b0d261f77a8295455abfd2f4659936" prot="private" static="no" mutable="no">
+        <type>readonly IHttpContextAccessor</type>
+        <definition>readonly IHttpContextAccessor projektowaniaOprogramowania.Services.SessionWrapper._httpContextAccessor</definition>
+        <argsstring></argsstring>
+        <name>_httpContextAccessor</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.SessionWrapper._httpContextAccessor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/SessionWrapper.cs" line="8" column="47" bodyfile="Services/SessionWrapper.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper_1ad5d1f6932e14b90e372a1ca8c97737ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Services.SessionWrapper.SessionWrapper</definition>
+        <argsstring>(IHttpContextAccessor httpContextAccessor)</argsstring>
+        <name>SessionWrapper</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.SessionWrapper.SessionWrapper</qualifiedname>
+        <param>
+          <type>IHttpContextAccessor</type>
+          <declname>httpContextAccessor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/SessionWrapper.cs" line="10" column="16" bodyfile="Services/SessionWrapper.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper_1a84c41a0854d7e465e6a0da020dfe813c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long?</type>
+        <definition>long? projektowaniaOprogramowania.Services.SessionWrapper.GetUserId</definition>
+        <argsstring>()</argsstring>
+        <name>GetUserId</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.SessionWrapper.GetUserId</qualifiedname>
+        <reimplements refid="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper_1a85f585554273ba850abd4aa8ab506daa">GetUserId</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/SessionWrapper.cs" line="15" column="21" bodyfile="Services/SessionWrapper.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ISessionWrapper</label>
+        <link refid="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper"/>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Services.SessionWrapper</label>
+        <link refid="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ISessionWrapper</label>
+        <link refid="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper"/>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Services.SessionWrapper</label>
+        <link refid="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Services/SessionWrapper.cs" line="6" column="11" bodyfile="Services/SessionWrapper.cs" bodystart="7" bodyend="19"/>
+    <listofallmembers>
+      <member refid="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper_1ab9b0d261f77a8295455abfd2f4659936" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::SessionWrapper</scope><name>_httpContextAccessor</name></member>
+      <member refid="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper_1a84c41a0854d7e465e6a0da020dfe813c" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::SessionWrapper</scope><name>GetUserId</name></member>
+      <member refid="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper_1ad5d1f6932e14b90e372a1ca8c97737ac" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::SessionWrapper</scope><name>SessionWrapper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage &gt;</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ad8e445202a421e7cb1d642be22791f80" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_0</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_0</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_0</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;type&quot;, &quot;hidden&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="33" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1aac3615461778ba721d203716c9a99360" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_1</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_1</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_1</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;class&quot;, new global::Microsoft.AspNetCore.Html.HtmlString(&quot;control-label&quot;), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="34" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1acf3baaf123776f9e48f74f4716c8e274" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_2</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_2</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_2</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;class&quot;, new global::Microsoft.AspNetCore.Html.HtmlString(&quot;form-control&quot;), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="35" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1aa9407b5146d21fe5726d1fff7efbbba6" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_3</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_3</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_3</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;class&quot;, new global::Microsoft.AspNetCore.Html.HtmlString(&quot;text-danger&quot;), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="36" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a8bfe84d2cc413d1902a93b17a126c2a7" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_4</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_4</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_4</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;type&quot;, &quot;number&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="37" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a38a1869f9a874c3fa411883e21670668" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_5</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_5</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_5</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;min&quot;, new global::Microsoft.AspNetCore.Html.HtmlString(&quot;0&quot;), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="38" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ab7ff5042944cf9401cb2b98f727c488f" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_6</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_6</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperAttribute_6</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;max&quot;, new global::Microsoft.AspNetCore.Html.HtmlString(&quot;100&quot;), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="39" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ae380fe3599d94a625fa1228cf19e9280" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperExecutionContext</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperExecutionContext</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperExecutionContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="42" column="92" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1aa4d973001c37235d09b6c00d64fd1ed1" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperRunner</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperRunner</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperRunner</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="44" column="82" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a80cedd419a979dd269955720198683ec" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperStringValueBuffer</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperStringValueBuffer</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperStringValueBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="46" column="24" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1add94a789a6722ea1f70f68cedd59e029" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__backed__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__backed__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__backed__tagHelperScopeManager</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="48" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ac3068fe6cf8fea83c8dc0b333fecd1b2" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="60" column="72" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ae551b1b0ba82ac62405bd12231901db0" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="61" column="72" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ae7c69e57df0566c2ce29c284d13110e9" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="62" column="84" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1aeb1964db21b743008d33e369ffda2786" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.__tagHelperScopeManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="49" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="50" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ae56160290e27547ffbb649028852f893" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_Predykcja_WpiszPotrzebneDane.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="764" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="764" bodyend="764"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a373d293ac77db68a5703a30d2ccc2914" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_Predykcja_WpiszPotrzebneDane.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="766" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="766" bodyend="766"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a4d0cfed888fa84b70cf18c838cce25cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_Predykcja_WpiszPotrzebneDane.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="768" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="768" bodyend="768"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a421808acbcf12c0965ae155e37bec55d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_Predykcja_WpiszPotrzebneDane.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="770" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="770" bodyend="770"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a28e49635dc8d44d6bd48eac31f81bde5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; <ref refid="dc/dfd/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage" kindref="compound">projektowaniaOprogramowania.ViewModels.MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage</ref> &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;projektowaniaOprogramowania.ViewModels.MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage&gt; AspNetCore.Views_Predykcja_WpiszPotrzebneDane.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="772" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="772" bodyend="772"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a8c0a677b28603bd8f675629e6936e732" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_Predykcja_WpiszPotrzebneDane.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WpiszPotrzebneDane.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="64" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="64" bodyend="761"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_Predykcja_WpiszPotrzebneDane</label>
+        <link refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_Predykcja_WpiszPotrzebneDane</label>
+        <link refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WpiszPotrzebneDane.cshtml.g.cs" bodystart="32" bodyend="773"/>
+    <listofallmembers>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1add94a789a6722ea1f70f68cedd59e029" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__backed__tagHelperScopeManager</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ac3068fe6cf8fea83c8dc0b333fecd1b2" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ae551b1b0ba82ac62405bd12231901db0" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ae7c69e57df0566c2ce29c284d13110e9" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ad8e445202a421e7cb1d642be22791f80" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__tagHelperAttribute_0</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1aac3615461778ba721d203716c9a99360" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__tagHelperAttribute_1</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1acf3baaf123776f9e48f74f4716c8e274" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__tagHelperAttribute_2</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1aa9407b5146d21fe5726d1fff7efbbba6" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__tagHelperAttribute_3</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a8bfe84d2cc413d1902a93b17a126c2a7" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__tagHelperAttribute_4</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a38a1869f9a874c3fa411883e21670668" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__tagHelperAttribute_5</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ab7ff5042944cf9401cb2b98f727c488f" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__tagHelperAttribute_6</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ae380fe3599d94a625fa1228cf19e9280" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__tagHelperExecutionContext</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1aa4d973001c37235d09b6c00d64fd1ed1" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__tagHelperRunner</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1aeb1964db21b743008d33e369ffda2786" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__tagHelperScopeManager</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a80cedd419a979dd269955720198683ec" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>__tagHelperStringValueBuffer</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a4d0cfed888fa84b70cf18c838cce25cc" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>Component</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a8c0a677b28603bd8f675629e6936e732" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>ExecuteAsync</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a28e49635dc8d44d6bd48eac31f81bde5" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>Html</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a421808acbcf12c0965ae155e37bec55d" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>Json</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ae56160290e27547ffbb649028852f893" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>ModelExpressionProvider</name></member>
+      <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a373d293ac77db68a5703a30d2ccc2914" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

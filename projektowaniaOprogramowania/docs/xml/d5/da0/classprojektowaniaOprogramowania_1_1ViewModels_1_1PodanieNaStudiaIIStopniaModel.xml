@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIIStopniaModel</compoundname>
+    <basecompoundref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" prot="public" virt="non-virtual">projektowaniaOprogramowania.ViewModels.PodanieKandydataModel</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel_1a1ca18c4bc1710d2599bc3a5025c9767e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIIStopniaModel.SredniaZTokuStudiow</definition>
+        <argsstring></argsstring>
+        <name>SredniaZTokuStudiow</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIIStopniaModel.SredniaZTokuStudiow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PodanieNaStudiaIIStopniaModel.cs" line="17" column="22" bodyfile="Models/Other/PodanieNaStudiaIIStopniaModel.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel_1aa74b3c72de8d6949c1f4655f423df96b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIIStopniaModel.OcenaZPracyDyplomowej</definition>
+        <argsstring></argsstring>
+        <name>OcenaZPracyDyplomowej</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIIStopniaModel.OcenaZPracyDyplomowej</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PodanieNaStudiaIIStopniaModel.cs" line="20" column="22" bodyfile="Models/Other/PodanieNaStudiaIIStopniaModel.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a9d7ef85fd4cf8f87d67a3b808b54f115" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PodanieKandydataModel.cs" line="13" column="21" bodyfile="Models/Other/PodanieKandydataModel.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1afd2b217d258f66951b2b50992abe7dd9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.DataZlozeniaPodania</definition>
+        <argsstring></argsstring>
+        <name>DataZlozeniaPodania</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.DataZlozeniaPodania</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PodanieKandydataModel.cs" line="16" column="25" bodyfile="Models/Other/PodanieKandydataModel.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a20645417c545cda72c3ba5c4b249ed3c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.CzyAktywny</definition>
+        <argsstring></argsstring>
+        <name>CzyAktywny</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.CzyAktywny</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PodanieKandydataModel.cs" line="19" column="21" bodyfile="Models/Other/PodanieKandydataModel.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1abafc786c90bac5b1d4ca1a8d609c340a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>StatusPodania</type>
+        <definition>StatusPodania projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.StatusPodania</definition>
+        <argsstring></argsstring>
+        <name>StatusPodania</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.StatusPodania</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PodanieKandydataModel.cs" line="22" column="30" bodyfile="Models/Other/PodanieKandydataModel.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a489735ca9e3d1f14edd7a6a85e098dfa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.FkIdRekrutacja</definition>
+        <argsstring></argsstring>
+        <name>FkIdRekrutacja</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.FkIdRekrutacja</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PodanieKandydataModel.cs" line="25" column="21" bodyfile="Models/Other/PodanieKandydataModel.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1adb685d77faf85974d58da4092c65ec2f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel" kindref="compound">RekrutacjaModel</ref></type>
+        <definition>RekrutacjaModel projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.Rekrutacja</definition>
+        <argsstring></argsstring>
+        <name>Rekrutacja</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.Rekrutacja</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PodanieKandydataModel.cs" line="26" column="32" bodyfile="Models/Other/PodanieKandydataModel.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1ae1314ea8a1b828dd66ac8c4c7194335d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.FkIdKandydat</definition>
+        <argsstring></argsstring>
+        <name>FkIdKandydat</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.FkIdKandydat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PodanieKandydataModel.cs" line="29" column="21" bodyfile="Models/Other/PodanieKandydataModel.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1ae5370b4425a68f7c6a268e8ee8e6c8ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" kindref="compound">KandydatModel</ref></type>
+        <definition>KandydatModel projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.Kandydat</definition>
+        <argsstring></argsstring>
+        <name>Kandydat</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PodanieKandydataModel.Kandydat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PodanieKandydataModel.cs" line="30" column="30" bodyfile="Models/Other/PodanieKandydataModel.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PodanieKandydataModel</label>
+        <link refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel"/>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIIStopniaModel</label>
+        <link refid="d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PodanieKandydataModel</label>
+        <link refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel"/>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.ViewModels.PodanieNaStudiaIIStopniaModel</label>
+        <link refid="d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Models/Other/PodanieNaStudiaIIStopniaModel.cs" line="7" column="11" bodyfile="Models/Other/PodanieNaStudiaIIStopniaModel.cs" bodystart="8" bodyend="21"/>
+    <listofallmembers>
+      <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a20645417c545cda72c3ba5c4b249ed3c" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIIStopniaModel</scope><name>CzyAktywny</name></member>
+      <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1afd2b217d258f66951b2b50992abe7dd9" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIIStopniaModel</scope><name>DataZlozeniaPodania</name></member>
+      <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1ae1314ea8a1b828dd66ac8c4c7194335d" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIIStopniaModel</scope><name>FkIdKandydat</name></member>
+      <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a489735ca9e3d1f14edd7a6a85e098dfa" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIIStopniaModel</scope><name>FkIdRekrutacja</name></member>
+      <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a9d7ef85fd4cf8f87d67a3b808b54f115" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIIStopniaModel</scope><name>Id</name></member>
+      <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1ae5370b4425a68f7c6a268e8ee8e6c8ea" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIIStopniaModel</scope><name>Kandydat</name></member>
+      <member refid="d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel_1aa74b3c72de8d6949c1f4655f423df96b" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIIStopniaModel</scope><name>OcenaZPracyDyplomowej</name></member>
+      <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1adb685d77faf85974d58da4092c65ec2f" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIIStopniaModel</scope><name>Rekrutacja</name></member>
+      <member refid="d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel_1a1ca18c4bc1710d2599bc3a5025c9767e" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIIStopniaModel</scope><name>SredniaZTokuStudiow</name></member>
+      <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1abafc786c90bac5b1d4ca1a8d609c340a" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIIStopniaModel</scope><name>StatusPodania</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

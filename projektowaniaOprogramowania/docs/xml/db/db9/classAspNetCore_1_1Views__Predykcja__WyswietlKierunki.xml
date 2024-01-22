@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_Predykcja_WyswietlKierunki</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt; &gt;</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a7ba3beb6b7a10214098c77cce0ec6d88" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_Predykcja_WyswietlKierunki.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WyswietlKierunki.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" line="75" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="property" id="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a004cad739416dbe0fa94e5a5b6068ad5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_Predykcja_WyswietlKierunki.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WyswietlKierunki.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" line="77" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="property" id="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a50101b64806a5d96d831ed69846e3083" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_Predykcja_WyswietlKierunki.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WyswietlKierunki.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" line="79" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="property" id="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1ab9177d5f99615878ea9d868ce63c5da6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_Predykcja_WyswietlKierunki.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WyswietlKierunki.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" line="81" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="property" id="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a75cb4b987040ccdd9683c2ac4b808b25" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; IEnumerable&lt; <ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel</ref> &gt; &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;IEnumerable&lt;projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel&gt; &gt; AspNetCore.Views_Predykcja_WyswietlKierunki.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WyswietlKierunki.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" line="83" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" bodystart="83" bodyend="83"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a13a07a5187cc19bc9d65599a1091081a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_Predykcja_WyswietlKierunki.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_Predykcja_WyswietlKierunki.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" line="34" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" bodystart="34" bodyend="72"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_Predykcja_WyswietlKierunki</label>
+        <link refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt; &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_Predykcja_WyswietlKierunki</label>
+        <link refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/Predykcja/WyswietlKierunki.cshtml.g.cs" bodystart="32" bodyend="84"/>
+    <listofallmembers>
+      <member refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a50101b64806a5d96d831ed69846e3083" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WyswietlKierunki</scope><name>Component</name></member>
+      <member refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a13a07a5187cc19bc9d65599a1091081a" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WyswietlKierunki</scope><name>ExecuteAsync</name></member>
+      <member refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a75cb4b987040ccdd9683c2ac4b808b25" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WyswietlKierunki</scope><name>Html</name></member>
+      <member refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1ab9177d5f99615878ea9d868ce63c5da6" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WyswietlKierunki</scope><name>Json</name></member>
+      <member refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a7ba3beb6b7a10214098c77cce0ec6d88" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WyswietlKierunki</scope><name>ModelExpressionProvider</name></member>
+      <member refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a004cad739416dbe0fa94e5a5b6068ad5" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Predykcja_WyswietlKierunki</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

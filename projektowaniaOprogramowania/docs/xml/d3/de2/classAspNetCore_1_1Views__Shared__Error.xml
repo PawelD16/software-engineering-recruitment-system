@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d3/de2/classAspNetCore_1_1Views__Shared__Error" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_Shared_Error</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; ErrorViewModel &gt;</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d3/de2/classAspNetCore_1_1Views__Shared__Error_1a42383ac95c491016358a37b215c6acd3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_Shared_Error.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_Shared_Error.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" line="84" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/de2/classAspNetCore_1_1Views__Shared__Error_1abaf42ec8e35e72026480e49d001f84c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_Shared_Error.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_Shared_Error.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" line="86" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/de2/classAspNetCore_1_1Views__Shared__Error_1aeea5446b7eaa954692ba83fa3be58726" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_Shared_Error.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_Shared_Error.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" line="88" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/de2/classAspNetCore_1_1Views__Shared__Error_1a3faeeba018368097cc9a55dc55015c16" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_Shared_Error.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_Shared_Error.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" line="90" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/de2/classAspNetCore_1_1Views__Shared__Error_1a103e565d3f056ac7e343f935c52f2c74" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; <ref refid="d0/d17/classprojektowaniaOprogramowania_1_1Models_1_1ErrorViewModel" kindref="compound">ErrorViewModel</ref> &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;ErrorViewModel&gt; AspNetCore.Views_Shared_Error.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_Shared_Error.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" line="92" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" bodystart="92" bodyend="92"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/de2/classAspNetCore_1_1Views__Shared__Error_1a3cdb89b5008b1f7058bd2493983c0356" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_Shared_Error.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_Shared_Error.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" line="34" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" bodystart="34" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_Shared_Error</label>
+        <link refid="d3/de2/classAspNetCore_1_1Views__Shared__Error"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; ErrorViewModel &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_Shared_Error</label>
+        <link refid="d3/de2/classAspNetCore_1_1Views__Shared__Error"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; ErrorViewModel &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs" bodystart="32" bodyend="93"/>
+    <listofallmembers>
+      <member refid="d3/de2/classAspNetCore_1_1Views__Shared__Error_1aeea5446b7eaa954692ba83fa3be58726" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared_Error</scope><name>Component</name></member>
+      <member refid="d3/de2/classAspNetCore_1_1Views__Shared__Error_1a3cdb89b5008b1f7058bd2493983c0356" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared_Error</scope><name>ExecuteAsync</name></member>
+      <member refid="d3/de2/classAspNetCore_1_1Views__Shared__Error_1a103e565d3f056ac7e343f935c52f2c74" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared_Error</scope><name>Html</name></member>
+      <member refid="d3/de2/classAspNetCore_1_1Views__Shared__Error_1a3faeeba018368097cc9a55dc55015c16" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared_Error</scope><name>Json</name></member>
+      <member refid="d3/de2/classAspNetCore_1_1Views__Shared__Error_1a42383ac95c491016358a37b215c6acd3" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared_Error</scope><name>ModelExpressionProvider</name></member>
+      <member refid="d3/de2/classAspNetCore_1_1Views__Shared__Error_1abaf42ec8e35e72026480e49d001f84c2" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared_Error</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_88eb050ecf9e30bced3578136998f86a" kind="dir">
+    <compoundname>Models/Users</compoundname>
+    <innerfile refid="de/dfc/KandydatModel_8cs">KandydatModel.cs</innerfile>
+    <innerfile refid="df/dce/OsobaModel_8cs">OsobaModel.cs</innerfile>
+    <innerfile refid="d0/daf/PracownikDzialuRekrutacjiModel_8cs">PracownikDzialuRekrutacjiModel.cs</innerfile>
+    <innerfile refid="d4/d74/PracownikModel_8cs">PracownikModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/Users/"/>
+  </compounddef>
+</doxygen>

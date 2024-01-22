@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_Shared__SearchNameAndWydzial</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialModel &gt; &gt;</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a36ed0fc01a254d685938b8e68e8c822d" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Shared__SearchNameAndWydzial.__tagHelperAttribute_0</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_0</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.__tagHelperAttribute_0</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;class&quot;, new global::Microsoft.AspNetCore.Html.HtmlString(&quot;text-dark&quot;), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="33" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a78bde89672c05c752fae2c74a988f550" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Shared__SearchNameAndWydzial.__tagHelperAttribute_1</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_1</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.__tagHelperAttribute_1</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;method&quot;, &quot;get&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="34" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a7ba023d9462b9be42298460cc4580dc6" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext AspNetCore.Views_Shared__SearchNameAndWydzial.__tagHelperExecutionContext</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperExecutionContext</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.__tagHelperExecutionContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="37" column="92" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a7d86ffd7dbddd778e52a6a4791d153a1" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner AspNetCore.Views_Shared__SearchNameAndWydzial.__tagHelperRunner</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperRunner</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.__tagHelperRunner</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="39" column="82" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1acd7451eac8f7c7c4ec8ced3be11a3d66" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AspNetCore.Views_Shared__SearchNameAndWydzial.__tagHelperStringValueBuffer</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperStringValueBuffer</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.__tagHelperStringValueBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="41" column="24" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a8488c96e76b0d64a7ca25a6f6cce7a24" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_Shared__SearchNameAndWydzial.__backed__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__backed__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.__backed__tagHelperScopeManager</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="43" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1aad02c56a62aa8c2b99615df62be0678a" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper AspNetCore.Views_Shared__SearchNameAndWydzial.__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="55" column="71" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a821a216cdea3d9a0e66776ceff13acb6" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper AspNetCore.Views_Shared__SearchNameAndWydzial.__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="56" column="84" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1ae6073f7026171c258db2c16b05faa23e" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper AspNetCore.Views_Shared__SearchNameAndWydzial.__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="57" column="73" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a4330bb691066653b02d8c65998f3f275" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_Shared__SearchNameAndWydzial.__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.__tagHelperScopeManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="44" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="45" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1ac46a3bc9c60f6bc35f63cea585f0634d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_Shared__SearchNameAndWydzial.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="170" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="170" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a7e498a83a99738d3ba2dbe9de52c4709" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_Shared__SearchNameAndWydzial.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="172" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="172" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a7b853572122ba42fe336a46741f51251" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_Shared__SearchNameAndWydzial.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="174" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="174" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a0ab58b1703be1b2d71a979d56b6fd0c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_Shared__SearchNameAndWydzial.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="176" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="176" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a1a4c451ec136184b34a782bc9bb173d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; IEnumerable&lt; <ref refid="df/d17/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1WydzialModel" kindref="compound">projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialModel</ref> &gt; &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;IEnumerable&lt;projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialModel&gt; &gt; AspNetCore.Views_Shared__SearchNameAndWydzial.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="178" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="178" bodyend="178"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a59d544872876d1d3521661927c178454" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_Shared__SearchNameAndWydzial.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_Shared__SearchNameAndWydzial.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="59" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="59" bodyend="167"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_Shared__SearchNameAndWydzial</label>
+        <link refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialModel &gt; &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_Shared__SearchNameAndWydzial</label>
+        <link refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.WydzialModel &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_SearchNameAndWydzial.cshtml.g.cs" bodystart="32" bodyend="179"/>
+    <listofallmembers>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a8488c96e76b0d64a7ca25a6f6cce7a24" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>__backed__tagHelperScopeManager</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1aad02c56a62aa8c2b99615df62be0678a" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1ae6073f7026171c258db2c16b05faa23e" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a821a216cdea3d9a0e66776ceff13acb6" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a36ed0fc01a254d685938b8e68e8c822d" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>__tagHelperAttribute_0</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a78bde89672c05c752fae2c74a988f550" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>__tagHelperAttribute_1</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a7ba023d9462b9be42298460cc4580dc6" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>__tagHelperExecutionContext</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a7d86ffd7dbddd778e52a6a4791d153a1" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>__tagHelperRunner</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a4330bb691066653b02d8c65998f3f275" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>__tagHelperScopeManager</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1acd7451eac8f7c7c4ec8ced3be11a3d66" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>__tagHelperStringValueBuffer</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a7b853572122ba42fe336a46741f51251" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>Component</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a59d544872876d1d3521661927c178454" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>ExecuteAsync</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a1a4c451ec136184b34a782bc9bb173d9" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>Html</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a0ab58b1703be1b2d71a979d56b6fd0c2" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>Json</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1ac46a3bc9c60f6bc35f63cea585f0634d" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>ModelExpressionProvider</name></member>
+      <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a7e498a83a99738d3ba2dbe9de52c4709" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared__SearchNameAndWydzial</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

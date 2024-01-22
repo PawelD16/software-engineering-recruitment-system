@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d8/dde/namespaceSystem_1_1Xml_1_1Schema" kind="namespace" language="C#">
+    <compoundname>System::Xml::Schema</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Controllers/RekrutacjaController.cs" line="5" column="24"/>
+  </compounddef>
+</doxygen>

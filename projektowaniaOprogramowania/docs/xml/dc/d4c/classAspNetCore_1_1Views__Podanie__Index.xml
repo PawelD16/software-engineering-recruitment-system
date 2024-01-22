@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dc/d4c/classAspNetCore_1_1Views__Podanie__Index" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_Podanie_Index</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.Users.KandydatModel &gt; &gt;</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1adf0ce99d54cfd5aa9d67957ee098a712" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_Podanie_Index.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_Podanie_Index.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" line="69" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1abbc6270923c46d396a805591effba38b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_Podanie_Index.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_Podanie_Index.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" line="71" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1af2953d32aca952441bd3940c93028510" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_Podanie_Index.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_Podanie_Index.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" line="73" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1ae2caa1b20044eca30c13986225ddb387" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_Podanie_Index.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_Podanie_Index.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" line="75" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1aa49fe84381aa45e6b419490691aadea8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; IEnumerable&lt; <ref refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" kindref="compound">projektowaniaOprogramowania.ViewModels.Users.KandydatModel</ref> &gt; &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;IEnumerable&lt;projektowaniaOprogramowania.ViewModels.Users.KandydatModel&gt; &gt; AspNetCore.Views_Podanie_Index.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_Podanie_Index.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" line="77" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" bodystart="77" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1adf16cb3c1fb35c66002dd4e07f3f2032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_Podanie_Index.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_Podanie_Index.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" line="34" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" bodystart="34" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_Podanie_Index</label>
+        <link refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.Users.KandydatModel &gt; &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_Podanie_Index</label>
+        <link refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.Users.KandydatModel &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Index.cshtml.g.cs" bodystart="32" bodyend="78"/>
+    <listofallmembers>
+      <member refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1af2953d32aca952441bd3940c93028510" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Podanie_Index</scope><name>Component</name></member>
+      <member refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1adf16cb3c1fb35c66002dd4e07f3f2032" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Podanie_Index</scope><name>ExecuteAsync</name></member>
+      <member refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1aa49fe84381aa45e6b419490691aadea8" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Podanie_Index</scope><name>Html</name></member>
+      <member refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1ae2caa1b20044eca30c13986225ddb387" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Podanie_Index</scope><name>Json</name></member>
+      <member refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1adf0ce99d54cfd5aa9d67957ee098a712" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Podanie_Index</scope><name>ModelExpressionProvider</name></member>
+      <member refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1abbc6270923c46d396a805591effba38b" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Podanie_Index</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

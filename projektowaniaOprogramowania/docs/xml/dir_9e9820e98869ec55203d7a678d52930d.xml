@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_9e9820e98869ec55203d7a678d52930d" kind="dir">
+    <compoundname>obj/Debug/net5.0/Razor</compoundname>
+    <innerdir refid="dir_836adb143ebd61e29eb51207217133c1">obj/Debug/net5.0/Razor/Pages</innerdir>
+    <innerdir refid="dir_353ed0f21ce43f3df67b554e39a9b9f1">obj/Debug/net5.0/Razor/Views</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Debug/net5.0/Razor/"/>
+  </compounddef>
+</doxygen>

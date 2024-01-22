@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d0/d60/namespaceMicrosoft_1_1AspNetCore_1_1Hosting" kind="namespace" language="C#">
+    <compoundname>Microsoft::AspNetCore::Hosting</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Program.cs" line="5" column="35"/>
+  </compounddef>
+</doxygen>

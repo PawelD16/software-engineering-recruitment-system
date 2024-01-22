@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d7/dc7/classprojektowaniaOprogramowania_1_1Migrations_1_1Init" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Migrations::Init</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Migration</basecompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d7/dc7/classprojektowaniaOprogramowania_1_1Migrations_1_1Init_1a463e97479d60934e50757588140caac3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void projektowaniaOprogramowania.Migrations.Init.Up</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Up</name>
+        <qualifiedname>projektowaniaOprogramowania.Migrations.Init.Up</qualifiedname>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Migrations/20240114094427_Init.cs" line="9" column="33" bodyfile="Migrations/20240114094427_Init.cs" bodystart="9" bodyend="776"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc7/classprojektowaniaOprogramowania_1_1Migrations_1_1Init_1a1cd757231cb2327aee6946d6a6552139" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void projektowaniaOprogramowania.Migrations.Init.Down</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Down</name>
+        <qualifiedname>projektowaniaOprogramowania.Migrations.Init.Down</qualifiedname>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Migrations/20240114094427_Init.cs" line="778" column="33" bodyfile="Migrations/20240114094427_Init.cs" bodystart="778" bodyend="851"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc7/classprojektowaniaOprogramowania_1_1Migrations_1_1Init_1ad73600a5c5dde77e204b61ddbc2012eb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void projektowaniaOprogramowania.Migrations.Init.BuildTargetModel</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>BuildTargetModel</name>
+        <qualifiedname>projektowaniaOprogramowania.Migrations.Init.BuildTargetModel</qualifiedname>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Migrations/20240114094427_Init.Designer.cs" line="16" column="33" bodyfile="Migrations/20240114094427_Init.Designer.cs" bodystart="16" bodyend="1187"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Migrations.Init</label>
+        <link refid="d7/dc7/classprojektowaniaOprogramowania_1_1Migrations_1_1Init"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Migrations.Init</label>
+        <link refid="d7/dc7/classprojektowaniaOprogramowania_1_1Migrations_1_1Init"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Migrations/20240114094427_Init.cs" line="7" column="19" bodyfile="Migrations/20240114094427_Init.cs" bodystart="8" bodyend="852"/>
+    <listofallmembers>
+      <member refid="d7/dc7/classprojektowaniaOprogramowania_1_1Migrations_1_1Init_1ad73600a5c5dde77e204b61ddbc2012eb" prot="protected" virt="non-virtual"><scope>projektowaniaOprogramowania::Migrations::Init</scope><name>BuildTargetModel</name></member>
+      <member refid="d7/dc7/classprojektowaniaOprogramowania_1_1Migrations_1_1Init_1a1cd757231cb2327aee6946d6a6552139" prot="protected" virt="non-virtual"><scope>projektowaniaOprogramowania::Migrations::Init</scope><name>Down</name></member>
+      <member refid="d7/dc7/classprojektowaniaOprogramowania_1_1Migrations_1_1Init_1a463e97479d60934e50757588140caac3" prot="protected" virt="non-virtual"><scope>projektowaniaOprogramowania::Migrations::Init</scope><name>Up</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

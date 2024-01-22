@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService" kind="interface" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Services::Recrutation::IRecruitmentValidationService</compoundname>
+    <derivedcompoundref refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService" prot="public" virt="non-virtual">projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService_1a388a44dabf8605ac4f2ed61cfac8b188" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt;(bool, string)&gt;</type>
+        <definition>Task&lt;(bool, string)&gt; projektowaniaOprogramowania.Services.Recrutation.IRecruitmentValidationService.IsRecruitmentValid</definition>
+        <argsstring>(RekrutacjaModel recrutationViewModel)</argsstring>
+        <name>IsRecruitmentValid</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.Recrutation.IRecruitmentValidationService.IsRecruitmentValid</qualifiedname>
+        <reimplementedby refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1a7b6515be5a0f0ede6ae072e0e06252e2">IsRecruitmentValid</reimplementedby>
+        <param>
+          <type><ref refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel" kindref="compound">RekrutacjaModel</ref></type>
+          <declname>recrutationViewModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/Recruitment/IRecruitmentValidationService.cs" line="9" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Services.Recrutation.IRecruitmentValidationService</label>
+        <link refid="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService"/>
+      </node>
+      <node id="2">
+        <label>projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService</label>
+        <link refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Services/Recruitment/IRecruitmentValidationService.cs" line="7" column="22" bodyfile="Services/Recruitment/IRecruitmentValidationService.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService_1a388a44dabf8605ac4f2ed61cfac8b188" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::Recrutation::IRecruitmentValidationService</scope><name>IsRecruitmentValid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

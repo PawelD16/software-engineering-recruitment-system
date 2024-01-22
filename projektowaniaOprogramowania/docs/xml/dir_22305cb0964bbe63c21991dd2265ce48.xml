@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_22305cb0964bbe63c21991dd2265ce48" kind="dir">
+    <compoundname>Models</compoundname>
+    <innerdir refid="dir_29113b843fd1184741e620cc01bb73c5">Models/CollegeStructures</innerdir>
+    <innerdir refid="dir_b650b12d08754ad1ece1ba978cd8bc2e">Models/Other</innerdir>
+    <innerdir refid="dir_88eb050ecf9e30bced3578136998f86a">Models/Users</innerdir>
+    <innerfile refid="d5/d6b/DefaultValuesCreator_8cs">DefaultValuesCreator.cs</innerfile>
+    <innerfile refid="d8/d85/ErrorViewModel_8cs">ErrorViewModel.cs</innerfile>
+    <innerfile refid="d8/d7e/ModelBuilderExtension_8cs">ModelBuilderExtension.cs</innerfile>
+    <innerfile refid="de/dbe/MyDbContext_8cs">MyDbContext.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/"/>
+  </compounddef>
+</doxygen>

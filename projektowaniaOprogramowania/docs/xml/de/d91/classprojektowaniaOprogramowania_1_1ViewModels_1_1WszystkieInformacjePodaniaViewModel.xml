@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::ViewModels::WszystkieInformacjePodaniaViewModel</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a2bf105d8f332d77fc099086096545f63" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="de/d4a/classprojektowaniaOprogramowania_1_1ViewModels_1_1DodatkoweOsiagniecieModel" kindref="compound">DodatkoweOsiagniecieModel</ref> &gt;</type>
+        <definition>List&lt;DodatkoweOsiagniecieModel&gt; projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.DodatkoweOsiagniecia</definition>
+        <argsstring></argsstring>
+        <name>DodatkoweOsiagniecia</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.DodatkoweOsiagniecia</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ViewModels/WszystkieInformacjePodaniaViewModel.cs" line="9" column="13" bodyfile="ViewModels/WszystkieInformacjePodaniaViewModel.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a5265f552a890c97e7c776bc136ab1894" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="dd/d0a/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikOsiagniecModel" kindref="compound">PrzelicznikOsiagniecModel</ref> &gt;</type>
+        <definition>List&lt;PrzelicznikOsiagniecModel&gt; projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.PrzelicznikiOsiagniec</definition>
+        <argsstring></argsstring>
+        <name>PrzelicznikiOsiagniec</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.PrzelicznikiOsiagniec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ViewModels/WszystkieInformacjePodaniaViewModel.cs" line="10" column="13" bodyfile="ViewModels/WszystkieInformacjePodaniaViewModel.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a0ccbd51b3e60bfe0add4918c8440c8b8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="d3/d58/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaZPrzedmiotem" kindref="compound">OcenaZPrzedmiotem</ref> &gt;?</type>
+        <definition>List&lt;OcenaZPrzedmiotem&gt;? projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.Oceny</definition>
+        <argsstring></argsstring>
+        <name>Oceny</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.Oceny</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ViewModels/WszystkieInformacjePodaniaViewModel.cs" line="11" column="13" bodyfile="ViewModels/WszystkieInformacjePodaniaViewModel.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a922b2361dff0bee9e74ba7f502e02b3c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel" kindref="compound">DorobekNaukowyModel</ref> &gt;</type>
+        <definition>List&lt;DorobekNaukowyModel&gt; projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.DorobkiNaukowe</definition>
+        <argsstring></argsstring>
+        <name>DorobkiNaukowe</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.DorobkiNaukowe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ViewModels/WszystkieInformacjePodaniaViewModel.cs" line="12" column="13" bodyfile="ViewModels/WszystkieInformacjePodaniaViewModel.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a6f6c40a8cb392b0946c328e71f656223" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="d1/d11/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaDorobkuModel" kindref="compound">KategoriaDorobkuModel</ref> &gt;</type>
+        <definition>List&lt;KategoriaDorobkuModel&gt; projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.KategorieDorobku</definition>
+        <argsstring></argsstring>
+        <name>KategorieDorobku</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.KategorieDorobku</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ViewModels/WszystkieInformacjePodaniaViewModel.cs" line="13" column="13" bodyfile="ViewModels/WszystkieInformacjePodaniaViewModel.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1aa14e8480c78b21750f140759f2432d30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="df/dc3/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaModel" kindref="compound">MaturaModel</ref>?</type>
+        <definition>MaturaModel? projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.Matura</definition>
+        <argsstring></argsstring>
+        <name>Matura</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.Matura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ViewModels/WszystkieInformacjePodaniaViewModel.cs" line="14" column="20" bodyfile="ViewModels/WszystkieInformacjePodaniaViewModel.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a64f78215895a13eb0c3858a0f9269d13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel" kindref="compound">PodanieNaStudiaIIStopniaModel</ref>?</type>
+        <definition>PodanieNaStudiaIIStopniaModel? projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.PodanieNaIIStopien</definition>
+        <argsstring></argsstring>
+        <name>PodanieNaIIStopien</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.PodanieNaIIStopien</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ViewModels/WszystkieInformacjePodaniaViewModel.cs" line="15" column="38" bodyfile="ViewModels/WszystkieInformacjePodaniaViewModel.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a78d98d45917875fc215d56a25bf692a0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d8/d22/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIStopniaModel" kindref="compound">PodanieNaStudiaIStopniaModel</ref>?</type>
+        <definition>PodanieNaStudiaIStopniaModel? projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.PodanieNaIStopien</definition>
+        <argsstring></argsstring>
+        <name>PodanieNaIStopien</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.PodanieNaIStopien</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ViewModels/WszystkieInformacjePodaniaViewModel.cs" line="16" column="37" bodyfile="ViewModels/WszystkieInformacjePodaniaViewModel.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a2368bff610a13bbf09a0e56c5c18f3a6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kindref="compound">PodanieKandydataModel</ref></type>
+        <definition>PodanieKandydataModel projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.PodanieKandydata</definition>
+        <argsstring></argsstring>
+        <name>PodanieKandydata</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.WszystkieInformacjePodaniaViewModel.PodanieKandydata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ViewModels/WszystkieInformacjePodaniaViewModel.cs" line="17" column="30" bodyfile="ViewModels/WszystkieInformacjePodaniaViewModel.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ViewModels/WszystkieInformacjePodaniaViewModel.cs" line="7" column="7" bodyfile="ViewModels/WszystkieInformacjePodaniaViewModel.cs" bodystart="8" bodyend="19"/>
+    <listofallmembers>
+      <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a2bf105d8f332d77fc099086096545f63" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::WszystkieInformacjePodaniaViewModel</scope><name>DodatkoweOsiagniecia</name></member>
+      <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a922b2361dff0bee9e74ba7f502e02b3c" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::WszystkieInformacjePodaniaViewModel</scope><name>DorobkiNaukowe</name></member>
+      <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a6f6c40a8cb392b0946c328e71f656223" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::WszystkieInformacjePodaniaViewModel</scope><name>KategorieDorobku</name></member>
+      <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1aa14e8480c78b21750f140759f2432d30" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::WszystkieInformacjePodaniaViewModel</scope><name>Matura</name></member>
+      <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a0ccbd51b3e60bfe0add4918c8440c8b8" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::WszystkieInformacjePodaniaViewModel</scope><name>Oceny</name></member>
+      <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a2368bff610a13bbf09a0e56c5c18f3a6" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::WszystkieInformacjePodaniaViewModel</scope><name>PodanieKandydata</name></member>
+      <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a64f78215895a13eb0c3858a0f9269d13" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::WszystkieInformacjePodaniaViewModel</scope><name>PodanieNaIIStopien</name></member>
+      <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a78d98d45917875fc215d56a25bf692a0" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::WszystkieInformacjePodaniaViewModel</scope><name>PodanieNaIStopien</name></member>
+      <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a5265f552a890c97e7c776bc136ab1894" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::WszystkieInformacjePodaniaViewModel</scope><name>PrzelicznikiOsiagniec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

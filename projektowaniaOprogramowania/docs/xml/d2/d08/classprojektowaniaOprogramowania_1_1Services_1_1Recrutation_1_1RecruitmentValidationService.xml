@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Services::Recrutation::RecruitmentValidationService</compoundname>
+    <basecompoundref refid="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService" prot="public" virt="non-virtual">projektowaniaOprogramowania.Services.Recrutation.IRecruitmentValidationService</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1a71629c5d986269ef93de5353fdd4a3d6" prot="private" static="no" mutable="no">
+        <type><ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+        <definition>MyDbContext projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService._dbContext</definition>
+        <argsstring></argsstring>
+        <name>_dbContext</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService._dbContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/Recruitment/RecruitmentValidationService.cs" line="10" column="29" bodyfile="Services/Recruitment/RecruitmentValidationService.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1a92ccdb39ec7ea1a5590142ec12d2e821" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService.RecruitmentValidationService</definition>
+        <argsstring>(MyDbContext dbContext)</argsstring>
+        <name>RecruitmentValidationService</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService.RecruitmentValidationService</qualifiedname>
+        <param>
+          <type><ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+          <declname>dbContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/Recruitment/RecruitmentValidationService.cs" line="11" column="16" bodyfile="Services/Recruitment/RecruitmentValidationService.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1a7b6515be5a0f0ede6ae072e0e06252e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt;(bool, string)&gt;</type>
+        <definition>async Task&lt;(bool, string)&gt; projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService.IsRecruitmentValid</definition>
+        <argsstring>(RekrutacjaModel recruitment)</argsstring>
+        <name>IsRecruitmentValid</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService.IsRecruitmentValid</qualifiedname>
+        <reimplements refid="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService_1a388a44dabf8605ac4f2ed61cfac8b188">IsRecruitmentValid</reimplements>
+        <param>
+          <type><ref refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel" kindref="compound">RekrutacjaModel</ref></type>
+          <declname>recruitment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/Recruitment/RecruitmentValidationService.cs" line="16" column="27" bodyfile="Services/Recruitment/RecruitmentValidationService.cs" bodystart="16" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1affcbac8e1df280ca2c42041ab6737f9f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool &gt;</type>
+        <definition>async Task&lt; bool &gt; projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService.IsNewStateValid</definition>
+        <argsstring>(RekrutacjaModel recruitment)</argsstring>
+        <name>IsNewStateValid</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService.IsNewStateValid</qualifiedname>
+        <param>
+          <type><ref refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel" kindref="compound">RekrutacjaModel</ref></type>
+          <declname>recruitment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/Recruitment/RecruitmentValidationService.cs" line="31" column="28" bodyfile="Services/Recruitment/RecruitmentValidationService.cs" bodystart="31" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1acffa8bfb2ee2af92aa0204f7f5be6f75" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService.AreDatesCorrect</definition>
+        <argsstring>(RekrutacjaModel recruitment)</argsstring>
+        <name>AreDatesCorrect</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService.AreDatesCorrect</qualifiedname>
+        <param>
+          <type><ref refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel" kindref="compound">RekrutacjaModel</ref></type>
+          <declname>recruitment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/Recruitment/RecruitmentValidationService.cs" line="42" column="22" bodyfile="Services/Recruitment/RecruitmentValidationService.cs" bodystart="42" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IRecruitmentValidationService</label>
+        <link refid="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService"/>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService</label>
+        <link refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IRecruitmentValidationService</label>
+        <link refid="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService"/>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Services.Recrutation.RecruitmentValidationService</label>
+        <link refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Services/Recruitment/RecruitmentValidationService.cs" line="8" column="11" bodyfile="Services/Recruitment/RecruitmentValidationService.cs" bodystart="9" bodyend="56"/>
+    <listofallmembers>
+      <member refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1a71629c5d986269ef93de5353fdd4a3d6" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::Recrutation::RecruitmentValidationService</scope><name>_dbContext</name></member>
+      <member refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1acffa8bfb2ee2af92aa0204f7f5be6f75" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::Recrutation::RecruitmentValidationService</scope><name>AreDatesCorrect</name></member>
+      <member refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1affcbac8e1df280ca2c42041ab6737f9f" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::Recrutation::RecruitmentValidationService</scope><name>IsNewStateValid</name></member>
+      <member refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1a7b6515be5a0f0ede6ae072e0e06252e2" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::Recrutation::RecruitmentValidationService</scope><name>IsRecruitmentValid</name></member>
+      <member refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1a92ccdb39ec7ea1a5590142ec12d2e821" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::Recrutation::RecruitmentValidationService</scope><name>RecruitmentValidationService</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_Shared__OsobaChoice</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.Users.OsobaModel &gt; &gt;</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1a5eebc71a1f004e2ed66bb29871cf7160" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_Shared__OsobaChoice.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_Shared__OsobaChoice.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" line="115" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1a7ebf81593a900e9050af2bffd0feb6cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_Shared__OsobaChoice.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_Shared__OsobaChoice.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" line="117" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1a5058f85e28814f63f7bb69ef103c1ed5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_Shared__OsobaChoice.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_Shared__OsobaChoice.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" line="119" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1a5f85c2da8dda95e301a04b33b63b12e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_Shared__OsobaChoice.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_Shared__OsobaChoice.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" line="121" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1ae400c45e6750b393f41e3f0fb6b5a5d5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; IEnumerable&lt; <ref refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel" kindref="compound">projektowaniaOprogramowania.ViewModels.Users.OsobaModel</ref> &gt; &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;IEnumerable&lt;projektowaniaOprogramowania.ViewModels.Users.OsobaModel&gt; &gt; AspNetCore.Views_Shared__OsobaChoice.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_Shared__OsobaChoice.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" line="123" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" bodystart="123" bodyend="123"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1ab0d1c1ab63f50326c672823c80dd5e6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_Shared__OsobaChoice.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_Shared__OsobaChoice.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" line="34" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" bodystart="34" bodyend="112"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_Shared__OsobaChoice</label>
+        <link refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.Users.OsobaModel &gt; &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_Shared__OsobaChoice</label>
+        <link refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.Users.OsobaModel &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/Shared/_OsobaChoice.cshtml.g.cs" bodystart="32" bodyend="124"/>
+    <listofallmembers>
+      <member refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1a5058f85e28814f63f7bb69ef103c1ed5" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared__OsobaChoice</scope><name>Component</name></member>
+      <member refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1ab0d1c1ab63f50326c672823c80dd5e6b" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared__OsobaChoice</scope><name>ExecuteAsync</name></member>
+      <member refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1ae400c45e6750b393f41e3f0fb6b5a5d5" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared__OsobaChoice</scope><name>Html</name></member>
+      <member refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1a5f85c2da8dda95e301a04b33b63b12e5" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared__OsobaChoice</scope><name>Json</name></member>
+      <member refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1a5eebc71a1f004e2ed66bb29871cf7160" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared__OsobaChoice</scope><name>ModelExpressionProvider</name></member>
+      <member refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1a7ebf81593a900e9050af2bffd0feb6cd" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Shared__OsobaChoice</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

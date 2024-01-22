@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_ba262fc08cc173e800721160247391b9" kind="dir">
+    <compoundname>ViewModels</compoundname>
+    <innerfile refid="dc/d44/KandydatZPodaniemViewModel_8cs">KandydatZPodaniemViewModel.cs</innerfile>
+    <innerfile refid="d4/dfa/MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage_8cs">MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage.cs</innerfile>
+    <innerfile refid="d1/d1d/OcenaZPrzedmiotem_8cs">OcenaZPrzedmiotem.cs</innerfile>
+    <innerfile refid="d2/d23/WszystkieInformacjePodaniaViewModel_8cs">WszystkieInformacjePodaniaViewModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ViewModels/"/>
+  </compounddef>
+</doxygen>

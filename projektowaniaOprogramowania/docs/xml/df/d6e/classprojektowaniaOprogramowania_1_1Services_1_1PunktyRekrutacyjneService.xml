@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a4015d540645573e0af3e36207296144b" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+        <definition>readonly MyDbContext projektowaniaOprogramowania.Services.PunktyRekrutacyjneService._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService._context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="13" column="30" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a0a23245ea4395cf5062974768fd47f3a" prot="private" static="no" mutable="no">
+        <type>readonly Random</type>
+        <definition>readonly Random projektowaniaOprogramowania.Services.PunktyRekrutacyjneService._random</definition>
+        <argsstring></argsstring>
+        <name>_random</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService._random</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="14" column="25" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a321f8909d1574142cd17248354d5c0f2" prot="private" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.MAX_RECRUITATION_POINTS</definition>
+        <argsstring></argsstring>
+        <name>MAX_RECRUITATION_POINTS</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.MAX_RECRUITATION_POINTS</qualifiedname>
+        <initializer>= 530</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="16" column="22" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a3af0d2dc0b8418bde6018e76bbb77b9a" prot="private" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.MIN_RECRUITATION_POINTS</definition>
+        <argsstring></argsstring>
+        <name>MIN_RECRUITATION_POINTS</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.MIN_RECRUITATION_POINTS</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="17" column="22" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a47a672218ed0a39f2bf4670fb6b43e06" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.KierunekModel</definition>
+        <argsstring></argsstring>
+        <name>KierunekModel</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.KierunekModel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="54" column="9" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a1c080ba0f8159b2b9526e72e8422e876" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.RekrutacjaModel</definition>
+        <argsstring></argsstring>
+        <name>RekrutacjaModel</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.RekrutacjaModel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="92" column="9" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1aabd190175f99c680fff0929d8ba2cf8c" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.List&lt; DodatkoweOsiagniecieModel &gt;</definition>
+        <argsstring></argsstring>
+        <name>List&lt; DodatkoweOsiagniecieModel &gt;</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.List&lt; DodatkoweOsiagniecieModel &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="108" column="1" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1aa9122820d5de2913a4dac8a16392d689" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.List&lt; DorobekNaukowyModel &gt;</definition>
+        <argsstring></argsstring>
+        <name>List&lt; DorobekNaukowyModel &gt;</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.List&lt; DorobekNaukowyModel &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="108" column="1" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1af301ac0ef822211ba0112a890811391a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.int</definition>
+        <argsstring></argsstring>
+        <name>int</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.int</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="24" column="8" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a0cd581cf27157be6a830c5fce11779f5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.MaturaModel</definition>
+        <argsstring></argsstring>
+        <name>MaturaModel</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.MaturaModel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="124" column="18" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1ac9d3ab38b5bcb46f7db93e0e785e41a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.PunktyRekrutacyjneService</definition>
+        <argsstring>(MyDbContext context)</argsstring>
+        <name>PunktyRekrutacyjneService</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.PunktyRekrutacyjneService</qualifiedname>
+        <param>
+          <type><ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="19" column="8" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1aea411296ebc07c638efe9eba571e5565" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.PrzewidujPrzelicznikDlaKierunkuISzanseDostaniaSie</definition>
+        <argsstring>(KierunekModel kierunek)</argsstring>
+        <name>PrzewidujPrzelicznikDlaKierunkuISzanseDostaniaSie</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.PrzewidujPrzelicznikDlaKierunkuISzanseDostaniaSie</qualifiedname>
+        <param>
+          <type><ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">KierunekModel</ref></type>
+          <declname>kierunek</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="24" column="18" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="24" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1af7c1eeca41fec9099b201096f7bc372d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">KierunekModel</ref></type>
+        <definition>KierunekModel projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.WyliczPrzelicznikKandydataDlaKierunku</definition>
+        <argsstring>(KandydatModel kandydat, KierunekModel kierunek)</argsstring>
+        <name>WyliczPrzelicznikKandydataDlaKierunku</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.WyliczPrzelicznikKandydataDlaKierunku</qualifiedname>
+        <param>
+          <type><ref refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" kindref="compound">KandydatModel</ref></type>
+          <declname>kandydat</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">KierunekModel</ref></type>
+          <declname>kierunek</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="33" column="22" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="33" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a869ffe3a602a1bf4d8278285955b20b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt;(<ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">KierunekModel</ref>, int)&gt;</type>
+        <definition>List&lt;(KierunekModel, int)&gt; projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.GetPunktyKandydataNaKierunki</definition>
+        <argsstring>(RekrutacjaModel rekrutacjaModel, KandydatModel kandydatModel)</argsstring>
+        <name>GetPunktyKandydataNaKierunki</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.GetPunktyKandydataNaKierunki</qualifiedname>
+        <param>
+          <type><ref refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel" kindref="compound">RekrutacjaModel</ref></type>
+          <declname>rekrutacjaModel</declname>
+        </param>
+        <param>
+          <type><ref refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" kindref="compound">KandydatModel</ref></type>
+          <declname>kandydatModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="60" column="13" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1ae1fe6011db7098d29ce528e66682b599" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>List&lt; <ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">KierunekModel</ref> &gt;</type>
+        <definition>virtual List&lt; KierunekModel &gt; projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.WyliczPrzelicznikKandydataDlaKazdegoKierunku</definition>
+        <argsstring>(KandydatModel kandydat)</argsstring>
+        <name>WyliczPrzelicznikKandydataDlaKazdegoKierunku</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.WyliczPrzelicznikKandydataDlaKazdegoKierunku</qualifiedname>
+        <param>
+          <type><ref refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" kindref="compound">KandydatModel</ref></type>
+          <declname>kandydat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="65" column="21" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="65" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1af17d262d4aa6d03a3f4f5c83bd46a57e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kindref="compound">PodanieKandydataModel</ref></type>
+        <definition>PodanieKandydataModel projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.GetAllPodanieKandydataInfo</definition>
+        <argsstring>(PodanieKandydataModel podanieKandydata)</argsstring>
+        <name>GetAllPodanieKandydataInfo</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.GetAllPodanieKandydataInfo</qualifiedname>
+        <param>
+          <type><ref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kindref="compound">PodanieKandydataModel</ref></type>
+          <declname>podanieKandydata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="124" column="52" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="124" bodyend="138"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1af3e6bd2e106397e409db2e4312009e1e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.PunktyNaKierunek</definition>
+        <argsstring>(KierunekModel kierunekViewModel)</argsstring>
+        <name>PunktyNaKierunek</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.PunktyNaKierunek</qualifiedname>
+        <param>
+          <type><ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">KierunekModel</ref></type>
+          <declname>kierunekViewModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="54" column="27" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a5aa45c3eeb3ca7c844e06159f6952193" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kindref="compound">PodanieKandydataModel</ref> &gt;</type>
+        <definition>List&lt; PodanieKandydataModel &gt; projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.GetActiveRekrutacjaAndPodaniaKandydata</definition>
+        <argsstring>(KandydatModel kandydat)</argsstring>
+        <name>GetActiveRekrutacjaAndPodaniaKandydata</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.GetActiveRekrutacjaAndPodaniaKandydata</qualifiedname>
+        <param>
+          <type><ref refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" kindref="compound">KandydatModel</ref></type>
+          <declname>kandydat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="92" column="30" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="92" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a43362ecbf4144ffb64e30fbb35d8c1bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="df/dc3/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaModel" kindref="compound">MaturaModel</ref></type>
+        <definition>MaturaModel projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.GetDodatkoweOsiagnieciaAndDorobekNaukowyAndMatura</definition>
+        <argsstring>(PodanieKandydataModel podanieKandydata)</argsstring>
+        <name>GetDodatkoweOsiagnieciaAndDorobekNaukowyAndMatura</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.GetDodatkoweOsiagnieciaAndDorobekNaukowyAndMatura</qualifiedname>
+        <param>
+          <type><ref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kindref="compound">PodanieKandydataModel</ref></type>
+          <declname>podanieKandydata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="108" column="31" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="108" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a276496f92f6ffb2d90997cc78fbb3230" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.PrzeliczPunktyDlaKierunku</definition>
+        <argsstring>(KierunekModel kierunek, MaturaModel matura, List&lt; DorobekNaukowyModel &gt; dorobkiNaukowe, List&lt; DodatkoweOsiagniecieModel &gt; dodatkoweOsiagniecia, PodanieKandydataModel podanie)</argsstring>
+        <name>PrzeliczPunktyDlaKierunku</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.PrzeliczPunktyDlaKierunku</qualifiedname>
+        <param>
+          <type><ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">KierunekModel</ref></type>
+          <declname>kierunek</declname>
+        </param>
+        <param>
+          <type><ref refid="df/dc3/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaModel" kindref="compound">MaturaModel</ref></type>
+          <declname>matura</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel" kindref="compound">DorobekNaukowyModel</ref> &gt;</type>
+          <declname>dorobkiNaukowe</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="de/d4a/classprojektowaniaOprogramowania_1_1ViewModels_1_1DodatkoweOsiagniecieModel" kindref="compound">DodatkoweOsiagniecieModel</ref> &gt;</type>
+          <declname>dodatkoweOsiagniecia</declname>
+        </param>
+        <param>
+          <type><ref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kindref="compound">PodanieKandydataModel</ref></type>
+          <declname>podanie</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="140" column="13" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="140" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a26c4f483ad3096d14b3df46fca7216ad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.PoliczPunktyDlaKierunkuIIStopnia</definition>
+        <argsstring>(List&lt; DorobekNaukowyModel &gt; dorobkiNaukowe)</argsstring>
+        <name>PoliczPunktyDlaKierunkuIIStopnia</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.PoliczPunktyDlaKierunkuIIStopnia</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel" kindref="compound">DorobekNaukowyModel</ref> &gt;</type>
+          <declname>dorobkiNaukowe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="159" column="13" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="159" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a0e0fae86269be5b1dd1ffbc38316f161" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.PoliczPunktyDlaKierunkuIStopnia</definition>
+        <argsstring>(KierunekModel kierunek, MaturaModel matura, List&lt; DodatkoweOsiagniecieModel &gt; dodatkoweOsiagniecia)</argsstring>
+        <name>PoliczPunktyDlaKierunkuIStopnia</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.PoliczPunktyDlaKierunkuIStopnia</qualifiedname>
+        <param>
+          <type><ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">KierunekModel</ref></type>
+          <declname>kierunek</declname>
+        </param>
+        <param>
+          <type><ref refid="df/dc3/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaModel" kindref="compound">MaturaModel</ref></type>
+          <declname>matura</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="de/d4a/classprojektowaniaOprogramowania_1_1ViewModels_1_1DodatkoweOsiagniecieModel" kindref="compound">DodatkoweOsiagniecieModel</ref> &gt;</type>
+          <declname>dodatkoweOsiagniecia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="165" column="13" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="165" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a496f00e23773d9853f7c65509612291a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.getRandomRecruitationPoints</definition>
+        <argsstring>()</argsstring>
+        <name>getRandomRecruitationPoints</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PunktyRekrutacyjneService.getRandomRecruitationPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PunktyRekrutacyjneService.cs" line="173" column="13" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="173" bodyend="176"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Services/PunktyRekrutacyjneService.cs" line="11" column="11" bodyfile="Services/PunktyRekrutacyjneService.cs" bodystart="12" bodyend="177"/>
+    <listofallmembers>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a4015d540645573e0af3e36207296144b" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>_context</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a0a23245ea4395cf5062974768fd47f3a" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>_random</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a5aa45c3eeb3ca7c844e06159f6952193" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>GetActiveRekrutacjaAndPodaniaKandydata</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1af17d262d4aa6d03a3f4f5c83bd46a57e" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>GetAllPodanieKandydataInfo</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a43362ecbf4144ffb64e30fbb35d8c1bc" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>GetDodatkoweOsiagnieciaAndDorobekNaukowyAndMatura</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a869ffe3a602a1bf4d8278285955b20b8" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>GetPunktyKandydataNaKierunki</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a496f00e23773d9853f7c65509612291a" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>getRandomRecruitationPoints</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1af301ac0ef822211ba0112a890811391a" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>int</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a47a672218ed0a39f2bf4670fb6b43e06" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>KierunekModel</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1aabd190175f99c680fff0929d8ba2cf8c" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>List&lt; DodatkoweOsiagniecieModel &gt;</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1aa9122820d5de2913a4dac8a16392d689" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>List&lt; DorobekNaukowyModel &gt;</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a0cd581cf27157be6a830c5fce11779f5" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>MaturaModel</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a321f8909d1574142cd17248354d5c0f2" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>MAX_RECRUITATION_POINTS</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a3af0d2dc0b8418bde6018e76bbb77b9a" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>MIN_RECRUITATION_POINTS</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a26c4f483ad3096d14b3df46fca7216ad" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>PoliczPunktyDlaKierunkuIIStopnia</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a0e0fae86269be5b1dd1ffbc38316f161" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>PoliczPunktyDlaKierunkuIStopnia</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a276496f92f6ffb2d90997cc78fbb3230" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>PrzeliczPunktyDlaKierunku</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1aea411296ebc07c638efe9eba571e5565" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>PrzewidujPrzelicznikDlaKierunkuISzanseDostaniaSie</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1af3e6bd2e106397e409db2e4312009e1e" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>PunktyNaKierunek</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1ac9d3ab38b5bcb46f7db93e0e785e41a2" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>PunktyRekrutacyjneService</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a1c080ba0f8159b2b9526e72e8422e876" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>RekrutacjaModel</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1ae1fe6011db7098d29ce528e66682b599" prot="public" virt="virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>WyliczPrzelicznikKandydataDlaKazdegoKierunku</name></member>
+      <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1af7c1eeca41fec9099b201096f7bc372d" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</scope><name>WyliczPrzelicznikKandydataDlaKierunku</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

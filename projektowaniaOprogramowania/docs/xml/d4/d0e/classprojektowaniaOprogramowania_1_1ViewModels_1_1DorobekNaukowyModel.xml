@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::ViewModels::DorobekNaukowyModel</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1a2ac3ce08c9de98f6b603fabc00be24df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/DorobekNaukowyModel.cs" line="12" column="21" bodyfile="Models/Other/DorobekNaukowyModel.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1ad1a4fb4f8afd7560c345afea1a2c8469" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel.DataUzyskaniaDorobku</definition>
+        <argsstring></argsstring>
+        <name>DataUzyskaniaDorobku</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel.DataUzyskaniaDorobku</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/DorobekNaukowyModel.cs" line="15" column="25" bodyfile="Models/Other/DorobekNaukowyModel.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1a4a91bb27414a467e957af89698ea5b85" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel.FkIdPodanieNaIIStopien</definition>
+        <argsstring></argsstring>
+        <name>FkIdPodanieNaIIStopien</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel.FkIdPodanieNaIIStopien</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/DorobekNaukowyModel.cs" line="18" column="21" bodyfile="Models/Other/DorobekNaukowyModel.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1a731344ac5182ca32a57da19e5ac9c62d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel" kindref="compound">PodanieNaStudiaIIStopniaModel</ref></type>
+        <definition>PodanieNaStudiaIIStopniaModel projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel.PodanieNaIIStopien</definition>
+        <argsstring></argsstring>
+        <name>PodanieNaIIStopien</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel.PodanieNaIIStopien</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/DorobekNaukowyModel.cs" line="19" column="46" bodyfile="Models/Other/DorobekNaukowyModel.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1a1b68c74350207ee64957b77c1b64285e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel.FkIdKategoriaDorobku</definition>
+        <argsstring></argsstring>
+        <name>FkIdKategoriaDorobku</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel.FkIdKategoriaDorobku</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/DorobekNaukowyModel.cs" line="22" column="21" bodyfile="Models/Other/DorobekNaukowyModel.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1ac88f3a072a658c3ed135a0928898f106" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d1/d11/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaDorobkuModel" kindref="compound">KategoriaDorobkuModel</ref></type>
+        <definition>KategoriaDorobkuModel projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel.KategoriaDorobku</definition>
+        <argsstring></argsstring>
+        <name>KategoriaDorobku</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.DorobekNaukowyModel.KategoriaDorobku</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/DorobekNaukowyModel.cs" line="23" column="38" bodyfile="Models/Other/DorobekNaukowyModel.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/Other/DorobekNaukowyModel.cs" line="8" column="11" bodyfile="Models/Other/DorobekNaukowyModel.cs" bodystart="9" bodyend="24"/>
+    <listofallmembers>
+      <member refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1ad1a4fb4f8afd7560c345afea1a2c8469" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::DorobekNaukowyModel</scope><name>DataUzyskaniaDorobku</name></member>
+      <member refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1a1b68c74350207ee64957b77c1b64285e" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::DorobekNaukowyModel</scope><name>FkIdKategoriaDorobku</name></member>
+      <member refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1a4a91bb27414a467e957af89698ea5b85" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::DorobekNaukowyModel</scope><name>FkIdPodanieNaIIStopien</name></member>
+      <member refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1a2ac3ce08c9de98f6b603fabc00be24df" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::DorobekNaukowyModel</scope><name>Id</name></member>
+      <member refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1ac88f3a072a658c3ed135a0928898f106" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::DorobekNaukowyModel</scope><name>KategoriaDorobku</name></member>
+      <member refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1a731344ac5182ca32a57da19e5ac9c62d" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::DorobekNaukowyModel</scope><name>PodanieNaIIStopien</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

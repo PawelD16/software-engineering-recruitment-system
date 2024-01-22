@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d8/d9d/namespaceprojektowaniaOprogramowania" kind="namespace" language="C#">
+    <compoundname>projektowaniaOprogramowania</compoundname>
+    <innerclass refid="d3/db7/classprojektowaniaOprogramowania_1_1Program" prot="public">projektowaniaOprogramowania::Program</innerclass>
+    <innerclass refid="d5/d95/classprojektowaniaOprogramowania_1_1Startup" prot="public">projektowaniaOprogramowania::Startup</innerclass>
+    <innernamespace refid="d7/df3/namespaceprojektowaniaOprogramowania_1_1Controllers">projektowaniaOprogramowania::Controllers</innernamespace>
+    <innernamespace refid="d2/dde/namespaceprojektowaniaOprogramowania_1_1Migrations">projektowaniaOprogramowania::Migrations</innernamespace>
+    <innernamespace refid="d6/d4b/namespaceprojektowaniaOprogramowania_1_1Models">projektowaniaOprogramowania::Models</innernamespace>
+    <innernamespace refid="d8/d08/namespaceprojektowaniaOprogramowania_1_1Services">projektowaniaOprogramowania::Services</innernamespace>
+    <innernamespace refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels">projektowaniaOprogramowania::ViewModels</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Controllers/HomeController.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

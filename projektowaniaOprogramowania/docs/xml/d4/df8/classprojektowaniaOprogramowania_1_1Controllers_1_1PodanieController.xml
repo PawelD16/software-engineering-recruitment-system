@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Controllers::PodanieController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1a4782d8795c0d86da860d400477593658" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+        <definition>readonly MyDbContext projektowaniaOprogramowania.Controllers.PodanieController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PodanieController._context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PodanieController.cs" line="19" column="38" bodyfile="Controllers/PodanieController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1a0a4544966eeb57b5eb6ef763e2ffe133" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService" kindref="compound">PodanieService</ref></type>
+        <definition>readonly PodanieService projektowaniaOprogramowania.Controllers.PodanieController._podanieService</definition>
+        <argsstring></argsstring>
+        <name>_podanieService</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PodanieController._podanieService</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PodanieController.cs" line="20" column="41" bodyfile="Controllers/PodanieController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1a5e91304583afd61b5b4ebe7f70c8bac1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Controllers.PodanieController.PodanieController</definition>
+        <argsstring>(MyDbContext context, PodanieService podanieService)</argsstring>
+        <name>PodanieController</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PodanieController.PodanieController</qualifiedname>
+        <param>
+          <type><ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService" kindref="compound">PodanieService</ref></type>
+          <declname>podanieService</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PodanieController.cs" line="22" column="16" bodyfile="Controllers/PodanieController.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1ae32a5df3e312fae3323e9ea007b8ef4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.PodanieController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PodanieController.Index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PodanieController.cs" line="28" column="30" bodyfile="Controllers/PodanieController.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1ace9057afe899a33c840d02ff92816a83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.PodanieController.Details</definition>
+        <argsstring>(long? id)</argsstring>
+        <name>Details</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PodanieController.Details</qualifiedname>
+        <param>
+          <type>long?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PodanieController.cs" line="34" column="30" bodyfile="Controllers/PodanieController.cs" bodystart="34" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.PodanieController</label>
+        <link refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.PodanieController</label>
+        <link refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/PodanieController.cs" line="17" column="11" bodyfile="Controllers/PodanieController.cs" bodystart="18" bodyend="56"/>
+    <listofallmembers>
+      <member refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1a4782d8795c0d86da860d400477593658" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PodanieController</scope><name>_context</name></member>
+      <member refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1a0a4544966eeb57b5eb6ef763e2ffe133" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PodanieController</scope><name>_podanieService</name></member>
+      <member refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1ace9057afe899a33c840d02ff92816a83" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PodanieController</scope><name>Details</name></member>
+      <member refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1ae32a5df3e312fae3323e9ea007b8ef4e" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PodanieController</scope><name>Index</name></member>
+      <member refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1a5e91304583afd61b5b4ebe7f70c8bac1" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PodanieController</scope><name>PodanieController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

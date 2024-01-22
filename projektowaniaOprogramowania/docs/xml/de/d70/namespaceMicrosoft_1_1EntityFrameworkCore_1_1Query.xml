@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="de/d70/namespaceMicrosoft_1_1EntityFrameworkCore_1_1Query" kind="namespace" language="C#">
+    <compoundname>Microsoft::EntityFrameworkCore::Query</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Controllers/KierunekNaPodaniuController.cs" line="10" column="42"/>
+  </compounddef>
+</doxygen>

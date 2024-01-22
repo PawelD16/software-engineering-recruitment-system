@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_KierunekNaPodaniu_Delete</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt;</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a11b32d073293d89acc368b55d6dac5b4" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperAttribute_0</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_0</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperAttribute_0</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;type&quot;, &quot;hidden&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="33" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1add7c73b40192dbcc4fcf5bec46b770b8" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperAttribute_1</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_1</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperAttribute_1</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;asp-action&quot;, &quot;Index&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="34" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a6ec6d806d2ee20e0122e193738f9c706" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperAttribute_2</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_2</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperAttribute_2</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;asp-action&quot;, &quot;Delete&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="35" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a0471a44449466751119eb143b65e7e99" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperExecutionContext</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperExecutionContext</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperExecutionContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="38" column="92" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1ae0908dc942f05cdbedf3052306287162" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperRunner</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperRunner</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperRunner</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="40" column="82" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a05780c93ce3fa51d2b2d5b3b009052ee" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperStringValueBuffer</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperStringValueBuffer</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperStringValueBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="42" column="24" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a55fd0244cefc73f8c70b5536fbcd8a38" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_KierunekNaPodaniu_Delete.__backed__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__backed__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.__backed__tagHelperScopeManager</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="44" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a72d9020f39006097a7f50bd8e0013a31" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper AspNetCore.Views_KierunekNaPodaniu_Delete.__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="56" column="71" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1aec39ddf27459a0cf60b5a0ff57d339b5" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper AspNetCore.Views_KierunekNaPodaniu_Delete.__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="57" column="84" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a24f78820328a5269629b778e62a7f5e4" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper AspNetCore.Views_KierunekNaPodaniu_Delete.__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="58" column="72" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a7ca9057d93792a72509bdc9c2b6846ce" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper AspNetCore.Views_KierunekNaPodaniu_Delete.__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="59" column="73" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1aace35cfa32bf1d50d8d781fe3e966366" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.__tagHelperScopeManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="45" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="46" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a6634b5fecc36b22b68981c22d68f08ca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_KierunekNaPodaniu_Delete.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="326" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="326" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1ae9b8b850d843922f32c2bb259e7b69a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_KierunekNaPodaniu_Delete.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="328" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="328" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a33341ae3517d74bf446108a962cb95f1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_KierunekNaPodaniu_Delete.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="330" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="330" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1aeac84da74e52f20fb7d6c5c5cc8f1984" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_KierunekNaPodaniu_Delete.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="332" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="332" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1aa1d217b91f008fe61f65d21f34f52f60" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; <ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel</ref> &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel&gt; AspNetCore.Views_KierunekNaPodaniu_Delete.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="334" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="334" bodyend="334"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a2a262a199e5655c6a539cb382355dde1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_KierunekNaPodaniu_Delete.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Delete.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="61" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="61" bodyend="323"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_KierunekNaPodaniu_Delete</label>
+        <link refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_KierunekNaPodaniu_Delete</label>
+        <link refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Delete.cshtml.g.cs" bodystart="32" bodyend="335"/>
+    <listofallmembers>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a55fd0244cefc73f8c70b5536fbcd8a38" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>__backed__tagHelperScopeManager</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a7ca9057d93792a72509bdc9c2b6846ce" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a72d9020f39006097a7f50bd8e0013a31" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a24f78820328a5269629b778e62a7f5e4" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1aec39ddf27459a0cf60b5a0ff57d339b5" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a11b32d073293d89acc368b55d6dac5b4" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>__tagHelperAttribute_0</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1add7c73b40192dbcc4fcf5bec46b770b8" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>__tagHelperAttribute_1</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a6ec6d806d2ee20e0122e193738f9c706" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>__tagHelperAttribute_2</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a0471a44449466751119eb143b65e7e99" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>__tagHelperExecutionContext</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1ae0908dc942f05cdbedf3052306287162" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>__tagHelperRunner</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1aace35cfa32bf1d50d8d781fe3e966366" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>__tagHelperScopeManager</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a05780c93ce3fa51d2b2d5b3b009052ee" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>__tagHelperStringValueBuffer</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a33341ae3517d74bf446108a962cb95f1" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>Component</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a2a262a199e5655c6a539cb382355dde1" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>ExecuteAsync</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1aa1d217b91f008fe61f65d21f34f52f60" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>Html</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1aeac84da74e52f20fb7d6c5c5cc8f1984" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>Json</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a6634b5fecc36b22b68981c22d68f08ca" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>ModelExpressionProvider</name></member>
+      <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1ae9b8b850d843922f32c2bb259e7b69a3" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Delete</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

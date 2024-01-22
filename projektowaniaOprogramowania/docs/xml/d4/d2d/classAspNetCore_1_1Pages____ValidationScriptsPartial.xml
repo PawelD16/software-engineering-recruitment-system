@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Pages__ValidationScriptsPartial</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; dynamic &gt;</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a6da519d2b23b77ccdfdef051641a2bbf" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Pages__ValidationScriptsPartial.__tagHelperAttribute_0</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_0</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.__tagHelperAttribute_0</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;src&quot;, new global::Microsoft.AspNetCore.Html.HtmlString(&quot;~/lib/jquery-validation/dist/jquery.validate.js&quot;), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="18" column="94" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a1f87feaae8fce971804c421c94f0d600" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Pages__ValidationScriptsPartial.__tagHelperAttribute_1</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_1</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.__tagHelperAttribute_1</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;src&quot;, new global::Microsoft.AspNetCore.Html.HtmlString(&quot;~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js&quot;), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="19" column="94" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a17f250b4bccdb61af0a23fc955998c1a" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext AspNetCore.Pages__ValidationScriptsPartial.__tagHelperExecutionContext</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperExecutionContext</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.__tagHelperExecutionContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="22" column="92" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a90e600915384e8f07b33a0d7eab2ac62" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner AspNetCore.Pages__ValidationScriptsPartial.__tagHelperRunner</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperRunner</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.__tagHelperRunner</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="24" column="82" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a8d5bf100d2b98484e98348d6226c236e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AspNetCore.Pages__ValidationScriptsPartial.__tagHelperStringValueBuffer</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperStringValueBuffer</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.__tagHelperStringValueBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="26" column="24" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a661c11d210b0c538ddc580a7145e61f5" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Pages__ValidationScriptsPartial.__backed__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__backed__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.__backed__tagHelperScopeManager</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="28" column="88" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1af82a36cabc15e817d436789b8ef070b2" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper AspNetCore.Pages__ValidationScriptsPartial.__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="40" column="85" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1ae93ffe640c06433d0198b8cb4479946a" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Pages__ValidationScriptsPartial.__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.__tagHelperScopeManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="29" column="88" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="30" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1aa848f7e004d02887604bb5c5104d84ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Pages__ValidationScriptsPartial.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="91" column="83" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a3fe9ab7db124664caf887822df4582a0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Pages__ValidationScriptsPartial.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="93" column="57" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1ae7a7bbff9f297f9d3325069deced45a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Pages__ValidationScriptsPartial.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="95" column="67" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a4f8be5f61ece07f759274d4fca2ecf3c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Pages__ValidationScriptsPartial.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="97" column="67" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a40a25dda718279429a37b1c54e73c304" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; dynamic &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;dynamic&gt; AspNetCore.Pages__ValidationScriptsPartial.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="99" column="67" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="99" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a461e4cea1fa65e767e3378d0138b510e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Pages__ValidationScriptsPartial.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Pages__ValidationScriptsPartial.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="42" column="64" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="42" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Pages__ValidationScriptsPartial</label>
+        <link refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; dynamic &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Pages__ValidationScriptsPartial</label>
+        <link refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; dynamic &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="16" column="11" bodyfile="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" bodystart="17" bodyend="100"/>
+    <listofallmembers>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a661c11d210b0c538ddc580a7145e61f5" prot="private" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>__backed__tagHelperScopeManager</name></member>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1af82a36cabc15e817d436789b8ef070b2" prot="private" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper</name></member>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a6da519d2b23b77ccdfdef051641a2bbf" prot="private" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>__tagHelperAttribute_0</name></member>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a1f87feaae8fce971804c421c94f0d600" prot="private" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>__tagHelperAttribute_1</name></member>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a17f250b4bccdb61af0a23fc955998c1a" prot="private" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>__tagHelperExecutionContext</name></member>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a90e600915384e8f07b33a0d7eab2ac62" prot="private" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>__tagHelperRunner</name></member>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1ae93ffe640c06433d0198b8cb4479946a" prot="private" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>__tagHelperScopeManager</name></member>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a8d5bf100d2b98484e98348d6226c236e" prot="private" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>__tagHelperStringValueBuffer</name></member>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1ae7a7bbff9f297f9d3325069deced45a4" prot="public" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>Component</name></member>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a461e4cea1fa65e767e3378d0138b510e" prot="public" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>ExecuteAsync</name></member>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a40a25dda718279429a37b1c54e73c304" prot="public" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>Html</name></member>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a4f8be5f61ece07f759274d4fca2ecf3c" prot="public" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>Json</name></member>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1aa848f7e004d02887604bb5c5104d84ce" prot="public" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>ModelExpressionProvider</name></member>
+      <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a3fe9ab7db124664caf887822df4582a0" prot="public" virt="non-virtual"><scope>AspNetCore::Pages__ValidationScriptsPartial</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

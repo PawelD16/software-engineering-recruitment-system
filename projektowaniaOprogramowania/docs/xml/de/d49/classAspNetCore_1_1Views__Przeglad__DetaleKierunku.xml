@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_Przeglad_DetaleKierunku</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt;</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a0efbb0bd1c2e2b168759c07e48cfe285" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Przeglad_DetaleKierunku.__tagHelperAttribute_0</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_0</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_DetaleKierunku.__tagHelperAttribute_0</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;asp-action&quot;, &quot;Index&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="33" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a4ca969c314312ffbc8d398a2cbfca8b3" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext AspNetCore.Views_Przeglad_DetaleKierunku.__tagHelperExecutionContext</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperExecutionContext</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_DetaleKierunku.__tagHelperExecutionContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="36" column="92" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a7d7daa1ea4c6206fdfdd910e34ef33ef" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner AspNetCore.Views_Przeglad_DetaleKierunku.__tagHelperRunner</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperRunner</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_DetaleKierunku.__tagHelperRunner</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="38" column="82" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a59488ba20612ccf38d23d6a25e07b43f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AspNetCore.Views_Przeglad_DetaleKierunku.__tagHelperStringValueBuffer</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperStringValueBuffer</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_DetaleKierunku.__tagHelperStringValueBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="40" column="24" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a123cb3285df21b8fde32e8f648d8ee39" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_Przeglad_DetaleKierunku.__backed__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__backed__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_DetaleKierunku.__backed__tagHelperScopeManager</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="42" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1adda7ade01cee8b350008f6a39233674c" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper AspNetCore.Views_Przeglad_DetaleKierunku.__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_DetaleKierunku.__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="54" column="73" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a8caebc8adeb927e8d4b1edb918870455" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_Przeglad_DetaleKierunku.__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_DetaleKierunku.__tagHelperScopeManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="43" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="44" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1ac8d58e323ff3099f3e8041abd90c1847" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_Przeglad_DetaleKierunku.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_DetaleKierunku.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="328" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="328" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a4662fbf17156fd1cafc7038775f67ad0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_Przeglad_DetaleKierunku.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_DetaleKierunku.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="330" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="330" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a1cfb0c63d4bc89905e8381f0f528899e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_Przeglad_DetaleKierunku.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_DetaleKierunku.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="332" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="332" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1ac60aeaf3f01b37c6a395608c0da496c9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_Przeglad_DetaleKierunku.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_DetaleKierunku.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="334" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="334" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1ad6a594ddd2349b2ab0cdcc29a3611c39" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; <ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel</ref> &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel&gt; AspNetCore.Views_Przeglad_DetaleKierunku.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_DetaleKierunku.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="336" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="336" bodyend="336"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a050e7fc2ae07f1e78b8e42e123fb9967" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_Przeglad_DetaleKierunku.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_DetaleKierunku.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="56" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="56" bodyend="325"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_Przeglad_DetaleKierunku</label>
+        <link refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_Przeglad_DetaleKierunku</label>
+        <link refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/DetaleKierunku.cshtml.g.cs" bodystart="32" bodyend="337"/>
+    <listofallmembers>
+      <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a123cb3285df21b8fde32e8f648d8ee39" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_DetaleKierunku</scope><name>__backed__tagHelperScopeManager</name></member>
+      <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1adda7ade01cee8b350008f6a39233674c" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_DetaleKierunku</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+      <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a0efbb0bd1c2e2b168759c07e48cfe285" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_DetaleKierunku</scope><name>__tagHelperAttribute_0</name></member>
+      <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a4ca969c314312ffbc8d398a2cbfca8b3" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_DetaleKierunku</scope><name>__tagHelperExecutionContext</name></member>
+      <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a7d7daa1ea4c6206fdfdd910e34ef33ef" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_DetaleKierunku</scope><name>__tagHelperRunner</name></member>
+      <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a8caebc8adeb927e8d4b1edb918870455" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_DetaleKierunku</scope><name>__tagHelperScopeManager</name></member>
+      <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a59488ba20612ccf38d23d6a25e07b43f" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_DetaleKierunku</scope><name>__tagHelperStringValueBuffer</name></member>
+      <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a1cfb0c63d4bc89905e8381f0f528899e" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_DetaleKierunku</scope><name>Component</name></member>
+      <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a050e7fc2ae07f1e78b8e42e123fb9967" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_DetaleKierunku</scope><name>ExecuteAsync</name></member>
+      <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1ad6a594ddd2349b2ab0cdcc29a3611c39" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_DetaleKierunku</scope><name>Html</name></member>
+      <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1ac60aeaf3f01b37c6a395608c0da496c9" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_DetaleKierunku</scope><name>Json</name></member>
+      <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1ac8d58e323ff3099f3e8041abd90c1847" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_DetaleKierunku</scope><name>ModelExpressionProvider</name></member>
+      <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a4662fbf17156fd1cafc7038775f67ad0" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_DetaleKierunku</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

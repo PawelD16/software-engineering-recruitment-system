@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::ViewModels::PrzelicznikPrzedmiotuModel</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1ae68409b16cad3aa1f0565884fc13db09" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PrzelicznikPrzedmiotuModel.cs" line="11" column="21" bodyfile="Models/Other/PrzelicznikPrzedmiotuModel.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1a6d105dcce827397ba5c876b7eaa8c9c8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel.Wspolczynnik</definition>
+        <argsstring></argsstring>
+        <name>Wspolczynnik</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel.Wspolczynnik</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PrzelicznikPrzedmiotuModel.cs" line="15" column="22" bodyfile="Models/Other/PrzelicznikPrzedmiotuModel.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1abb23e4631bc2c6721a6fe2418c4816b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel.FkIdPrzedmiot</definition>
+        <argsstring></argsstring>
+        <name>FkIdPrzedmiot</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel.FkIdPrzedmiot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PrzelicznikPrzedmiotuModel.cs" line="18" column="21" bodyfile="Models/Other/PrzelicznikPrzedmiotuModel.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1a0268f0c14c8bef68a841707909e529a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel" kindref="compound">PrzedmiotModel</ref></type>
+        <definition>PrzedmiotModel projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel.Przedmiot</definition>
+        <argsstring></argsstring>
+        <name>Przedmiot</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel.Przedmiot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PrzelicznikPrzedmiotuModel.cs" line="19" column="31" bodyfile="Models/Other/PrzelicznikPrzedmiotuModel.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1a7b148301a2e5b0bbb00c7b519f478ac6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel.FkIdPrzelicznikKierunkowy</definition>
+        <argsstring></argsstring>
+        <name>FkIdPrzelicznikKierunkowy</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel.FkIdPrzelicznikKierunkowy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PrzelicznikPrzedmiotuModel.cs" line="22" column="21" bodyfile="Models/Other/PrzelicznikPrzedmiotuModel.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1aa929749cb9957488d04e64e6e3a2491a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel" kindref="compound">PrzelicznikKierunkowyModel</ref></type>
+        <definition>PrzelicznikKierunkowyModel projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel.PrzelicznikKierunkowy</definition>
+        <argsstring></argsstring>
+        <name>PrzelicznikKierunkowy</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PrzelicznikPrzedmiotuModel.PrzelicznikKierunkowy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PrzelicznikPrzedmiotuModel.cs" line="23" column="43" bodyfile="Models/Other/PrzelicznikPrzedmiotuModel.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/Other/PrzelicznikPrzedmiotuModel.cs" line="7" column="11" bodyfile="Models/Other/PrzelicznikPrzedmiotuModel.cs" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1abb23e4631bc2c6721a6fe2418c4816b1" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PrzelicznikPrzedmiotuModel</scope><name>FkIdPrzedmiot</name></member>
+      <member refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1a7b148301a2e5b0bbb00c7b519f478ac6" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PrzelicznikPrzedmiotuModel</scope><name>FkIdPrzelicznikKierunkowy</name></member>
+      <member refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1ae68409b16cad3aa1f0565884fc13db09" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PrzelicznikPrzedmiotuModel</scope><name>Id</name></member>
+      <member refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1a0268f0c14c8bef68a841707909e529a1" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PrzelicznikPrzedmiotuModel</scope><name>Przedmiot</name></member>
+      <member refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1aa929749cb9957488d04e64e6e3a2491a" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PrzelicznikPrzedmiotuModel</scope><name>PrzelicznikKierunkowy</name></member>
+      <member refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1a6d105dcce827397ba5c876b7eaa8c9c8" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PrzelicznikPrzedmiotuModel</scope><name>Wspolczynnik</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

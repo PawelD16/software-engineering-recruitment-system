@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d1/d2a/namespaceNpgsql_1_1EntityFrameworkCore_1_1PostgreSQL_1_1Metadata" kind="namespace" language="C#">
+    <compoundname>Npgsql::EntityFrameworkCore::PostgreSQL::Metadata</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Migrations/20240114094427_Init.cs" line="3" column="53"/>
+  </compounddef>
+</doxygen>

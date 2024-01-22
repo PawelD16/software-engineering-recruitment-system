@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d3/d02/classAspNetCore_1_1Views__Home__Privacy" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_Home_Privacy</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; dynamic &gt;</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1a051d5e7182467de510123382cc2993b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_Home_Privacy.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_Home_Privacy.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" line="56" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1ac158e7fb6d4e3e8efc8aa51f2ca502e1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_Home_Privacy.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_Home_Privacy.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" line="58" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1a5c406264d2cfdc4ccbb1f40e12710e0e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_Home_Privacy.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_Home_Privacy.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" line="60" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1afe1a2f34403ebb722226999c1de2d002" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_Home_Privacy.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_Home_Privacy.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" line="62" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1aee4c549b8f623b5924a9d08a4dbd7225" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; dynamic &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;dynamic&gt; AspNetCore.Views_Home_Privacy.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_Home_Privacy.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" line="64" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" bodystart="64" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1a682549ce8097fa5a8b4e1629a32e5e93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_Home_Privacy.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_Home_Privacy.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" line="34" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" bodystart="34" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_Home_Privacy</label>
+        <link refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; dynamic &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_Home_Privacy</label>
+        <link refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; dynamic &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs" bodystart="32" bodyend="65"/>
+    <listofallmembers>
+      <member refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1a5c406264d2cfdc4ccbb1f40e12710e0e" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Home_Privacy</scope><name>Component</name></member>
+      <member refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1a682549ce8097fa5a8b4e1629a32e5e93" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Home_Privacy</scope><name>ExecuteAsync</name></member>
+      <member refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1aee4c549b8f623b5924a9d08a4dbd7225" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Home_Privacy</scope><name>Html</name></member>
+      <member refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1afe1a2f34403ebb722226999c1de2d002" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Home_Privacy</scope><name>Json</name></member>
+      <member refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1a051d5e7182467de510123382cc2993b3" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Home_Privacy</scope><name>ModelExpressionProvider</name></member>
+      <member refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1ac158e7fb6d4e3e8efc8aa51f2ca502e1" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Home_Privacy</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

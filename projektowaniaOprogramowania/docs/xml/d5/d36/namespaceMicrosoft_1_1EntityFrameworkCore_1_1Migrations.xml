@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d5/d36/namespaceMicrosoft_1_1EntityFrameworkCore_1_1Migrations" kind="namespace" language="C#">
+    <compoundname>Microsoft::EntityFrameworkCore::Migrations</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Migrations/20240114094427_Init.cs" line="2" column="47"/>
+  </compounddef>
+</doxygen>

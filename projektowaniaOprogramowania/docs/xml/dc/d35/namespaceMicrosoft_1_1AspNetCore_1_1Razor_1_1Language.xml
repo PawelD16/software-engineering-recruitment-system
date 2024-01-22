@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dc/d35/namespaceMicrosoft_1_1AspNetCore_1_1Razor_1_1Language" kind="namespace" language="C#">
+    <compoundname>Microsoft::AspNetCore::Razor::Language</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Index.cshtml.g.cs" line="31" column="42"/>
+  </compounddef>
+</doxygen>

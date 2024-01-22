@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d8/d08/namespaceprojektowaniaOprogramowania_1_1Services" kind="namespace" language="C#">
+    <compoundname>projektowaniaOprogramowania::Services</compoundname>
+    <innerclass refid="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper" prot="public">projektowaniaOprogramowania::Services::ISessionWrapper</innerclass>
+    <innerclass refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService" prot="public">projektowaniaOprogramowania::Services::PodanieService</innerclass>
+    <innerclass refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService" prot="public">projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</innerclass>
+    <innerclass refid="d5/db5/classprojektowaniaOprogramowania_1_1Services_1_1SessionExtensions" prot="public">projektowaniaOprogramowania::Services::SessionExtensions</innerclass>
+    <innerclass refid="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper" prot="public">projektowaniaOprogramowania::Services::SessionWrapper</innerclass>
+    <innernamespace refid="d3/dcc/namespaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation">projektowaniaOprogramowania::Services::Recrutation</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Services/ISessionWrapper.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

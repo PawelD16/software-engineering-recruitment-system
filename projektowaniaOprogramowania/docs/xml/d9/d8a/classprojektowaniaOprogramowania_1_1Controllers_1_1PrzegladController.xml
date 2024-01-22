@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Controllers::PrzegladController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1a5574b771cc00b312fca10d46aa9cdd4e" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+        <definition>readonly MyDbContext projektowaniaOprogramowania.Controllers.PrzegladController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PrzegladController._context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PrzegladController.cs" line="15" column="30" bodyfile="Controllers/PrzegladController.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1a5fb3a912f0296eef1a44d64b10c365e6" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService" kindref="compound">PunktyRekrutacyjneService</ref></type>
+        <definition>readonly PunktyRekrutacyjneService projektowaniaOprogramowania.Controllers.PrzegladController._punktyRekrutacyjneService</definition>
+        <argsstring></argsstring>
+        <name>_punktyRekrutacyjneService</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PrzegladController._punktyRekrutacyjneService</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PrzegladController.cs" line="16" column="44" bodyfile="Controllers/PrzegladController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1a01461f2c2dad56d628ef187c69748174" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper" kindref="compound">ISessionWrapper</ref></type>
+        <definition>readonly ISessionWrapper projektowaniaOprogramowania.Controllers.PrzegladController._sessionWrapper</definition>
+        <argsstring></argsstring>
+        <name>_sessionWrapper</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PrzegladController._sessionWrapper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PrzegladController.cs" line="17" column="34" bodyfile="Controllers/PrzegladController.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1ae990c7ce148bf453f44778c8161eea1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Controllers.PrzegladController.PrzegladController</definition>
+        <argsstring>(MyDbContext context, PunktyRekrutacyjneService punktyRekrutacyjneService, ISessionWrapper sessionWrapper)</argsstring>
+        <name>PrzegladController</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PrzegladController.PrzegladController</qualifiedname>
+        <param>
+          <type><ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService" kindref="compound">PunktyRekrutacyjneService</ref></type>
+          <declname>punktyRekrutacyjneService</declname>
+        </param>
+        <param>
+          <type><ref refid="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper" kindref="compound">ISessionWrapper</ref></type>
+          <declname>sessionWrapper</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PrzegladController.cs" line="19" column="8" bodyfile="Controllers/PrzegladController.cs" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1afde416d7ee686344abd7cc1328bdde0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.PrzegladController.WszystkieKierunki</definition>
+        <argsstring>(string kierunekNameFilter, long? wydzialIdFilter)</argsstring>
+        <name>WszystkieKierunki</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PrzegladController.WszystkieKierunki</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>kierunekNameFilter</declname>
+        </param>
+        <param>
+          <type>long?</type>
+          <declname>wydzialIdFilter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PrzegladController.cs" line="27" column="22" bodyfile="Controllers/PrzegladController.cs" bodystart="27" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1a46445d3d3f6015261a47ddf264d1bd57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.PrzegladController.DetaleKierunku</definition>
+        <argsstring>(long kierunekId)</argsstring>
+        <name>DetaleKierunku</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PrzegladController.DetaleKierunku</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>kierunekId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PrzegladController.cs" line="44" column="22" bodyfile="Controllers/PrzegladController.cs" bodystart="44" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.PrzegladController</label>
+        <link refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.PrzegladController</label>
+        <link refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/PrzegladController.cs" line="13" column="11" bodyfile="Controllers/PrzegladController.cs" bodystart="14" bodyend="57"/>
+    <listofallmembers>
+      <member refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1a5574b771cc00b312fca10d46aa9cdd4e" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PrzegladController</scope><name>_context</name></member>
+      <member refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1a5fb3a912f0296eef1a44d64b10c365e6" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PrzegladController</scope><name>_punktyRekrutacyjneService</name></member>
+      <member refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1a01461f2c2dad56d628ef187c69748174" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PrzegladController</scope><name>_sessionWrapper</name></member>
+      <member refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1a46445d3d3f6015261a47ddf264d1bd57" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PrzegladController</scope><name>DetaleKierunku</name></member>
+      <member refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1ae990c7ce148bf453f44778c8161eea1b" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PrzegladController</scope><name>PrzegladController</name></member>
+      <member refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1afde416d7ee686344abd7cc1328bdde0b" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PrzegladController</scope><name>WszystkieKierunki</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
