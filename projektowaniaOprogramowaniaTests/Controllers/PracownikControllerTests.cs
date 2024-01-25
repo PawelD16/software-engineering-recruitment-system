@@ -130,7 +130,7 @@ namespace projektowaniaOprogramowaniaTests.Controllers
             var podanie = pracownikController.Edit(10);
 
             Assert.IsNotNull(podanie);
-            Assert.AreEqual(((RedirectToActionResult)podanie.Result).ActionName, "Error");
+            Assert.AreEqual(((RedirectToActionResult)podanie).ActionName, "Error");
 
         }
     }
