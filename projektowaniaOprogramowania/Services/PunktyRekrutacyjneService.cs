@@ -51,6 +51,16 @@ namespace projektowaniaOprogramowania.Services
 
 			return kierunek;
 		}
+		private (KierunekModel, int) PunktyNaKierunek(KierunekModel kierunekViewModel)
+		{
+			var random = new Random();
+			return (kierunekViewModel, random.Next(100, 500));
+		}
+
+		public List<(KierunekModel, int)> GetPunktyKandydataNaKierunki(RekrutacjaModel rekrutacjaModel, KandydatModel kandydatModel)
+		{
+			return _context.Kierunki.Select(PunktyNaKierunek).ToList();
+		}
 
 		public virtual List<KierunekModel> WyliczPrzelicznikKandydataDlaKazdegoKierunku(KandydatModel kandydat)
 		{

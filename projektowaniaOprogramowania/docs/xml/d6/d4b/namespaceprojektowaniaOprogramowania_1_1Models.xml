@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d6/d4b/namespaceprojektowaniaOprogramowania_1_1Models" kind="namespace" language="C#">
+    <compoundname>projektowaniaOprogramowania::Models</compoundname>
+    <innerclass refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator" prot="public">projektowaniaOprogramowania::Models::DefaultValuesCreator</innerclass>
+    <innerclass refid="d0/d17/classprojektowaniaOprogramowania_1_1Models_1_1ErrorViewModel" prot="public">projektowaniaOprogramowania::Models::ErrorViewModel</innerclass>
+    <innerclass refid="dc/d7f/classprojektowaniaOprogramowania_1_1Models_1_1ModelBuilderExtension" prot="public">projektowaniaOprogramowania::Models::ModelBuilderExtension</innerclass>
+    <innerclass refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" prot="public">projektowaniaOprogramowania::Models::MyDbContext</innerclass>
+    <innernamespace refid="d0/da1/namespaceprojektowaniaOprogramowania_1_1Models_1_1Other">projektowaniaOprogramowania::Models::Other</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/DefaultValuesCreator.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

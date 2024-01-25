@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_29113b843fd1184741e620cc01bb73c5" kind="dir">
+    <compoundname>Models/CollegeStructures</compoundname>
+    <innerfile refid="d1/de9/KierunekModel_8cs">KierunekModel.cs</innerfile>
+    <innerfile refid="d0/dfe/MiastoModel_8cs">MiastoModel.cs</innerfile>
+    <innerfile refid="d3/d8f/WydzialModel_8cs">WydzialModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/CollegeStructures/"/>
+  </compounddef>
+</doxygen>

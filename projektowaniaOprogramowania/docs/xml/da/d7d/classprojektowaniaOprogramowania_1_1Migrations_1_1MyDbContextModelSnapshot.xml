@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="da/d7d/classprojektowaniaOprogramowania_1_1Migrations_1_1MyDbContextModelSnapshot" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Migrations::MyDbContextModelSnapshot</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModelSnapshot</basecompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/d7d/classprojektowaniaOprogramowania_1_1Migrations_1_1MyDbContextModelSnapshot_1af450b6f05514f329eae381199607a842" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void projektowaniaOprogramowania.Migrations.MyDbContextModelSnapshot.BuildModel</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>BuildModel</name>
+        <qualifiedname>projektowaniaOprogramowania.Migrations.MyDbContextModelSnapshot.BuildModel</qualifiedname>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Migrations/MyDbContextModelSnapshot.cs" line="14" column="33" bodyfile="Migrations/MyDbContextModelSnapshot.cs" bodystart="14" bodyend="1185"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModelSnapshot</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Migrations.MyDbContextModelSnapshot</label>
+        <link refid="da/d7d/classprojektowaniaOprogramowania_1_1Migrations_1_1MyDbContextModelSnapshot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModelSnapshot</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Migrations.MyDbContextModelSnapshot</label>
+        <link refid="da/d7d/classprojektowaniaOprogramowania_1_1Migrations_1_1MyDbContextModelSnapshot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Migrations/MyDbContextModelSnapshot.cs" line="12" column="12" bodyfile="Migrations/MyDbContextModelSnapshot.cs" bodystart="13" bodyend="1186"/>
+    <listofallmembers>
+      <member refid="da/d7d/classprojektowaniaOprogramowania_1_1Migrations_1_1MyDbContextModelSnapshot_1af450b6f05514f329eae381199607a842" prot="protected" virt="non-virtual"><scope>projektowaniaOprogramowania::Migrations::MyDbContextModelSnapshot</scope><name>BuildModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Controllers::HomeController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1a97e7a79a072c58668a100b17bfb0556d" prot="private" static="no" mutable="no">
+        <type>readonly ILogger&lt; <ref refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController" kindref="compound">HomeController</ref> &gt;</type>
+        <definition>readonly ILogger&lt;HomeController&gt; projektowaniaOprogramowania.Controllers.HomeController._logger</definition>
+        <argsstring></argsstring>
+        <name>_logger</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.HomeController._logger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/HomeController.cs" line="14" column="34" bodyfile="Controllers/HomeController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1a32f5e3aed81f2b95ce74f8dee5eb1b3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Controllers.HomeController.HomeController</definition>
+        <argsstring>(ILogger&lt; HomeController &gt; logger)</argsstring>
+        <name>HomeController</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.HomeController.HomeController</qualifiedname>
+        <param>
+          <type>ILogger&lt; <ref refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController" kindref="compound">HomeController</ref> &gt;</type>
+          <declname>logger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/HomeController.cs" line="16" column="16" bodyfile="Controllers/HomeController.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1ab369f9f1a14c89b67aff24c2368c0a84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.HomeController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.HomeController.Index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/HomeController.cs" line="21" column="30" bodyfile="Controllers/HomeController.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1a1b02122e57c0d1c9e45ffd0e4fe7d924" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.HomeController.Privacy</definition>
+        <argsstring>()</argsstring>
+        <name>Privacy</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.HomeController.Privacy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/HomeController.cs" line="26" column="30" bodyfile="Controllers/HomeController.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1a7d453fde7493bd71967f7838d826aac7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.HomeController.Error</definition>
+        <argsstring>()</argsstring>
+        <name>Error</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.HomeController.Error</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/HomeController.cs" line="32" column="30" bodyfile="Controllers/HomeController.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.HomeController</label>
+        <link refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.HomeController</label>
+        <link refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/HomeController.cs" line="12" column="11" bodyfile="Controllers/HomeController.cs" bodystart="13" bodyend="36"/>
+    <listofallmembers>
+      <member refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1a97e7a79a072c58668a100b17bfb0556d" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::HomeController</scope><name>_logger</name></member>
+      <member refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1a7d453fde7493bd71967f7838d826aac7" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::HomeController</scope><name>Error</name></member>
+      <member refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1a32f5e3aed81f2b95ce74f8dee5eb1b3c" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::HomeController</scope><name>HomeController</name></member>
+      <member refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1ab369f9f1a14c89b67aff24c2368c0a84" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::HomeController</scope><name>Index</name></member>
+      <member refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1a1b02122e57c0d1c9e45ffd0e4fe7d924" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::HomeController</scope><name>Privacy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

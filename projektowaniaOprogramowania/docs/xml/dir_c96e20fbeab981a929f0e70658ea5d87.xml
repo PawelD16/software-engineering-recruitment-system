@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_c96e20fbeab981a929f0e70658ea5d87" kind="dir">
+    <compoundname>obj/Debug/net5.0</compoundname>
+    <innerdir refid="dir_9e9820e98869ec55203d7a678d52930d">obj/Debug/net5.0/Razor</innerdir>
+    <innerfile refid="d8/d61/_8NETCoreApp_00Version_0av5_80_8AssemblyAttributes_8cs">.NETCoreApp,Version=v5.0.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="da/d3b/projektowaniaOprogramowania_8AssemblyInfo_8cs">projektowaniaOprogramowania.AssemblyInfo.cs</innerfile>
+    <innerfile refid="d5/de2/projektowaniaOprogramowania_8RazorAssemblyInfo_8cs">projektowaniaOprogramowania.RazorAssemblyInfo.cs</innerfile>
+    <innerfile refid="d6/d65/projektowaniaOprogramowania_8RazorTargetAssemblyInfo_8cs">projektowaniaOprogramowania.RazorTargetAssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Debug/net5.0/"/>
+  </compounddef>
+</doxygen>

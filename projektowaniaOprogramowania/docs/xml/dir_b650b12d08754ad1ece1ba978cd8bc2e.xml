@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_b650b12d08754ad1ece1ba978cd8bc2e" kind="dir">
+    <compoundname>Models/Other</compoundname>
+    <innerfile refid="d2/d29/DodatkoweOsiagniecieModel_8cs">DodatkoweOsiagniecieModel.cs</innerfile>
+    <innerfile refid="df/d2d/DorobekNaukowyModel_8cs">DorobekNaukowyModel.cs</innerfile>
+    <innerfile refid="d2/d18/KategoriaDorobkuModel_8cs">KategoriaDorobkuModel.cs</innerfile>
+    <innerfile refid="d7/d4f/KategoriaOsiagnieciaModel_8cs">KategoriaOsiagnieciaModel.cs</innerfile>
+    <innerfile refid="da/dc4/KierunekNaPodaniuModel_8cs">KierunekNaPodaniuModel.cs</innerfile>
+    <innerfile refid="d9/d48/MaturaModel_8cs">MaturaModel.cs</innerfile>
+    <innerfile refid="dc/d5c/OcenaModel_8cs">OcenaModel.cs</innerfile>
+    <innerfile refid="df/da2/PodanieKandydataModel_8cs">PodanieKandydataModel.cs</innerfile>
+    <innerfile refid="d7/dbb/PodanieNaStudiaIIStopniaModel_8cs">PodanieNaStudiaIIStopniaModel.cs</innerfile>
+    <innerfile refid="dd/d3e/PodanieNaStudiaIStopniaModel_8cs">PodanieNaStudiaIStopniaModel.cs</innerfile>
+    <innerfile refid="de/d61/PracownikDzialuRekrutacjiNaPodanieKandydataModel_8cs">PracownikDzialuRekrutacjiNaPodanieKandydataModel.cs</innerfile>
+    <innerfile refid="df/d61/PrzedmiotModel_8cs">PrzedmiotModel.cs</innerfile>
+    <innerfile refid="d3/ddd/PrzelicznikDorobkuModel_8cs">PrzelicznikDorobkuModel.cs</innerfile>
+    <innerfile refid="df/df8/PrzelicznikKierunkowyModel_8cs">PrzelicznikKierunkowyModel.cs</innerfile>
+    <innerfile refid="dd/d09/PrzelicznikOsiagniecModel_8cs">PrzelicznikOsiagniecModel.cs</innerfile>
+    <innerfile refid="d7/d55/PrzelicznikPrzedmiotuModel_8cs">PrzelicznikPrzedmiotuModel.cs</innerfile>
+    <innerfile refid="d6/def/RekrutacjaModel_8cs">RekrutacjaModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/Other/"/>
+  </compounddef>
+</doxygen>

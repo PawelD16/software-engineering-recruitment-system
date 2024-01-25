@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_Rekrutacja_Edit</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.RekrutacjaModel &gt;</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a9a3af4716e774025e7cf1eeb82413156" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_0</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_0</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_0</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;class&quot;, new global::Microsoft.AspNetCore.Html.HtmlString(&quot;text-danger&quot;), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="40" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a1f7e4b78eda28e32b7933788acaa522b" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_1</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_1</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_1</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;type&quot;, &quot;hidden&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="41" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a028a8f7bab6a4cc745613665f12bf084" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_2</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_2</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_2</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;class&quot;, new global::Microsoft.AspNetCore.Html.HtmlString(&quot;control-label&quot;), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="42" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a37f8156a4ebb8017e5c9d633b02b3a2d" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_3</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_3</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_3</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;class&quot;, new global::Microsoft.AspNetCore.Html.HtmlString(&quot;form-control&quot;), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="43" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a0d2dcd89f28a3a800fafe42142f35863" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_4</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_4</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_4</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;selected&quot;, new global::Microsoft.AspNetCore.Html.HtmlString(&quot;selected&quot;), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="44" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a0840fb200f158cd62f198c2141e58e7d" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_5</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_5</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_5</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;asp-action&quot;, &quot;Edit&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="45" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a118e22b57b259d92728926c9efc9a76d" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_6</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_6</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__tagHelperAttribute_6</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;asp-action&quot;, &quot;Index&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="46" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a2bf63bdb05a6ba9d41a00eee10028c4c" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext AspNetCore.Views_Rekrutacja_Edit.__tagHelperExecutionContext</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperExecutionContext</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__tagHelperExecutionContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="49" column="92" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1abfd1c5c1c5509cc3a8100b292767fbe7" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner AspNetCore.Views_Rekrutacja_Edit.__tagHelperRunner</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperRunner</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__tagHelperRunner</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="51" column="82" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a8f13e68c596a780c67675c068d1fc347" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AspNetCore.Views_Rekrutacja_Edit.__tagHelperStringValueBuffer</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperStringValueBuffer</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__tagHelperStringValueBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="53" column="24" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a5940830b2899eb6ca82271155dba51d8" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_Rekrutacja_Edit.__backed__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__backed__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__backed__tagHelperScopeManager</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="55" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a7d6cdc7d73ac34d89f510159aeb1432e" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="67" column="71" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1aa3806f587a2435d29218f40156c8a92b" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="68" column="84" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1ac4d7df0e0ab84e3c3f6ba9adf1734892" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="69" column="84" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1aae491f50008c0070f19f71017b7d675c" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="70" column="72" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1aee3f4ffbfdab42f29d0be0c949dc63cd" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="71" column="72" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1ae454c0fb0ee9e2466e74ef782e9f7fdf" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="72" column="84" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a38d82f7dedcfef8412b0a0d36f3429e1" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="73" column="73" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a92e05e8fc813d36cc5c1df260ebe7d38" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="74" column="73" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a193835b6201d8161c737793c8151e327" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="75" column="73" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a8569d885c68404516bc5aaf3dabf171b" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_Rekrutacja_Edit.__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.__tagHelperScopeManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="56" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="57" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a55f49701315d0e137a6c6465e9bdea21" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_Rekrutacja_Edit.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="702" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="702" bodyend="702"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1abd6e43fe71a83c241fcf2671c13fefa0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_Rekrutacja_Edit.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="704" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="704" bodyend="704"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a21e853393f92113cc975e86bc4cf8c8d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_Rekrutacja_Edit.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="706" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="706" bodyend="706"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a1b094fd6b01cd1a3f94b3ea79984dc9e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_Rekrutacja_Edit.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="708" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="708" bodyend="708"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a2a5f88fe91c4a3d2999588c1ff03ecb5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; <ref refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel" kindref="compound">projektowaniaOprogramowania.ViewModels.RekrutacjaModel</ref> &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;projektowaniaOprogramowania.ViewModels.RekrutacjaModel&gt; AspNetCore.Views_Rekrutacja_Edit.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="710" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="710" bodyend="710"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a8779c49cbed051831fdec8fa76aa35ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_Rekrutacja_Edit.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_Rekrutacja_Edit.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="77" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="77" bodyend="699"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_Rekrutacja_Edit</label>
+        <link refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.RekrutacjaModel &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_Rekrutacja_Edit</label>
+        <link refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.RekrutacjaModel &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" line="38" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/Rekrutacja/Edit.cshtml.g.cs" bodystart="39" bodyend="711"/>
+    <listofallmembers>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a5940830b2899eb6ca82271155dba51d8" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__backed__tagHelperScopeManager</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a193835b6201d8161c737793c8151e327" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a7d6cdc7d73ac34d89f510159aeb1432e" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1aae491f50008c0070f19f71017b7d675c" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1aee3f4ffbfdab42f29d0be0c949dc63cd" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a92e05e8fc813d36cc5c1df260ebe7d38" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1aa3806f587a2435d29218f40156c8a92b" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a38d82f7dedcfef8412b0a0d36f3429e1" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1ae454c0fb0ee9e2466e74ef782e9f7fdf" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1ac4d7df0e0ab84e3c3f6ba9adf1734892" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a9a3af4716e774025e7cf1eeb82413156" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__tagHelperAttribute_0</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a1f7e4b78eda28e32b7933788acaa522b" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__tagHelperAttribute_1</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a028a8f7bab6a4cc745613665f12bf084" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__tagHelperAttribute_2</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a37f8156a4ebb8017e5c9d633b02b3a2d" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__tagHelperAttribute_3</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a0d2dcd89f28a3a800fafe42142f35863" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__tagHelperAttribute_4</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a0840fb200f158cd62f198c2141e58e7d" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__tagHelperAttribute_5</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a118e22b57b259d92728926c9efc9a76d" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__tagHelperAttribute_6</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a2bf63bdb05a6ba9d41a00eee10028c4c" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__tagHelperExecutionContext</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1abfd1c5c1c5509cc3a8100b292767fbe7" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__tagHelperRunner</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a8569d885c68404516bc5aaf3dabf171b" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__tagHelperScopeManager</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a8f13e68c596a780c67675c068d1fc347" prot="private" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>__tagHelperStringValueBuffer</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a21e853393f92113cc975e86bc4cf8c8d" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>Component</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a8779c49cbed051831fdec8fa76aa35ec" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>ExecuteAsync</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a2a5f88fe91c4a3d2999588c1ff03ecb5" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>Html</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a1b094fd6b01cd1a3f94b3ea79984dc9e" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>Json</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a55f49701315d0e137a6c6465e9bdea21" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>ModelExpressionProvider</name></member>
+      <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1abd6e43fe71a83c241fcf2671c13fefa0" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Rekrutacja_Edit</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

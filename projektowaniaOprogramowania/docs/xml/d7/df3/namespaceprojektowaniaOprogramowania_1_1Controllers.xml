@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d7/df3/namespaceprojektowaniaOprogramowania_1_1Controllers" kind="namespace" language="C#">
+    <compoundname>projektowaniaOprogramowania::Controllers</compoundname>
+    <innerclass refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController" prot="public">projektowaniaOprogramowania::Controllers::HomeController</innerclass>
+    <innerclass refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController" prot="public">projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</innerclass>
+    <innerclass refid="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController" prot="public">projektowaniaOprogramowania::Controllers::OsobaController</innerclass>
+    <innerclass refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController" prot="public">projektowaniaOprogramowania::Controllers::PodanieController</innerclass>
+    <innerclass refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController" prot="public">projektowaniaOprogramowania::Controllers::PracownikEdycjaController</innerclass>
+    <innerclass refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController" prot="public">projektowaniaOprogramowania::Controllers::PredykcjaController</innerclass>
+    <innerclass refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController" prot="public">projektowaniaOprogramowania::Controllers::PrzegladController</innerclass>
+    <innerclass refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController" prot="public">projektowaniaOprogramowania::Controllers::RekrutacjaController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Controllers/HomeController.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

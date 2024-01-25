@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_KierunekNaPodaniu_BrakDanychDoPodania</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; dynamic &gt;</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a11a18c503d2b7ca02abe781863c3b10c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" line="49" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1af99ff5fd7d10a2c33435a11afb8c5608" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" line="51" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a9c2c42f82c066edeb8723a98cb94d1f1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" line="53" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a3d8e7bd1be6841237923f30907929064" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" line="55" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a0c704ebd8329ee2ad0b3f7695a631dbd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; dynamic &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;dynamic&gt; AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" line="57" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a5bb191ab7766dfd940e2e6d0880a29a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" line="34" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" bodystart="34" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania</label>
+        <link refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; dynamic &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_KierunekNaPodaniu_BrakDanychDoPodania</label>
+        <link refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; dynamic &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/BrakDanychDoPodania.cshtml.g.cs" bodystart="32" bodyend="58"/>
+    <listofallmembers>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a9c2c42f82c066edeb8723a98cb94d1f1" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_BrakDanychDoPodania</scope><name>Component</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a5bb191ab7766dfd940e2e6d0880a29a8" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_BrakDanychDoPodania</scope><name>ExecuteAsync</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a0c704ebd8329ee2ad0b3f7695a631dbd" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_BrakDanychDoPodania</scope><name>Html</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a3d8e7bd1be6841237923f30907929064" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_BrakDanychDoPodania</scope><name>Json</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a11a18c503d2b7ca02abe781863c3b10c" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_BrakDanychDoPodania</scope><name>ModelExpressionProvider</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1af99ff5fd7d10a2c33435a11afb8c5608" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_BrakDanychDoPodania</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

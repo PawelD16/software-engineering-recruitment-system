@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_Przeglad_WszystkieKierunki</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt; &gt;</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a526aaee28cf861df46a147453d47f12e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_Przeglad_WszystkieKierunki.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_WszystkieKierunki.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" line="75" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a5254e156aebe6e48d6d263e59787782f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_Przeglad_WszystkieKierunki.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_WszystkieKierunki.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" line="77" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1abb76f3abbdfb5fc9b496175abc937139" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_Przeglad_WszystkieKierunki.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_WszystkieKierunki.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" line="79" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a6ed1428b150a04c94601f81704fb966e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_Przeglad_WszystkieKierunki.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_WszystkieKierunki.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" line="81" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a1fc9db5138dcd93b5204aba6008afa39" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; IEnumerable&lt; <ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel</ref> &gt; &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;IEnumerable&lt;projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel&gt; &gt; AspNetCore.Views_Przeglad_WszystkieKierunki.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_WszystkieKierunki.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" line="83" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" bodystart="83" bodyend="83"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a6bd3ae8f7e059f556aac61396bd08e56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_Przeglad_WszystkieKierunki.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_Przeglad_WszystkieKierunki.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" line="34" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" bodystart="34" bodyend="72"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_Przeglad_WszystkieKierunki</label>
+        <link refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt; &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_Przeglad_WszystkieKierunki</label>
+        <link refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; IEnumerable&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/Przeglad/WszystkieKierunki.cshtml.g.cs" bodystart="32" bodyend="84"/>
+    <listofallmembers>
+      <member refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1abb76f3abbdfb5fc9b496175abc937139" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_WszystkieKierunki</scope><name>Component</name></member>
+      <member refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a6bd3ae8f7e059f556aac61396bd08e56" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_WszystkieKierunki</scope><name>ExecuteAsync</name></member>
+      <member refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a1fc9db5138dcd93b5204aba6008afa39" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_WszystkieKierunki</scope><name>Html</name></member>
+      <member refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a6ed1428b150a04c94601f81704fb966e" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_WszystkieKierunki</scope><name>Json</name></member>
+      <member refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a526aaee28cf861df46a147453d47f12e" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_WszystkieKierunki</scope><name>ModelExpressionProvider</name></member>
+      <member refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a5254e156aebe6e48d6d263e59787782f" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Przeglad_WszystkieKierunki</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper" kind="interface" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Services::ISessionWrapper</compoundname>
+    <derivedcompoundref refid="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper" prot="public" virt="non-virtual">projektowaniaOprogramowania.Services.SessionWrapper</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper_1a85f585554273ba850abd4aa8ab506daa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long?</type>
+        <definition>long? projektowaniaOprogramowania.Services.ISessionWrapper.GetUserId</definition>
+        <argsstring>()</argsstring>
+        <name>GetUserId</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.ISessionWrapper.GetUserId</qualifiedname>
+        <reimplementedby refid="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper_1a84c41a0854d7e465e6a0da020dfe813c">GetUserId</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/ISessionWrapper.cs" line="5" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Services.ISessionWrapper</label>
+        <link refid="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper"/>
+      </node>
+      <node id="2">
+        <label>projektowaniaOprogramowania.Services.SessionWrapper</label>
+        <link refid="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Services/ISessionWrapper.cs" line="3" column="22" bodyfile="Services/ISessionWrapper.cs" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper_1a85f585554273ba850abd4aa8ab506daa" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::ISessionWrapper</scope><name>GetUserId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

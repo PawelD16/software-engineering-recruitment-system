@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="db/d1e/classAspNetCore_1_1Views__Podanie__Details" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_Podanie_Details</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.KandydatZPodaniemViewModel &gt;</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1a9d3a859d244bfc48eea4c51298c6e9b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_Podanie_Details.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_Podanie_Details.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" line="150" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" bodystart="150" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1aec937be3b98287e26858980271f79694" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_Podanie_Details.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_Podanie_Details.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" line="152" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" bodystart="152" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1a55c09c58d3fde34a0b6d391946d2162f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_Podanie_Details.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_Podanie_Details.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" line="154" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" bodystart="154" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1ad8e0a6c8358716094ca5a2c67971eb41" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_Podanie_Details.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_Podanie_Details.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" line="156" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1a15d661602f6eed7e0eac33e42cffd40e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; <ref refid="d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel" kindref="compound">projektowaniaOprogramowania.ViewModels.KandydatZPodaniemViewModel</ref> &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;projektowaniaOprogramowania.ViewModels.KandydatZPodaniemViewModel&gt; AspNetCore.Views_Podanie_Details.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_Podanie_Details.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" line="158" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" bodystart="158" bodyend="158"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1a09b9ab4ca391b9247b087879eca163fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_Podanie_Details.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_Podanie_Details.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" line="34" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" bodystart="34" bodyend="147"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_Podanie_Details</label>
+        <link refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.KandydatZPodaniemViewModel &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_Podanie_Details</label>
+        <link refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.KandydatZPodaniemViewModel &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/Podanie/Details.cshtml.g.cs" bodystart="32" bodyend="159"/>
+    <listofallmembers>
+      <member refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1a55c09c58d3fde34a0b6d391946d2162f" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Podanie_Details</scope><name>Component</name></member>
+      <member refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1a09b9ab4ca391b9247b087879eca163fb" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Podanie_Details</scope><name>ExecuteAsync</name></member>
+      <member refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1a15d661602f6eed7e0eac33e42cffd40e" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Podanie_Details</scope><name>Html</name></member>
+      <member refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1ad8e0a6c8358716094ca5a2c67971eb41" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Podanie_Details</scope><name>Json</name></member>
+      <member refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1a9d3a859d244bfc48eea4c51298c6e9b3" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Podanie_Details</scope><name>ModelExpressionProvider</name></member>
+      <member refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1aec937be3b98287e26858980271f79694" prot="public" virt="non-virtual"><scope>AspNetCore::Views_Podanie_Details</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

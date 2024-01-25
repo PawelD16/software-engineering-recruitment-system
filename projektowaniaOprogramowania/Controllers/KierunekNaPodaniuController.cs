@@ -50,34 +50,23 @@ namespace projektowaniaOprogramowania.Controllers
             var myDbContext = _context.Kierunki
                 .Include(k => k.Przelicznik)
                 .Include(k => k.Wydzial)
-                .Include(k => k.Przelicznik.PrzelicznikPrzemiotu);
+                .Include(k => k.Przelicznik.PrzelicznikPrzemiotu)
+                .OrderBy(e=>e.NazwaKierunku);
             
             var przedmioty = _context.PrzelicznikiPrzedmiotow
                 .Include(e => e.Przedmiot);
 
-           
+           var rekrutacja = _context.Rekrutacje.Where(e=>e.Id==podanie.FkIdRekrutacja).First();
             
             ViewData["przedmioty"] = await przedmioty.ToListAsync();
             ViewData["kierunki"] =  getSelectedKierunki();
             ViewData["podanie"] = podanie;
-            ViewData["punkty"] = PunktyNaKierunki();
-            ViewData["rekrutacja"] = _context.Rekrutacje.Where(e=>e.Id==podanie.FkIdRekrutacja).First();
+            ViewData["punkty"] = _punktyRekrutacyjneService.GetPunktyKandydataNaKierunki(rekrutacja, AktualnyKandydat());
+            ViewData["rekrutacja"] = rekrutacja;
             ViewData["kandydat"] = AktualnyKandydat();
             
             
             return View(await myDbContext.ToListAsync());
-        }
-
-        private (KierunekModel, int) PunktyNaKierunek(KierunekModel kierunekViewModel)
-        {
-            var random = new Random();
-            return (kierunekViewModel, random.Next(100, 500));
-        }
-
-        private List<(KierunekModel, int)> PunktyNaKierunki()
-        {
-            var random = new Random();
-            return _context.Kierunki.Select(PunktyNaKierunek).ToList();
         }
 
         private KandydatModel AktualnyKandydat()
@@ -184,7 +173,9 @@ namespace projektowaniaOprogramowania.Controllers
             return kierunki.Join(kierunkiPodania,
                 kierunki => kierunki.Id, 
                 kierunkiPodania => kierunkiPodania,
-                (kierunki, kierunkiNaPodaniu) => kierunki).ToList();
+                (kierunki, kierunkiNaPodaniu) => kierunki)
+                .OrderByDescending(e=>e.NazwaKierunku)
+                .ToList();
 
         }
 

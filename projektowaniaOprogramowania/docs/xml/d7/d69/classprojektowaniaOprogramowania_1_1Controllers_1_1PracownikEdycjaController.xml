@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Controllers::PracownikEdycjaController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1acc9b55708380d4e55a3d95d40cb28ae0" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+        <definition>readonly MyDbContext projektowaniaOprogramowania.Controllers.PracownikEdycjaController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PracownikEdycjaController._context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PracownikEdycjaController.cs" line="17" column="38" bodyfile="Controllers/PracownikEdycjaController.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1ad89837f51d406c2fb496e487fa9587a8" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService" kindref="compound">PunktyRekrutacyjneService</ref></type>
+        <definition>readonly PunktyRekrutacyjneService projektowaniaOprogramowania.Controllers.PracownikEdycjaController._punktyRekrutacyjne</definition>
+        <argsstring></argsstring>
+        <name>_punktyRekrutacyjne</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PracownikEdycjaController._punktyRekrutacyjne</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PracownikEdycjaController.cs" line="18" column="52" bodyfile="Controllers/PracownikEdycjaController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a97fbe7a9d046f5f17ad005eac0ee189f" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService" kindref="compound">PodanieService</ref></type>
+        <definition>readonly PodanieService projektowaniaOprogramowania.Controllers.PracownikEdycjaController._podanieService</definition>
+        <argsstring></argsstring>
+        <name>_podanieService</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PracownikEdycjaController._podanieService</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PracownikEdycjaController.cs" line="19" column="33" bodyfile="Controllers/PracownikEdycjaController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a779e11b61c229b9857040c68bb7079d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Controllers.PracownikEdycjaController.PracownikEdycjaController</definition>
+        <argsstring>(MyDbContext context, PunktyRekrutacyjneService punktyRekrutacyjne, PodanieService podanieService)</argsstring>
+        <name>PracownikEdycjaController</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PracownikEdycjaController.PracownikEdycjaController</qualifiedname>
+        <param>
+          <type><ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService" kindref="compound">PunktyRekrutacyjneService</ref></type>
+          <declname>punktyRekrutacyjne</declname>
+        </param>
+        <param>
+          <type><ref refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService" kindref="compound">PodanieService</ref></type>
+          <declname>podanieService</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PracownikEdycjaController.cs" line="21" column="8" bodyfile="Controllers/PracownikEdycjaController.cs" bodystart="21" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a0b6b9497c6a2d43be734a45c39a073ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.PracownikEdycjaController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PracownikEdycjaController.Index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PracownikEdycjaController.cs" line="29" column="30" bodyfile="Controllers/PracownikEdycjaController.cs" bodystart="29" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a3f9471113203accbe647b26ffe7e5b29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.PracownikEdycjaController.Edit</definition>
+        <argsstring>(long id)</argsstring>
+        <name>Edit</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PracownikEdycjaController.Edit</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PracownikEdycjaController.cs" line="36" column="30" bodyfile="Controllers/PracownikEdycjaController.cs" bodystart="36" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1ad85e8360ec83ae725adcc282babbea0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.PracownikEdycjaController.Edit</definition>
+        <argsstring>(long id, [Bind] WszystkieInformacjePodaniaViewModel model)</argsstring>
+        <name>Edit</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PracownikEdycjaController.Edit</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <attributes>[Bind]</attributes>
+          <type><ref refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel" kindref="compound">WszystkieInformacjePodaniaViewModel</ref></type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PracownikEdycjaController.cs" line="115" column="30" bodyfile="Controllers/PracownikEdycjaController.cs" bodystart="115" bodyend="214"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a1182ebc65f679134b86c530ef371e612" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool projektowaniaOprogramowania.Controllers.PracownikEdycjaController.PodanieKandydataViewModelExists</definition>
+        <argsstring>(long id)</argsstring>
+        <name>PodanieKandydataViewModelExists</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PracownikEdycjaController.PodanieKandydataViewModelExists</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PracownikEdycjaController.cs" line="217" column="14" bodyfile="Controllers/PracownikEdycjaController.cs" bodystart="217" bodyend="220"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.PracownikEdycjaController</label>
+        <link refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.PracownikEdycjaController</label>
+        <link refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/PracownikEdycjaController.cs" line="15" column="11" bodyfile="Controllers/PracownikEdycjaController.cs" bodystart="16" bodyend="221"/>
+    <listofallmembers>
+      <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1acc9b55708380d4e55a3d95d40cb28ae0" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PracownikEdycjaController</scope><name>_context</name></member>
+      <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a97fbe7a9d046f5f17ad005eac0ee189f" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PracownikEdycjaController</scope><name>_podanieService</name></member>
+      <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1ad89837f51d406c2fb496e487fa9587a8" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PracownikEdycjaController</scope><name>_punktyRekrutacyjne</name></member>
+      <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a3f9471113203accbe647b26ffe7e5b29" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PracownikEdycjaController</scope><name>Edit</name></member>
+      <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1ad85e8360ec83ae725adcc282babbea0b" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PracownikEdycjaController</scope><name>Edit</name></member>
+      <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a0b6b9497c6a2d43be734a45c39a073ca" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PracownikEdycjaController</scope><name>Index</name></member>
+      <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a1182ebc65f679134b86c530ef371e612" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PracownikEdycjaController</scope><name>PodanieKandydataViewModelExists</name></member>
+      <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a779e11b61c229b9857040c68bb7079d3" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PracownikEdycjaController</scope><name>PracownikEdycjaController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

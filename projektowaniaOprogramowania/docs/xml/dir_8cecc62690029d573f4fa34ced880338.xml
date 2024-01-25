@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_8cecc62690029d573f4fa34ced880338" kind="dir">
+    <compoundname>Services/Recruitment</compoundname>
+    <innerfile refid="d8/d4c/IRecruitmentValidationService_8cs">IRecruitmentValidationService.cs</innerfile>
+    <innerfile refid="d5/daf/RecruitmentValidationService_8cs">RecruitmentValidationService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Services/Recruitment/"/>
+  </compounddef>
+</doxygen>

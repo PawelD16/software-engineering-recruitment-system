@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d1/dc3/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures" kind="namespace" language="C#">
+    <compoundname>projektowaniaOprogramowania::ViewModels::CollegeStructures</compoundname>
+    <innerclass refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" prot="public">projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</innerclass>
+    <innerclass refid="d6/de0/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1MiastoModel" prot="public">projektowaniaOprogramowania::ViewModels::CollegeStructures::MiastoModel</innerclass>
+    <innerclass refid="df/d17/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1WydzialModel" prot="public">projektowaniaOprogramowania::ViewModels::CollegeStructures::WydzialModel</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d1/dc3/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1aa459e9c77b37f948a6dbd93676614b3d" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TrybStudiowania</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.TrybStudiowania</qualifiedname>
+        <enumvalue id="d1/dc3/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1aa459e9c77b37f948a6dbd93676614b3da10b1b35fe51a7810b3f1746a3a54eec6" prot="public">
+          <name>Stacjonarne</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d1/dc3/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1aa459e9c77b37f948a6dbd93676614b3da0060912d44066ec0c0b7f13f49c82e2b" prot="public">
+          <name>Zdalne</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d1/dc3/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1aa459e9c77b37f948a6dbd93676614b3da592a42391a41e42be86698901616d7d6" prot="public">
+          <name>Mieszane</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="72" column="11" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="73" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/CollegeStructures/KierunekModel.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

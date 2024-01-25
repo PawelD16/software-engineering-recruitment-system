@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Services::PodanieService</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1a886eacc31d19fa8dfdf40f5bf60670d5" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+        <definition>readonly MyDbContext projektowaniaOprogramowania.Services.PodanieService._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PodanieService._context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PodanieService.cs" line="13" column="38" bodyfile="Services/PodanieService.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1a6c32ad309ef7a7b2a4f9581de3ac51b4" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Services.PodanieService.RekrutacjaModel</definition>
+        <argsstring></argsstring>
+        <name>RekrutacjaModel</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PodanieService.RekrutacjaModel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PodanieService.cs" line="31" column="17" bodyfile="Services/PodanieService.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1a4a1798b1d605b18bc70fa120201c70c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Services.PodanieService.PodanieService</definition>
+        <argsstring>(MyDbContext context)</argsstring>
+        <name>PodanieService</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PodanieService.PodanieService</qualifiedname>
+        <param>
+          <type><ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PodanieService.cs" line="15" column="16" bodyfile="Services/PodanieService.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1af30aeecddbee16f405955114bf7d1f92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kindref="compound">PodanieKandydataModel</ref></type>
+        <definition>PodanieKandydataModel projektowaniaOprogramowania.Services.PodanieService.GetPodanieKandydata</definition>
+        <argsstring>(KandydatModel kandydat)</argsstring>
+        <name>GetPodanieKandydata</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PodanieService.GetPodanieKandydata</qualifiedname>
+        <param>
+          <type><ref refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" kindref="compound">KandydatModel</ref></type>
+          <declname>kandydat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PodanieService.cs" line="19" column="38" bodyfile="Services/PodanieService.cs" bodystart="19" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1a3ba99d7fd76ed0ed0863a939d96b40e2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kindref="compound">PodanieKandydataModel</ref> &gt;</type>
+        <definition>List&lt; PodanieKandydataModel &gt; projektowaniaOprogramowania.Services.PodanieService.GetActiveRekrutacjaAndPodaniaKandydata</definition>
+        <argsstring>(KandydatModel kandydat)</argsstring>
+        <name>GetActiveRekrutacjaAndPodaniaKandydata</name>
+        <qualifiedname>projektowaniaOprogramowania.Services.PodanieService.GetActiveRekrutacjaAndPodaniaKandydata</qualifiedname>
+        <param>
+          <type><ref refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" kindref="compound">KandydatModel</ref></type>
+          <declname>kandydat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Services/PodanieService.cs" line="31" column="38" bodyfile="Services/PodanieService.cs" bodystart="31" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Services/PodanieService.cs" line="11" column="11" bodyfile="Services/PodanieService.cs" bodystart="12" bodyend="46"/>
+    <listofallmembers>
+      <member refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1a886eacc31d19fa8dfdf40f5bf60670d5" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PodanieService</scope><name>_context</name></member>
+      <member refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1a3ba99d7fd76ed0ed0863a939d96b40e2" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PodanieService</scope><name>GetActiveRekrutacjaAndPodaniaKandydata</name></member>
+      <member refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1af30aeecddbee16f405955114bf7d1f92" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PodanieService</scope><name>GetPodanieKandydata</name></member>
+      <member refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1a4a1798b1d605b18bc70fa120201c70c2" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PodanieService</scope><name>PodanieService</name></member>
+      <member refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1a6c32ad309ef7a7b2a4f9581de3ac51b4" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Services::PodanieService</scope><name>RekrutacjaModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

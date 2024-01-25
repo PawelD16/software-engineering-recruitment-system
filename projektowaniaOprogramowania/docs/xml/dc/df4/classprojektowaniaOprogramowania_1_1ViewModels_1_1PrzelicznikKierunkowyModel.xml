@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::ViewModels::PrzelicznikKierunkowyModel</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel_1a068eeb7671290c5cdabbf8fd7e969d15" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PrzelicznikKierunkowyModel.cs" line="14" column="21" bodyfile="Models/Other/PrzelicznikKierunkowyModel.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel_1aab26e1005f13e1feca64371eda37f989" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel.MaksymalnaWartoscPrzelicznika</definition>
+        <argsstring></argsstring>
+        <name>MaksymalnaWartoscPrzelicznika</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel.MaksymalnaWartoscPrzelicznika</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PrzelicznikKierunkowyModel.cs" line="18" column="20" bodyfile="Models/Other/PrzelicznikKierunkowyModel.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel_1af036bea050d2cf487dc220fb37d68a1e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel" kindref="compound">PrzelicznikPrzedmiotuModel</ref> &gt;</type>
+        <definition>ICollection&lt;PrzelicznikPrzedmiotuModel&gt; projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel.PrzelicznikPrzemiotu</definition>
+        <argsstring></argsstring>
+        <name>PrzelicznikPrzemiotu</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel.PrzelicznikPrzemiotu</qualifiedname>
+        <initializer>=
+            new List&lt;<ref refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel" kindref="compound">PrzelicznikPrzedmiotuModel</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PrzelicznikKierunkowyModel.cs" line="26" column="28" bodyfile="Models/Other/PrzelicznikKierunkowyModel.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel_1a64af27997b6ed2c0bca0deea049636c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="dd/d10/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikDorobkuModel" kindref="compound">PrzelicznikDorobkuModel</ref> &gt;</type>
+        <definition>ICollection&lt;PrzelicznikDorobkuModel&gt; projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel.PrzelicznikDorobku</definition>
+        <argsstring></argsstring>
+        <name>PrzelicznikDorobku</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PrzelicznikKierunkowyModel.PrzelicznikDorobku</qualifiedname>
+        <initializer>=
+            new List&lt;<ref refid="dd/d10/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikDorobkuModel" kindref="compound">PrzelicznikDorobkuModel</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PrzelicznikKierunkowyModel.cs" line="32" column="28" bodyfile="Models/Other/PrzelicznikKierunkowyModel.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/Other/PrzelicznikKierunkowyModel.cs" line="10" column="11" bodyfile="Models/Other/PrzelicznikKierunkowyModel.cs" bodystart="11" bodyend="34"/>
+    <listofallmembers>
+      <member refid="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel_1a068eeb7671290c5cdabbf8fd7e969d15" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PrzelicznikKierunkowyModel</scope><name>Id</name></member>
+      <member refid="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel_1aab26e1005f13e1feca64371eda37f989" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PrzelicznikKierunkowyModel</scope><name>MaksymalnaWartoscPrzelicznika</name></member>
+      <member refid="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel_1a64af27997b6ed2c0bca0deea049636c4" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PrzelicznikKierunkowyModel</scope><name>PrzelicznikDorobku</name></member>
+      <member refid="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel_1af036bea050d2cf487dc220fb37d68a1e" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PrzelicznikKierunkowyModel</scope><name>PrzelicznikPrzemiotu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a4ee74bfd5f9c66bcdb21bad3fba88815" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="11" column="21" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1afa7ab2ba65badb07228e15318d105186" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.NazwaKierunku</definition>
+        <argsstring></argsstring>
+        <name>NazwaKierunku</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.NazwaKierunku</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="15" column="23" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a3bf9e124afb38b81603b44ccb7adcc37" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.SkrotKierunku</definition>
+        <argsstring></argsstring>
+        <name>SkrotKierunku</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.SkrotKierunku</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="19" column="23" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a670eea6bfe97c4ecaebd11df00394b61" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.ProfilKierunku</definition>
+        <argsstring></argsstring>
+        <name>ProfilKierunku</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.ProfilKierunku</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="23" column="23" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a359e15afc4161294943afd31ceade1b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Czesne</definition>
+        <argsstring></argsstring>
+        <name>Czesne</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Czesne</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="26" column="20" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1aabf02fe2d397e2bde7896b62150495ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.CzesneDlaCudzoziemcow</definition>
+        <argsstring></argsstring>
+        <name>CzesneDlaCudzoziemcow</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.CzesneDlaCudzoziemcow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="29" column="20" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1afdf185a0ff41f23cda612e562030f465" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.CzasTrwaniaWSemestrach</definition>
+        <argsstring></argsstring>
+        <name>CzasTrwaniaWSemestrach</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.CzasTrwaniaWSemestrach</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="32" column="20" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a475c3426416d4cbb7c771ec971f41671" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Dyscyplina</definition>
+        <argsstring></argsstring>
+        <name>Dyscyplina</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Dyscyplina</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="36" column="23" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a31620d27429d30a0c474319ea8f9f548" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Opis</definition>
+        <argsstring></argsstring>
+        <name>Opis</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Opis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="39" column="23" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1aa7ce4857f3805eb9c8173ffaeb01a57e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Jezyk</type>
+        <definition>Jezyk projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Jezyk</definition>
+        <argsstring></argsstring>
+        <name>Jezyk</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Jezyk</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="43" column="22" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1aa8f2027ed0c8cbe3f15aec605ccc2d53" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>StopienStudiow</type>
+        <definition>StopienStudiow projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.StopienStudiow</definition>
+        <argsstring></argsstring>
+        <name>StopienStudiow</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.StopienStudiow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="47" column="31" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a973dc1a0f6c9bdcce478f79dc9359c15" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>TrybStudiowania</type>
+        <definition>TrybStudiowania projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.TrybStudiowania</definition>
+        <argsstring></argsstring>
+        <name>TrybStudiowania</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.TrybStudiowania</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="50" column="32" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1ad9edad82bc2ad732020c311b1570e641" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.FkIdWydzial</definition>
+        <argsstring></argsstring>
+        <name>FkIdWydzial</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.FkIdWydzial</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="53" column="21" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a0a927663f6c6fec293e7330670730a84" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="df/d17/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1WydzialModel" kindref="compound">WydzialModel</ref></type>
+        <definition>WydzialModel projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Wydzial</definition>
+        <argsstring></argsstring>
+        <name>Wydzial</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Wydzial</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="54" column="29" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1ab1c2240b1320a968dd765e5aaeb53fc5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.FkIdPrzelicznik</definition>
+        <argsstring></argsstring>
+        <name>FkIdPrzelicznik</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.FkIdPrzelicznik</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="57" column="21" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1ab3d433d52d53dfaf256564f091c438cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel" kindref="compound">PrzelicznikKierunkowyModel</ref></type>
+        <definition>PrzelicznikKierunkowyModel projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Przelicznik</definition>
+        <argsstring></argsstring>
+        <name>Przelicznik</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.Przelicznik</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="58" column="43" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a9c67f38011170b08ffe4392d17555ee7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.CalculatedRecruitationPoints</definition>
+        <argsstring></argsstring>
+        <name>CalculatedRecruitationPoints</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.CalculatedRecruitationPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="65" column="20" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a642406dc647b504355398f01e15ffb55" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.CalculatedProbabilityOfSucessfulRecruitation</definition>
+        <argsstring></argsstring>
+        <name>CalculatedProbabilityOfSucessfulRecruitation</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel.CalculatedProbabilityOfSucessfulRecruitation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/CollegeStructures/KierunekModel.cs" line="69" column="14" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/CollegeStructures/KierunekModel.cs" line="7" column="11" bodyfile="Models/CollegeStructures/KierunekModel.cs" bodystart="8" bodyend="70"/>
+    <listofallmembers>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a642406dc647b504355398f01e15ffb55" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>CalculatedProbabilityOfSucessfulRecruitation</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a9c67f38011170b08ffe4392d17555ee7" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>CalculatedRecruitationPoints</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1afdf185a0ff41f23cda612e562030f465" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>CzasTrwaniaWSemestrach</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a359e15afc4161294943afd31ceade1b4" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>Czesne</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1aabf02fe2d397e2bde7896b62150495ff" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>CzesneDlaCudzoziemcow</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a475c3426416d4cbb7c771ec971f41671" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>Dyscyplina</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1ab1c2240b1320a968dd765e5aaeb53fc5" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>FkIdPrzelicznik</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1ad9edad82bc2ad732020c311b1570e641" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>FkIdWydzial</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a4ee74bfd5f9c66bcdb21bad3fba88815" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>Id</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1aa7ce4857f3805eb9c8173ffaeb01a57e" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>Jezyk</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1afa7ab2ba65badb07228e15318d105186" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>NazwaKierunku</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a31620d27429d30a0c474319ea8f9f548" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>Opis</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a670eea6bfe97c4ecaebd11df00394b61" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>ProfilKierunku</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1ab3d433d52d53dfaf256564f091c438cd" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>Przelicznik</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a3bf9e124afb38b81603b44ccb7adcc37" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>SkrotKierunku</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1aa8f2027ed0c8cbe3f15aec605ccc2d53" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>StopienStudiow</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a973dc1a0f6c9bdcce478f79dc9359c15" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>TrybStudiowania</name></member>
+      <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a0a927663f6c6fec293e7330670730a84" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</scope><name>Wydzial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

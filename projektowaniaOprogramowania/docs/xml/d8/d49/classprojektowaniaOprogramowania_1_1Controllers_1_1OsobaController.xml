@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Controllers::OsobaController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController_1a7afb9a95e18efe71eb3bf1bda0cc79ce" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+        <definition>readonly MyDbContext projektowaniaOprogramowania.Controllers.OsobaController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.OsobaController._context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/OsobaController.cs" line="12" column="38" bodyfile="Controllers/OsobaController.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController_1a3a6112e29a58c700129d77bfb3d9b43a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Controllers.OsobaController.OsobaController</definition>
+        <argsstring>(MyDbContext context)</argsstring>
+        <name>OsobaController</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.OsobaController.OsobaController</qualifiedname>
+        <param>
+          <type><ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/OsobaController.cs" line="14" column="16" bodyfile="Controllers/OsobaController.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController_1a8e39cb8445719a8c9a358ed67a4d9c60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.OsobaController.AuthenticateUser</definition>
+        <argsstring>(long userId)</argsstring>
+        <name>AuthenticateUser</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.OsobaController.AuthenticateUser</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>userId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/OsobaController.cs" line="20" column="30" bodyfile="Controllers/OsobaController.cs" bodystart="20" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController_1a6074a0d4972987471366a14cc9b4b5e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.OsobaController.GetAllUsers</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllUsers</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.OsobaController.GetAllUsers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/OsobaController.cs" line="34" column="30" bodyfile="Controllers/OsobaController.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.OsobaController</label>
+        <link refid="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.OsobaController</label>
+        <link refid="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/OsobaController.cs" line="10" column="11" bodyfile="Controllers/OsobaController.cs" bodystart="11" bodyend="39"/>
+    <listofallmembers>
+      <member refid="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController_1a7afb9a95e18efe71eb3bf1bda0cc79ce" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::OsobaController</scope><name>_context</name></member>
+      <member refid="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController_1a8e39cb8445719a8c9a358ed67a4d9c60" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::OsobaController</scope><name>AuthenticateUser</name></member>
+      <member refid="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController_1a6074a0d4972987471366a14cc9b4b5e7" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::OsobaController</scope><name>GetAllUsers</name></member>
+      <member refid="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController_1a3a6112e29a58c700129d77bfb3d9b43a" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::OsobaController</scope><name>OsobaController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

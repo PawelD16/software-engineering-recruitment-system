@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details" kind="class" language="C#" prot="public">
+    <compoundname>AspNetCore::Views_KierunekNaPodaniu_Details</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt;</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a292eb0da6a55946808a74fe9ef6c84cc" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_KierunekNaPodaniu_Details.__tagHelperAttribute_0</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_0</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.__tagHelperAttribute_0</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;asp-action&quot;, &quot;Edit&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="33" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1aee47fe0c3f1b5b5986cb47b020f3c41d" prot="private" static="yes" mutable="no">
+        <type>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute</type>
+        <definition>readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute AspNetCore.Views_KierunekNaPodaniu_Details.__tagHelperAttribute_1</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperAttribute_1</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.__tagHelperAttribute_1</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute(&quot;asp-action&quot;, &quot;Index&quot;, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="34" column="94" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a6b74ceea35ef600131add26e2adc2cf0" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext AspNetCore.Views_KierunekNaPodaniu_Details.__tagHelperExecutionContext</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperExecutionContext</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.__tagHelperExecutionContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="37" column="92" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ad86b14a529a5f30bc35e0148fcc44748" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner AspNetCore.Views_KierunekNaPodaniu_Details.__tagHelperRunner</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperRunner</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.__tagHelperRunner</qualifiedname>
+        <initializer>= new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="39" column="82" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a4a338f66340991160e9f8eee9c9accb9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AspNetCore.Views_KierunekNaPodaniu_Details.__tagHelperStringValueBuffer</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperStringValueBuffer</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.__tagHelperStringValueBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="41" column="24" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ac2eb6881d16599f2dc70d98bac313791" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_KierunekNaPodaniu_Details.__backed__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__backed__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.__backed__tagHelperScopeManager</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="43" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a492499d6559dd4d0e0c5f33841fc00c7" prot="private" static="no" mutable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper AspNetCore.Views_KierunekNaPodaniu_Details.__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</definition>
+        <argsstring></argsstring>
+        <name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="55" column="73" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a5c88d2cc743c27892a3a6089d8bf14e8" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager</type>
+        <definition>global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager AspNetCore.Views_KierunekNaPodaniu_Details.__tagHelperScopeManager</definition>
+        <argsstring></argsstring>
+        <name>__tagHelperScopeManager</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.__tagHelperScopeManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="44" column="88" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="45" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ab3afb98d25b561a01a65e29c5eab99c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider AspNetCore.Views_KierunekNaPodaniu_Details.ModelExpressionProvider</definition>
+        <argsstring></argsstring>
+        <name>ModelExpressionProvider</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.ModelExpressionProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="312" column="83" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="312" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a7118ee44cda55980192e41c1cfe2a89a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IUrlHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IUrlHelper AspNetCore.Views_KierunekNaPodaniu_Details.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.Url</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="314" column="57" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="314" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a281402334ceea3cb1a4ead943bbac8de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.IViewComponentHelper AspNetCore.Views_KierunekNaPodaniu_Details.Component</definition>
+        <argsstring></argsstring>
+        <name>Component</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.Component</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="316" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="316" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ae63238689babcb8b724a9a96e8b49f90" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper AspNetCore.Views_KierunekNaPodaniu_Details.Json</definition>
+        <argsstring></argsstring>
+        <name>Json</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.Json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="318" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="318" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1abad765e6527a63d1aad795993f034800" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt; <ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel</ref> &gt;</type>
+        <definition>global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper&lt;projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel&gt; AspNetCore.Views_KierunekNaPodaniu_Details.Html</definition>
+        <argsstring></argsstring>
+        <name>Html</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.Html</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="320" column="67" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="320" bodyend="320"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ad093175ddba76d1a9c420b957811467d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override global::System.Threading.Tasks.Task</type>
+        <definition>async override global::System.Threading.Tasks.Task AspNetCore.Views_KierunekNaPodaniu_Details.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>AspNetCore.Views_KierunekNaPodaniu_Details.ExecuteAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="57" column="64" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="57" bodyend="309"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AspNetCore.Views_KierunekNaPodaniu_Details</label>
+        <link refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AspNetCore.Views_KierunekNaPodaniu_Details</label>
+        <link refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::MicrosoftAspNetCore::Mvc::Razor::RazorPage&lt; projektowaniaOprogramowania.ViewModels.CollegeStructures.KierunekModel &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" line="31" column="11" bodyfile="obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu/Details.cshtml.g.cs" bodystart="32" bodyend="321"/>
+    <listofallmembers>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ac2eb6881d16599f2dc70d98bac313791" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>__backed__tagHelperScopeManager</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a492499d6559dd4d0e0c5f33841fc00c7" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a292eb0da6a55946808a74fe9ef6c84cc" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>__tagHelperAttribute_0</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1aee47fe0c3f1b5b5986cb47b020f3c41d" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>__tagHelperAttribute_1</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a6b74ceea35ef600131add26e2adc2cf0" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>__tagHelperExecutionContext</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ad86b14a529a5f30bc35e0148fcc44748" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>__tagHelperRunner</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a5c88d2cc743c27892a3a6089d8bf14e8" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>__tagHelperScopeManager</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a4a338f66340991160e9f8eee9c9accb9" prot="private" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>__tagHelperStringValueBuffer</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a281402334ceea3cb1a4ead943bbac8de" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>Component</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ad093175ddba76d1a9c420b957811467d" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>ExecuteAsync</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1abad765e6527a63d1aad795993f034800" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>Html</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ae63238689babcb8b724a9a96e8b49f90" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>Json</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ab3afb98d25b561a01a65e29c5eab99c6" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>ModelExpressionProvider</name></member>
+      <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a7118ee44cda55980192e41c1cfe2a89a" prot="public" virt="non-virtual"><scope>AspNetCore::Views_KierunekNaPodaniu_Details</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

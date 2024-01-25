@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Models::Other::PracownikDzialuRekrutacjiNaPodanieKandydataModel</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel_1aa328495c20dc17ba9b2441fb5c122a4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.Models.Other.PracownikDzialuRekrutacjiNaPodanieKandydataModel.PkFkIdPodanieKandydata</definition>
+        <argsstring></argsstring>
+        <name>PkFkIdPodanieKandydata</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.Other.PracownikDzialuRekrutacjiNaPodanieKandydataModel.PkFkIdPodanieKandydata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PracownikDzialuRekrutacjiNaPodanieKandydataModel.cs" line="12" column="21" bodyfile="Models/Other/PracownikDzialuRekrutacjiNaPodanieKandydataModel.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel_1a36bc16366d65ddfb54e7788506e7c3f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kindref="compound">PodanieKandydataModel</ref></type>
+        <definition>PodanieKandydataModel projektowaniaOprogramowania.Models.Other.PracownikDzialuRekrutacjiNaPodanieKandydataModel.PodanieKandydata</definition>
+        <argsstring></argsstring>
+        <name>PodanieKandydata</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.Other.PracownikDzialuRekrutacjiNaPodanieKandydataModel.PodanieKandydata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PracownikDzialuRekrutacjiNaPodanieKandydataModel.cs" line="13" column="38" bodyfile="Models/Other/PracownikDzialuRekrutacjiNaPodanieKandydataModel.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel_1a94b482eb9146024481b14135ca7fd413" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.Models.Other.PracownikDzialuRekrutacjiNaPodanieKandydataModel.PkFkIdPracownikDzialuRekrutacji</definition>
+        <argsstring></argsstring>
+        <name>PkFkIdPracownikDzialuRekrutacji</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.Other.PracownikDzialuRekrutacjiNaPodanieKandydataModel.PkFkIdPracownikDzialuRekrutacji</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PracownikDzialuRekrutacjiNaPodanieKandydataModel.cs" line="17" column="21" bodyfile="Models/Other/PracownikDzialuRekrutacjiNaPodanieKandydataModel.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel_1aa24386026583cad80812ba885724d891" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="de/d1b/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1PracownikDzialuRekrutacjiModel" kindref="compound">PracownikDzialuRekrutacjiModel</ref></type>
+        <definition>PracownikDzialuRekrutacjiModel projektowaniaOprogramowania.Models.Other.PracownikDzialuRekrutacjiNaPodanieKandydataModel.PracownikDzialuRekrutacji</definition>
+        <argsstring></argsstring>
+        <name>PracownikDzialuRekrutacji</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.Other.PracownikDzialuRekrutacjiNaPodanieKandydataModel.PracownikDzialuRekrutacji</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PracownikDzialuRekrutacjiNaPodanieKandydataModel.cs" line="18" column="47" bodyfile="Models/Other/PracownikDzialuRekrutacjiNaPodanieKandydataModel.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/Other/PracownikDzialuRekrutacjiNaPodanieKandydataModel.cs" line="9" column="11" bodyfile="Models/Other/PracownikDzialuRekrutacjiNaPodanieKandydataModel.cs" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel_1aa328495c20dc17ba9b2441fb5c122a4b" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::Other::PracownikDzialuRekrutacjiNaPodanieKandydataModel</scope><name>PkFkIdPodanieKandydata</name></member>
+      <member refid="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel_1a94b482eb9146024481b14135ca7fd413" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::Other::PracownikDzialuRekrutacjiNaPodanieKandydataModel</scope><name>PkFkIdPracownikDzialuRekrutacji</name></member>
+      <member refid="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel_1a36bc16366d65ddfb54e7788506e7c3f5" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::Other::PracownikDzialuRekrutacjiNaPodanieKandydataModel</scope><name>PodanieKandydata</name></member>
+      <member refid="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel_1aa24386026583cad80812ba885724d891" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::Other::PracownikDzialuRekrutacjiNaPodanieKandydataModel</scope><name>PracownikDzialuRekrutacji</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dd/d81/namespaceMicrosoft_1_1AspNetCore_1_1Mvc_1_1ViewFeatures" kind="namespace" language="C#">
+    <compoundname>Microsoft::AspNetCore::Mvc::ViewFeatures</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="14" column="48"/>
+  </compounddef>
+</doxygen>

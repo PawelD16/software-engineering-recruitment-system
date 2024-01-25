@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_ad9b94838e01696ee4550568885ec3be" kind="dir">
+    <compoundname>obj/Debug/net5.0/Razor/Views/Podanie</compoundname>
+    <innerfile refid="db/d02/Podanie_2Details_8cshtml_8g_8cs">Details.cshtml.g.cs</innerfile>
+    <innerfile refid="da/d46/Podanie_2Index_8cshtml_8g_8cs">Index.cshtml.g.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Debug/net5.0/Razor/Views/Podanie/"/>
+  </compounddef>
+</doxygen>

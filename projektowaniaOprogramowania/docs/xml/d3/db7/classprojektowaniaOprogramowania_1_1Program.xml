@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d3/db7/classprojektowaniaOprogramowania_1_1Program" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Program</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d3/db7/classprojektowaniaOprogramowania_1_1Program_1ac85959496ff745e3e7b7f44126137927" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void projektowaniaOprogramowania.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <qualifiedname>projektowaniaOprogramowania.Program.Main</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="14" column="28" bodyfile="Program.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db7/classprojektowaniaOprogramowania_1_1Program_1a5cfcb25b53af7fa435c1581409b97360" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IHostBuilder</type>
+        <definition>static IHostBuilder projektowaniaOprogramowania.Program.CreateHostBuilder</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>CreateHostBuilder</name>
+        <qualifiedname>projektowaniaOprogramowania.Program.CreateHostBuilder</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="19" column="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Program.cs" line="12" column="11" bodyfile="Program.cs" bodystart="13" bodyend="25"/>
+    <listofallmembers>
+      <member refid="d3/db7/classprojektowaniaOprogramowania_1_1Program_1a5cfcb25b53af7fa435c1581409b97360" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Program</scope><name>CreateHostBuilder</name></member>
+      <member refid="d3/db7/classprojektowaniaOprogramowania_1_1Program_1ac85959496ff745e3e7b7f44126137927" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

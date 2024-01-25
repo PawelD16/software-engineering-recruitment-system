@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_dde5423f19eac1a32c814b45493e3a86" kind="dir">
+    <compoundname>obj/Debug/net5.0/Razor/Views/Home</compoundname>
+    <innerfile refid="d4/dab/Home_2Index_8cshtml_8g_8cs">Index.cshtml.g.cs</innerfile>
+    <innerfile refid="d9/dd6/Privacy_8cshtml_8g_8cs">Privacy.cshtml.g.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Debug/net5.0/Razor/Views/Home/"/>
+  </compounddef>
+</doxygen>

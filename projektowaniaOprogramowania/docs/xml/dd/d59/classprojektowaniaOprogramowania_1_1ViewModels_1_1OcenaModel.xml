@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::ViewModels::OcenaModel</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1a7a109fa633f8948f9e6e5093718f23b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.OcenaModel.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.OcenaModel.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/OcenaModel.cs" line="11" column="21" bodyfile="Models/Other/OcenaModel.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1adb3937236353c758b674363e37d722ab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int projektowaniaOprogramowania.ViewModels.OcenaModel.WartoscProcentowa</definition>
+        <argsstring></argsstring>
+        <name>WartoscProcentowa</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.OcenaModel.WartoscProcentowa</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/OcenaModel.cs" line="15" column="20" bodyfile="Models/Other/OcenaModel.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1ac3b465ef6effd5f09a55be61dc1c370f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.OcenaModel.MaturaId</definition>
+        <argsstring></argsstring>
+        <name>MaturaId</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.OcenaModel.MaturaId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/OcenaModel.cs" line="18" column="21" bodyfile="Models/Other/OcenaModel.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1a9a43e3af905f24966bf2e98b0f56866d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="df/dc3/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaModel" kindref="compound">MaturaModel</ref></type>
+        <definition>MaturaModel projektowaniaOprogramowania.ViewModels.OcenaModel.Matura</definition>
+        <argsstring></argsstring>
+        <name>Matura</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.OcenaModel.Matura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/OcenaModel.cs" line="19" column="28" bodyfile="Models/Other/OcenaModel.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1aaf10265c4d5ca9330f77e0adc89f5bd5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.OcenaModel.FkIdPrzedmiot</definition>
+        <argsstring></argsstring>
+        <name>FkIdPrzedmiot</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.OcenaModel.FkIdPrzedmiot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/OcenaModel.cs" line="22" column="21" bodyfile="Models/Other/OcenaModel.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1a7ff7943ebbff9505662ca70ed01d85ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel" kindref="compound">PrzedmiotModel</ref></type>
+        <definition>PrzedmiotModel projektowaniaOprogramowania.ViewModels.OcenaModel.Przedmiot</definition>
+        <argsstring></argsstring>
+        <name>Przedmiot</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.OcenaModel.Przedmiot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/OcenaModel.cs" line="23" column="31" bodyfile="Models/Other/OcenaModel.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/Other/OcenaModel.cs" line="7" column="11" bodyfile="Models/Other/OcenaModel.cs" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1aaf10265c4d5ca9330f77e0adc89f5bd5" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::OcenaModel</scope><name>FkIdPrzedmiot</name></member>
+      <member refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1a7a109fa633f8948f9e6e5093718f23b6" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::OcenaModel</scope><name>Id</name></member>
+      <member refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1a9a43e3af905f24966bf2e98b0f56866d" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::OcenaModel</scope><name>Matura</name></member>
+      <member refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1ac3b465ef6effd5f09a55be61dc1c370f" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::OcenaModel</scope><name>MaturaId</name></member>
+      <member refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1a7ff7943ebbff9505662ca70ed01d85ea" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::OcenaModel</scope><name>Przedmiot</name></member>
+      <member refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1adb3937236353c758b674363e37d722ab" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::OcenaModel</scope><name>WartoscProcentowa</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_8479cdc0036e18ebdf01c3bcd05b33d8" kind="dir">
+    <compoundname>Migrations</compoundname>
+    <innerfile refid="d3/daa/20240114094427__Init_8cs">20240114094427_Init.cs</innerfile>
+    <innerfile refid="d4/d5a/20240114094427__Init_8Designer_8cs">20240114094427_Init.Designer.cs</innerfile>
+    <innerfile refid="d3/dbd/MyDbContextModelSnapshot_8cs">MyDbContextModelSnapshot.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Migrations/"/>
+  </compounddef>
+</doxygen>

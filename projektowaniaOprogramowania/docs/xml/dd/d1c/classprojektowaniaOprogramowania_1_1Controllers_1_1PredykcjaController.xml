@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Controllers::PredykcjaController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1ad7db3e27a2671aaab7abfdde23a61b27" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+        <definition>readonly MyDbContext projektowaniaOprogramowania.Controllers.PredykcjaController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PredykcjaController._context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PredykcjaController.cs" line="20" column="38" bodyfile="Controllers/PredykcjaController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1ac273843da9675db5aae880cc513756b1" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService" kindref="compound">PunktyRekrutacyjneService</ref></type>
+        <definition>readonly PunktyRekrutacyjneService projektowaniaOprogramowania.Controllers.PredykcjaController._punktyRekrutacyjneService</definition>
+        <argsstring></argsstring>
+        <name>_punktyRekrutacyjneService</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PredykcjaController._punktyRekrutacyjneService</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PredykcjaController.cs" line="21" column="52" bodyfile="Controllers/PredykcjaController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1a58e96ce3c4f3ba019ae292e71bf47b6a" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper" kindref="compound">ISessionWrapper</ref></type>
+        <definition>readonly ISessionWrapper projektowaniaOprogramowania.Controllers.PredykcjaController._sessionWrapper</definition>
+        <argsstring></argsstring>
+        <name>_sessionWrapper</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PredykcjaController._sessionWrapper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PredykcjaController.cs" line="22" column="42" bodyfile="Controllers/PredykcjaController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1ad4e7332fb97c40f46925def64e7c3db8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Controllers.PredykcjaController.PredykcjaController</definition>
+        <argsstring>(MyDbContext context, PunktyRekrutacyjneService punktyRekrutacyjneService, ISessionWrapper sessionWrapper)</argsstring>
+        <name>PredykcjaController</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PredykcjaController.PredykcjaController</qualifiedname>
+        <param>
+          <type><ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService" kindref="compound">PunktyRekrutacyjneService</ref></type>
+          <declname>punktyRekrutacyjneService</declname>
+        </param>
+        <param>
+          <type><ref refid="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper" kindref="compound">ISessionWrapper</ref></type>
+          <declname>sessionWrapper</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PredykcjaController.cs" line="24" column="16" bodyfile="Controllers/PredykcjaController.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1a9da557dab27f22fdf05a8a5df5a9f184" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.PredykcjaController.WyswietlKierunki</definition>
+        <argsstring>(string kierunekNameFilter, long? wydzialIdFilter)</argsstring>
+        <name>WyswietlKierunki</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PredykcjaController.WyswietlKierunki</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>kierunekNameFilter</declname>
+        </param>
+        <param>
+          <type>long?</type>
+          <declname>wydzialIdFilter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PredykcjaController.cs" line="31" column="30" bodyfile="Controllers/PredykcjaController.cs" bodystart="31" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1ae14b7b6db80766c714d3b1c73fcac7b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult projektowaniaOprogramowania.Controllers.PredykcjaController.WpiszPotrzebneDane</definition>
+        <argsstring>()</argsstring>
+        <name>WpiszPotrzebneDane</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PredykcjaController.WpiszPotrzebneDane</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PredykcjaController.cs" line="62" column="29" bodyfile="Controllers/PredykcjaController.cs" bodystart="62" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1a4a0b1cc136920c52df0b7252b38f1282" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult projektowaniaOprogramowania.Controllers.PredykcjaController.WpiszPotrzebneDane</definition>
+        <argsstring>(MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage model)</argsstring>
+        <name>WpiszPotrzebneDane</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.PredykcjaController.WpiszPotrzebneDane</qualifiedname>
+        <param>
+          <type><ref refid="dc/dfd/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage" kindref="compound">MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage</ref></type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/PredykcjaController.cs" line="121" column="29" bodyfile="Controllers/PredykcjaController.cs" bodystart="121" bodyend="220"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.PredykcjaController</label>
+        <link refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.PredykcjaController</label>
+        <link refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/PredykcjaController.cs" line="18" column="11" bodyfile="Controllers/PredykcjaController.cs" bodystart="19" bodyend="221"/>
+    <listofallmembers>
+      <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1ad7db3e27a2671aaab7abfdde23a61b27" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PredykcjaController</scope><name>_context</name></member>
+      <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1ac273843da9675db5aae880cc513756b1" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PredykcjaController</scope><name>_punktyRekrutacyjneService</name></member>
+      <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1a58e96ce3c4f3ba019ae292e71bf47b6a" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PredykcjaController</scope><name>_sessionWrapper</name></member>
+      <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1ad4e7332fb97c40f46925def64e7c3db8" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PredykcjaController</scope><name>PredykcjaController</name></member>
+      <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1ae14b7b6db80766c714d3b1c73fcac7b5" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PredykcjaController</scope><name>WpiszPotrzebneDane</name></member>
+      <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1a4a0b1cc136920c52df0b7252b38f1282" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PredykcjaController</scope><name>WpiszPotrzebneDane</name></member>
+      <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1a9da557dab27f22fdf05a8a5df5a9f184" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::PredykcjaController</scope><name>WyswietlKierunki</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

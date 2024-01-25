@@ -1,0 +1,1320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
+  <compound refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator" kind="class"><name>projektowaniaOprogramowania::Models::DefaultValuesCreator</name>
+    <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a32f94064a5d8225ea55ed11286ec23cc" kind="property"><name>Rekrutacje</name></member>
+    <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1ab1f180bace37627917351929dc810eca" kind="property"><name>Kandydaci</name></member>
+    <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a3370949f9c8ec80254979b6b42604589" kind="property"><name>Przedmioty</name></member>
+    <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a975c6ed3defac71d82d4e789f5238a47" kind="property"><name>KategorieDorobku</name></member>
+    <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1ae5fd5affac389c2034da02f350092922" kind="property"><name>PrzelicznikiKierunkowe</name></member>
+    <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a1227406cf9a319a458091dc595f0f4e7" kind="property"><name>PrzelicznikiOsiagniec</name></member>
+    <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a2178b3346330219587278c18701dce9e" kind="property"><name>PrzelicznikiPrzedmiotow</name></member>
+    <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a83339c69d5518001c2dfba2c32cde5d7" kind="property"><name>KategorieOsiagniec</name></member>
+    <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a3de31ef94c06316327c0f85e65f00b6d" kind="property"><name>Wydzialy</name></member>
+    <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1aed61e08869b2a15f3616f9191e801cdd" kind="property"><name>Kierunki</name></member>
+    <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a1e63faf81ef00d5e76580a606f59e94a" kind="property"><name>Miasta</name></member>
+    <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1aed7654a39e2a236239e25dcd0146c7f1" kind="property"><name>PodaniaKandydata</name></member>
+    <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a26ed3efb943516821fb49760d4d33475" kind="function"><name>DefaultValuesCreator</name></member>
+  </compound>
+  <compound refid="de/d4a/classprojektowaniaOprogramowania_1_1ViewModels_1_1DodatkoweOsiagniecieModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::DodatkoweOsiagniecieModel</name>
+    <member refid="de/d4a/classprojektowaniaOprogramowania_1_1ViewModels_1_1DodatkoweOsiagniecieModel_1afe706ad4b4d2d1436c80c27b03fe0c7a" kind="property"><name>Id</name></member>
+    <member refid="de/d4a/classprojektowaniaOprogramowania_1_1ViewModels_1_1DodatkoweOsiagniecieModel_1a736a0d0f2dbead6243b6129d848ef5eb" kind="property"><name>DataZdobycia</name></member>
+    <member refid="de/d4a/classprojektowaniaOprogramowania_1_1ViewModels_1_1DodatkoweOsiagniecieModel_1af776b904541b78c37a74fff3e084cdc9" kind="property"><name>Opis</name></member>
+    <member refid="de/d4a/classprojektowaniaOprogramowania_1_1ViewModels_1_1DodatkoweOsiagniecieModel_1acb84803b372de15362f4df9a8496d32f" kind="property"><name>FkIdPodanieKandydata</name></member>
+    <member refid="de/d4a/classprojektowaniaOprogramowania_1_1ViewModels_1_1DodatkoweOsiagniecieModel_1a2aac365e2780411a1299b50fe858df58" kind="property"><name>PodanieKandydata</name></member>
+    <member refid="de/d4a/classprojektowaniaOprogramowania_1_1ViewModels_1_1DodatkoweOsiagniecieModel_1aa6ba75db9d9407095f830195e20cb0a9" kind="property"><name>FkIdPrzelicznikOsiagniec</name></member>
+    <member refid="de/d4a/classprojektowaniaOprogramowania_1_1ViewModels_1_1DodatkoweOsiagniecieModel_1a089c60f74f867cfe0c62b39ed3be0f0e" kind="property"><name>PrzelicznikOsiagniec</name></member>
+  </compound>
+  <compound refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::DorobekNaukowyModel</name>
+    <member refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1a2ac3ce08c9de98f6b603fabc00be24df" kind="property"><name>Id</name></member>
+    <member refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1ad1a4fb4f8afd7560c345afea1a2c8469" kind="property"><name>DataUzyskaniaDorobku</name></member>
+    <member refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1a4a91bb27414a467e957af89698ea5b85" kind="property"><name>FkIdPodanieNaIIStopien</name></member>
+    <member refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1a731344ac5182ca32a57da19e5ac9c62d" kind="property"><name>PodanieNaIIStopien</name></member>
+    <member refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1a1b68c74350207ee64957b77c1b64285e" kind="property"><name>FkIdKategoriaDorobku</name></member>
+    <member refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel_1ac88f3a072a658c3ed135a0928898f106" kind="property"><name>KategoriaDorobku</name></member>
+  </compound>
+  <compound refid="d0/d17/classprojektowaniaOprogramowania_1_1Models_1_1ErrorViewModel" kind="class"><name>projektowaniaOprogramowania::Models::ErrorViewModel</name>
+    <member refid="d0/d17/classprojektowaniaOprogramowania_1_1Models_1_1ErrorViewModel_1a42d4d6fb9249648fb9abd1e1d0c029e3" kind="property"><name>RequestId</name></member>
+    <member refid="d0/d17/classprojektowaniaOprogramowania_1_1Models_1_1ErrorViewModel_1ac3bab6f50b916732e219c16a942d8639" kind="property"><name>ShowRequestId</name></member>
+  </compound>
+  <compound refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController" kind="class"><name>projektowaniaOprogramowania::Controllers::HomeController</name>
+    <member refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1a97e7a79a072c58668a100b17bfb0556d" kind="variable"><name>_logger</name></member>
+    <member refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1a32f5e3aed81f2b95ce74f8dee5eb1b3c" kind="function"><name>HomeController</name></member>
+    <member refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1ab369f9f1a14c89b67aff24c2368c0a84" kind="function"><name>Index</name></member>
+    <member refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1a1b02122e57c0d1c9e45ffd0e4fe7d924" kind="function"><name>Privacy</name></member>
+    <member refid="dc/d95/classprojektowaniaOprogramowania_1_1Controllers_1_1HomeController_1a7d453fde7493bd71967f7838d826aac7" kind="function"><name>Error</name></member>
+  </compound>
+  <compound refid="d7/dc7/classprojektowaniaOprogramowania_1_1Migrations_1_1Init" kind="class"><name>projektowaniaOprogramowania::Migrations::Init</name>
+    <member refid="d7/dc7/classprojektowaniaOprogramowania_1_1Migrations_1_1Init_1a463e97479d60934e50757588140caac3" kind="function"><name>Up</name></member>
+    <member refid="d7/dc7/classprojektowaniaOprogramowania_1_1Migrations_1_1Init_1a1cd757231cb2327aee6946d6a6552139" kind="function"><name>Down</name></member>
+    <member refid="d7/dc7/classprojektowaniaOprogramowania_1_1Migrations_1_1Init_1ad73600a5c5dde77e204b61ddbc2012eb" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService" kind="interface"><name>projektowaniaOprogramowania::Services::Recrutation::IRecruitmentValidationService</name>
+    <member refid="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService_1a388a44dabf8605ac4f2ed61cfac8b188" kind="function"><name>IsRecruitmentValid</name></member>
+  </compound>
+  <compound refid="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper" kind="interface"><name>projektowaniaOprogramowania::Services::ISessionWrapper</name>
+    <member refid="d9/da7/interfaceprojektowaniaOprogramowania_1_1Services_1_1ISessionWrapper_1a85f585554273ba850abd4aa8ab506daa" kind="function"><name>GetUserId</name></member>
+  </compound>
+  <compound refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::Users::KandydatModel</name>
+    <member refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel_1a9bf85b1e26398b39c0ac0660708f3a74" kind="property"><name>NumerKandydata</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a9f90610dbe595591ec0b4859d8e7ccd6" kind="property"><name>Id</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a6435389489b1f286cea94169e4fa9f2d" kind="property"><name>Login</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a491fc5fba8e29366a9c3fa618260f110" kind="property"><name>Email</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1aefe21b9c797d0dae64d9eca5a24f5cd9" kind="property"><name>Haslo</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a4144cef9f9f65fdf07365060d5083da0" kind="property"><name>Pesel</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a9ef1a42f2f0ad3c98f3259e5ad8aed0d" kind="property"><name>NumerPaszportu</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1afbfd6f050e1545e95ea9a9231003840e" kind="property"><name>Imie</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a74f93d1b14debf8938bff92ace0b627e" kind="property"><name>Nazwisko</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a58ca34d9c7163d6c60e94a0072984d6c" kind="property"><name>DataZarejestrowania</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a69fa97629dd619eb20f58bfd8cb5fcf5" kind="property"><name>CzyEmailPotwierdzony</name></member>
+  </compound>
+  <compound refid="d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::KandydatZPodaniemViewModel</name>
+    <member refid="d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel_1ac754e645ff6f6161ea325efc0d373cbb" kind="property"><name>podanieKandydataViewModel</name></member>
+    <member refid="d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel_1a9b8293374e3934403c83b2159d147433" kind="property"><name>kandydatViewModel</name></member>
+    <member refid="d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel_1a283690ad72353d148622ad0bf338b591" kind="property"><name>kierunkiNaPodaniu</name></member>
+  </compound>
+  <compound refid="d1/d11/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaDorobkuModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::KategoriaDorobkuModel</name>
+    <member refid="d1/d11/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaDorobkuModel_1a53206e1d4be621e19f44d2c9db3a202d" kind="property"><name>Id</name></member>
+    <member refid="d1/d11/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaDorobkuModel_1a1013164aa1212d9c5202f5ccb1bed434" kind="property"><name>NazwaKategoriiDorobku</name></member>
+  </compound>
+  <compound refid="de/d64/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaOsiagnieciaModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::KategoriaOsiagnieciaModel</name>
+    <member refid="de/d64/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaOsiagnieciaModel_1a54fe6f6b725b49c7e8940d19b0b6d97c" kind="property"><name>Id</name></member>
+    <member refid="de/d64/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaOsiagnieciaModel_1af47b8867bf8c0d1e0dddfb572b9e4931" kind="property"><name>NazwaKategorii</name></member>
+  </compound>
+  <compound refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::CollegeStructures::KierunekModel</name>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a4ee74bfd5f9c66bcdb21bad3fba88815" kind="property"><name>Id</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1afa7ab2ba65badb07228e15318d105186" kind="property"><name>NazwaKierunku</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a3bf9e124afb38b81603b44ccb7adcc37" kind="property"><name>SkrotKierunku</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a670eea6bfe97c4ecaebd11df00394b61" kind="property"><name>ProfilKierunku</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a359e15afc4161294943afd31ceade1b4" kind="property"><name>Czesne</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1aabf02fe2d397e2bde7896b62150495ff" kind="property"><name>CzesneDlaCudzoziemcow</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1afdf185a0ff41f23cda612e562030f465" kind="property"><name>CzasTrwaniaWSemestrach</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a475c3426416d4cbb7c771ec971f41671" kind="property"><name>Dyscyplina</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a31620d27429d30a0c474319ea8f9f548" kind="property"><name>Opis</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1aa7ce4857f3805eb9c8173ffaeb01a57e" kind="property"><name>Jezyk</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1aa8f2027ed0c8cbe3f15aec605ccc2d53" kind="property"><name>StopienStudiow</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a973dc1a0f6c9bdcce478f79dc9359c15" kind="property"><name>TrybStudiowania</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1ad9edad82bc2ad732020c311b1570e641" kind="property"><name>FkIdWydzial</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a0a927663f6c6fec293e7330670730a84" kind="property"><name>Wydzial</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1ab1c2240b1320a968dd765e5aaeb53fc5" kind="property"><name>FkIdPrzelicznik</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1ab3d433d52d53dfaf256564f091c438cd" kind="property"><name>Przelicznik</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a9c67f38011170b08ffe4392d17555ee7" kind="property"><name>CalculatedRecruitationPoints</name></member>
+    <member refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel_1a642406dc647b504355398f01e15ffb55" kind="property"><name>CalculatedProbabilityOfSucessfulRecruitation</name></member>
+  </compound>
+  <compound refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController" kind="class"><name>projektowaniaOprogramowania::Controllers::KierunekNaPodaniuController</name>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a79bcf79f1fce0990947a03a96eedce14" kind="variable"><name>_context</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a0ad5e5aba174e8431a3775748a1aa925" kind="variable"><name>_punktyRekrutacyjneService</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a2c39a74a5f2021c600140cf7320c9c9b" kind="function"><name>KierunekNaPodaniuController</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1af9ebda71a18ddff8d4562263fb715c2c" kind="function"><name>Index</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a22c0d344868e29561e18f6485e873475" kind="function"><name>WyslijPodanie</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1aed0106f3e81e3c947da1b5815ec0939f" kind="function"><name>WyczyscKierunki</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a6be24f6147fd9aefbf82ffc552fb7353" kind="function"><name>AddKierunekToPodanie</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a1290b6e82620cedbd42b50748b3d35d9" kind="function"><name>RemoveKierunekFromPodanie</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a936c4b28a8cc1241867ad6417e579c9e" kind="function"><name>Details</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1ac27ddf0718b8cb651ed0fc96fc7977f4" kind="function"><name>Create</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a56a1a251b1d5d5a7632aab7484838308" kind="function"><name>Create</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a823453a30bf5e13fc9ee3d192d3f635d" kind="function"><name>Edit</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1af393d9e9df813be80c48b5735e2d2068" kind="function"><name>Edit</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a8db350c2260cf63764a838f5c8d4cb52" kind="function"><name>Delete</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a3c4f12ad8b29380605e4da5e49c157b8" kind="function"><name>DeleteConfirmed</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1aa455e968b40ae1b80b6ffd6fb176d30a" kind="function"><name>AktualnyKandydat</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a2f2ab69808109fbb4f70d88ba8f7b3ca" kind="function"><name>getCurrentPodanie</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1a178dad08953ac760db0b6402694fe815" kind="function"><name>getSelectedKierunki</name></member>
+    <member refid="d1/d4a/classprojektowaniaOprogramowania_1_1Controllers_1_1KierunekNaPodaniuController_1ad37796b60491f855be865a59cc7dd952" kind="function"><name>KierunekViewModelExists</name></member>
+  </compound>
+  <compound refid="da/d3d/classprojektowaniaOprogramowania_1_1ViewModels_1_1KierunekNaPodaniuModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::KierunekNaPodaniuModel</name>
+    <member refid="da/d3d/classprojektowaniaOprogramowania_1_1ViewModels_1_1KierunekNaPodaniuModel_1ad1c22a22af0a0aa55d091facd12b030b" kind="property"><name>Id</name></member>
+    <member refid="da/d3d/classprojektowaniaOprogramowania_1_1ViewModels_1_1KierunekNaPodaniuModel_1ab7f37d64f9ae0467977a8de1351a3c66" kind="property"><name>Priorytet</name></member>
+    <member refid="da/d3d/classprojektowaniaOprogramowania_1_1ViewModels_1_1KierunekNaPodaniuModel_1a82bb29a4fb5c9d154b9b566d290444e7" kind="property"><name>FkIdPodanieKandydata</name></member>
+    <member refid="da/d3d/classprojektowaniaOprogramowania_1_1ViewModels_1_1KierunekNaPodaniuModel_1aa59ec5660c21cdccc712566e481cfdc3" kind="property"><name>PodanieKandydata</name></member>
+    <member refid="da/d3d/classprojektowaniaOprogramowania_1_1ViewModels_1_1KierunekNaPodaniuModel_1a1dde29286c15c5a08ab309931ea8367f" kind="property"><name>FkIdKierunek</name></member>
+    <member refid="da/d3d/classprojektowaniaOprogramowania_1_1ViewModels_1_1KierunekNaPodaniuModel_1a9b335cdc340fc6576842cbdd3b2f6c3e" kind="property"><name>Kierunek</name></member>
+  </compound>
+  <compound refid="dc/dfd/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage" kind="class"><name>projektowaniaOprogramowania::ViewModels::MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage</name>
+    <member refid="dc/dfd/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage_1ac389045f7a298c0af4a054e5f6488f33" kind="property"><name>DodatkoweOsiagniecia</name></member>
+    <member refid="dc/dfd/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage_1a03a734e135ae408a04c1f454f81158de" kind="property"><name>PrzelicznikiOsiagniec</name></member>
+    <member refid="dc/dfd/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage_1ad49edba0c546275af47be88a1e6636f7" kind="property"><name>Oceny</name></member>
+    <member refid="dc/dfd/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage_1a8da23ff650c861b90d56726d64ab382d" kind="property"><name>DorobkiNaukowe</name></member>
+    <member refid="dc/dfd/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage_1accd4a8bedadc84294f81e23bb9b5717a" kind="property"><name>KategorieDorobku</name></member>
+    <member refid="dc/dfd/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage_1ad7aed2c6cf046fae1a28d4e0904c4172" kind="property"><name>Matura</name></member>
+    <member refid="dc/dfd/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage_1aba375123f38cf9f813c620f73bf175c2" kind="property"><name>PodanieNaIIStopien</name></member>
+    <member refid="dc/dfd/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage_1a61fca86d1da08b8b292a236874da544d" kind="property"><name>PodanieNaIStopien</name></member>
+  </compound>
+  <compound refid="df/dc3/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::MaturaModel</name>
+    <member refid="df/dc3/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaModel_1acb21c55e5bc0aea1348a8988bf6b8289" kind="property"><name>Id</name></member>
+    <member refid="df/dc3/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaModel_1a1422e2b0522e73979abfba0ab6359999" kind="property"><name>DataPrzystapieniaDoMatury</name></member>
+    <member refid="df/dc3/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaModel_1a1bc50c88a26b37abe6a5543b81eb7370" kind="property"><name>FkIdPodanieNaIStopien</name></member>
+    <member refid="df/dc3/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaModel_1a11df05ab5f212e68e57e3624359bf19e" kind="property"><name>PodanieNaIStopien</name></member>
+  </compound>
+  <compound refid="d6/de0/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1MiastoModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::CollegeStructures::MiastoModel</name>
+    <member refid="d6/de0/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1MiastoModel_1ad622f96bc38c60828b6fd50a255fb134" kind="property"><name>Id</name></member>
+    <member refid="d6/de0/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1MiastoModel_1a0d55cecfa1fc70de791511e65e74fb56" kind="property"><name>NazwaMiasta</name></member>
+  </compound>
+  <compound refid="dc/d7f/classprojektowaniaOprogramowania_1_1Models_1_1ModelBuilderExtension" kind="class"><name>projektowaniaOprogramowania::Models::ModelBuilderExtension</name>
+    <member refid="dc/d7f/classprojektowaniaOprogramowania_1_1Models_1_1ModelBuilderExtension_1a5e388d7e42dfbbdfcc3a1f82a0f5420f" kind="function"><name>Seed</name></member>
+  </compound>
+  <compound refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kind="class"><name>projektowaniaOprogramowania::Models::MyDbContext</name>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1ad936bed2752b603485cbddcdff624262" kind="property"><name>Osoby</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1ad6990f400d5809c7f5a2cbda8e3959f8" kind="property"><name>Kandydaci</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a6741ecd3173dccc25add71ba0b538081" kind="property"><name>Pracownicy</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1aa8304d29fcfa65baa9e058b9eea1cc75" kind="property"><name>Rekrutacje</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a6dee31d127fd8c89fc393ab8b156744b" kind="property"><name>KategorieOsiagniec</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a68f3f7de11a2962612da19d24dbc873d" kind="property"><name>DodatkoweOsiagniecia</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a0e0da1d8c5f2ca1f1eff6d414028a3e5" kind="property"><name>DorobkiNaukowe</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a319fc7e80979da69eae977a1f4dc1315" kind="property"><name>KategorieDorobku</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a1821566856e59e294ddf8f70152ef98c" kind="property"><name>Miasta</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1af899e9a385ccf45609f66fcae8be39ca" kind="property"><name>Wydzialy</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a290eee77f99dbe8b5e3be273f7ac1bdc" kind="property"><name>Kierunki</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a7fc8d568d68fe72e95e716543a4dd26c" kind="property"><name>PodaniaNaIIStopien</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a84554051751d7547513aec2b1ab42687" kind="property"><name>Matury</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a8fc2859e99a4c2bfc01e31b541a3e3a8" kind="property"><name>Oceny</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a2859587046b5f9085c134dd9e50c38a5" kind="property"><name>Przedmioty</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a5fb27cf5d48a59ef92a399d9e9bb8a75" kind="property"><name>KierunkiNaPodaniu</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a87dd3d551393f07a7f8595335b2e9924" kind="property"><name>PrzelicznikiKierunkowe</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a7a45d5f4dff97f1bffeda1f036f6b600" kind="property"><name>PrzelicznikiOsiagniec</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1ad26651286e43542752bf9b6caeb4a6f1" kind="property"><name>PrzelicznikiDorobku</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a90e8842b03b9fff7e556fa30420cd373" kind="property"><name>PrzelicznikiPrzedmiotow</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a53fdadf037ed1a1ac4cd6e698e7e191d" kind="property"><name>PodaniaNaIStopien</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a3d0f21de2ea932b13923e0768f40c04b" kind="property"><name>PracownicyDzialuRekrutacji</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a11867cab73ce576565815f57b01e0c9b" kind="property"><name>PracownicyDzialuRekrutacjiNaPodaniaKandydatow</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a67de6ded2036fc4206f74948bfc3d7c2" kind="property"><name>PodaniaKandydatow</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a5d6e164d5f7c9b98c1a4d51713e0c51d" kind="function"><name>MyDbContext</name></member>
+    <member refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext_1a990691389de1677b23679e984f03c1c5" kind="function"><name>OnModelCreating</name></member>
+  </compound>
+  <compound refid="da/d7d/classprojektowaniaOprogramowania_1_1Migrations_1_1MyDbContextModelSnapshot" kind="class"><name>projektowaniaOprogramowania::Migrations::MyDbContextModelSnapshot</name>
+    <member refid="da/d7d/classprojektowaniaOprogramowania_1_1Migrations_1_1MyDbContextModelSnapshot_1af450b6f05514f329eae381199607a842" kind="function"><name>BuildModel</name></member>
+  </compound>
+  <compound refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::OcenaModel</name>
+    <member refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1a7a109fa633f8948f9e6e5093718f23b6" kind="property"><name>Id</name></member>
+    <member refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1adb3937236353c758b674363e37d722ab" kind="property"><name>WartoscProcentowa</name></member>
+    <member refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1ac3b465ef6effd5f09a55be61dc1c370f" kind="property"><name>MaturaId</name></member>
+    <member refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1a9a43e3af905f24966bf2e98b0f56866d" kind="property"><name>Matura</name></member>
+    <member refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1aaf10265c4d5ca9330f77e0adc89f5bd5" kind="property"><name>FkIdPrzedmiot</name></member>
+    <member refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel_1a7ff7943ebbff9505662ca70ed01d85ea" kind="property"><name>Przedmiot</name></member>
+  </compound>
+  <compound refid="d3/d58/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaZPrzedmiotem" kind="class"><name>projektowaniaOprogramowania::ViewModels::OcenaZPrzedmiotem</name>
+    <member refid="d3/d58/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaZPrzedmiotem_1aa0ada99d4d2a7ea6b34c1f2c77247460" kind="property"><name>ocena</name></member>
+    <member refid="d3/d58/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaZPrzedmiotem_1a427007c26ee8fdc96704856f04e6b499" kind="property"><name>przedmiot</name></member>
+  </compound>
+  <compound refid="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController" kind="class"><name>projektowaniaOprogramowania::Controllers::OsobaController</name>
+    <member refid="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController_1a7afb9a95e18efe71eb3bf1bda0cc79ce" kind="variable"><name>_context</name></member>
+    <member refid="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController_1a3a6112e29a58c700129d77bfb3d9b43a" kind="function"><name>OsobaController</name></member>
+    <member refid="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController_1a8e39cb8445719a8c9a358ed67a4d9c60" kind="function"><name>AuthenticateUser</name></member>
+    <member refid="d8/d49/classprojektowaniaOprogramowania_1_1Controllers_1_1OsobaController_1a6074a0d4972987471366a14cc9b4b5e7" kind="function"><name>GetAllUsers</name></member>
+  </compound>
+  <compound refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::Users::OsobaModel</name>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a9f90610dbe595591ec0b4859d8e7ccd6" kind="property"><name>Id</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a6435389489b1f286cea94169e4fa9f2d" kind="property"><name>Login</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a491fc5fba8e29366a9c3fa618260f110" kind="property"><name>Email</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1aefe21b9c797d0dae64d9eca5a24f5cd9" kind="property"><name>Haslo</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a4144cef9f9f65fdf07365060d5083da0" kind="property"><name>Pesel</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a9ef1a42f2f0ad3c98f3259e5ad8aed0d" kind="property"><name>NumerPaszportu</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1afbfd6f050e1545e95ea9a9231003840e" kind="property"><name>Imie</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a74f93d1b14debf8938bff92ace0b627e" kind="property"><name>Nazwisko</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a58ca34d9c7163d6c60e94a0072984d6c" kind="property"><name>DataZarejestrowania</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a69fa97629dd619eb20f58bfd8cb5fcf5" kind="property"><name>CzyEmailPotwierdzony</name></member>
+  </compound>
+  <compound refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial" kind="class"><name>AspNetCore::Pages__ValidationScriptsPartial</name>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a6da519d2b23b77ccdfdef051641a2bbf" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a1f87feaae8fce971804c421c94f0d600" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a17f250b4bccdb61af0a23fc955998c1a" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a90e600915384e8f07b33a0d7eab2ac62" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a8d5bf100d2b98484e98348d6226c236e" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a661c11d210b0c538ddc580a7145e61f5" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1af82a36cabc15e817d436789b8ef070b2" kind="variable"><name>__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper</name></member>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1ae93ffe640c06433d0198b8cb4479946a" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1aa848f7e004d02887604bb5c5104d84ce" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a3fe9ab7db124664caf887822df4582a0" kind="property"><name>Url</name></member>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1ae7a7bbff9f297f9d3325069deced45a4" kind="property"><name>Component</name></member>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a4f8be5f61ece07f759274d4fca2ecf3c" kind="property"><name>Json</name></member>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a40a25dda718279429a37b1c54e73c304" kind="property"><name>Html</name></member>
+    <member refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial_1a461e4cea1fa65e767e3378d0138b510e" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController" kind="class"><name>projektowaniaOprogramowania::Controllers::PodanieController</name>
+    <member refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1a4782d8795c0d86da860d400477593658" kind="variable"><name>_context</name></member>
+    <member refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1a0a4544966eeb57b5eb6ef763e2ffe133" kind="variable"><name>_podanieService</name></member>
+    <member refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1a5e91304583afd61b5b4ebe7f70c8bac1" kind="function"><name>PodanieController</name></member>
+    <member refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1ae32a5df3e312fae3323e9ea007b8ef4e" kind="function"><name>Index</name></member>
+    <member refid="d4/df8/classprojektowaniaOprogramowania_1_1Controllers_1_1PodanieController_1ace9057afe899a33c840d02ff92816a83" kind="function"><name>Details</name></member>
+  </compound>
+  <compound refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::PodanieKandydataModel</name>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a9d7ef85fd4cf8f87d67a3b808b54f115" kind="property"><name>Id</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1afd2b217d258f66951b2b50992abe7dd9" kind="property"><name>DataZlozeniaPodania</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a20645417c545cda72c3ba5c4b249ed3c" kind="property"><name>CzyAktywny</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1abafc786c90bac5b1d4ca1a8d609c340a" kind="property"><name>StatusPodania</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a489735ca9e3d1f14edd7a6a85e098dfa" kind="property"><name>FkIdRekrutacja</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1adb685d77faf85974d58da4092c65ec2f" kind="property"><name>Rekrutacja</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1ae1314ea8a1b828dd66ac8c4c7194335d" kind="property"><name>FkIdKandydat</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1ae5370b4425a68f7c6a268e8ee8e6c8ea" kind="property"><name>Kandydat</name></member>
+  </compound>
+  <compound refid="d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIIStopniaModel</name>
+    <member refid="d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel_1a1ca18c4bc1710d2599bc3a5025c9767e" kind="property"><name>SredniaZTokuStudiow</name></member>
+    <member refid="d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel_1aa74b3c72de8d6949c1f4655f423df96b" kind="property"><name>OcenaZPracyDyplomowej</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a9d7ef85fd4cf8f87d67a3b808b54f115" kind="property"><name>Id</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1afd2b217d258f66951b2b50992abe7dd9" kind="property"><name>DataZlozeniaPodania</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a20645417c545cda72c3ba5c4b249ed3c" kind="property"><name>CzyAktywny</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1abafc786c90bac5b1d4ca1a8d609c340a" kind="property"><name>StatusPodania</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a489735ca9e3d1f14edd7a6a85e098dfa" kind="property"><name>FkIdRekrutacja</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1adb685d77faf85974d58da4092c65ec2f" kind="property"><name>Rekrutacja</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1ae1314ea8a1b828dd66ac8c4c7194335d" kind="property"><name>FkIdKandydat</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1ae5370b4425a68f7c6a268e8ee8e6c8ea" kind="property"><name>Kandydat</name></member>
+  </compound>
+  <compound refid="d8/d22/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIStopniaModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIStopniaModel</name>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a9d7ef85fd4cf8f87d67a3b808b54f115" kind="property"><name>Id</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1afd2b217d258f66951b2b50992abe7dd9" kind="property"><name>DataZlozeniaPodania</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a20645417c545cda72c3ba5c4b249ed3c" kind="property"><name>CzyAktywny</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1abafc786c90bac5b1d4ca1a8d609c340a" kind="property"><name>StatusPodania</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1a489735ca9e3d1f14edd7a6a85e098dfa" kind="property"><name>FkIdRekrutacja</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1adb685d77faf85974d58da4092c65ec2f" kind="property"><name>Rekrutacja</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1ae1314ea8a1b828dd66ac8c4c7194335d" kind="property"><name>FkIdKandydat</name></member>
+    <member refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel_1ae5370b4425a68f7c6a268e8ee8e6c8ea" kind="property"><name>Kandydat</name></member>
+  </compound>
+  <compound refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService" kind="class"><name>projektowaniaOprogramowania::Services::PodanieService</name>
+    <member refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1a886eacc31d19fa8dfdf40f5bf60670d5" kind="variable"><name>_context</name></member>
+    <member refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1a6c32ad309ef7a7b2a4f9581de3ac51b4" kind="variable"><name>RekrutacjaModel</name></member>
+    <member refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1a4a1798b1d605b18bc70fa120201c70c2" kind="function"><name>PodanieService</name></member>
+    <member refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1af30aeecddbee16f405955114bf7d1f92" kind="function"><name>GetPodanieKandydata</name></member>
+    <member refid="d2/d37/classprojektowaniaOprogramowania_1_1Services_1_1PodanieService_1a3ba99d7fd76ed0ed0863a939d96b40e2" kind="function"><name>GetActiveRekrutacjaAndPodaniaKandydata</name></member>
+  </compound>
+  <compound refid="de/d1b/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1PracownikDzialuRekrutacjiModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::Users::PracownikDzialuRekrutacjiModel</name>
+    <member refid="de/d1b/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1PracownikDzialuRekrutacjiModel_1a988a3e5a22220c685f8a04140d8ff7b2" kind="property"><name>FkIdWydzial</name></member>
+    <member refid="de/d1b/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1PracownikDzialuRekrutacjiModel_1ac64c8cc6eea030f161b9e940d98d963e" kind="property"><name>Wydzial</name></member>
+    <member refid="da/d6f/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1PracownikModel_1ae5df2d6e8527954d71613575af8cbe6a" kind="property"><name>NumerPracownika</name></member>
+    <member refid="da/d6f/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1PracownikModel_1ac829d4e03d4f9a3b0a711de39eb952f5" kind="property"><name>DataZatrudnienia</name></member>
+    <member refid="da/d6f/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1PracownikModel_1aef290cdcd3560427290b5149d4989391" kind="property"><name>TypPracownika</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a9f90610dbe595591ec0b4859d8e7ccd6" kind="property"><name>Id</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a6435389489b1f286cea94169e4fa9f2d" kind="property"><name>Login</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a491fc5fba8e29366a9c3fa618260f110" kind="property"><name>Email</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1aefe21b9c797d0dae64d9eca5a24f5cd9" kind="property"><name>Haslo</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a4144cef9f9f65fdf07365060d5083da0" kind="property"><name>Pesel</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a9ef1a42f2f0ad3c98f3259e5ad8aed0d" kind="property"><name>NumerPaszportu</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1afbfd6f050e1545e95ea9a9231003840e" kind="property"><name>Imie</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a74f93d1b14debf8938bff92ace0b627e" kind="property"><name>Nazwisko</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a58ca34d9c7163d6c60e94a0072984d6c" kind="property"><name>DataZarejestrowania</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a69fa97629dd619eb20f58bfd8cb5fcf5" kind="property"><name>CzyEmailPotwierdzony</name></member>
+  </compound>
+  <compound refid="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel" kind="class"><name>projektowaniaOprogramowania::Models::Other::PracownikDzialuRekrutacjiNaPodanieKandydataModel</name>
+    <member refid="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel_1aa328495c20dc17ba9b2441fb5c122a4b" kind="property"><name>PkFkIdPodanieKandydata</name></member>
+    <member refid="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel_1a36bc16366d65ddfb54e7788506e7c3f5" kind="property"><name>PodanieKandydata</name></member>
+    <member refid="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel_1a94b482eb9146024481b14135ca7fd413" kind="property"><name>PkFkIdPracownikDzialuRekrutacji</name></member>
+    <member refid="d4/d15/classprojektowaniaOprogramowania_1_1Models_1_1Other_1_1PracownikDzialuRekrutacjiNaPodanieKandydataModel_1aa24386026583cad80812ba885724d891" kind="property"><name>PracownikDzialuRekrutacji</name></member>
+  </compound>
+  <compound refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController" kind="class"><name>projektowaniaOprogramowania::Controllers::PracownikEdycjaController</name>
+    <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1acc9b55708380d4e55a3d95d40cb28ae0" kind="variable"><name>_context</name></member>
+    <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1ad89837f51d406c2fb496e487fa9587a8" kind="variable"><name>_punktyRekrutacyjne</name></member>
+    <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a97fbe7a9d046f5f17ad005eac0ee189f" kind="variable"><name>_podanieService</name></member>
+    <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a779e11b61c229b9857040c68bb7079d3" kind="function"><name>PracownikEdycjaController</name></member>
+    <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a0b6b9497c6a2d43be734a45c39a073ca" kind="function"><name>Index</name></member>
+    <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a3f9471113203accbe647b26ffe7e5b29" kind="function"><name>Edit</name></member>
+    <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1ad85e8360ec83ae725adcc282babbea0b" kind="function"><name>Edit</name></member>
+    <member refid="d7/d69/classprojektowaniaOprogramowania_1_1Controllers_1_1PracownikEdycjaController_1a1182ebc65f679134b86c530ef371e612" kind="function"><name>PodanieKandydataViewModelExists</name></member>
+  </compound>
+  <compound refid="da/d6f/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1PracownikModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::Users::PracownikModel</name>
+    <member refid="da/d6f/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1PracownikModel_1ae5df2d6e8527954d71613575af8cbe6a" kind="property"><name>NumerPracownika</name></member>
+    <member refid="da/d6f/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1PracownikModel_1ac829d4e03d4f9a3b0a711de39eb952f5" kind="property"><name>DataZatrudnienia</name></member>
+    <member refid="da/d6f/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1PracownikModel_1aef290cdcd3560427290b5149d4989391" kind="property"><name>TypPracownika</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a9f90610dbe595591ec0b4859d8e7ccd6" kind="property"><name>Id</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a6435389489b1f286cea94169e4fa9f2d" kind="property"><name>Login</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a491fc5fba8e29366a9c3fa618260f110" kind="property"><name>Email</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1aefe21b9c797d0dae64d9eca5a24f5cd9" kind="property"><name>Haslo</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a4144cef9f9f65fdf07365060d5083da0" kind="property"><name>Pesel</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a9ef1a42f2f0ad3c98f3259e5ad8aed0d" kind="property"><name>NumerPaszportu</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1afbfd6f050e1545e95ea9a9231003840e" kind="property"><name>Imie</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a74f93d1b14debf8938bff92ace0b627e" kind="property"><name>Nazwisko</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a58ca34d9c7163d6c60e94a0072984d6c" kind="property"><name>DataZarejestrowania</name></member>
+    <member refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel_1a69fa97629dd619eb20f58bfd8cb5fcf5" kind="property"><name>CzyEmailPotwierdzony</name></member>
+  </compound>
+  <compound refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController" kind="class"><name>projektowaniaOprogramowania::Controllers::PredykcjaController</name>
+    <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1ad7db3e27a2671aaab7abfdde23a61b27" kind="variable"><name>_context</name></member>
+    <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1ac273843da9675db5aae880cc513756b1" kind="variable"><name>_punktyRekrutacyjneService</name></member>
+    <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1a58e96ce3c4f3ba019ae292e71bf47b6a" kind="variable"><name>_sessionWrapper</name></member>
+    <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1ad4e7332fb97c40f46925def64e7c3db8" kind="function"><name>PredykcjaController</name></member>
+    <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1a9da557dab27f22fdf05a8a5df5a9f184" kind="function"><name>WyswietlKierunki</name></member>
+    <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1ae14b7b6db80766c714d3b1c73fcac7b5" kind="function"><name>WpiszPotrzebneDane</name></member>
+    <member refid="dd/d1c/classprojektowaniaOprogramowania_1_1Controllers_1_1PredykcjaController_1a4a0b1cc136920c52df0b7252b38f1282" kind="function"><name>WpiszPotrzebneDane</name></member>
+  </compound>
+  <compound refid="d3/db7/classprojektowaniaOprogramowania_1_1Program" kind="class"><name>projektowaniaOprogramowania::Program</name>
+    <member refid="d3/db7/classprojektowaniaOprogramowania_1_1Program_1ac85959496ff745e3e7b7f44126137927" kind="function"><name>Main</name></member>
+    <member refid="d3/db7/classprojektowaniaOprogramowania_1_1Program_1a5cfcb25b53af7fa435c1581409b97360" kind="function"><name>CreateHostBuilder</name></member>
+  </compound>
+  <compound refid="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::PrzedmiotModel</name>
+    <member refid="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel_1afee99aacee4aad06d4004d7f5eea4e06" kind="property"><name>Id</name></member>
+    <member refid="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel_1a738e905fa2ef8778bfa97af7ca80df7d" kind="property"><name>NazwaPrzedmiotu</name></member>
+    <member refid="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel_1a458e60f1d5ae4d52829844dc6b69bf93" kind="property"><name>PrzelicznikiPrzedmiotow</name></member>
+  </compound>
+  <compound refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController" kind="class"><name>projektowaniaOprogramowania::Controllers::PrzegladController</name>
+    <member refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1a5574b771cc00b312fca10d46aa9cdd4e" kind="variable"><name>_context</name></member>
+    <member refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1a5fb3a912f0296eef1a44d64b10c365e6" kind="variable"><name>_punktyRekrutacyjneService</name></member>
+    <member refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1a01461f2c2dad56d628ef187c69748174" kind="variable"><name>_sessionWrapper</name></member>
+    <member refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1ae990c7ce148bf453f44778c8161eea1b" kind="function"><name>PrzegladController</name></member>
+    <member refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1afde416d7ee686344abd7cc1328bdde0b" kind="function"><name>WszystkieKierunki</name></member>
+    <member refid="d9/d8a/classprojektowaniaOprogramowania_1_1Controllers_1_1PrzegladController_1a46445d3d3f6015261a47ddf264d1bd57" kind="function"><name>DetaleKierunku</name></member>
+  </compound>
+  <compound refid="dd/d10/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikDorobkuModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::PrzelicznikDorobkuModel</name>
+    <member refid="dd/d10/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikDorobkuModel_1aafb4fb40f318a0d5b3951c930f1456d7" kind="property"><name>Id</name></member>
+    <member refid="dd/d10/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikDorobkuModel_1a4384fbb8223caaf52088af8393b340af" kind="property"><name>PrzyznawanePunkty</name></member>
+    <member refid="dd/d10/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikDorobkuModel_1a2902830997d58f5a0f2965a56899db7c" kind="property"><name>FkIdKategoriaDorobku</name></member>
+    <member refid="dd/d10/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikDorobkuModel_1a148dc2f8b4abda8160b10998fd2ccbee" kind="property"><name>KategoriaDorobku</name></member>
+    <member refid="dd/d10/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikDorobkuModel_1af1e3e3349eedecb4cb8754c046181a39" kind="property"><name>FkIdPrzelicznikKierunkowy</name></member>
+    <member refid="dd/d10/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikDorobkuModel_1a1994f16e3c58652d24f27d696740605c" kind="property"><name>PrzelicznikKierunkowy</name></member>
+  </compound>
+  <compound refid="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::PrzelicznikKierunkowyModel</name>
+    <member refid="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel_1a068eeb7671290c5cdabbf8fd7e969d15" kind="property"><name>Id</name></member>
+    <member refid="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel_1aab26e1005f13e1feca64371eda37f989" kind="property"><name>MaksymalnaWartoscPrzelicznika</name></member>
+    <member refid="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel_1af036bea050d2cf487dc220fb37d68a1e" kind="property"><name>PrzelicznikPrzemiotu</name></member>
+    <member refid="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel_1a64af27997b6ed2c0bca0deea049636c4" kind="property"><name>PrzelicznikDorobku</name></member>
+  </compound>
+  <compound refid="dd/d0a/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikOsiagniecModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::PrzelicznikOsiagniecModel</name>
+    <member refid="dd/d0a/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikOsiagniecModel_1ab3a69c8723865eca661f8a4d42fd0765" kind="property"><name>Id</name></member>
+    <member refid="dd/d0a/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikOsiagniecModel_1ac3e77aed87434b717972ee872b363af6" kind="property"><name>PrzyznawanePunkty</name></member>
+    <member refid="dd/d0a/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikOsiagniecModel_1af90847f45d947cc08269d6b70304ae8f" kind="property"><name>FkIdPrzelicznikKierunkowy</name></member>
+    <member refid="dd/d0a/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikOsiagniecModel_1a23a3fe73008b7144510b3136a520706b" kind="property"><name>PrzelicznikKierunkowy</name></member>
+    <member refid="dd/d0a/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikOsiagniecModel_1a641e025d89cf39cfaf690f228a78bc40" kind="property"><name>FkIdKategoriaOsiagniecia</name></member>
+    <member refid="dd/d0a/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikOsiagniecModel_1aeaee55f635e06a1c3166d06ac020997f" kind="property"><name>KategoriaOsiagniecia</name></member>
+  </compound>
+  <compound refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::PrzelicznikPrzedmiotuModel</name>
+    <member refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1ae68409b16cad3aa1f0565884fc13db09" kind="property"><name>Id</name></member>
+    <member refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1a6d105dcce827397ba5c876b7eaa8c9c8" kind="property"><name>Wspolczynnik</name></member>
+    <member refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1abb23e4631bc2c6721a6fe2418c4816b1" kind="property"><name>FkIdPrzedmiot</name></member>
+    <member refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1a0268f0c14c8bef68a841707909e529a1" kind="property"><name>Przedmiot</name></member>
+    <member refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1a7b148301a2e5b0bbb00c7b519f478ac6" kind="property"><name>FkIdPrzelicznikKierunkowy</name></member>
+    <member refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel_1aa929749cb9957488d04e64e6e3a2491a" kind="property"><name>PrzelicznikKierunkowy</name></member>
+  </compound>
+  <compound refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService" kind="class"><name>projektowaniaOprogramowania::Services::PunktyRekrutacyjneService</name>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a4015d540645573e0af3e36207296144b" kind="variable"><name>_context</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a0a23245ea4395cf5062974768fd47f3a" kind="variable"><name>_random</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a321f8909d1574142cd17248354d5c0f2" kind="variable"><name>MAX_RECRUITATION_POINTS</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a3af0d2dc0b8418bde6018e76bbb77b9a" kind="variable"><name>MIN_RECRUITATION_POINTS</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a47a672218ed0a39f2bf4670fb6b43e06" kind="variable"><name>KierunekModel</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a1c080ba0f8159b2b9526e72e8422e876" kind="variable"><name>RekrutacjaModel</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1aabd190175f99c680fff0929d8ba2cf8c" kind="variable"><name>List&lt; DodatkoweOsiagniecieModel &gt;</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1aa9122820d5de2913a4dac8a16392d689" kind="variable"><name>List&lt; DorobekNaukowyModel &gt;</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1af301ac0ef822211ba0112a890811391a" kind="variable"><name>int</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a0cd581cf27157be6a830c5fce11779f5" kind="variable"><name>MaturaModel</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1ac9d3ab38b5bcb46f7db93e0e785e41a2" kind="function"><name>PunktyRekrutacyjneService</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1aea411296ebc07c638efe9eba571e5565" kind="function"><name>PrzewidujPrzelicznikDlaKierunkuISzanseDostaniaSie</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1af7c1eeca41fec9099b201096f7bc372d" kind="function"><name>WyliczPrzelicznikKandydataDlaKierunku</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a869ffe3a602a1bf4d8278285955b20b8" kind="function"><name>GetPunktyKandydataNaKierunki</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1ae1fe6011db7098d29ce528e66682b599" kind="function"><name>WyliczPrzelicznikKandydataDlaKazdegoKierunku</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1af17d262d4aa6d03a3f4f5c83bd46a57e" kind="function"><name>GetAllPodanieKandydataInfo</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1af3e6bd2e106397e409db2e4312009e1e" kind="function"><name>PunktyNaKierunek</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a5aa45c3eeb3ca7c844e06159f6952193" kind="function"><name>GetActiveRekrutacjaAndPodaniaKandydata</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a43362ecbf4144ffb64e30fbb35d8c1bc" kind="function"><name>GetDodatkoweOsiagnieciaAndDorobekNaukowyAndMatura</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a276496f92f6ffb2d90997cc78fbb3230" kind="function"><name>PrzeliczPunktyDlaKierunku</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a26c4f483ad3096d14b3df46fca7216ad" kind="function"><name>PoliczPunktyDlaKierunkuIIStopnia</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a0e0fae86269be5b1dd1ffbc38316f161" kind="function"><name>PoliczPunktyDlaKierunkuIStopnia</name></member>
+    <member refid="df/d6e/classprojektowaniaOprogramowania_1_1Services_1_1PunktyRekrutacyjneService_1a496f00e23773d9853f7c65509612291a" kind="function"><name>getRandomRecruitationPoints</name></member>
+  </compound>
+  <compound refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService" kind="class"><name>projektowaniaOprogramowania::Services::Recrutation::RecruitmentValidationService</name>
+    <member refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1a71629c5d986269ef93de5353fdd4a3d6" kind="variable"><name>_dbContext</name></member>
+    <member refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1a92ccdb39ec7ea1a5590142ec12d2e821" kind="function"><name>RecruitmentValidationService</name></member>
+    <member refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1a7b6515be5a0f0ede6ae072e0e06252e2" kind="function"><name>IsRecruitmentValid</name></member>
+    <member refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1affcbac8e1df280ca2c42041ab6737f9f" kind="function"><name>IsNewStateValid</name></member>
+    <member refid="d2/d08/classprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1RecruitmentValidationService_1acffa8bfb2ee2af92aa0204f7f5be6f75" kind="function"><name>AreDatesCorrect</name></member>
+  </compound>
+  <compound refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController" kind="class"><name>projektowaniaOprogramowania::Controllers::RekrutacjaController</name>
+    <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1abedc9ccecbf26f100d47861c74b1b070" kind="variable"><name>_context</name></member>
+    <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a5043846879955f5cc69a81d003ffda65" kind="variable"><name>_recruitmentValidationService</name></member>
+    <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a9c64b566295c7345a15d18d4950a9305" kind="function"><name>RekrutacjaController</name></member>
+    <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a14f7f1a93aa26e2bff2c09e22a8a8316" kind="function"><name>Index</name></member>
+    <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1abf61ed3640f303abbea4d1ee1a71677a" kind="function"><name>IndexWithError</name></member>
+    <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a32244d273f4ae6da2da0a216bfbc1af5" kind="function"><name>Details</name></member>
+    <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a8b970ad5f5f6e07ec61fece3635a93fd" kind="function"><name>Create</name></member>
+    <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a468a49e33a0252426ee27c99da5991e0" kind="function"><name>Create</name></member>
+    <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1abc373068e3283cba9c7b2c3f9a578a01" kind="function"><name>Edit</name></member>
+    <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a0daf4012f5ccbf0d409708a36ff6e92f" kind="function"><name>Edit</name></member>
+    <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a2ffee2192f732f529035a2c7242c1461" kind="function"><name>Delete</name></member>
+    <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a9d103a572a413ef09cee5cf339a1cf02" kind="function"><name>DeleteConfirmed</name></member>
+    <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1ac1c0cf0c45cf4bffcd01c87ae4a94ad0" kind="function"><name>RekrutacjaViewModelExists</name></member>
+  </compound>
+  <compound refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::RekrutacjaModel</name>
+    <member refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel_1a6460d476f37a8481a6f00bdc953fd224" kind="property"><name>Id</name></member>
+    <member refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel_1a3dde006b2f7180dec63b393e35684b12" kind="property"><name>DataOtwarciaRekrutacji</name></member>
+    <member refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel_1a359cbe947094ff2b15c7ad6b03f72883" kind="property"><name>DataZamknieciaRekrutacji</name></member>
+    <member refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel_1ae69d1e808520ec528a91d02430a7264c" kind="property"><name>DataZamknieciaPrzyjec</name></member>
+    <member refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel_1a05f2304ace768fd25a1505bde43cd3f2" kind="property"><name>StopienStudiow</name></member>
+    <member refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel_1ab4bfdb8761aa4755156d96e723fcec13" kind="property"><name>StatusRekrutacji</name></member>
+    <member refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel_1a945739812db440d8c58570752510f607" kind="property"><name>SemestrRekrutacji</name></member>
+  </compound>
+  <compound refid="d5/db5/classprojektowaniaOprogramowania_1_1Services_1_1SessionExtensions" kind="class"><name>projektowaniaOprogramowania::Services::SessionExtensions</name>
+    <member refid="d5/db5/classprojektowaniaOprogramowania_1_1Services_1_1SessionExtensions_1a770c411b00923a54a0fd3d25fb7dcd58" kind="function"><name>SetLong</name></member>
+    <member refid="d5/db5/classprojektowaniaOprogramowania_1_1Services_1_1SessionExtensions_1ada37ca96266deb44bd97f7c477db3180" kind="function"><name>GetLong</name></member>
+  </compound>
+  <compound refid="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper" kind="class"><name>projektowaniaOprogramowania::Services::SessionWrapper</name>
+    <member refid="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper_1ab9b0d261f77a8295455abfd2f4659936" kind="variable"><name>_httpContextAccessor</name></member>
+    <member refid="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper_1ad5d1f6932e14b90e372a1ca8c97737ac" kind="function"><name>SessionWrapper</name></member>
+    <member refid="da/dc3/classprojektowaniaOprogramowania_1_1Services_1_1SessionWrapper_1a84c41a0854d7e465e6a0da020dfe813c" kind="function"><name>GetUserId</name></member>
+  </compound>
+  <compound refid="d5/d95/classprojektowaniaOprogramowania_1_1Startup" kind="class"><name>projektowaniaOprogramowania::Startup</name>
+    <member refid="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1aecd39c605b9b6b142f3d5d3d87414b08" kind="property"><name>Configuration</name></member>
+    <member refid="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1acced0063b1b2f69e12d5264b3334a774" kind="function"><name>Startup</name></member>
+    <member refid="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1a5a21dff9a9ce6659953ccb51580c3125" kind="function"><name>ConfigureServices</name></member>
+    <member refid="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1aa311569f2f56c6774da4ebbfee17d562" kind="function"><name>Configure</name></member>
+    <member refid="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1a38c59e5e401e1f8cfb897adce59b3fe7" kind="function"><name>ApplyMigrations</name></member>
+  </compound>
+  <compound refid="dd/d37/classAspNetCore_1_1Views____ViewImports" kind="class"><name>AspNetCore::Views__ViewImports</name>
+    <member refid="dd/d37/classAspNetCore_1_1Views____ViewImports_1af24a853448780518b9b8bb0494fc03d0" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="dd/d37/classAspNetCore_1_1Views____ViewImports_1af6e6f9f7d99285bd76a2db97f17a9128" kind="property"><name>Url</name></member>
+    <member refid="dd/d37/classAspNetCore_1_1Views____ViewImports_1aab0dbba5d923b01ca42fc275a31201e4" kind="property"><name>Component</name></member>
+    <member refid="dd/d37/classAspNetCore_1_1Views____ViewImports_1a5f8b1527e81afa1bcfca3f907e09a406" kind="property"><name>Json</name></member>
+    <member refid="dd/d37/classAspNetCore_1_1Views____ViewImports_1a5de9e15d8a491c339e580feb37748cac" kind="property"><name>Html</name></member>
+    <member refid="dd/d37/classAspNetCore_1_1Views____ViewImports_1afb0fbe4d2cff8ff940fd8555b3f3c64e" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d6/d17/classAspNetCore_1_1Views____ViewStart" kind="class"><name>AspNetCore::Views__ViewStart</name>
+    <member refid="d6/d17/classAspNetCore_1_1Views____ViewStart_1a97902ea5e8251ff63e9a2f4dd5389943" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d6/d17/classAspNetCore_1_1Views____ViewStart_1aac82cabef8b298088c0b7a539476bd8b" kind="property"><name>Url</name></member>
+    <member refid="d6/d17/classAspNetCore_1_1Views____ViewStart_1a8da75bb43bca5132bd26959b13ddc80b" kind="property"><name>Component</name></member>
+    <member refid="d6/d17/classAspNetCore_1_1Views____ViewStart_1adfc91850c1c9d9409b39c4924ba516d4" kind="property"><name>Json</name></member>
+    <member refid="d6/d17/classAspNetCore_1_1Views____ViewStart_1a9028a34d35592e52ebf62a6600d04aba" kind="property"><name>Html</name></member>
+    <member refid="d6/d17/classAspNetCore_1_1Views____ViewStart_1ab3395816bd37d1d7f8ed1bceafaab28f" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d8/d89/classAspNetCore_1_1Views__Home__Index" kind="class"><name>AspNetCore::Views_Home_Index</name>
+    <member refid="d8/d89/classAspNetCore_1_1Views__Home__Index_1a1c12fddbab3a154a62b2a730eee55181" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d8/d89/classAspNetCore_1_1Views__Home__Index_1a49920e11fc6a3866a9362b0760f02473" kind="property"><name>Url</name></member>
+    <member refid="d8/d89/classAspNetCore_1_1Views__Home__Index_1adb326987c09e7039ba39bfd6ddc92fb5" kind="property"><name>Component</name></member>
+    <member refid="d8/d89/classAspNetCore_1_1Views__Home__Index_1aef8cb8ae3a2a3dc735b580b6a6c0176d" kind="property"><name>Json</name></member>
+    <member refid="d8/d89/classAspNetCore_1_1Views__Home__Index_1aafaaf261e7ac319bee91aa0f369c4f72" kind="property"><name>Html</name></member>
+    <member refid="d8/d89/classAspNetCore_1_1Views__Home__Index_1a2e2b2029628bc7b5b597c00591249147" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy" kind="class"><name>AspNetCore::Views_Home_Privacy</name>
+    <member refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1a051d5e7182467de510123382cc2993b3" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1ac158e7fb6d4e3e8efc8aa51f2ca502e1" kind="property"><name>Url</name></member>
+    <member refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1a5c406264d2cfdc4ccbb1f40e12710e0e" kind="property"><name>Component</name></member>
+    <member refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1afe1a2f34403ebb722226999c1de2d002" kind="property"><name>Json</name></member>
+    <member refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1aee4c549b8f623b5924a9d08a4dbd7225" kind="property"><name>Html</name></member>
+    <member refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy_1a682549ce8097fa5a8b4e1629a32e5e93" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania" kind="class"><name>AspNetCore::Views_KierunekNaPodaniu_BrakDanychDoPodania</name>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a11a18c503d2b7ca02abe781863c3b10c" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1af99ff5fd7d10a2c33435a11afb8c5608" kind="property"><name>Url</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a9c2c42f82c066edeb8723a98cb94d1f1" kind="property"><name>Component</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a3d8e7bd1be6841237923f30907929064" kind="property"><name>Json</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a0c704ebd8329ee2ad0b3f7695a631dbd" kind="property"><name>Html</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania_1a5bb191ab7766dfd940e2e6d0880a29a8" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create" kind="class"><name>AspNetCore::Views_KierunekNaPodaniu_Create</name>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1afa7da4e1fcaf6e54dabfa5480bc7a991" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a13fe1ee3ad4126af39eeca5febbd4c11" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a3cf93db580b1cef041b5f4f48848d5e5" kind="variable"><name>__tagHelperAttribute_2</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a5305eeb0004f6ec23ce81ec050e17e70" kind="variable"><name>__tagHelperAttribute_3</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1aedd919fee107e5108a2f88a172b14084" kind="variable"><name>__tagHelperAttribute_4</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a51dbfc5df0fad9222ff384b969bf2df8" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a336e7512432c1fb91ca1a7d1464fa849" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a1f6038a0a5e4087995ce15a80b7b936f" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a76fa5f1ec9d8c664e8e087eae1be2ac4" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1aecc5f436ced33c3250da1f954b9bb979" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1af00752d80d9ab07ff9be26ffd7cdd5f3" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a5f95eb323a708166caa140c7280aa7a8" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1ab667645df15b0a239b451501e5732ace" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1af7e280ac1973c463d554f4cbf5d9a0a4" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a9699dba3a82116be282e44b641f222b6" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1ab3aa849bd30fd40fbdeeaa6abe2759ad" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1ae98ded11298d62313728f935ca8cf419" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a313b831f73ccf94cbbe1c7fc087e8876" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a59fbb26147e8cee6dc0f5cc6ed7feeae" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a2c1bf1b84d9b1eea53df2c7c21bb58d2" kind="property"><name>Url</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1ac7598978b9dce022d9e7028fe519e312" kind="property"><name>Component</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1af84caa2aa346723c560ee0e9f69ed1de" kind="property"><name>Json</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a10b05eda4245e0db8dffafbd25a0b494" kind="property"><name>Html</name></member>
+    <member refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create_1a6d871227cff3539daec670f2cd7a709c" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete" kind="class"><name>AspNetCore::Views_KierunekNaPodaniu_Delete</name>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a11b32d073293d89acc368b55d6dac5b4" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1add7c73b40192dbcc4fcf5bec46b770b8" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a6ec6d806d2ee20e0122e193738f9c706" kind="variable"><name>__tagHelperAttribute_2</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a0471a44449466751119eb143b65e7e99" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1ae0908dc942f05cdbedf3052306287162" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a05780c93ce3fa51d2b2d5b3b009052ee" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a55fd0244cefc73f8c70b5536fbcd8a38" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a72d9020f39006097a7f50bd8e0013a31" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1aec39ddf27459a0cf60b5a0ff57d339b5" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a24f78820328a5269629b778e62a7f5e4" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a7ca9057d93792a72509bdc9c2b6846ce" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1aace35cfa32bf1d50d8d781fe3e966366" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a6634b5fecc36b22b68981c22d68f08ca" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1ae9b8b850d843922f32c2bb259e7b69a3" kind="property"><name>Url</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a33341ae3517d74bf446108a962cb95f1" kind="property"><name>Component</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1aeac84da74e52f20fb7d6c5c5cc8f1984" kind="property"><name>Json</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1aa1d217b91f008fe61f65d21f34f52f60" kind="property"><name>Html</name></member>
+    <member refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete_1a2a262a199e5655c6a539cb382355dde1" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details" kind="class"><name>AspNetCore::Views_KierunekNaPodaniu_Details</name>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a292eb0da6a55946808a74fe9ef6c84cc" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1aee47fe0c3f1b5b5986cb47b020f3c41d" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a6b74ceea35ef600131add26e2adc2cf0" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ad86b14a529a5f30bc35e0148fcc44748" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a4a338f66340991160e9f8eee9c9accb9" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ac2eb6881d16599f2dc70d98bac313791" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a492499d6559dd4d0e0c5f33841fc00c7" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a5c88d2cc743c27892a3a6089d8bf14e8" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ab3afb98d25b561a01a65e29c5eab99c6" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a7118ee44cda55980192e41c1cfe2a89a" kind="property"><name>Url</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1a281402334ceea3cb1a4ead943bbac8de" kind="property"><name>Component</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ae63238689babcb8b724a9a96e8b49f90" kind="property"><name>Json</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1abad765e6527a63d1aad795993f034800" kind="property"><name>Html</name></member>
+    <member refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details_1ad093175ddba76d1a9c420b957811467d" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit" kind="class"><name>AspNetCore::Views_KierunekNaPodaniu_Edit</name>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1afbce8a530ebb11c471f685a8365fc351" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1abb0df9602951649f2ac31dae322c94c3" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1aeb21ba0be4c0229e7e6b4c190377ff9f" kind="variable"><name>__tagHelperAttribute_2</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a4f2a2c06232188e01a6a471b17ca2d69" kind="variable"><name>__tagHelperAttribute_3</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a865da2ecc8f93a0ee67ca89f8a69632e" kind="variable"><name>__tagHelperAttribute_4</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a0f346c78e1ac92256995aeaf084e0a0b" kind="variable"><name>__tagHelperAttribute_5</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a9c569b453a13732dcec709f5d53e458d" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1ace2e63e87ae83685e7973bd387e4be3d" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1aaf4c705e20fef2b22313321f6b124949" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a4e3dc0670cbfcb6de50cefcd3ebe3293" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a0aedd55056d02f3e0c03b285bc52a08a" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a4febd22d7f42d6d431c7d0ae783076ac" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1ad9c91149a57073fd4c68dec7e67c505d" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1adea7a036970b2ca9817b535ce3c6294d" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a225b53fcd1a40b657cac4520d0681166" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a2743d0332d1090de7c219cc474d1e5f5" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a08ac440caa061ef5bac0f55d53014158" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a07c03acfcc31f41ecf200c0772a9f4a2" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a14ee592908a9bd96b84331219ad73966" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1aa1899ac770a8e3c1be7abc5fa63dec68" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a7dee4c4d5f19dabb8f4f51605c74e68b" kind="property"><name>Url</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1aceb79e6c7a572bddd18f6c00d4aa6cd6" kind="property"><name>Component</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a6158cd87cd1ba1aac84d19688ca09dfb" kind="property"><name>Json</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a3daa3bc2afefc8251142a9350cf5e8c0" kind="property"><name>Html</name></member>
+    <member refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit_1a64e77887f29ebbea4176da956aa0446a" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index" kind="class"><name>AspNetCore::Views_KierunekNaPodaniu_Index</name>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a8d8d6f4d6652392113ff23643e82c650" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a636ca649d2e8f0d3c08d8e3a8e04dde6" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a5fc3214a0aee4f8ab9824847ad4eb5e8" kind="variable"><name>__tagHelperAttribute_2</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a0f09d00c171f045d538c6cbc3742a809" kind="variable"><name>__tagHelperAttribute_3</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1ad547db563839cd7994155533501791d7" kind="variable"><name>__tagHelperAttribute_4</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a970ecb197815788f8f8ff70926110de3" kind="variable"><name>__tagHelperAttribute_5</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1ab6dec4341379168c74f912cbdafb5f19" kind="variable"><name>__tagHelperAttribute_6</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a8933ee608179e58b80ee6151d1454b67" kind="variable"><name>__tagHelperAttribute_7</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1af32e69b09babc7257c7f71b55a3dbe2f" kind="variable"><name>__tagHelperAttribute_8</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1afd67dcf638aae0c7cb7b543d59799ac5" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a9e7024e755c05231914494a9564d2aa4" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a2bd43a158f36a420d74adcd738097825" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1abf918527570dc06ee53f960de9260ac1" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a8dc192e140b4695be4fe7f688f78696f" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1abbbd8824a3b2765520dd36237d44643b" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a7ee2c795479cb531bca279aac2029520" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a44e97866c86288e0446fed82bfb5909e" kind="property"><name>Url</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a017942ad1da35b53224275d6f486a97d" kind="property"><name>Component</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a55eb1dd5a9c9d99b6a7170eceb805624" kind="property"><name>Json</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1aba879f7a263f1c6f1e24f708ba02e332" kind="property"><name>Html</name></member>
+    <member refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index_1a855be4efdb6af06be42271a62df08a09" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d8/dc8/classAspNetCore_1_1Views__KierunekNaPodaniu__PodanieJuzZlozone" kind="class"><name>AspNetCore::Views_KierunekNaPodaniu_PodanieJuzZlozone</name>
+    <member refid="d8/dc8/classAspNetCore_1_1Views__KierunekNaPodaniu__PodanieJuzZlozone_1ad90d82f34fc11a19f39f32bebf5650cd" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d8/dc8/classAspNetCore_1_1Views__KierunekNaPodaniu__PodanieJuzZlozone_1a78d1cd5ae332f5f6cf08b8459b2f1183" kind="property"><name>Url</name></member>
+    <member refid="d8/dc8/classAspNetCore_1_1Views__KierunekNaPodaniu__PodanieJuzZlozone_1ab6495e12f82c7746e1a4aea3b1664f34" kind="property"><name>Component</name></member>
+    <member refid="d8/dc8/classAspNetCore_1_1Views__KierunekNaPodaniu__PodanieJuzZlozone_1a672ed37351660e1f62ee2a96afd4445c" kind="property"><name>Json</name></member>
+    <member refid="d8/dc8/classAspNetCore_1_1Views__KierunekNaPodaniu__PodanieJuzZlozone_1abc20b58ec6b48eba333569ecbb607bf4" kind="property"><name>Html</name></member>
+    <member refid="d8/dc8/classAspNetCore_1_1Views__KierunekNaPodaniu__PodanieJuzZlozone_1afc029e419a32030d2efe75e679c4be3b" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details" kind="class"><name>AspNetCore::Views_Podanie_Details</name>
+    <member refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1a9d3a859d244bfc48eea4c51298c6e9b3" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1aec937be3b98287e26858980271f79694" kind="property"><name>Url</name></member>
+    <member refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1a55c09c58d3fde34a0b6d391946d2162f" kind="property"><name>Component</name></member>
+    <member refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1ad8e0a6c8358716094ca5a2c67971eb41" kind="property"><name>Json</name></member>
+    <member refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1a15d661602f6eed7e0eac33e42cffd40e" kind="property"><name>Html</name></member>
+    <member refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details_1a09b9ab4ca391b9247b087879eca163fb" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index" kind="class"><name>AspNetCore::Views_Podanie_Index</name>
+    <member refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1adf0ce99d54cfd5aa9d67957ee098a712" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1abbc6270923c46d396a805591effba38b" kind="property"><name>Url</name></member>
+    <member refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1af2953d32aca952441bd3940c93028510" kind="property"><name>Component</name></member>
+    <member refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1ae2caa1b20044eca30c13986225ddb387" kind="property"><name>Json</name></member>
+    <member refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1aa49fe84381aa45e6b419490691aadea8" kind="property"><name>Html</name></member>
+    <member refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index_1adf16cb3c1fb35c66002dd4e07f3f2032" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details" kind="class"><name>AspNetCore::Views_PracownikEdycja_Details</name>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1a0c370f24f65cdf1c09bf3cee087bfba4" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1a6dcb739136dea271ef5726d4b0932be0" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1ad499141a5c16cc450adb878b5274fd3b" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1a5af6b0e986bbd9b62befb4a9daf47e6c" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1a09607413ce97ab185343cccaf795b0b3" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1ab118a521a036d0935edbfb0e2f24717f" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1af90986b135c04135f2300583905cd1cb" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1a9182fe1ea9a886626b5f82263778c226" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1afe9cf27db462b5c23adacff6a8ea652b" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1a825b6d22c3a3d2c4caa83265b8f1cb41" kind="property"><name>Url</name></member>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1a43c7128d8a46b44aa7509db10e524593" kind="property"><name>Component</name></member>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1afd1125434b4f01b338b7a02801cbda2d" kind="property"><name>Json</name></member>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1a50dbb704d678a14657c876e2bdde0330" kind="property"><name>Html</name></member>
+    <member refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details_1a26e71d77e9e6cbaa8fb8489de8cac89a" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit" kind="class"><name>AspNetCore::Views_PracownikEdycja_Edit</name>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1a7b12bde6dbe3218f3967b3ff2be2dc86" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1a312770d5f4ca41ab4899fbb0d5427f8a" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1ac403139ccf8c6d941e6f86d32d3d2609" kind="variable"><name>__tagHelperAttribute_2</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1ae9b218eb4bce116b0b429982e2b75ad1" kind="variable"><name>__tagHelperAttribute_3</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1a6f6e3ae2005dad343f0771067364268e" kind="variable"><name>__tagHelperAttribute_4</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1a6fbbc3f719d60c2024342550f8905efd" kind="variable"><name>__tagHelperAttribute_5</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1a6b397d444ba4a9e4639111fefcb3fb8c" kind="variable"><name>__tagHelperAttribute_6</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1ab01f955d10acc41f3ec36df5512c195b" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1a526ead89f60e1672acbc68e0511b0c4c" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1ad9d743528ca4775842f509a3fcbdf64c" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1abab15ed1f9e2c279956d8346a8762576" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1a03a1c98d08cf78c16805dbf645f013c9" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1aa60462c757e9ced0fe7e5541abc44335" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1a8e0795b1995e9c801c85336d55a6f857" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1af6703d79c1b116afc0b902112ebefb70" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1ad536dd36506a7a375fea60b120f5f27d" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1a2d797ffeba6d592e2d9d2bc868342e0e" kind="property"><name>Url</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1ad5744c81ec2319e3136813b660ad1940" kind="property"><name>Component</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1abfa251650b4e263ad13020b2c4c63d31" kind="property"><name>Json</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1a98cabdbf6000149c07bd5251e9b1e5a1" kind="property"><name>Html</name></member>
+    <member refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit_1aac38d6d35ebd12f70b121f84c8e30a66" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index" kind="class"><name>AspNetCore::Views_PracownikEdycja_Index</name>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ac6d6018fcebf66dc0ce072e09ebe98bb" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a13b24db20a231122ab5df9b9dbf81318" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a4073fc22056ee6c21b87149d3ce17fa8" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a5639c36eedbe7b5f4d1309b228bf5993" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1afab6d1dae5e61483d0885188203c6023" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ae9e184af4be49ad9c1f4d538f4f66fa3" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a3239b68202894c96c336243ea669520a" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a01025fd6fc5fc5f5c13b404d6e0aaa99" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ac3c941f3da32af3f6f92551b8f3ab282" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ab8075f7f00255df874c2c23bf84f26ce" kind="property"><name>Url</name></member>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a0d85ea807f0a0b76357577282034888b" kind="property"><name>Component</name></member>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ab6978a318a1b3c151b7643fa3192c1db" kind="property"><name>Json</name></member>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1a7bc3519023e69e733f80922a0a498ac7" kind="property"><name>Html</name></member>
+    <member refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index_1ae32a979cafc6cf17f0057e02267bac0d" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane" kind="class"><name>AspNetCore::Views_Predykcja_WpiszPotrzebneDane</name>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ad8e445202a421e7cb1d642be22791f80" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1aac3615461778ba721d203716c9a99360" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1acf3baaf123776f9e48f74f4716c8e274" kind="variable"><name>__tagHelperAttribute_2</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1aa9407b5146d21fe5726d1fff7efbbba6" kind="variable"><name>__tagHelperAttribute_3</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a8bfe84d2cc413d1902a93b17a126c2a7" kind="variable"><name>__tagHelperAttribute_4</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a38a1869f9a874c3fa411883e21670668" kind="variable"><name>__tagHelperAttribute_5</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ab7ff5042944cf9401cb2b98f727c488f" kind="variable"><name>__tagHelperAttribute_6</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ae380fe3599d94a625fa1228cf19e9280" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1aa4d973001c37235d09b6c00d64fd1ed1" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a80cedd419a979dd269955720198683ec" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1add94a789a6722ea1f70f68cedd59e029" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ac3068fe6cf8fea83c8dc0b333fecd1b2" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ae551b1b0ba82ac62405bd12231901db0" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ae7c69e57df0566c2ce29c284d13110e9" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1aeb1964db21b743008d33e369ffda2786" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1ae56160290e27547ffbb649028852f893" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a373d293ac77db68a5703a30d2ccc2914" kind="property"><name>Url</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a4d0cfed888fa84b70cf18c838cce25cc" kind="property"><name>Component</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a421808acbcf12c0965ae155e37bec55d" kind="property"><name>Json</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a28e49635dc8d44d6bd48eac31f81bde5" kind="property"><name>Html</name></member>
+    <member refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane_1a8c0a677b28603bd8f675629e6936e732" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki" kind="class"><name>AspNetCore::Views_Predykcja_WyswietlKierunki</name>
+    <member refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a7ba3beb6b7a10214098c77cce0ec6d88" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a004cad739416dbe0fa94e5a5b6068ad5" kind="property"><name>Url</name></member>
+    <member refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a50101b64806a5d96d831ed69846e3083" kind="property"><name>Component</name></member>
+    <member refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1ab9177d5f99615878ea9d868ce63c5da6" kind="property"><name>Json</name></member>
+    <member refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a75cb4b987040ccdd9683c2ac4b808b25" kind="property"><name>Html</name></member>
+    <member refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki_1a13a07a5187cc19bc9d65599a1091081a" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku" kind="class"><name>AspNetCore::Views_Przeglad_DetaleKierunku</name>
+    <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a0efbb0bd1c2e2b168759c07e48cfe285" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a4ca969c314312ffbc8d398a2cbfca8b3" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a7d7daa1ea4c6206fdfdd910e34ef33ef" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a59488ba20612ccf38d23d6a25e07b43f" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a123cb3285df21b8fde32e8f648d8ee39" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1adda7ade01cee8b350008f6a39233674c" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a8caebc8adeb927e8d4b1edb918870455" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1ac8d58e323ff3099f3e8041abd90c1847" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a4662fbf17156fd1cafc7038775f67ad0" kind="property"><name>Url</name></member>
+    <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a1cfb0c63d4bc89905e8381f0f528899e" kind="property"><name>Component</name></member>
+    <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1ac60aeaf3f01b37c6a395608c0da496c9" kind="property"><name>Json</name></member>
+    <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1ad6a594ddd2349b2ab0cdcc29a3611c39" kind="property"><name>Html</name></member>
+    <member refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku_1a050e7fc2ae07f1e78b8e42e123fb9967" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki" kind="class"><name>AspNetCore::Views_Przeglad_WszystkieKierunki</name>
+    <member refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a526aaee28cf861df46a147453d47f12e" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a5254e156aebe6e48d6d263e59787782f" kind="property"><name>Url</name></member>
+    <member refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1abb76f3abbdfb5fc9b496175abc937139" kind="property"><name>Component</name></member>
+    <member refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a6ed1428b150a04c94601f81704fb966e" kind="property"><name>Json</name></member>
+    <member refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a1fc9db5138dcd93b5204aba6008afa39" kind="property"><name>Html</name></member>
+    <member refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki_1a6bd3ae8f7e059f556aac61396bd08e56" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create" kind="class"><name>AspNetCore::Views_Rekrutacja_Create</name>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1ae339c7c392865d7b2f86e1bb22bb758c" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1ad81edbbb87bcff55880d071c537611d4" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a919aa6835636744f6f7fccff62814283" kind="variable"><name>__tagHelperAttribute_2</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a43c9409d64594baa6d2cd7febba2a5d7" kind="variable"><name>__tagHelperAttribute_3</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1ab966abcf9c62c88f1499a62b0cf563ba" kind="variable"><name>__tagHelperAttribute_4</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a37dcef99c5ddf38e499d404a6b769c89" kind="variable"><name>__tagHelperAttribute_5</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a9f01843422309659778d03dc17f14664" kind="variable"><name>__tagHelperAttribute_6</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a629f28f7040a55ad1aee708f8f1e183b" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a2c2d39bd9d7b3a3be52fb25a34a6aa45" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1ac5135df9b44899a0be50286e72402fa2" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1af956856846476b2b31ce2b48f221bdeb" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1ad35c92bbc68fbe6ae8a9ee851d02d6b9" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a33919c9abd827e18b7787034c4fda6fd" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a0de4dab67f9a51e353cb80472723fc4e" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a3aa1d984c5a7ce64baef272334ffa8b8" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a8023f8aa4861403f23c5727b8d54b553" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a6f626ddac92542d655f194798447dc70" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a44b2cdf0b1fc6f1acd92884053f444fd" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a0f81c04208904b7a2e7bff04cb9841be" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a9b69a3bce6139f5a949634ab55872601" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1aaf4494cb3498b92544ebfd9f6ed47371" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a2fd4a3b86a45ef651df9daa995227f16" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a7e13b0538a2ba22c618ef88bc090bf62" kind="property"><name>Url</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a34cc3c45010a82c4d61cb11a7891bcc1" kind="property"><name>Component</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a8b9804afc1b12f3ae71374327a5bf58a" kind="property"><name>Json</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1a082fb2df47ce6ed80bc16949a580ec5f" kind="property"><name>Html</name></member>
+    <member refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create_1ad0a9d6bdc155588544d8bbf62b080f98" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete" kind="class"><name>AspNetCore::Views_Rekrutacja_Delete</name>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1a3f25461471a35de23e69cfbad3a63f0e" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1a809c8395b0c32bdb57257d7e6581d24d" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1aedf4907577e249c3b4e94cfd6d170c39" kind="variable"><name>__tagHelperAttribute_2</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1a1690551daa7b87627538936471993a83" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1ad8662e9610d270325e8f6213d0e657b9" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1a0bd5d06cd3d2258ee4dcd38b40d96d27" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1adaacb416631e9def1140ac52ec0369c5" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1a682f065e710b64bfb56a84f7709fa207" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1a002338b39110edda4362d428607dea14" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1a6d5ee7ba5f7b513d5c6b73d45df680c6" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1a7f8e2e7116de476e42d2806ba7fb2da6" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1a70e8d9fbdd256942e465d45f0126cbc0" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1af70ad3cd8f674e980fa1428fbff65ecc" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1a3cc3ab5680f5b3ba97c281a6699b01f1" kind="property"><name>Url</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1a5f7805ba006a6643cdb46d5f959fb05f" kind="property"><name>Component</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1a7f35b6eb6330f0d682efae34ecc4474a" kind="property"><name>Json</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1a15785b6af215f3ae71dca5f43e3a03d4" kind="property"><name>Html</name></member>
+    <member refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete_1ae9842544736f36396ec4af55a424c0e5" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details" kind="class"><name>AspNetCore::Views_Rekrutacja_Details</name>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1abb761f0ee7b17236e8631a78573ed28e" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1a1fc142f4eae432aa5b3a9ca5a75784db" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1a035078cc34f20fb5bca8d74dcc77df6c" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1a205a4a38c0d238e83fb3ed2e1581ae44" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1abcb88e419ea6ccda9baa68725df3cb3d" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1af912c3547c8ced1d10d94cf0db4ea254" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1ac16a3cee6f10a7fb073d84d59e5ff8de" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1af83cf4c67deec9ef5faa734c3123c6f2" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1a710b06abd820f863bc6a4374e8c50f4d" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1a55808aa6a092c1368888f6f540d20b05" kind="property"><name>Url</name></member>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1a55bb09cb6b43cae31e80e58c2b2f6c84" kind="property"><name>Component</name></member>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1ac2bd3b6123a96d7e411c385a3934e6b4" kind="property"><name>Json</name></member>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1a27ef0feb689494751e92127cfd5a6c14" kind="property"><name>Html</name></member>
+    <member refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details_1a9aec1a0f05f17ee12a191927719bfa0e" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit" kind="class"><name>AspNetCore::Views_Rekrutacja_Edit</name>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a9a3af4716e774025e7cf1eeb82413156" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a1f7e4b78eda28e32b7933788acaa522b" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a028a8f7bab6a4cc745613665f12bf084" kind="variable"><name>__tagHelperAttribute_2</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a37f8156a4ebb8017e5c9d633b02b3a2d" kind="variable"><name>__tagHelperAttribute_3</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a0d2dcd89f28a3a800fafe42142f35863" kind="variable"><name>__tagHelperAttribute_4</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a0840fb200f158cd62f198c2141e58e7d" kind="variable"><name>__tagHelperAttribute_5</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a118e22b57b259d92728926c9efc9a76d" kind="variable"><name>__tagHelperAttribute_6</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a2bf63bdb05a6ba9d41a00eee10028c4c" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1abfd1c5c1c5509cc3a8100b292767fbe7" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a8f13e68c596a780c67675c068d1fc347" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a5940830b2899eb6ca82271155dba51d8" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a7d6cdc7d73ac34d89f510159aeb1432e" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1aa3806f587a2435d29218f40156c8a92b" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1ac4d7df0e0ab84e3c3f6ba9adf1734892" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1aae491f50008c0070f19f71017b7d675c" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1aee3f4ffbfdab42f29d0be0c949dc63cd" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1ae454c0fb0ee9e2466e74ef782e9f7fdf" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a38d82f7dedcfef8412b0a0d36f3429e1" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a92e05e8fc813d36cc5c1df260ebe7d38" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a193835b6201d8161c737793c8151e327" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a8569d885c68404516bc5aaf3dabf171b" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a55f49701315d0e137a6c6465e9bdea21" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1abd6e43fe71a83c241fcf2671c13fefa0" kind="property"><name>Url</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a21e853393f92113cc975e86bc4cf8c8d" kind="property"><name>Component</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a1b094fd6b01cd1a3f94b3ea79984dc9e" kind="property"><name>Json</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a2a5f88fe91c4a3d2999588c1ff03ecb5" kind="property"><name>Html</name></member>
+    <member refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit_1a8779c49cbed051831fdec8fa76aa35ec" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index" kind="class"><name>AspNetCore::Views_Rekrutacja_Index</name>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1abe84040037968320abe754c1bb78b1b3" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a7e9e721a308f82c66f10d37a96f74d42" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1acb832240648159c7e8900714db5ed0d8" kind="variable"><name>__tagHelperAttribute_2</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1abcd79554613299177eefc2d0aaed5884" kind="variable"><name>__tagHelperAttribute_3</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a57d044f9590df103f358df54b5ca8f0f" kind="variable"><name>__tagHelperAttribute_4</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1ae41012e7cd15c0013411569d49c88545" kind="variable"><name>__tagHelperAttribute_5</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a97e265c4c1bc95d96997e25c63498cdc" kind="variable"><name>__tagHelperAttribute_6</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a04b968ffc4870433de2081e9a99ae1aa" kind="variable"><name>__tagHelperAttribute_7</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1ac09e0f6bca23ade9b7b97dec0efbc026" kind="variable"><name>__tagHelperAttribute_8</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a701c4e49536b5d5418bc99d688d3df43" kind="variable"><name>__tagHelperAttribute_9</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1ad466e876a6898e6f4d844b77eb85457f" kind="variable"><name>__tagHelperAttribute_10</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a9d9bf42b5b826be7bb8da43e9f06cbfb" kind="variable"><name>__tagHelperAttribute_11</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a726c2b8976d3948b20768f16b7d4fdfc" kind="variable"><name>__tagHelperAttribute_12</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1aed7a375be68a90c2686a6ffdebba337b" kind="variable"><name>__tagHelperAttribute_13</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a9c2db0fdb0a5311b366b658127b99584" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a64961c10dafa0ae9c5cdfe9a9abe5c72" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1ae072e235b9368b6a1cd4f8cc7878c736" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a4375d9307009159c7d82df6d80363563" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a599b2f42035ef55128db5fb20b6c770c" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a417a49e8585932ba7adb14c5ae5d5090" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a674536956752eea79aae0c90adaabbae" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1ae07997c5acdb4cf800654302731eef88" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a18e9ea2f0a81ae3112a5028e30f14916" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a480ee677371f8312009cb4cd88e68f0d" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a96c16e764f702161cb237cfbb5fc41e3" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1ab6d529c25a46cac55f4de3d67c075e82" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1aa7c492122523bb9e27bdb6bb8a8458e7" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a8590abe7a4fc65c5e7a171048df04fd2" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1ada59329536115a6e0ba7a7765d1922fd" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1aa6a8314eaa62028377f62538bb1117d3" kind="property"><name>Url</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a0980725137078157385a3e9a3a66b362" kind="property"><name>Component</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1afc1d62236eedb9215a937167d9d8248b" kind="property"><name>Json</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1a46cea6000f3a4363180e9a8955f9f758" kind="property"><name>Html</name></member>
+    <member refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index_1afc4af1565b2fad7c34057e9dfd8b0e9c" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d6/d27/classAspNetCore_1_1Views__Shared____KierunkiGrid" kind="class"><name>AspNetCore::Views_Shared__KierunkiGrid</name>
+    <member refid="d6/d27/classAspNetCore_1_1Views__Shared____KierunkiGrid_1a3c01e20e049639f17ca29a60bc1804e6" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d6/d27/classAspNetCore_1_1Views__Shared____KierunkiGrid_1a3f87f83fefdd6b555d5a67fafcfdf9d0" kind="property"><name>Url</name></member>
+    <member refid="d6/d27/classAspNetCore_1_1Views__Shared____KierunkiGrid_1a049514e73bd2e409cacd9684d3c58c5f" kind="property"><name>Component</name></member>
+    <member refid="d6/d27/classAspNetCore_1_1Views__Shared____KierunkiGrid_1a9eaee78fba62cdfdf2325894f2d53ebd" kind="property"><name>Json</name></member>
+    <member refid="d6/d27/classAspNetCore_1_1Views__Shared____KierunkiGrid_1a46e2fd04549793821c708525e243974f" kind="property"><name>Html</name></member>
+    <member refid="d6/d27/classAspNetCore_1_1Views__Shared____KierunkiGrid_1a623d63d5a8ca206b6d715eb1ff7d5c24" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout" kind="class"><name>AspNetCore::Views_Shared__Layout</name>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a8d41fd1e657de53ebc4523184ea67fa8" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a3da5784200cec8a974c9ec26de473c75" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a75944826e3e0ac6ba0b411f131c43614" kind="variable"><name>__tagHelperAttribute_2</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a49043a2742ffed62d5cc700015ad49c7" kind="variable"><name>__tagHelperAttribute_3</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a21bf448f998c1cf9fa8d3a2289c9ca66" kind="variable"><name>__tagHelperAttribute_4</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a86f03bc6c9a53da8ec7271ae801c3112" kind="variable"><name>__tagHelperAttribute_5</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1abb1ca5408df7f9e743901f58ab700ab6" kind="variable"><name>__tagHelperAttribute_6</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a7dd6c34ccc2326be751c076061ff2e0b" kind="variable"><name>__tagHelperAttribute_7</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a8c8b7400c87280352ecd4d0bf49c40bd" kind="variable"><name>__tagHelperAttribute_8</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1acce0770bbbfe1ee66066efade237475c" kind="variable"><name>__tagHelperAttribute_9</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1ae8675271e3d20d21490705f9c43089ea" kind="variable"><name>__tagHelperAttribute_10</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a46e9feaebbe57348873c2855f8c3a1ef" kind="variable"><name>__tagHelperAttribute_11</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1ac81ac43e3ca8c7e10fabbe2085fe69c5" kind="variable"><name>__tagHelperAttribute_12</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a64c6afd82aa00773e2e040a8d0313091" kind="variable"><name>__tagHelperAttribute_13</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1adbafd4d9ddb788e7c6ae4d2c51ec5cb0" kind="variable"><name>__tagHelperAttribute_14</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1ae9b65ce4aae7e705bd96c140ee678056" kind="variable"><name>__tagHelperAttribute_15</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1ad939e9ddaaa8a762fa1e9f3226d11e96" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a23b2e93fa5c2c5e3700f096b591aa9a5" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1ad2152d3f0c4909e9e30e37b4a27cd0ad" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1ac0320f5e785b0a9920e3bfcb49b4414d" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a410d54a831026e0d46a11ec3f4282d54" kind="variable"><name>__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_HeadTagHelper</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a2f07685e071c43012d3ce864896a1f77" kind="variable"><name>__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1aa1aa1d09da22cada4ed528c93c76c593" kind="variable"><name>__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_BodyTagHelper</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a4a563e473ac37a4685e6ca686827e9ca" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a970895ff77aa6b000eb4e28860d792ce" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a690c6bb6fa2c02a077ad61fc4489019b" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1aac460ec4de4ed34a70fba1f432e30177" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a6c45fa86aef386a351f71fe9e747c871" kind="property"><name>Url</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a2d8bfbf605e8ab899b11952d3c8334f7" kind="property"><name>Component</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a4aed02418cec21f2e4d068e0f88293d8" kind="property"><name>Json</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1a4c71e5c6f46ad4824582960fa48e3ff5" kind="property"><name>Html</name></member>
+    <member refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout_1ab6d0133c47f42aa6e823d599891346cc" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice" kind="class"><name>AspNetCore::Views_Shared__OsobaChoice</name>
+    <member refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1a5eebc71a1f004e2ed66bb29871cf7160" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1a7ebf81593a900e9050af2bffd0feb6cd" kind="property"><name>Url</name></member>
+    <member refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1a5058f85e28814f63f7bb69ef103c1ed5" kind="property"><name>Component</name></member>
+    <member refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1a5f85c2da8dda95e301a04b33b63b12e5" kind="property"><name>Json</name></member>
+    <member refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1ae400c45e6750b393f41e3f0fb6b5a5d5" kind="property"><name>Html</name></member>
+    <member refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice_1ab0d1c1ab63f50326c672823c80dd5e6b" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial" kind="class"><name>AspNetCore::Views_Shared__SearchNameAndWydzial</name>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a36ed0fc01a254d685938b8e68e8c822d" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a78bde89672c05c752fae2c74a988f550" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a7ba023d9462b9be42298460cc4580dc6" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a7d86ffd7dbddd778e52a6a4791d153a1" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1acd7451eac8f7c7c4ec8ced3be11a3d66" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a8488c96e76b0d64a7ca25a6f6cce7a24" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1aad02c56a62aa8c2b99615df62be0678a" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a821a216cdea3d9a0e66776ceff13acb6" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1ae6073f7026171c258db2c16b05faa23e" kind="variable"><name>__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a4330bb691066653b02d8c65998f3f275" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1ac46a3bc9c60f6bc35f63cea585f0634d" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a7e498a83a99738d3ba2dbe9de52c4709" kind="property"><name>Url</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a7b853572122ba42fe336a46741f51251" kind="property"><name>Component</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a0ab58b1703be1b2d71a979d56b6fd0c2" kind="property"><name>Json</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a1a4c451ec136184b34a782bc9bb173d9" kind="property"><name>Html</name></member>
+    <member refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial_1a59d544872876d1d3521661927c178454" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial" kind="class"><name>AspNetCore::Views_Shared__ValidationScriptsPartial</name>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1a30dba59457e9300d3bc8339dfeaf392f" kind="variable"><name>__tagHelperAttribute_0</name></member>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1a01cf24d9ae875ef7a3cc85262197ae7e" kind="variable"><name>__tagHelperAttribute_1</name></member>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1a573a307dc0cdc4707036d9a1bb5186df" kind="variable"><name>__tagHelperExecutionContext</name></member>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1a98ba4fe71297153253a0843b9f8dfa30" kind="variable"><name>__tagHelperRunner</name></member>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1abd6360687f5f874d9b7ee52b460270f8" kind="variable"><name>__tagHelperStringValueBuffer</name></member>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1ac8db73e2ba52054d1e977e7fdc43a8d0" kind="variable"><name>__backed__tagHelperScopeManager</name></member>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1ac37ba917dfdc3c3eaea261f73e8d0bb8" kind="variable"><name>__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper</name></member>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1ac640314b5ece901be19c41d7cf7116a9" kind="property"><name>__tagHelperScopeManager</name></member>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1aa202649b0aff57509d9652ddbf98b677" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1a69eafabffc0edbd39b0d850222b941a2" kind="property"><name>Url</name></member>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1a2eecdf72cc8131f34209354546b62bf7" kind="property"><name>Component</name></member>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1a0a9241c45ac11aaca239b65302d74349" kind="property"><name>Json</name></member>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1ac3e986c2c47b589e598c7b0b7a78ccc6" kind="property"><name>Html</name></member>
+    <member refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial_1aca45bee43cd2ddef240d2b1f1f2385c9" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="d3/de2/classAspNetCore_1_1Views__Shared__Error" kind="class"><name>AspNetCore::Views_Shared_Error</name>
+    <member refid="d3/de2/classAspNetCore_1_1Views__Shared__Error_1a42383ac95c491016358a37b215c6acd3" kind="property"><name>ModelExpressionProvider</name></member>
+    <member refid="d3/de2/classAspNetCore_1_1Views__Shared__Error_1abaf42ec8e35e72026480e49d001f84c2" kind="property"><name>Url</name></member>
+    <member refid="d3/de2/classAspNetCore_1_1Views__Shared__Error_1aeea5446b7eaa954692ba83fa3be58726" kind="property"><name>Component</name></member>
+    <member refid="d3/de2/classAspNetCore_1_1Views__Shared__Error_1a3faeeba018368097cc9a55dc55015c16" kind="property"><name>Json</name></member>
+    <member refid="d3/de2/classAspNetCore_1_1Views__Shared__Error_1a103e565d3f056ac7e343f935c52f2c74" kind="property"><name>Html</name></member>
+    <member refid="d3/de2/classAspNetCore_1_1Views__Shared__Error_1a3cdb89b5008b1f7058bd2493983c0356" kind="function"><name>ExecuteAsync</name></member>
+  </compound>
+  <compound refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::WszystkieInformacjePodaniaViewModel</name>
+    <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a2bf105d8f332d77fc099086096545f63" kind="property"><name>DodatkoweOsiagniecia</name></member>
+    <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a5265f552a890c97e7c776bc136ab1894" kind="property"><name>PrzelicznikiOsiagniec</name></member>
+    <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a0ccbd51b3e60bfe0add4918c8440c8b8" kind="property"><name>Oceny</name></member>
+    <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a922b2361dff0bee9e74ba7f502e02b3c" kind="property"><name>DorobkiNaukowe</name></member>
+    <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a6f6c40a8cb392b0946c328e71f656223" kind="property"><name>KategorieDorobku</name></member>
+    <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1aa14e8480c78b21750f140759f2432d30" kind="property"><name>Matura</name></member>
+    <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a64f78215895a13eb0c3858a0f9269d13" kind="property"><name>PodanieNaIIStopien</name></member>
+    <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a78d98d45917875fc215d56a25bf692a0" kind="property"><name>PodanieNaIStopien</name></member>
+    <member refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel_1a2368bff610a13bbf09a0e56c5c18f3a6" kind="property"><name>PodanieKandydata</name></member>
+  </compound>
+  <compound refid="df/d17/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1WydzialModel" kind="class"><name>projektowaniaOprogramowania::ViewModels::CollegeStructures::WydzialModel</name>
+    <member refid="df/d17/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1WydzialModel_1a81610b88e1ba2d2a757b081092a8d5eb" kind="property"><name>Id</name></member>
+    <member refid="df/d17/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1WydzialModel_1a73dc1f23cae4c42a5e9bf63db8ba1467" kind="property"><name>NumerWydzialu</name></member>
+    <member refid="df/d17/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1WydzialModel_1a971fa26074d1a881c6e1850cc552b110" kind="property"><name>NazwaWydzialu</name></member>
+    <member refid="df/d17/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1WydzialModel_1a44dc757f3c05d3a3530d1f484f282c0a" kind="property"><name>MiastoId</name></member>
+    <member refid="df/d17/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1WydzialModel_1a60abc8536b2bdedd416fab92e7aaaa34" kind="property"><name>Miasto</name></member>
+  </compound>
+  <compound refid="d4/d38/namespaceAspNetCore" kind="namespace"><name>AspNetCore</name>
+  </compound>
+  <compound refid="d4/dfd/namespaceglobal" kind="namespace"><name>global</name>
+  </compound>
+  <compound refid="dd/dc0/namespaceglobal_1_1MicrosoftAspNetCore" kind="namespace"><name>global::MicrosoftAspNetCore</name>
+  </compound>
+  <compound refid="df/d8f/namespaceglobal_1_1MicrosoftAspNetCore_1_1Mvc" kind="namespace"><name>global::MicrosoftAspNetCore::Mvc</name>
+  </compound>
+  <compound refid="d0/dae/namespaceglobal_1_1MicrosoftAspNetCore_1_1Mvc_1_1Razor" kind="namespace"><name>global::MicrosoftAspNetCore::Mvc::Razor</name>
+  </compound>
+  <compound refid="dd/d5f/namespaceMicrosoft_1_1AspNetCore_1_1Builder" kind="namespace"><name>Microsoft::AspNetCore::Builder</name>
+  </compound>
+  <compound refid="d0/d60/namespaceMicrosoft_1_1AspNetCore_1_1Hosting" kind="namespace"><name>Microsoft::AspNetCore::Hosting</name>
+  </compound>
+  <compound refid="d4/d72/namespaceMicrosoft_1_1AspNetCore_1_1Http" kind="namespace"><name>Microsoft::AspNetCore::Http</name>
+  </compound>
+  <compound refid="d9/da8/namespaceMicrosoft_1_1AspNetCore_1_1Http_1_1Features" kind="namespace"><name>Microsoft::AspNetCore::Http::Features</name>
+  </compound>
+  <compound refid="d4/dd6/namespaceMicrosoft_1_1AspNetCore_1_1HttpsPolicy" kind="namespace"><name>Microsoft::AspNetCore::HttpsPolicy</name>
+  </compound>
+  <compound refid="d7/d97/namespaceMicrosoft_1_1AspNetCore_1_1Mvc" kind="namespace"><name>Microsoft::AspNetCore::Mvc</name>
+  </compound>
+  <compound refid="d9/dbc/namespaceMicrosoft_1_1AspNetCore_1_1Mvc_1_1Filters" kind="namespace"><name>Microsoft::AspNetCore::Mvc::Filters</name>
+  </compound>
+  <compound refid="d5/d41/namespaceMicrosoft_1_1AspNetCore_1_1Mvc_1_1Formatters" kind="namespace"><name>Microsoft::AspNetCore::Mvc::Formatters</name>
+  </compound>
+  <compound refid="d8/d2f/namespaceMicrosoft_1_1AspNetCore_1_1Mvc_1_1ModelBinding" kind="namespace"><name>Microsoft::AspNetCore::Mvc::ModelBinding</name>
+  </compound>
+  <compound refid="db/d90/namespaceMicrosoft_1_1AspNetCore_1_1Mvc_1_1Rendering" kind="namespace"><name>Microsoft::AspNetCore::Mvc::Rendering</name>
+  </compound>
+  <compound refid="dd/d81/namespaceMicrosoft_1_1AspNetCore_1_1Mvc_1_1ViewFeatures" kind="namespace"><name>Microsoft::AspNetCore::Mvc::ViewFeatures</name>
+  </compound>
+  <compound refid="dc/d35/namespaceMicrosoft_1_1AspNetCore_1_1Razor_1_1Language" kind="namespace"><name>Microsoft::AspNetCore::Razor::Language</name>
+  </compound>
+  <compound refid="d4/d90/namespaceMicrosoft_1_1EntityFrameworkCore" kind="namespace"><name>Microsoft::EntityFrameworkCore</name>
+  </compound>
+  <compound refid="d7/d08/namespaceMicrosoft_1_1EntityFrameworkCore_1_1Infrastructure" kind="namespace"><name>Microsoft::EntityFrameworkCore::Infrastructure</name>
+  </compound>
+  <compound refid="d5/d76/namespaceMicrosoft_1_1EntityFrameworkCore_1_1Metadata_1_1Internal" kind="namespace"><name>Microsoft::EntityFrameworkCore::Metadata::Internal</name>
+  </compound>
+  <compound refid="d5/d36/namespaceMicrosoft_1_1EntityFrameworkCore_1_1Migrations" kind="namespace"><name>Microsoft::EntityFrameworkCore::Migrations</name>
+  </compound>
+  <compound refid="de/d70/namespaceMicrosoft_1_1EntityFrameworkCore_1_1Query" kind="namespace"><name>Microsoft::EntityFrameworkCore::Query</name>
+  </compound>
+  <compound refid="df/dfe/namespaceMicrosoft_1_1EntityFrameworkCore_1_1Storage_1_1ValueConversion" kind="namespace"><name>Microsoft::EntityFrameworkCore::Storage::ValueConversion</name>
+  </compound>
+  <compound refid="d3/d86/namespaceMicrosoft_1_1Extensions_1_1Configuration" kind="namespace"><name>Microsoft::Extensions::Configuration</name>
+  </compound>
+  <compound refid="d8/d14/namespaceMicrosoft_1_1Extensions_1_1DependencyInjection" kind="namespace"><name>Microsoft::Extensions::DependencyInjection</name>
+  </compound>
+  <compound refid="d7/d8a/namespaceMicrosoft_1_1Extensions_1_1Hosting" kind="namespace"><name>Microsoft::Extensions::Hosting</name>
+  </compound>
+  <compound refid="db/d95/namespaceMicrosoft_1_1Extensions_1_1Logging" kind="namespace"><name>Microsoft::Extensions::Logging</name>
+  </compound>
+  <compound refid="d1/d2a/namespaceNpgsql_1_1EntityFrameworkCore_1_1PostgreSQL_1_1Metadata" kind="namespace"><name>Npgsql::EntityFrameworkCore::PostgreSQL::Metadata</name>
+  </compound>
+  <compound refid="d8/d9d/namespaceprojektowaniaOprogramowania" kind="namespace"><name>projektowaniaOprogramowania</name>
+  </compound>
+  <compound refid="d7/df3/namespaceprojektowaniaOprogramowania_1_1Controllers" kind="namespace"><name>projektowaniaOprogramowania::Controllers</name>
+  </compound>
+  <compound refid="d2/dde/namespaceprojektowaniaOprogramowania_1_1Migrations" kind="namespace"><name>projektowaniaOprogramowania::Migrations</name>
+  </compound>
+  <compound refid="d6/d4b/namespaceprojektowaniaOprogramowania_1_1Models" kind="namespace"><name>projektowaniaOprogramowania::Models</name>
+  </compound>
+  <compound refid="d0/da1/namespaceprojektowaniaOprogramowania_1_1Models_1_1Other" kind="namespace"><name>projektowaniaOprogramowania::Models::Other</name>
+  </compound>
+  <compound refid="d8/d08/namespaceprojektowaniaOprogramowania_1_1Services" kind="namespace"><name>projektowaniaOprogramowania::Services</name>
+  </compound>
+  <compound refid="d3/dcc/namespaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation" kind="namespace"><name>projektowaniaOprogramowania::Services::Recrutation</name>
+  </compound>
+  <compound refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels" kind="namespace"><name>projektowaniaOprogramowania::ViewModels</name>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1aa8169aec298a7ec62222bca98cac3d1e" kind="enum"><name>StatusPodania</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1aa8169aec298a7ec62222bca98cac3d1ead1ee61168940a7da018737c859cc97bb" kind="enumvalue"><name>Niezlozone</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1aa8169aec298a7ec62222bca98cac3d1ea816d6120cbe9830d1914581d76dffa47" kind="enumvalue"><name>Zlozone</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a7fbaaade3b9c3d71702251e3f2c96057" kind="enum"><name>StopienStudiow</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a7fbaaade3b9c3d71702251e3f2c96057a812ef0b2119c99e59f7344056d361cc7" kind="enumvalue"><name>Pierwszy</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a7fbaaade3b9c3d71702251e3f2c96057a443ed50b4d0affef38b857fe7e3c0e9d" kind="enumvalue"><name>Drugi</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a083b1f987f9e107880834b66c1e34a42" kind="enum"><name>StatusRekrutacji</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a083b1f987f9e107880834b66c1e34a42ac35e4af04ee8e600d7090f04a5235536" kind="enumvalue"><name>Otwarta</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a083b1f987f9e107880834b66c1e34a42a14209d57e7c21a5e36d29593011c9ddd" kind="enumvalue"><name>Rozpatrywana</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a083b1f987f9e107880834b66c1e34a42aeefa325789108c2a92a049782cc644fa" kind="enumvalue"><name>Zawieszona</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a083b1f987f9e107880834b66c1e34a42a7ec48a47bf1963582c1d582c42befccf" kind="enumvalue"><name>Zamknieta</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1aea66a4ad2c4a8d6949f668a4949007cb" kind="enum"><name>SemestrRekrutacji</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1aea66a4ad2c4a8d6949f668a4949007cbaf9f5613e713f8413af5dbeb82707ed6a" kind="enumvalue"><name>Letni</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1aea66a4ad2c4a8d6949f668a4949007cbafcaf8ec802d2e02b0b78246ee3f7b6b8" kind="enumvalue"><name>Zimowy</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a8de926c292385b425838c48955142644" kind="enum"><name>Jezyk</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a8de926c292385b425838c48955142644ad0033788e612a4e0646c261eba804fb6" kind="enumvalue"><name>Polski</name></member>
+    <member refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a8de926c292385b425838c48955142644a0f21085d0c536278cc8166473b39c52d" kind="enumvalue"><name>Angielski</name></member>
+  </compound>
+  <compound refid="d1/dc3/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures" kind="namespace"><name>projektowaniaOprogramowania::ViewModels::CollegeStructures</name>
+    <member refid="d1/dc3/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1aa459e9c77b37f948a6dbd93676614b3d" kind="enum"><name>TrybStudiowania</name></member>
+    <member refid="d1/dc3/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1aa459e9c77b37f948a6dbd93676614b3da10b1b35fe51a7810b3f1746a3a54eec6" kind="enumvalue"><name>Stacjonarne</name></member>
+    <member refid="d1/dc3/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1aa459e9c77b37f948a6dbd93676614b3da0060912d44066ec0c0b7f13f49c82e2b" kind="enumvalue"><name>Zdalne</name></member>
+    <member refid="d1/dc3/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1aa459e9c77b37f948a6dbd93676614b3da592a42391a41e42be86698901616d7d6" kind="enumvalue"><name>Mieszane</name></member>
+  </compound>
+  <compound refid="d9/dc8/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1Users" kind="namespace"><name>projektowaniaOprogramowania::ViewModels::Users</name>
+  </compound>
+  <compound refid="d6/d27/namespaceSystem" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="dc/d07/namespaceSystem_1_1Collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="d2/d06/namespaceSystem_1_1Collections_1_1Generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="d5/d2e/namespaceSystem_1_1ComponentModel_1_1DataAnnotations" kind="namespace"><name>System::ComponentModel::DataAnnotations</name>
+  </compound>
+  <compound refid="de/d1e/namespaceSystem_1_1ComponentModel_1_1DataAnnotations_1_1Schema" kind="namespace"><name>System::ComponentModel::DataAnnotations::Schema</name>
+  </compound>
+  <compound refid="df/d6d/namespaceSystem_1_1Diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="dc/d96/namespaceSystem_1_1Linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="d2/d2c/namespaceSystem_1_1Reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="d2/dd3/namespaceSystem_1_1Threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="d9/dc0/namespaceSystem_1_1Threading_1_1Tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="d8/dde/namespaceSystem_1_1Xml_1_1Schema" kind="namespace"><name>System::Xml::Schema</name>
+  </compound>
+  <compound refid="d9/d2a/HomeController_8cs" kind="file"><name>HomeController.cs</name>
+  </compound>
+  <compound refid="d7/d22/KierunekNaPodaniuController_8cs" kind="file"><name>KierunekNaPodaniuController.cs</name>
+  </compound>
+  <compound refid="d9/d92/OsobaController_8cs" kind="file"><name>OsobaController.cs</name>
+  </compound>
+  <compound refid="d1/ddc/PodanieController_8cs" kind="file"><name>PodanieController.cs</name>
+  </compound>
+  <compound refid="d2/d82/PracownikEdycjaController_8cs" kind="file"><name>PracownikEdycjaController.cs</name>
+  </compound>
+  <compound refid="da/d1a/PredykcjaController_8cs" kind="file"><name>PredykcjaController.cs</name>
+  </compound>
+  <compound refid="d5/de3/PrzegladController_8cs" kind="file"><name>PrzegladController.cs</name>
+  </compound>
+  <compound refid="d9/d42/RekrutacjaController_8cs" kind="file"><name>RekrutacjaController.cs</name>
+  </compound>
+  <compound refid="d3/daa/20240114094427__Init_8cs" kind="file"><name>20240114094427_Init.cs</name>
+  </compound>
+  <compound refid="d4/d5a/20240114094427__Init_8Designer_8cs" kind="file"><name>20240114094427_Init.Designer.cs</name>
+  </compound>
+  <compound refid="d3/dbd/MyDbContextModelSnapshot_8cs" kind="file"><name>MyDbContextModelSnapshot.cs</name>
+  </compound>
+  <compound refid="d1/de9/KierunekModel_8cs" kind="file"><name>KierunekModel.cs</name>
+  </compound>
+  <compound refid="d0/dfe/MiastoModel_8cs" kind="file"><name>MiastoModel.cs</name>
+  </compound>
+  <compound refid="d3/d8f/WydzialModel_8cs" kind="file"><name>WydzialModel.cs</name>
+  </compound>
+  <compound refid="d5/d6b/DefaultValuesCreator_8cs" kind="file"><name>DefaultValuesCreator.cs</name>
+  </compound>
+  <compound refid="d8/d85/ErrorViewModel_8cs" kind="file"><name>ErrorViewModel.cs</name>
+  </compound>
+  <compound refid="d8/d7e/ModelBuilderExtension_8cs" kind="file"><name>ModelBuilderExtension.cs</name>
+  </compound>
+  <compound refid="de/dbe/MyDbContext_8cs" kind="file"><name>MyDbContext.cs</name>
+  </compound>
+  <compound refid="d2/d29/DodatkoweOsiagniecieModel_8cs" kind="file"><name>DodatkoweOsiagniecieModel.cs</name>
+  </compound>
+  <compound refid="df/d2d/DorobekNaukowyModel_8cs" kind="file"><name>DorobekNaukowyModel.cs</name>
+  </compound>
+  <compound refid="d2/d18/KategoriaDorobkuModel_8cs" kind="file"><name>KategoriaDorobkuModel.cs</name>
+  </compound>
+  <compound refid="d7/d4f/KategoriaOsiagnieciaModel_8cs" kind="file"><name>KategoriaOsiagnieciaModel.cs</name>
+  </compound>
+  <compound refid="da/dc4/KierunekNaPodaniuModel_8cs" kind="file"><name>KierunekNaPodaniuModel.cs</name>
+  </compound>
+  <compound refid="d9/d48/MaturaModel_8cs" kind="file"><name>MaturaModel.cs</name>
+  </compound>
+  <compound refid="dc/d5c/OcenaModel_8cs" kind="file"><name>OcenaModel.cs</name>
+  </compound>
+  <compound refid="df/da2/PodanieKandydataModel_8cs" kind="file"><name>PodanieKandydataModel.cs</name>
+  </compound>
+  <compound refid="d7/dbb/PodanieNaStudiaIIStopniaModel_8cs" kind="file"><name>PodanieNaStudiaIIStopniaModel.cs</name>
+  </compound>
+  <compound refid="dd/d3e/PodanieNaStudiaIStopniaModel_8cs" kind="file"><name>PodanieNaStudiaIStopniaModel.cs</name>
+  </compound>
+  <compound refid="de/d61/PracownikDzialuRekrutacjiNaPodanieKandydataModel_8cs" kind="file"><name>PracownikDzialuRekrutacjiNaPodanieKandydataModel.cs</name>
+  </compound>
+  <compound refid="df/d61/PrzedmiotModel_8cs" kind="file"><name>PrzedmiotModel.cs</name>
+  </compound>
+  <compound refid="d3/ddd/PrzelicznikDorobkuModel_8cs" kind="file"><name>PrzelicznikDorobkuModel.cs</name>
+  </compound>
+  <compound refid="df/df8/PrzelicznikKierunkowyModel_8cs" kind="file"><name>PrzelicznikKierunkowyModel.cs</name>
+  </compound>
+  <compound refid="dd/d09/PrzelicznikOsiagniecModel_8cs" kind="file"><name>PrzelicznikOsiagniecModel.cs</name>
+  </compound>
+  <compound refid="d7/d55/PrzelicznikPrzedmiotuModel_8cs" kind="file"><name>PrzelicznikPrzedmiotuModel.cs</name>
+  </compound>
+  <compound refid="d6/def/RekrutacjaModel_8cs" kind="file"><name>RekrutacjaModel.cs</name>
+  </compound>
+  <compound refid="de/dfc/KandydatModel_8cs" kind="file"><name>KandydatModel.cs</name>
+  </compound>
+  <compound refid="df/dce/OsobaModel_8cs" kind="file"><name>OsobaModel.cs</name>
+  </compound>
+  <compound refid="d0/daf/PracownikDzialuRekrutacjiModel_8cs" kind="file"><name>PracownikDzialuRekrutacjiModel.cs</name>
+  </compound>
+  <compound refid="d4/d74/PracownikModel_8cs" kind="file"><name>PracownikModel.cs</name>
+  </compound>
+  <compound refid="d8/d61/_8NETCoreApp_00Version_0av5_80_8AssemblyAttributes_8cs" kind="file"><name>.NETCoreApp,Version=v5.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="da/d3b/projektowaniaOprogramowania_8AssemblyInfo_8cs" kind="file"><name>projektowaniaOprogramowania.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="d5/de2/projektowaniaOprogramowania_8RazorAssemblyInfo_8cs" kind="file"><name>projektowaniaOprogramowania.RazorAssemblyInfo.cs</name>
+  </compound>
+  <compound refid="d6/d65/projektowaniaOprogramowania_8RazorTargetAssemblyInfo_8cs" kind="file"><name>projektowaniaOprogramowania.RazorTargetAssemblyInfo.cs</name>
+  </compound>
+  <compound refid="d3/daf/__ViewImports_8cshtml_8g_8cs" kind="file"><name>_ViewImports.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d7/dc0/__ViewStart_8cshtml_8g_8cs" kind="file"><name>_ViewStart.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d4/dab/Home_2Index_8cshtml_8g_8cs" kind="file"><name>Index.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d9/d2b/KierunekNaPodaniu_2Index_8cshtml_8g_8cs" kind="file"><name>Index.cshtml.g.cs</name>
+  </compound>
+  <compound refid="da/d46/Podanie_2Index_8cshtml_8g_8cs" kind="file"><name>Index.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d3/db2/PracownikEdycja_2Index_8cshtml_8g_8cs" kind="file"><name>Index.cshtml.g.cs</name>
+  </compound>
+  <compound refid="df/d7d/Rekrutacja_2Index_8cshtml_8g_8cs" kind="file"><name>Index.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d9/dd6/Privacy_8cshtml_8g_8cs" kind="file"><name>Privacy.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d8/ddc/BrakDanychDoPodania_8cshtml_8g_8cs" kind="file"><name>BrakDanychDoPodania.cshtml.g.cs</name>
+  </compound>
+  <compound refid="da/d4e/KierunekNaPodaniu_2Create_8cshtml_8g_8cs" kind="file"><name>Create.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d2/d00/Rekrutacja_2Create_8cshtml_8g_8cs" kind="file"><name>Create.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d8/d94/KierunekNaPodaniu_2Delete_8cshtml_8g_8cs" kind="file"><name>Delete.cshtml.g.cs</name>
+  </compound>
+  <compound refid="dc/d23/Rekrutacja_2Delete_8cshtml_8g_8cs" kind="file"><name>Delete.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d3/da2/KierunekNaPodaniu_2Details_8cshtml_8g_8cs" kind="file"><name>Details.cshtml.g.cs</name>
+  </compound>
+  <compound refid="db/d02/Podanie_2Details_8cshtml_8g_8cs" kind="file"><name>Details.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d7/d29/PracownikEdycja_2Details_8cshtml_8g_8cs" kind="file"><name>Details.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d4/d10/Rekrutacja_2Details_8cshtml_8g_8cs" kind="file"><name>Details.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d9/d64/KierunekNaPodaniu_2Edit_8cshtml_8g_8cs" kind="file"><name>Edit.cshtml.g.cs</name>
+  </compound>
+  <compound refid="dc/d62/PracownikEdycja_2Edit_8cshtml_8g_8cs" kind="file"><name>Edit.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d5/d84/Rekrutacja_2Edit_8cshtml_8g_8cs" kind="file"><name>Edit.cshtml.g.cs</name>
+  </compound>
+  <compound refid="dc/d63/PodanieJuzZlozone_8cshtml_8g_8cs" kind="file"><name>PodanieJuzZlozone.cshtml.g.cs</name>
+  </compound>
+  <compound refid="de/d20/WpiszPotrzebneDane_8cshtml_8g_8cs" kind="file"><name>WpiszPotrzebneDane.cshtml.g.cs</name>
+  </compound>
+  <compound refid="dc/d32/WyswietlKierunki_8cshtml_8g_8cs" kind="file"><name>WyswietlKierunki.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d7/ddb/DetaleKierunku_8cshtml_8g_8cs" kind="file"><name>DetaleKierunku.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d2/db3/WszystkieKierunki_8cshtml_8g_8cs" kind="file"><name>WszystkieKierunki.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d0/d6e/__KierunkiGrid_8cshtml_8g_8cs" kind="file"><name>_KierunkiGrid.cshtml.g.cs</name>
+  </compound>
+  <compound refid="dd/d5c/__Layout_8cshtml_8g_8cs" kind="file"><name>_Layout.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d7/d8c/__OsobaChoice_8cshtml_8g_8cs" kind="file"><name>_OsobaChoice.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d1/d75/__SearchNameAndWydzial_8cshtml_8g_8cs" kind="file"><name>_SearchNameAndWydzial.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d4/dfa/Pages_2__ValidationScriptsPartial_8cshtml_8g_8cs" kind="file"><name>_ValidationScriptsPartial.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d3/d14/Views_2Shared_2__ValidationScriptsPartial_8cshtml_8g_8cs" kind="file"><name>_ValidationScriptsPartial.cshtml.g.cs</name>
+  </compound>
+  <compound refid="db/d9b/Error_8cshtml_8g_8cs" kind="file"><name>Error.cshtml.g.cs</name>
+  </compound>
+  <compound refid="d8/d7a/Program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="de/df9/ISessionWrapper_8cs" kind="file"><name>ISessionWrapper.cs</name>
+  </compound>
+  <compound refid="d6/d80/PodanieService_8cs" kind="file"><name>PodanieService.cs</name>
+  </compound>
+  <compound refid="df/d1a/PunktyRekrutacyjneService_8cs" kind="file"><name>PunktyRekrutacyjneService.cs</name>
+  </compound>
+  <compound refid="d8/d4c/IRecruitmentValidationService_8cs" kind="file"><name>IRecruitmentValidationService.cs</name>
+  </compound>
+  <compound refid="d5/daf/RecruitmentValidationService_8cs" kind="file"><name>RecruitmentValidationService.cs</name>
+  </compound>
+  <compound refid="d4/d48/SessionExtensions_8cs" kind="file"><name>SessionExtensions.cs</name>
+  </compound>
+  <compound refid="d1/dac/SessionWrapper_8cs" kind="file"><name>SessionWrapper.cs</name>
+  </compound>
+  <compound refid="d3/d05/Startup_8cs" kind="file"><name>Startup.cs</name>
+  </compound>
+  <compound refid="dc/d44/KandydatZPodaniemViewModel_8cs" kind="file"><name>KandydatZPodaniemViewModel.cs</name>
+  </compound>
+  <compound refid="d4/dfa/MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage_8cs" kind="file"><name>MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage.cs</name>
+  </compound>
+  <compound refid="d1/d1d/OcenaZPrzedmiotem_8cs" kind="file"><name>OcenaZPrzedmiotem.cs</name>
+  </compound>
+  <compound refid="d2/d23/WszystkieInformacjePodaniaViewModel_8cs" kind="file"><name>WszystkieInformacjePodaniaViewModel.cs</name>
+  </compound>
+  <compound refid="dir_29113b843fd1184741e620cc01bb73c5" kind="dir"><name>Models/CollegeStructures</name>
+  </compound>
+  <compound refid="dir_f1e231c396d6a78f925b250f39acb3ba" kind="dir"><name>Controllers</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_dde5423f19eac1a32c814b45493e3a86" kind="dir"><name>obj/Debug/net5.0/Razor/Views/Home</name>
+  </compound>
+  <compound refid="dir_6c4c4157541757ab44c3f3eb0b525e7e" kind="dir"><name>obj/Debug/net5.0/Razor/Views/KierunekNaPodaniu</name>
+  </compound>
+  <compound refid="dir_8479cdc0036e18ebdf01c3bcd05b33d8" kind="dir"><name>Migrations</name>
+  </compound>
+  <compound refid="dir_22305cb0964bbe63c21991dd2265ce48" kind="dir"><name>Models</name>
+  </compound>
+  <compound refid="dir_c96e20fbeab981a929f0e70658ea5d87" kind="dir"><name>obj/Debug/net5.0</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+  <compound refid="dir_b650b12d08754ad1ece1ba978cd8bc2e" kind="dir"><name>Models/Other</name>
+  </compound>
+  <compound refid="dir_836adb143ebd61e29eb51207217133c1" kind="dir"><name>obj/Debug/net5.0/Razor/Pages</name>
+  </compound>
+  <compound refid="dir_ad9b94838e01696ee4550568885ec3be" kind="dir"><name>obj/Debug/net5.0/Razor/Views/Podanie</name>
+  </compound>
+  <compound refid="dir_e76cebfe5113c154f06295125cf0e55d" kind="dir"><name>obj/Debug/net5.0/Razor/Views/PracownikEdycja</name>
+  </compound>
+  <compound refid="dir_79381b93b3c281325304c287c9ad23ba" kind="dir"><name>obj/Debug/net5.0/Razor/Views/Predykcja</name>
+  </compound>
+  <compound refid="dir_4394b376c83d65beff4523b9443783d3" kind="dir"><name>obj/Debug/net5.0/Razor/Views/Przeglad</name>
+  </compound>
+  <compound refid="dir_9e9820e98869ec55203d7a678d52930d" kind="dir"><name>obj/Debug/net5.0/Razor</name>
+  </compound>
+  <compound refid="dir_8cecc62690029d573f4fa34ced880338" kind="dir"><name>Services/Recruitment</name>
+  </compound>
+  <compound refid="dir_bb019fd801ec2de97bbeb838b64e1817" kind="dir"><name>obj/Debug/net5.0/Razor/Views/Rekrutacja</name>
+  </compound>
+  <compound refid="dir_d69fddb65e10ed1e1aad5b4f2a8c0135" kind="dir"><name>Services</name>
+  </compound>
+  <compound refid="dir_019803ea6b6840baa75ec38507577692" kind="dir"><name>obj/Debug/net5.0/Razor/Views/Shared</name>
+  </compound>
+  <compound refid="dir_88eb050ecf9e30bced3578136998f86a" kind="dir"><name>Models/Users</name>
+  </compound>
+  <compound refid="dir_ba262fc08cc173e800721160247391b9" kind="dir"><name>ViewModels</name>
+  </compound>
+  <compound refid="dir_353ed0f21ce43f3df67b554e39a9b9f1" kind="dir"><name>obj/Debug/net5.0/Razor/Views</name>
+  </compound>
+</doxygenindex>

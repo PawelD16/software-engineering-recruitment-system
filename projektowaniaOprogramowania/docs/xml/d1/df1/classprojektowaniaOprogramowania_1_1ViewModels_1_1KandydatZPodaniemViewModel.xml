@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::ViewModels::KandydatZPodaniemViewModel</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel_1ac754e645ff6f6161ea325efc0d373cbb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kindref="compound">PodanieKandydataModel</ref></type>
+        <definition>PodanieKandydataModel projektowaniaOprogramowania.ViewModels.KandydatZPodaniemViewModel.podanieKandydataViewModel</definition>
+        <argsstring></argsstring>
+        <name>podanieKandydataViewModel</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.KandydatZPodaniemViewModel.podanieKandydataViewModel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ViewModels/KandydatZPodaniemViewModel.cs" line="9" column="38" bodyfile="ViewModels/KandydatZPodaniemViewModel.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel_1a9b8293374e3934403c83b2159d147433" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" kindref="compound">KandydatModel</ref></type>
+        <definition>KandydatModel projektowaniaOprogramowania.ViewModels.KandydatZPodaniemViewModel.kandydatViewModel</definition>
+        <argsstring></argsstring>
+        <name>kandydatViewModel</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.KandydatZPodaniemViewModel.kandydatViewModel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ViewModels/KandydatZPodaniemViewModel.cs" line="10" column="30" bodyfile="ViewModels/KandydatZPodaniemViewModel.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel_1a283690ad72353d148622ad0bf338b591" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; <ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">KierunekModel</ref> &gt;</type>
+        <definition>IEnumerable&lt;KierunekModel&gt; projektowaniaOprogramowania.ViewModels.KandydatZPodaniemViewModel.kierunkiNaPodaniu</definition>
+        <argsstring></argsstring>
+        <name>kierunkiNaPodaniu</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.KandydatZPodaniemViewModel.kierunkiNaPodaniu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ViewModels/KandydatZPodaniemViewModel.cs" line="12" column="28" bodyfile="ViewModels/KandydatZPodaniemViewModel.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ViewModels/KandydatZPodaniemViewModel.cs" line="7" column="11" bodyfile="ViewModels/KandydatZPodaniemViewModel.cs" bodystart="8" bodyend="13"/>
+    <listofallmembers>
+      <member refid="d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel_1a9b8293374e3934403c83b2159d147433" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::KandydatZPodaniemViewModel</scope><name>kandydatViewModel</name></member>
+      <member refid="d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel_1a283690ad72353d148622ad0bf338b591" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::KandydatZPodaniemViewModel</scope><name>kierunkiNaPodaniu</name></member>
+      <member refid="d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel_1ac754e645ff6f6161ea325efc0d373cbb" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::KandydatZPodaniemViewModel</scope><name>podanieKandydataViewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

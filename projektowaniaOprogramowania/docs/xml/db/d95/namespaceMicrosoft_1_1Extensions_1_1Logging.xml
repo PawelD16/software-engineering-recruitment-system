@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="db/d95/namespaceMicrosoft_1_1Extensions_1_1Logging" kind="namespace" language="C#">
+    <compoundname>Microsoft::Extensions::Logging</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Controllers/HomeController.cs" line="7" column="35"/>
+  </compounddef>
+</doxygen>

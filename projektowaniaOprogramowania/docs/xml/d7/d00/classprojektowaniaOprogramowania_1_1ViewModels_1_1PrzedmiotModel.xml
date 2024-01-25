@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::ViewModels::PrzedmiotModel</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel_1afee99aacee4aad06d4004d7f5eea4e06" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long projektowaniaOprogramowania.ViewModels.PrzedmiotModel.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PrzedmiotModel.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PrzedmiotModel.cs" line="12" column="21" bodyfile="Models/Other/PrzedmiotModel.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel_1a738e905fa2ef8778bfa97af7ca80df7d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string projektowaniaOprogramowania.ViewModels.PrzedmiotModel.NazwaPrzedmiotu</definition>
+        <argsstring></argsstring>
+        <name>NazwaPrzedmiotu</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PrzedmiotModel.NazwaPrzedmiotu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PrzedmiotModel.cs" line="16" column="23" bodyfile="Models/Other/PrzedmiotModel.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel_1a458e60f1d5ae4d52829844dc6b69bf93" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel" kindref="compound">PrzelicznikPrzedmiotuModel</ref> &gt;</type>
+        <definition>ICollection&lt;PrzelicznikPrzedmiotuModel&gt; projektowaniaOprogramowania.ViewModels.PrzedmiotModel.PrzelicznikiPrzedmiotow</definition>
+        <argsstring></argsstring>
+        <name>PrzelicznikiPrzedmiotow</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.PrzedmiotModel.PrzelicznikiPrzedmiotow</qualifiedname>
+        <initializer>=
+            new List&lt;<ref refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel" kindref="compound">PrzelicznikPrzedmiotuModel</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PrzedmiotModel.cs" line="18" column="28" bodyfile="Models/Other/PrzedmiotModel.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/Other/PrzedmiotModel.cs" line="8" column="11" bodyfile="Models/Other/PrzedmiotModel.cs" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel_1afee99aacee4aad06d4004d7f5eea4e06" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PrzedmiotModel</scope><name>Id</name></member>
+      <member refid="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel_1a738e905fa2ef8778bfa97af7ca80df7d" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PrzedmiotModel</scope><name>NazwaPrzedmiotu</name></member>
+      <member refid="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel_1a458e60f1d5ae4d52829844dc6b69bf93" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::ViewModels::PrzedmiotModel</scope><name>PrzelicznikiPrzedmiotow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

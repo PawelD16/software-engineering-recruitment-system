@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d5/d95/classprojektowaniaOprogramowania_1_1Startup" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Startup</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1aecd39c605b9b6b142f3d5d3d87414b08" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IConfiguration</type>
+        <definition>IConfiguration projektowaniaOprogramowania.Startup.Configuration</definition>
+        <argsstring></argsstring>
+        <name>Configuration</name>
+        <qualifiedname>projektowaniaOprogramowania.Startup.Configuration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Startup.cs" line="25" column="31" bodyfile="Startup.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1acced0063b1b2f69e12d5264b3334a774" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Startup.Startup</definition>
+        <argsstring>(IConfiguration configuration)</argsstring>
+        <name>Startup</name>
+        <qualifiedname>projektowaniaOprogramowania.Startup.Startup</qualifiedname>
+        <param>
+          <type>IConfiguration</type>
+          <declname>configuration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Startup.cs" line="20" column="16" bodyfile="Startup.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1a5a21dff9a9ce6659953ccb51580c3125" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projektowaniaOprogramowania.Startup.ConfigureServices</definition>
+        <argsstring>(IServiceCollection services)</argsstring>
+        <name>ConfigureServices</name>
+        <qualifiedname>projektowaniaOprogramowania.Startup.ConfigureServices</qualifiedname>
+        <param>
+          <type>IServiceCollection</type>
+          <declname>services</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Startup.cs" line="28" column="21" bodyfile="Startup.cs" bodystart="28" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1aa311569f2f56c6774da4ebbfee17d562" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projektowaniaOprogramowania.Startup.Configure</definition>
+        <argsstring>(IApplicationBuilder app, IWebHostEnvironment env)</argsstring>
+        <name>Configure</name>
+        <qualifiedname>projektowaniaOprogramowania.Startup.Configure</qualifiedname>
+        <param>
+          <type>IApplicationBuilder</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>IWebHostEnvironment</type>
+          <declname>env</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Startup.cs" line="55" column="13" bodyfile="Startup.cs" bodystart="55" bodyend="85"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1a38c59e5e401e1f8cfb897adce59b3fe7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void projektowaniaOprogramowania.Startup.ApplyMigrations</definition>
+        <argsstring>(IApplicationBuilder app)</argsstring>
+        <name>ApplyMigrations</name>
+        <qualifiedname>projektowaniaOprogramowania.Startup.ApplyMigrations</qualifiedname>
+        <param>
+          <type>IApplicationBuilder</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Startup.cs" line="87" column="22" bodyfile="Startup.cs" bodystart="87" bodyend="93"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Startup.cs" line="18" column="11" bodyfile="Startup.cs" bodystart="19" bodyend="94"/>
+    <listofallmembers>
+      <member refid="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1a38c59e5e401e1f8cfb897adce59b3fe7" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Startup</scope><name>ApplyMigrations</name></member>
+      <member refid="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1aecd39c605b9b6b142f3d5d3d87414b08" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Startup</scope><name>Configuration</name></member>
+      <member refid="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1aa311569f2f56c6774da4ebbfee17d562" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Startup</scope><name>Configure</name></member>
+      <member refid="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1a5a21dff9a9ce6659953ccb51580c3125" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Startup</scope><name>ConfigureServices</name></member>
+      <member refid="d5/d95/classprojektowaniaOprogramowania_1_1Startup_1acced0063b1b2f69e12d5264b3334a774" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Startup</scope><name>Startup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

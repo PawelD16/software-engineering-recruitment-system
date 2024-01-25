@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels" kind="namespace" language="C#">
+    <compoundname>projektowaniaOprogramowania::ViewModels</compoundname>
+    <innerclass refid="de/d4a/classprojektowaniaOprogramowania_1_1ViewModels_1_1DodatkoweOsiagniecieModel" prot="public">projektowaniaOprogramowania::ViewModels::DodatkoweOsiagniecieModel</innerclass>
+    <innerclass refid="d4/d0e/classprojektowaniaOprogramowania_1_1ViewModels_1_1DorobekNaukowyModel" prot="public">projektowaniaOprogramowania::ViewModels::DorobekNaukowyModel</innerclass>
+    <innerclass refid="d1/df1/classprojektowaniaOprogramowania_1_1ViewModels_1_1KandydatZPodaniemViewModel" prot="public">projektowaniaOprogramowania::ViewModels::KandydatZPodaniemViewModel</innerclass>
+    <innerclass refid="d1/d11/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaDorobkuModel" prot="public">projektowaniaOprogramowania::ViewModels::KategoriaDorobkuModel</innerclass>
+    <innerclass refid="de/d64/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaOsiagnieciaModel" prot="public">projektowaniaOprogramowania::ViewModels::KategoriaOsiagnieciaModel</innerclass>
+    <innerclass refid="da/d3d/classprojektowaniaOprogramowania_1_1ViewModels_1_1KierunekNaPodaniuModel" prot="public">projektowaniaOprogramowania::ViewModels::KierunekNaPodaniuModel</innerclass>
+    <innerclass refid="dc/dfd/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage" prot="public">projektowaniaOprogramowania::ViewModels::MaturaAndDorobekNaukowyAndDodatkoweOsiagnieciePackage</innerclass>
+    <innerclass refid="df/dc3/classprojektowaniaOprogramowania_1_1ViewModels_1_1MaturaModel" prot="public">projektowaniaOprogramowania::ViewModels::MaturaModel</innerclass>
+    <innerclass refid="dd/d59/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaModel" prot="public">projektowaniaOprogramowania::ViewModels::OcenaModel</innerclass>
+    <innerclass refid="d3/d58/classprojektowaniaOprogramowania_1_1ViewModels_1_1OcenaZPrzedmiotem" prot="public">projektowaniaOprogramowania::ViewModels::OcenaZPrzedmiotem</innerclass>
+    <innerclass refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" prot="public">projektowaniaOprogramowania::ViewModels::PodanieKandydataModel</innerclass>
+    <innerclass refid="d5/da0/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIIStopniaModel" prot="public">projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIIStopniaModel</innerclass>
+    <innerclass refid="d8/d22/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieNaStudiaIStopniaModel" prot="public">projektowaniaOprogramowania::ViewModels::PodanieNaStudiaIStopniaModel</innerclass>
+    <innerclass refid="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel" prot="public">projektowaniaOprogramowania::ViewModels::PrzedmiotModel</innerclass>
+    <innerclass refid="dd/d10/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikDorobkuModel" prot="public">projektowaniaOprogramowania::ViewModels::PrzelicznikDorobkuModel</innerclass>
+    <innerclass refid="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel" prot="public">projektowaniaOprogramowania::ViewModels::PrzelicznikKierunkowyModel</innerclass>
+    <innerclass refid="dd/d0a/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikOsiagniecModel" prot="public">projektowaniaOprogramowania::ViewModels::PrzelicznikOsiagniecModel</innerclass>
+    <innerclass refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel" prot="public">projektowaniaOprogramowania::ViewModels::PrzelicznikPrzedmiotuModel</innerclass>
+    <innerclass refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel" prot="public">projektowaniaOprogramowania::ViewModels::RekrutacjaModel</innerclass>
+    <innerclass refid="de/d91/classprojektowaniaOprogramowania_1_1ViewModels_1_1WszystkieInformacjePodaniaViewModel" prot="public">projektowaniaOprogramowania::ViewModels::WszystkieInformacjePodaniaViewModel</innerclass>
+    <innernamespace refid="d1/dc3/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures">projektowaniaOprogramowania::ViewModels::CollegeStructures</innernamespace>
+    <innernamespace refid="d9/dc8/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1Users">projektowaniaOprogramowania::ViewModels::Users</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1aa8169aec298a7ec62222bca98cac3d1e" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>StatusPodania</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.StatusPodania</qualifiedname>
+        <enumvalue id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1aa8169aec298a7ec62222bca98cac3d1ead1ee61168940a7da018737c859cc97bb" prot="public">
+          <name>Niezlozone</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1aa8169aec298a7ec62222bca98cac3d1ea816d6120cbe9830d1914581d76dffa47" prot="public">
+          <name>Zlozone</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/PodanieKandydataModel.cs" line="34" column="11" bodyfile="Models/Other/PodanieKandydataModel.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a7fbaaade3b9c3d71702251e3f2c96057" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>StopienStudiow</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.StopienStudiow</qualifiedname>
+        <enumvalue id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a7fbaaade3b9c3d71702251e3f2c96057a812ef0b2119c99e59f7344056d361cc7" prot="public">
+          <name>Pierwszy</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a7fbaaade3b9c3d71702251e3f2c96057a443ed50b4d0affef38b857fe7e3c0e9d" prot="public">
+          <name>Drugi</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/RekrutacjaModel.cs" line="29" column="11" bodyfile="Models/Other/RekrutacjaModel.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a083b1f987f9e107880834b66c1e34a42" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>StatusRekrutacji</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.StatusRekrutacji</qualifiedname>
+        <enumvalue id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a083b1f987f9e107880834b66c1e34a42ac35e4af04ee8e600d7090f04a5235536" prot="public">
+          <name>Otwarta</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a083b1f987f9e107880834b66c1e34a42a14209d57e7c21a5e36d29593011c9ddd" prot="public">
+          <name>Rozpatrywana</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a083b1f987f9e107880834b66c1e34a42aeefa325789108c2a92a049782cc644fa" prot="public">
+          <name>Zawieszona</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a083b1f987f9e107880834b66c1e34a42a7ec48a47bf1963582c1d582c42befccf" prot="public">
+          <name>Zamknieta</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/RekrutacjaModel.cs" line="35" column="11" bodyfile="Models/Other/RekrutacjaModel.cs" bodystart="36" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1aea66a4ad2c4a8d6949f668a4949007cb" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>SemestrRekrutacji</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.SemestrRekrutacji</qualifiedname>
+        <enumvalue id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1aea66a4ad2c4a8d6949f668a4949007cbaf9f5613e713f8413af5dbeb82707ed6a" prot="public">
+          <name>Letni</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1aea66a4ad2c4a8d6949f668a4949007cbafcaf8ec802d2e02b0b78246ee3f7b6b8" prot="public">
+          <name>Zimowy</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/RekrutacjaModel.cs" line="44" column="11" bodyfile="Models/Other/RekrutacjaModel.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a8de926c292385b425838c48955142644" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Jezyk</name>
+        <qualifiedname>projektowaniaOprogramowania.ViewModels.Jezyk</qualifiedname>
+        <enumvalue id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a8de926c292385b425838c48955142644ad0033788e612a4e0646c261eba804fb6" prot="public">
+          <name>Polski</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels_1a8de926c292385b425838c48955142644a0f21085d0c536278cc8166473b39c52d" prot="public">
+          <name>Angielski</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/Other/RekrutacjaModel.cs" line="50" column="11" bodyfile="Models/Other/RekrutacjaModel.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/CollegeStructures/KierunekModel.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

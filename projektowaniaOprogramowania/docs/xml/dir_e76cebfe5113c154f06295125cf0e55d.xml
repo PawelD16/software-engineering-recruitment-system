@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_e76cebfe5113c154f06295125cf0e55d" kind="dir">
+    <compoundname>obj/Debug/net5.0/Razor/Views/PracownikEdycja</compoundname>
+    <innerfile refid="d7/d29/PracownikEdycja_2Details_8cshtml_8g_8cs">Details.cshtml.g.cs</innerfile>
+    <innerfile refid="dc/d62/PracownikEdycja_2Edit_8cshtml_8g_8cs">Edit.cshtml.g.cs</innerfile>
+    <innerfile refid="d3/db2/PracownikEdycja_2Index_8cshtml_8g_8cs">Index.cshtml.g.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Debug/net5.0/Razor/Views/PracownikEdycja/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Models::DefaultValuesCreator</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a32f94064a5d8225ea55ed11286ec23cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel" kindref="compound">RekrutacjaModel</ref> &gt;</type>
+        <definition>List&lt;RekrutacjaModel&gt; projektowaniaOprogramowania.Models.DefaultValuesCreator.Rekrutacje</definition>
+        <argsstring></argsstring>
+        <name>Rekrutacje</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.DefaultValuesCreator.Rekrutacje</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/DefaultValuesCreator.cs" line="12" column="21" bodyfile="Models/DefaultValuesCreator.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1ab1f180bace37627917351929dc810eca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" kindref="compound">KandydatModel</ref> &gt;</type>
+        <definition>List&lt;KandydatModel&gt; projektowaniaOprogramowania.Models.DefaultValuesCreator.Kandydaci</definition>
+        <argsstring></argsstring>
+        <name>Kandydaci</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.DefaultValuesCreator.Kandydaci</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/DefaultValuesCreator.cs" line="13" column="21" bodyfile="Models/DefaultValuesCreator.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a3370949f9c8ec80254979b6b42604589" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="d7/d00/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzedmiotModel" kindref="compound">PrzedmiotModel</ref> &gt;</type>
+        <definition>List&lt;PrzedmiotModel&gt; projektowaniaOprogramowania.Models.DefaultValuesCreator.Przedmioty</definition>
+        <argsstring></argsstring>
+        <name>Przedmioty</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.DefaultValuesCreator.Przedmioty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/DefaultValuesCreator.cs" line="14" column="21" bodyfile="Models/DefaultValuesCreator.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a975c6ed3defac71d82d4e789f5238a47" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="d1/d11/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaDorobkuModel" kindref="compound">KategoriaDorobkuModel</ref> &gt;</type>
+        <definition>List&lt;KategoriaDorobkuModel&gt; projektowaniaOprogramowania.Models.DefaultValuesCreator.KategorieDorobku</definition>
+        <argsstring></argsstring>
+        <name>KategorieDorobku</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.DefaultValuesCreator.KategorieDorobku</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/DefaultValuesCreator.cs" line="15" column="21" bodyfile="Models/DefaultValuesCreator.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1ae5fd5affac389c2034da02f350092922" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="dc/df4/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikKierunkowyModel" kindref="compound">PrzelicznikKierunkowyModel</ref> &gt;</type>
+        <definition>List&lt;PrzelicznikKierunkowyModel&gt; projektowaniaOprogramowania.Models.DefaultValuesCreator.PrzelicznikiKierunkowe</definition>
+        <argsstring></argsstring>
+        <name>PrzelicznikiKierunkowe</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.DefaultValuesCreator.PrzelicznikiKierunkowe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/DefaultValuesCreator.cs" line="16" column="21" bodyfile="Models/DefaultValuesCreator.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a1227406cf9a319a458091dc595f0f4e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="dd/d0a/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikOsiagniecModel" kindref="compound">PrzelicznikOsiagniecModel</ref> &gt;</type>
+        <definition>List&lt;PrzelicznikOsiagniecModel&gt; projektowaniaOprogramowania.Models.DefaultValuesCreator.PrzelicznikiOsiagniec</definition>
+        <argsstring></argsstring>
+        <name>PrzelicznikiOsiagniec</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.DefaultValuesCreator.PrzelicznikiOsiagniec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/DefaultValuesCreator.cs" line="17" column="21" bodyfile="Models/DefaultValuesCreator.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a2178b3346330219587278c18701dce9e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="d1/d07/classprojektowaniaOprogramowania_1_1ViewModels_1_1PrzelicznikPrzedmiotuModel" kindref="compound">PrzelicznikPrzedmiotuModel</ref> &gt;</type>
+        <definition>List&lt;PrzelicznikPrzedmiotuModel&gt; projektowaniaOprogramowania.Models.DefaultValuesCreator.PrzelicznikiPrzedmiotow</definition>
+        <argsstring></argsstring>
+        <name>PrzelicznikiPrzedmiotow</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.DefaultValuesCreator.PrzelicznikiPrzedmiotow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/DefaultValuesCreator.cs" line="18" column="21" bodyfile="Models/DefaultValuesCreator.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a83339c69d5518001c2dfba2c32cde5d7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="de/d64/classprojektowaniaOprogramowania_1_1ViewModels_1_1KategoriaOsiagnieciaModel" kindref="compound">KategoriaOsiagnieciaModel</ref> &gt;</type>
+        <definition>List&lt;KategoriaOsiagnieciaModel&gt; projektowaniaOprogramowania.Models.DefaultValuesCreator.KategorieOsiagniec</definition>
+        <argsstring></argsstring>
+        <name>KategorieOsiagniec</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.DefaultValuesCreator.KategorieOsiagniec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/DefaultValuesCreator.cs" line="19" column="21" bodyfile="Models/DefaultValuesCreator.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a3de31ef94c06316327c0f85e65f00b6d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="df/d17/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1WydzialModel" kindref="compound">WydzialModel</ref> &gt;</type>
+        <definition>List&lt;WydzialModel&gt; projektowaniaOprogramowania.Models.DefaultValuesCreator.Wydzialy</definition>
+        <argsstring></argsstring>
+        <name>Wydzialy</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.DefaultValuesCreator.Wydzialy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/DefaultValuesCreator.cs" line="20" column="21" bodyfile="Models/DefaultValuesCreator.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1aed61e08869b2a15f3616f9191e801cdd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="dd/d2a/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1KierunekModel" kindref="compound">KierunekModel</ref> &gt;</type>
+        <definition>List&lt;KierunekModel&gt; projektowaniaOprogramowania.Models.DefaultValuesCreator.Kierunki</definition>
+        <argsstring></argsstring>
+        <name>Kierunki</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.DefaultValuesCreator.Kierunki</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/DefaultValuesCreator.cs" line="21" column="21" bodyfile="Models/DefaultValuesCreator.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a1e63faf81ef00d5e76580a606f59e94a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="d6/de0/classprojektowaniaOprogramowania_1_1ViewModels_1_1CollegeStructures_1_1MiastoModel" kindref="compound">MiastoModel</ref> &gt;</type>
+        <definition>List&lt;MiastoModel&gt; projektowaniaOprogramowania.Models.DefaultValuesCreator.Miasta</definition>
+        <argsstring></argsstring>
+        <name>Miasta</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.DefaultValuesCreator.Miasta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/DefaultValuesCreator.cs" line="22" column="21" bodyfile="Models/DefaultValuesCreator.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1aed7654a39e2a236239e25dcd0146c7f1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="db/dbf/classprojektowaniaOprogramowania_1_1ViewModels_1_1PodanieKandydataModel" kindref="compound">PodanieKandydataModel</ref> &gt;</type>
+        <definition>List&lt;PodanieKandydataModel&gt; projektowaniaOprogramowania.Models.DefaultValuesCreator.PodaniaKandydata</definition>
+        <argsstring></argsstring>
+        <name>PodaniaKandydata</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.DefaultValuesCreator.PodaniaKandydata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/DefaultValuesCreator.cs" line="23" column="21" bodyfile="Models/DefaultValuesCreator.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a26ed3efb943516821fb49760d4d33475" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Models.DefaultValuesCreator.DefaultValuesCreator</definition>
+        <argsstring>()</argsstring>
+        <name>DefaultValuesCreator</name>
+        <qualifiedname>projektowaniaOprogramowania.Models.DefaultValuesCreator.DefaultValuesCreator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Models/DefaultValuesCreator.cs" line="25" column="16" bodyfile="Models/DefaultValuesCreator.cs" bodystart="25" bodyend="273"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Models/DefaultValuesCreator.cs" line="10" column="11" bodyfile="Models/DefaultValuesCreator.cs" bodystart="11" bodyend="277"/>
+    <listofallmembers>
+      <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a26ed3efb943516821fb49760d4d33475" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::DefaultValuesCreator</scope><name>DefaultValuesCreator</name></member>
+      <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1ab1f180bace37627917351929dc810eca" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::DefaultValuesCreator</scope><name>Kandydaci</name></member>
+      <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a975c6ed3defac71d82d4e789f5238a47" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::DefaultValuesCreator</scope><name>KategorieDorobku</name></member>
+      <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a83339c69d5518001c2dfba2c32cde5d7" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::DefaultValuesCreator</scope><name>KategorieOsiagniec</name></member>
+      <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1aed61e08869b2a15f3616f9191e801cdd" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::DefaultValuesCreator</scope><name>Kierunki</name></member>
+      <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a1e63faf81ef00d5e76580a606f59e94a" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::DefaultValuesCreator</scope><name>Miasta</name></member>
+      <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1aed7654a39e2a236239e25dcd0146c7f1" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::DefaultValuesCreator</scope><name>PodaniaKandydata</name></member>
+      <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a3370949f9c8ec80254979b6b42604589" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::DefaultValuesCreator</scope><name>Przedmioty</name></member>
+      <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1ae5fd5affac389c2034da02f350092922" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::DefaultValuesCreator</scope><name>PrzelicznikiKierunkowe</name></member>
+      <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a1227406cf9a319a458091dc595f0f4e7" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::DefaultValuesCreator</scope><name>PrzelicznikiOsiagniec</name></member>
+      <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a2178b3346330219587278c18701dce9e" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::DefaultValuesCreator</scope><name>PrzelicznikiPrzedmiotow</name></member>
+      <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a32f94064a5d8225ea55ed11286ec23cc" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::DefaultValuesCreator</scope><name>Rekrutacje</name></member>
+      <member refid="d9/de7/classprojektowaniaOprogramowania_1_1Models_1_1DefaultValuesCreator_1a3de31ef94c06316327c0f85e65f00b6d" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Models::DefaultValuesCreator</scope><name>Wydzialy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

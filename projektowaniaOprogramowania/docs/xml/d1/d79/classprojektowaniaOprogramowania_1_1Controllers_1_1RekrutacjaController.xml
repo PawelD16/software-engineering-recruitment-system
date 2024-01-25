@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController" kind="class" language="C#" prot="public">
+    <compoundname>projektowaniaOprogramowania::Controllers::RekrutacjaController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1abedc9ccecbf26f100d47861c74b1b070" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+        <definition>readonly MyDbContext projektowaniaOprogramowania.Controllers.RekrutacjaController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.RekrutacjaController._context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/RekrutacjaController.cs" line="17" column="38" bodyfile="Controllers/RekrutacjaController.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a5043846879955f5cc69a81d003ffda65" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService" kindref="compound">IRecruitmentValidationService</ref></type>
+        <definition>readonly IRecruitmentValidationService projektowaniaOprogramowania.Controllers.RekrutacjaController._recruitmentValidationService</definition>
+        <argsstring></argsstring>
+        <name>_recruitmentValidationService</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.RekrutacjaController._recruitmentValidationService</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/RekrutacjaController.cs" line="18" column="56" bodyfile="Controllers/RekrutacjaController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a9c64b566295c7345a15d18d4950a9305" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>projektowaniaOprogramowania.Controllers.RekrutacjaController.RekrutacjaController</definition>
+        <argsstring>(MyDbContext context, IRecruitmentValidationService recruitmentValidationService)</argsstring>
+        <name>RekrutacjaController</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.RekrutacjaController.RekrutacjaController</qualifiedname>
+        <param>
+          <type><ref refid="da/d72/classprojektowaniaOprogramowania_1_1Models_1_1MyDbContext" kindref="compound">MyDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d6c/interfaceprojektowaniaOprogramowania_1_1Services_1_1Recrutation_1_1IRecruitmentValidationService" kindref="compound">IRecruitmentValidationService</ref></type>
+          <declname>recruitmentValidationService</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/RekrutacjaController.cs" line="20" column="16" bodyfile="Controllers/RekrutacjaController.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a14f7f1a93aa26e2bff2c09e22a8a8316" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.RekrutacjaController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.RekrutacjaController.Index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/RekrutacjaController.cs" line="27" column="27" bodyfile="Controllers/RekrutacjaController.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1abf61ed3640f303abbea4d1ee1a71677a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.RekrutacjaController.IndexWithError</definition>
+        <argsstring>(string error)</argsstring>
+        <name>IndexWithError</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.RekrutacjaController.IndexWithError</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/RekrutacjaController.cs" line="32" column="27" bodyfile="Controllers/RekrutacjaController.cs" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a32244d273f4ae6da2da0a216bfbc1af5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.RekrutacjaController.Details</definition>
+        <argsstring>(long? id)</argsstring>
+        <name>Details</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.RekrutacjaController.Details</qualifiedname>
+        <param>
+          <type>long?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/RekrutacjaController.cs" line="39" column="27" bodyfile="Controllers/RekrutacjaController.cs" bodystart="39" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a8b970ad5f5f6e07ec61fece3635a93fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult projektowaniaOprogramowania.Controllers.RekrutacjaController.Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.RekrutacjaController.Create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/RekrutacjaController.cs" line="57" column="30" bodyfile="Controllers/RekrutacjaController.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a468a49e33a0252426ee27c99da5991e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.RekrutacjaController.Create</definition>
+        <argsstring>([Bind(&quot;Id,DataOtwarciaRekrutacji,DataZamknieciaRekrutacji,DataZamknieciaPrzyjec,StopienStudiow,StatusRekrutacji,SemestrRekrutacji&quot;)] RekrutacjaModel rekrutacjaViewModel)</argsstring>
+        <name>Create</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.RekrutacjaController.Create</qualifiedname>
+        <param>
+          <attributes>[Bind(&quot;Id,DataOtwarciaRekrutacji,DataZamknieciaRekrutacji,DataZamknieciaPrzyjec,StopienStudiow,StatusRekrutacji,SemestrRekrutacji&quot;)]</attributes>
+          <type><ref refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel" kindref="compound">RekrutacjaModel</ref></type>
+          <declname>rekrutacjaViewModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/RekrutacjaController.cs" line="67" column="27" bodyfile="Controllers/RekrutacjaController.cs" bodystart="67" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1abc373068e3283cba9c7b2c3f9a578a01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.RekrutacjaController.Edit</definition>
+        <argsstring>(long? id)</argsstring>
+        <name>Edit</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.RekrutacjaController.Edit</qualifiedname>
+        <param>
+          <type>long?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/RekrutacjaController.cs" line="79" column="27" bodyfile="Controllers/RekrutacjaController.cs" bodystart="79" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a0daf4012f5ccbf0d409708a36ff6e92f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.RekrutacjaController.Edit</definition>
+        <argsstring>(long id, [Bind(&quot;Id,DataOtwarciaRekrutacji,DataZamknieciaRekrutacji,DataZamknieciaPrzyjec,StopienStudiow,StatusRekrutacji,SemestrRekrutacji&quot;)] RekrutacjaModel rekrutacjaViewModel)</argsstring>
+        <name>Edit</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.RekrutacjaController.Edit</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <attributes>[Bind(&quot;Id,DataOtwarciaRekrutacji,DataZamknieciaRekrutacji,DataZamknieciaPrzyjec,StopienStudiow,StatusRekrutacji,SemestrRekrutacji&quot;)]</attributes>
+          <type><ref refid="db/de7/classprojektowaniaOprogramowania_1_1ViewModels_1_1RekrutacjaModel" kindref="compound">RekrutacjaModel</ref></type>
+          <declname>rekrutacjaViewModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/RekrutacjaController.cs" line="99" column="27" bodyfile="Controllers/RekrutacjaController.cs" bodystart="99" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a2ffee2192f732f529035a2c7242c1461" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.RekrutacjaController.Delete</definition>
+        <argsstring>(long? id)</argsstring>
+        <name>Delete</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.RekrutacjaController.Delete</qualifiedname>
+        <param>
+          <type>long?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/RekrutacjaController.cs" line="142" column="27" bodyfile="Controllers/RekrutacjaController.cs" bodystart="142" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a9d103a572a413ef09cee5cf339a1cf02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt; IActionResult &gt; projektowaniaOprogramowania.Controllers.RekrutacjaController.DeleteConfirmed</definition>
+        <argsstring>(long id)</argsstring>
+        <name>DeleteConfirmed</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.RekrutacjaController.DeleteConfirmed</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/RekrutacjaController.cs" line="162" column="27" bodyfile="Controllers/RekrutacjaController.cs" bodystart="162" bodyend="168"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1ac1c0cf0c45cf4bffcd01c87ae4a94ad0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool projektowaniaOprogramowania.Controllers.RekrutacjaController.RekrutacjaViewModelExists</definition>
+        <argsstring>(long id)</argsstring>
+        <name>RekrutacjaViewModelExists</name>
+        <qualifiedname>projektowaniaOprogramowania.Controllers.RekrutacjaController.RekrutacjaViewModelExists</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Controllers/RekrutacjaController.cs" line="170" column="22" bodyfile="Controllers/RekrutacjaController.cs" bodystart="170" bodyend="173"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.RekrutacjaController</label>
+        <link refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Controller</label>
+      </node>
+      <node id="1">
+        <label>projektowaniaOprogramowania.Controllers.RekrutacjaController</label>
+        <link refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Controllers/RekrutacjaController.cs" line="15" column="11" bodyfile="Controllers/RekrutacjaController.cs" bodystart="16" bodyend="174"/>
+    <listofallmembers>
+      <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1abedc9ccecbf26f100d47861c74b1b070" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::RekrutacjaController</scope><name>_context</name></member>
+      <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a5043846879955f5cc69a81d003ffda65" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::RekrutacjaController</scope><name>_recruitmentValidationService</name></member>
+      <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a8b970ad5f5f6e07ec61fece3635a93fd" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::RekrutacjaController</scope><name>Create</name></member>
+      <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a468a49e33a0252426ee27c99da5991e0" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::RekrutacjaController</scope><name>Create</name></member>
+      <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a2ffee2192f732f529035a2c7242c1461" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::RekrutacjaController</scope><name>Delete</name></member>
+      <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a9d103a572a413ef09cee5cf339a1cf02" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::RekrutacjaController</scope><name>DeleteConfirmed</name></member>
+      <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a32244d273f4ae6da2da0a216bfbc1af5" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::RekrutacjaController</scope><name>Details</name></member>
+      <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1abc373068e3283cba9c7b2c3f9a578a01" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::RekrutacjaController</scope><name>Edit</name></member>
+      <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a0daf4012f5ccbf0d409708a36ff6e92f" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::RekrutacjaController</scope><name>Edit</name></member>
+      <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a14f7f1a93aa26e2bff2c09e22a8a8316" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::RekrutacjaController</scope><name>Index</name></member>
+      <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1abf61ed3640f303abbea4d1ee1a71677a" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::RekrutacjaController</scope><name>IndexWithError</name></member>
+      <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1a9c64b566295c7345a15d18d4950a9305" prot="public" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::RekrutacjaController</scope><name>RekrutacjaController</name></member>
+      <member refid="d1/d79/classprojektowaniaOprogramowania_1_1Controllers_1_1RekrutacjaController_1ac1c0cf0c45cf4bffcd01c87ae4a94ad0" prot="private" virt="non-virtual"><scope>projektowaniaOprogramowania::Controllers::RekrutacjaController</scope><name>RekrutacjaViewModelExists</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

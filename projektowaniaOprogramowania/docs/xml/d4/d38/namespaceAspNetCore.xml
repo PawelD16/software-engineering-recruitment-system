@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d4/d38/namespaceAspNetCore" kind="namespace" language="C#">
+    <compoundname>AspNetCore</compoundname>
+    <innerclass refid="d4/d2d/classAspNetCore_1_1Pages____ValidationScriptsPartial" prot="public">AspNetCore::Pages__ValidationScriptsPartial</innerclass>
+    <innerclass refid="dd/d37/classAspNetCore_1_1Views____ViewImports" prot="public">AspNetCore::Views__ViewImports</innerclass>
+    <innerclass refid="d6/d17/classAspNetCore_1_1Views____ViewStart" prot="public">AspNetCore::Views__ViewStart</innerclass>
+    <innerclass refid="d8/d89/classAspNetCore_1_1Views__Home__Index" prot="public">AspNetCore::Views_Home_Index</innerclass>
+    <innerclass refid="d3/d02/classAspNetCore_1_1Views__Home__Privacy" prot="public">AspNetCore::Views_Home_Privacy</innerclass>
+    <innerclass refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__BrakDanychDoPodania" prot="public">AspNetCore::Views_KierunekNaPodaniu_BrakDanychDoPodania</innerclass>
+    <innerclass refid="d5/d6a/classAspNetCore_1_1Views__KierunekNaPodaniu__Create" prot="public">AspNetCore::Views_KierunekNaPodaniu_Create</innerclass>
+    <innerclass refid="d1/d00/classAspNetCore_1_1Views__KierunekNaPodaniu__Delete" prot="public">AspNetCore::Views_KierunekNaPodaniu_Delete</innerclass>
+    <innerclass refid="dd/d22/classAspNetCore_1_1Views__KierunekNaPodaniu__Details" prot="public">AspNetCore::Views_KierunekNaPodaniu_Details</innerclass>
+    <innerclass refid="da/d43/classAspNetCore_1_1Views__KierunekNaPodaniu__Edit" prot="public">AspNetCore::Views_KierunekNaPodaniu_Edit</innerclass>
+    <innerclass refid="d6/dba/classAspNetCore_1_1Views__KierunekNaPodaniu__Index" prot="public">AspNetCore::Views_KierunekNaPodaniu_Index</innerclass>
+    <innerclass refid="d8/dc8/classAspNetCore_1_1Views__KierunekNaPodaniu__PodanieJuzZlozone" prot="public">AspNetCore::Views_KierunekNaPodaniu_PodanieJuzZlozone</innerclass>
+    <innerclass refid="db/d1e/classAspNetCore_1_1Views__Podanie__Details" prot="public">AspNetCore::Views_Podanie_Details</innerclass>
+    <innerclass refid="dc/d4c/classAspNetCore_1_1Views__Podanie__Index" prot="public">AspNetCore::Views_Podanie_Index</innerclass>
+    <innerclass refid="d9/d41/classAspNetCore_1_1Views__PracownikEdycja__Details" prot="public">AspNetCore::Views_PracownikEdycja_Details</innerclass>
+    <innerclass refid="d4/dd6/classAspNetCore_1_1Views__PracownikEdycja__Edit" prot="public">AspNetCore::Views_PracownikEdycja_Edit</innerclass>
+    <innerclass refid="d3/d66/classAspNetCore_1_1Views__PracownikEdycja__Index" prot="public">AspNetCore::Views_PracownikEdycja_Index</innerclass>
+    <innerclass refid="df/d1e/classAspNetCore_1_1Views__Predykcja__WpiszPotrzebneDane" prot="public">AspNetCore::Views_Predykcja_WpiszPotrzebneDane</innerclass>
+    <innerclass refid="db/db9/classAspNetCore_1_1Views__Predykcja__WyswietlKierunki" prot="public">AspNetCore::Views_Predykcja_WyswietlKierunki</innerclass>
+    <innerclass refid="de/d49/classAspNetCore_1_1Views__Przeglad__DetaleKierunku" prot="public">AspNetCore::Views_Przeglad_DetaleKierunku</innerclass>
+    <innerclass refid="da/d49/classAspNetCore_1_1Views__Przeglad__WszystkieKierunki" prot="public">AspNetCore::Views_Przeglad_WszystkieKierunki</innerclass>
+    <innerclass refid="d8/d44/classAspNetCore_1_1Views__Rekrutacja__Create" prot="public">AspNetCore::Views_Rekrutacja_Create</innerclass>
+    <innerclass refid="d2/d12/classAspNetCore_1_1Views__Rekrutacja__Delete" prot="public">AspNetCore::Views_Rekrutacja_Delete</innerclass>
+    <innerclass refid="d1/d02/classAspNetCore_1_1Views__Rekrutacja__Details" prot="public">AspNetCore::Views_Rekrutacja_Details</innerclass>
+    <innerclass refid="df/d30/classAspNetCore_1_1Views__Rekrutacja__Edit" prot="public">AspNetCore::Views_Rekrutacja_Edit</innerclass>
+    <innerclass refid="dd/dda/classAspNetCore_1_1Views__Rekrutacja__Index" prot="public">AspNetCore::Views_Rekrutacja_Index</innerclass>
+    <innerclass refid="d6/d27/classAspNetCore_1_1Views__Shared____KierunkiGrid" prot="public">AspNetCore::Views_Shared__KierunkiGrid</innerclass>
+    <innerclass refid="dd/d83/classAspNetCore_1_1Views__Shared____Layout" prot="public">AspNetCore::Views_Shared__Layout</innerclass>
+    <innerclass refid="d5/df2/classAspNetCore_1_1Views__Shared____OsobaChoice" prot="public">AspNetCore::Views_Shared__OsobaChoice</innerclass>
+    <innerclass refid="d5/d0a/classAspNetCore_1_1Views__Shared____SearchNameAndWydzial" prot="public">AspNetCore::Views_Shared__SearchNameAndWydzial</innerclass>
+    <innerclass refid="de/d17/classAspNetCore_1_1Views__Shared____ValidationScriptsPartial" prot="public">AspNetCore::Views_Shared__ValidationScriptsPartial</innerclass>
+    <innerclass refid="d3/de2/classAspNetCore_1_1Views__Shared__Error" prot="public">AspNetCore::Views_Shared_Error</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="obj/Debug/net5.0/Razor/Pages/_ValidationScriptsPartial.cshtml.g.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

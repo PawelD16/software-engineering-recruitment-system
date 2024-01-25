@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="de/dfc/KandydatModel_8cs" kind="file" language="C#">
+    <compoundname>KandydatModel.cs</compoundname>
+    <innerclass refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" prot="public">projektowaniaOprogramowania::ViewModels::Users::KandydatModel</innerclass>
+    <innernamespace refid="d8/d9d/namespaceprojektowaniaOprogramowania">projektowaniaOprogramowania</innernamespace>
+    <innernamespace refid="da/dc5/namespaceprojektowaniaOprogramowania_1_1ViewModels">projektowaniaOprogramowania::ViewModels</innernamespace>
+    <innernamespace refid="d9/dc8/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1Users">projektowaniaOprogramowania::ViewModels::Users</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.ComponentModel.DataAnnotations.Schema;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.ComponentModel.DataAnnotations;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="d9/dc8/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1Users" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/dc8/namespaceprojektowaniaOprogramowania_1_1ViewModels_1_1Users" kindref="compound">projektowaniaOprogramowania.ViewModels.Users</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//[Table(&quot;kandydaci&quot;)]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/da6/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1KandydatModel" kindref="compound">KandydatModel</ref><sp/>:<sp/><ref refid="d4/dad/classprojektowaniaOprogramowania_1_1ViewModels_1_1Users_1_1OsobaModel" kindref="compound">OsobaModel</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//[Key]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[StringLength(10)]</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>NumerKandydata<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//[ForeignKey(&quot;Osoba&quot;)]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public<sp/>long<sp/>FkIdOsoba<sp/>{<sp/>get;<sp/>set;<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//public<sp/>OsobaViewModel<sp/>Osoba<sp/>{<sp/>get;<sp/>set;<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Models/Users/KandydatModel.cs"/>
+  </compounddef>
+</doxygen>
