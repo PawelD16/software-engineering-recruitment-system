@@ -26,7 +26,7 @@ namespace projektowaniaOprogramowania.Controllers
         }
 
         // GET: PracownikEdycja
-        public IActionResult Index(string nazwiskoFilter = null)
+        public IActionResult Index(string nazwiskoFilter = null, string statusPodaniaFilter = null)
         {
             ViewData["CurrentFilter"] = nazwiskoFilter;
 
@@ -37,9 +37,15 @@ namespace projektowaniaOprogramowania.Controllers
                 podaniaQuery = podaniaQuery.Where(p => p.Kandydat.Nazwisko.Contains(nazwiskoFilter)).ToList();
             }
 
+            if (!String.IsNullOrEmpty(statusPodaniaFilter))
+            {
+                podaniaQuery = podaniaQuery.Where(p => p.StatusPodania.ToString().Contains(statusPodaniaFilter)).ToList();
+            }
+
             var myDbContext = podaniaQuery;
             return View(myDbContext);
         }
+
 
         // GET: PracownikEdycja/Edit/5
         public IActionResult Edit(long id)
