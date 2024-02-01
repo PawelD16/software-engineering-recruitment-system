@@ -1,14 +1,24 @@
 ﻿@model IEnumerable<projektowaniaOprogramowania.ViewModels.PodanieKandydataModel>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Wybierz kandydata";
 }
 
-<h1>Index</h1>
+<h1>Wybierz kandydata:</h1>
+<h1>Wybierz kandydata:</h1>
+<form asp-action="Index" method="get">
+    <div class="form-group">
+        <label for="nazwiskoFilter">Filtruj po nazwisku:</label>
+        <input type="text" name="nazwiskoFilter" value="@ViewData["CurrentFilter"]" class="form-control text-dark" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Wyszukaj" class="btn btn-primary" />
+    </div>
+    <a href="@Url.Action("Index", new { nazwiskoFilter = "" })" class="btn btn-secondary">Wyczyść filtr</a>
+</form>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
+
 <table class="table">
     <thead>
         <tr>

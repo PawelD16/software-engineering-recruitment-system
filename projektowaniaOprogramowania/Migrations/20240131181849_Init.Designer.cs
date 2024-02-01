@@ -10,7 +10,7 @@ using projektowaniaOprogramowania.Models;
 namespace projektowaniaOprogramowania.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240114094427_Init")]
+    [Migration("20240131181849_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -470,8 +470,17 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyAktywny = true,
-                            DataZlozeniaPodania = new DateTime(2024, 1, 14, 10, 44, 27, 306, DateTimeKind.Local).AddTicks(6951),
+                            DataZlozeniaPodania = new DateTime(2024, 1, 31, 19, 18, 49, 179, DateTimeKind.Local).AddTicks(4),
                             FkIdKandydat = 1L,
+                            FkIdRekrutacja = 1L,
+                            StatusPodania = 0
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            CzyAktywny = true,
+                            DataZlozeniaPodania = new DateTime(2024, 1, 31, 19, 18, 49, 179, DateTimeKind.Local).AddTicks(682),
+                            FkIdKandydat = 2L,
                             FkIdRekrutacja = 1L,
                             StatusPodania = 0
                         });
@@ -765,8 +774,8 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             DataOtwarciaRekrutacji = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DataZamknieciaPrzyjec = new DateTime(2024, 6, 14, 10, 44, 27, 304, DateTimeKind.Local).AddTicks(6731),
-                            DataZamknieciaRekrutacji = new DateTime(2024, 6, 14, 10, 44, 27, 306, DateTimeKind.Local).AddTicks(254),
+                            DataZamknieciaPrzyjec = new DateTime(2024, 6, 30, 19, 18, 49, 175, DateTimeKind.Local).AddTicks(3113),
+                            DataZamknieciaRekrutacji = new DateTime(2024, 6, 30, 19, 18, 49, 178, DateTimeKind.Local).AddTicks(1220),
                             SemestrRekrutacji = 1,
                             StatusRekrutacji = 0,
                             StopienStudiow = 0
@@ -862,7 +871,7 @@ namespace projektowaniaOprogramowania.Migrations
                         {
                             Id = 1L,
                             CzyEmailPotwierdzony = true,
-                            DataZarejestrowania = new DateTime(2024, 1, 14, 10, 44, 27, 306, DateTimeKind.Local).AddTicks(1741),
+                            DataZarejestrowania = new DateTime(2024, 1, 31, 19, 18, 49, 178, DateTimeKind.Local).AddTicks(2991),
                             Email = "testowykandydat@gmail.com",
                             Haslo = "zahaszowaneHaselko",
                             Imie = "Jan",
@@ -870,6 +879,19 @@ namespace projektowaniaOprogramowania.Migrations
                             Nazwisko = "Testowy",
                             Pesel = "59070575419",
                             NumerKandydata = "5907057541"
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            CzyEmailPotwierdzony = true,
+                            DataZarejestrowania = new DateTime(2024, 1, 31, 19, 18, 49, 178, DateTimeKind.Local).AddTicks(3301),
+                            Email = "testowykandydat2@gmail.com",
+                            Haslo = "zahaszowaneHaselko",
+                            Imie = "Jan",
+                            Login = "testowyKandydat2",
+                            Nazwisko = "Kowalski",
+                            Pesel = "59070575414",
+                            NumerKandydata = "5907057542"
                         });
                 });
 

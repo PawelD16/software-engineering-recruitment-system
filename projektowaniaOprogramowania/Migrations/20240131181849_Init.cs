@@ -566,28 +566,32 @@ namespace projektowaniaOprogramowania.Migrations
             migrationBuilder.InsertData(
                 table: "osoby",
                 columns: new[] { "Id", "CzyEmailPotwierdzony", "DataZarejestrowania", "Email", "Haslo", "Imie", "Login", "Nazwisko", "NumerPaszportu", "Pesel" },
-                values: new object[] { 1L, true, new DateTime(2024, 1, 14, 10, 44, 27, 306, DateTimeKind.Local).AddTicks(1741), "testowykandydat@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat", "Testowy", null, "59070575419" });
+                values: new object[,]
+                {
+                    { 1L, true, new DateTime(2024, 1, 31, 19, 18, 49, 178, DateTimeKind.Local).AddTicks(2991), "testowykandydat@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat", "Testowy", null, "59070575419" },
+                    { 2L, true, new DateTime(2024, 1, 31, 19, 18, 49, 178, DateTimeKind.Local).AddTicks(3301), "testowykandydat2@gmail.com", "zahaszowaneHaselko", "Jan", "testowyKandydat2", "Kowalski", null, "59070575414" }
+                });
 
             migrationBuilder.InsertData(
                 table: "przedmioty",
                 columns: new[] { "Id", "NazwaPrzedmiotu" },
                 values: new object[,]
                 {
-                    { 2L, "Fizyka podstawowa" },
+                    { 3L, "Chemia podstawowa" },
                     { 16L, "Język obcy rozszerzony" },
                     { 15L, "Język polski rozszerzony" },
                     { 14L, "Biologia rozszerzona" },
                     { 13L, "Geografia rozszerzona" },
-                    { 12L, "Informatyka rozszerzona" },
-                    { 1L, "Matematyka podstawowa" },
-                    { 10L, "Fizyka rozszerzona" },
+                    { 2L, "Fizyka podstawowa" },
                     { 11L, "Chemia rozszerzona" },
+                    { 12L, "Informatyka rozszerzona" },
+                    { 9L, "Matematyka rozszerzona" },
                     { 8L, "Język obcy podstawowy" },
                     { 7L, "Język polski podstawowy" },
+                    { 1L, "Matematyka podstawowa" },
                     { 5L, "Geografia podstawowa" },
                     { 4L, "Informatyka podstawowa" },
-                    { 3L, "Chemia podstawowa" },
-                    { 9L, "Matematyka rozszerzona" },
+                    { 10L, "Fizyka rozszerzona" },
                     { 6L, "Biologia podstawowa" }
                 });
 
@@ -603,12 +607,16 @@ namespace projektowaniaOprogramowania.Migrations
             migrationBuilder.InsertData(
                 table: "rekrutacje",
                 columns: new[] { "Id", "DataOtwarciaRekrutacji", "DataZamknieciaPrzyjec", "DataZamknieciaRekrutacji", "SemestrRekrutacji", "StatusRekrutacji", "StopienStudiow" },
-                values: new object[] { 1L, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2024, 6, 14, 10, 44, 27, 304, DateTimeKind.Local).AddTicks(6731), new DateTime(2024, 6, 14, 10, 44, 27, 306, DateTimeKind.Local).AddTicks(254), 1, 0, 0 });
+                values: new object[] { 1L, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2024, 6, 30, 19, 18, 49, 175, DateTimeKind.Local).AddTicks(3113), new DateTime(2024, 6, 30, 19, 18, 49, 178, DateTimeKind.Local).AddTicks(1220), 1, 0, 0 });
 
             migrationBuilder.InsertData(
                 table: "kandydaci",
                 columns: new[] { "Id", "NumerKandydata" },
-                values: new object[] { 1L, "5907057541" });
+                values: new object[,]
+                {
+                    { 1L, "5907057541" },
+                    { 2L, "5907057542" }
+                });
 
             migrationBuilder.InsertData(
                 table: "przeliczniki_osiagniec",
@@ -650,7 +658,11 @@ namespace projektowaniaOprogramowania.Migrations
             migrationBuilder.InsertData(
                 table: "podania_kandydatow",
                 columns: new[] { "Id", "CzyAktywny", "DataZlozeniaPodania", "FkIdKandydat", "FkIdRekrutacja", "StatusPodania" },
-                values: new object[] { 1L, true, new DateTime(2024, 1, 14, 10, 44, 27, 306, DateTimeKind.Local).AddTicks(6951), 1L, 1L, 0 });
+                values: new object[,]
+                {
+                    { 1L, true, new DateTime(2024, 1, 31, 19, 18, 49, 179, DateTimeKind.Local).AddTicks(4), 1L, 1L, 0 },
+                    { 2L, true, new DateTime(2024, 1, 31, 19, 18, 49, 179, DateTimeKind.Local).AddTicks(682), 2L, 1L, 0 }
+                });
 
             migrationBuilder.CreateIndex(
                 name: "IX_dodatkowe_osiagniecia_FkIdPodanieKandydata",

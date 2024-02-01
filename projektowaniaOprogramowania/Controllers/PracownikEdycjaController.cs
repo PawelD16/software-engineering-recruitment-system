@@ -26,10 +26,19 @@ namespace projektowaniaOprogramowania.Controllers
         }
 
         // GET: PracownikEdycja
-        public IActionResult Index()
+        public IActionResult Index(string nazwiskoFilter = null)
         {
-            var myDbContext = _context.PodaniaKandydatow.Include(p => p.Kandydat);
-            return View(myDbContext.ToList());
+            ViewData["CurrentFilter"] = nazwiskoFilter;
+
+            var podaniaQuery = _context.PodaniaKandydatow.Include(p => p.Kandydat).ToList();
+
+            if (!String.IsNullOrEmpty(nazwiskoFilter))
+            {
+                podaniaQuery = podaniaQuery.Where(p => p.Kandydat.Nazwisko.Contains(nazwiskoFilter)).ToList();
+            }
+
+            var myDbContext = podaniaQuery;
+            return View(myDbContext);
         }
 
         // GET: PracownikEdycja/Edit/5
@@ -125,19 +134,12 @@ namespace projektowaniaOprogramowania.Controllers
             if (rekrutacja == null)
                 return RedirectToAction("Error", "Home");
 
-            /*if (!ModelState.IsValid)
-            {
-                TempData["Message"] = "Wpisane dane są błędne!";
-                return RedirectToAction("Index");
-            }*/
-
             if (model.Matura.DataPrzystapieniaDoMatury == DateTime.MinValue || rekrutacja.DataZamknieciaRekrutacji > model.Matura.DataPrzystapieniaDoMatury.AddYears(5))
             {
                 TempData["Message"] = $"Matura nie może być starsza niż 5 lat od daty zamknięcia rekrutacji {rekrutacja.DataZamknieciaRekrutacji}";
                 return RedirectToAction("Index");
             }
 
-            // Updating or deleting and replacing old entities!
             var podanieNaIStopien = _context.PodaniaNaIStopien.SingleOrDefault(p => model.PodanieNaIStopien.Id == p.Id);
             podanieNaIStopien ??= _context.Add(new PodanieNaStudiaIStopniaModel()
             {
@@ -211,7 +213,7 @@ namespace projektowaniaOprogramowania.Controllers
 
             return RedirectToAction("Index");
 
-    }
+        }
 
 
 		private bool PodanieKandydataViewModelExists(long id)

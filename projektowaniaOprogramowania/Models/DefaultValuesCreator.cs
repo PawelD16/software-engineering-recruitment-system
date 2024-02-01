@@ -22,6 +22,8 @@ namespace projektowaniaOprogramowania.Models
         public List<MiastoModel> Miasta { get; }
         public List<PodanieKandydataModel> PodaniaKandydata { get; }
 
+        public List<KierunekNaPodaniuModel> KierunkiNaPodaniach { get; }
+
         public DefaultValuesCreator()
         {
             Rekrutacje = new()
@@ -50,6 +52,19 @@ namespace projektowaniaOprogramowania.Models
                 DataZarejestrowania = DateTime.Now,
                 CzyEmailPotwierdzony = true,
                 NumerKandydata = "5907057541"
+            },
+            new()
+            {
+                Id = 2,
+                Login = "testowyKandydat2",
+                Email = "testowykandydat2@gmail.com",
+                Haslo = "zahaszowaneHaselko",
+                Pesel = "59070575414",
+                Imie = "Jan",
+                Nazwisko = "Kowalski",
+                DataZarejestrowania = DateTime.Now,
+                CzyEmailPotwierdzony = true,
+                NumerKandydata = "5907057542"
             }
             };
 
@@ -269,7 +284,25 @@ namespace projektowaniaOprogramowania.Models
                 DataZlozeniaPodania = DateTime.Now,
                 FkIdKandydat = Kandydaci[0].Id,
                 FkIdRekrutacja = Rekrutacje[0].Id
+            }, new()
+            {
+                Id = 2,
+                CzyAktywny = true,
+                DataZlozeniaPodania = DateTime.Now,
+                FkIdKandydat = Kandydaci[1].Id,
+                FkIdRekrutacja = Rekrutacje[0].Id
             } };
+
+            KierunkiNaPodaniach = new()
+            {
+                new()
+                {
+                    Id = 1,
+                    Priorytet = 1,
+                    FkIdPodanieKandydata = PodaniaKandydata[0].Id,
+                    FkIdKierunek = Kierunki[0].Id
+                }
+            };
         }
 
 
